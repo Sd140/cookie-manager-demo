@@ -123,13 +123,7 @@ function App() {
           </div>
         </div>
       </div>
-      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-<script>
-  hbspt.forms.create({
-    portalId: "48746683",
-    formId: "0f45e9f9-0451-488e-babb-fd325ba2af4f"
-  });
-</script>
+      
       {/* <main className="main-content">
         <h2>A comprehensive consent governance suite for all enterprises</h2>
         <div className="cards">
