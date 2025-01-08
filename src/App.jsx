@@ -123,6 +123,7 @@ function App() {
           </div>
         </div>
       </div>
+      
       {/* <main className="main-content">
         <h2>A comprehensive consent governance suite for all enterprises</h2>
         <div className="cards">
