@@ -778,10 +778,11 @@ const domainsToBlock = ["linkedin.com", "facebook.com", "twitter.com", "hsforms.
 // Intercept and block network requests using Fetch API override
 (function () {
     const originalFetch = window.fetch;
-  
+    
     // Override the Fetch API
     window.fetch = async (...args) => {
       const url = args[0];
+      console.log("urls here", url);
       if (domainsToBlock.some(domain => url.includes(domain))) {
         console.warn(`Blocked request to ${url}`);
         return Promise.reject(new Error(`Blocked request to ${url}`));
@@ -793,6 +794,7 @@ const domainsToBlock = ["linkedin.com", "facebook.com", "twitter.com", "hsforms.
     const originalXHR = window.XMLHttpRequest;
     window.XMLHttpRequest = class extends originalXHR {
       open(method, url, ...rest) {
+        console.log("XML url", url);
         if (domainsToBlock.some(domain => url.includes(domain))) {
           console.warn(`Blocked XMLHttpRequest to ${url}`);
           return; // Skip sending the request
