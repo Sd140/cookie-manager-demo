@@ -6,55 +6,6 @@ import idfyLogo from "./assets/idfy_logo.png"
 function App() {
   return (
     <div className="container">
-
-      <div id="vimeo-container"></div>
-
-      <div>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossOrigin="anonymous"></script>
-        <ins className="adsbygoogle" style="display:block" data-ad-client="ca-pub-1234567890123456"
-          data-ad-slot="1234567890"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({ });
-        </script>
-
-        <iframe width="480" height="270" src="https://www.dailymotion.com/embed/video/x7t8jv1"
-          allowfullscreen allow="autoplay"></iframe>
-
-        <iframe height="400" width="315" src="https://www.youtube.com/embed/O5hShUO6wxs?autoplay=1">
-        </iframe>
-      </div>
-
-      {/* <!-- Facebook Like Button --> */}
-      <div>
-        <div className="fb-like" data-href="https://cookie-manager.sanketsaboo.com" data-width="" data-layout="standard"
-          data-action="like" data-size="large" data-share="true"></div>
-
-        {/* <!-- Facebook SDK --> */}
-        <script async defer crossOrigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0"
-          nonce="YOUR_NONCE">
-        </script>
-      </div>
-
-      {/* <!-- Twitter Share Button --> */}
-      <div>
-        <a href="https://twitter.com/share" className="twitter-share-button" data-text="Check out this awesome site!"
-          data-url="https://cookie-manager.sanketsaboo.com" data-hashtags="example,website" data-show-count="false">
-          Tweet
-        </a>
-
-        {/* <!-- Twitter SDK --> */}
-        <script async src="https://platform.twitter.com/widgets.js"></script>
-      </div>
-      <div>
-        {/* <!-- Pinterest Save Button --> */}
-        <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/" data-pin-custom="true">
-          <img src="https://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" />
-        </a>
-
-        {/* <!-- Pinterest SDK --> */}
-        <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
-      </div>
-
       <header className="header">
         <div className="header-logo-section">
           <h1>PRIVY</h1>
