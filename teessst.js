@@ -769,4 +769,37 @@ window.onload = () => {
     } else {
         toggleBanner('hide');
     }
+
+
 }
+
+// List of domains to block
+const domainsToBlock = ["linkedin.com", "facebook.com", "twitter.com"];
+// Intercept and block network requests using Fetch API override
+(function () {
+    const originalFetch = window.fetch;
+  
+    // Override the Fetch API
+    window.fetch = async (...args) => {
+      const url = args[0];
+      if (domainsToBlock.some(domain => url.includes(domain))) {
+        console.warn(`Blocked request to ${url}`);
+        return Promise.reject(new Error(`Blocked request to ${url}`));
+      }
+      return originalFetch(...args);
+    };
+  
+    // Intercept XMLHttpRequest
+    const originalXHR = window.XMLHttpRequest;
+    window.XMLHttpRequest = class extends originalXHR {
+      open(method, url, ...rest) {
+        if (domainsToBlock.some(domain => url.includes(domain))) {
+          console.warn(`Blocked XMLHttpRequest to ${url}`);
+          return; // Skip sending the request
+        }
+        super.open(method, url, ...rest);
+      }
+    };
+  
+    console.log(`Blocking rules applied for domains: ${domainsToBlock.join(", ")}`);
+  })();
