@@ -2,6 +2,7 @@ import "./styles/styles.css";
 import banner from "./assets/home_banner_bg.png";
 import scroll from "./assets/scroll_down.png";
 import idfyLogo from "./assets/idfy_logo.png"
+import cookieBanner from "./assets/test.js"
 
 function App() {
   return (
