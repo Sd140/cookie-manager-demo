@@ -155,31 +155,6 @@ function submitConsent(agreedCategories) {
     location.reload();
 }
 
-
-function blockIframe() {
-    const iframeElements = document.querySelectorAll('iframe');
-    iframeElements.forEach(iframe => {
-        const src = iframe.getAttribute('src');
-        if (src) {
-            iframe.setAttribute('data-src', src);
-            iframe.removeAttribute('src');
-        }
-    });
-}
-
-function blockScript() {
-    const scriptElements = document.querySelectorAll('script');
-
-    scriptElements.forEach(script => {
-        if (!script.hasAttribute('type')) {
-            script.setAttribute('type', 'text/plain');
-        } else {
-            script.setAttribute('type', 'text/plain');
-            console.log(script.outerHTML);
-        }
-    });
-}
-
 window.onload = () => {
     const categories = Object.keys(categorizedCookies);
 
