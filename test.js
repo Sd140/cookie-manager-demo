@@ -774,7 +774,7 @@ window.onload = () => {
 }
 
 // List of domains to block
-const domainsToBlock = ["linkedin.com", "facebook.com", "twitter.com"];
+const domainsToBlock = ["linkedin.com", "facebook.com", "twitter.com", ".hsforms.com", "hsforms.net"];
 // Intercept and block network requests using Fetch API override
 (function () {
     const originalFetch = window.fetch;
