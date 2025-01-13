@@ -770,10 +770,7 @@ window.onload = () => {
         toggleBanner('hide');
     }
 
-
-}
-
-// List of domains to block
+    // List of domains to block
 const domainsToBlock = ["linkedin.com", "facebook.com", "twitter.com", "hsforms.com", "hsforms.net"];
 // Intercept and block network requests using Fetch API override
 (function () {
@@ -805,3 +802,5 @@ const domainsToBlock = ["linkedin.com", "facebook.com", "twitter.com", "hsforms.
   
     console.log(`Blocking rules applied for domains: ${domainsToBlock.join(", ")}`);
   })();
+
+}
