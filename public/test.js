@@ -779,20 +779,4 @@ window.onload = () => {
       
     //     console.log(`Blocking rules applied for domains: ${domainsToBlock.join(", ")}`);
     //   })();
-
-    (function () {
-        const originalCookieSetter = Object.getOwnPropertyDescriptor(Document.prototype, 'cookie').set;
-      
-        Object.defineProperty(document, 'cookie', {
-          set(value) {
-            if (domainsToBlock.some(domain => value.includes(domain))) {
-              console.warn(`Blocked cookie from being set: ${value}`);
-              return; // Block the cookie
-            }
-            originalCookieSetter.call(document, value);
-          },
-        });
-      
-        console.log(`Cookie blocking applied for domains: ${domainsToBlock.join(", ")}`);
-      })();
       
