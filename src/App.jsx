@@ -6,7 +6,6 @@ import idfyLogo from "./assets/idfy_logo.png"
 function App() {
   return (
     <div className="container">
-        <div id="vimeo-container">a</div>
       <header className="header">
         <div className="header-logo-section">
           <h1>PRIVY</h1>
