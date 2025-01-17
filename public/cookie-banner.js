@@ -116,8 +116,10 @@ function submitConsent(agreedCategories) {
 
     if (agreedCategories === 'all') {
         Object.keys(cookieConsent).forEach(key => cookieConsent[key] = true);
+        console.log("data inside all", agreedCategories, cookieConsent);
     } else if (agreedCategories === 'necessary') {
         Object.keys(cookieConsent).forEach(key => cookieConsent[key] = key === 'NECESSARY');
+        console.log("data inside necessary", agreedCategories, cookieConsent);
     } else if (agreedCategories === 'preference') {
         const checkedBoxes = document.querySelectorAll('input[type="checkbox"]:checked');
         checkedBoxes.forEach(box => {
@@ -126,6 +128,8 @@ function submitConsent(agreedCategories) {
             cookieConsent[categoryName] = true;
         });
         Object.keys(cookieConsent).forEach(key => cookieConsent[key] = agreedCookies.includes(key));
+        console.log("data inside preference", agreedCategories, cookieConsent);
+
     }
     console.log('cookieConsent', cookieConsent);
 
