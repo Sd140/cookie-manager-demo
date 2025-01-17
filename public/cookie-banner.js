@@ -134,23 +134,23 @@ function submitConsent(agreedCategories) {
     // document.cookie = `privyConsent=${JSON.stringify(cookieConsent)}; path=/`;
     // localStorage.setItem("privyConsent", JSON.stringify(cookieConsent));
 
-    fetch(`https://moral-capital-bison.ngrok-free.app/ext/cookie-banner/consent/d564c8ed-234e-491d-bdb3-bcae4a8064d3/305599d8-398c-4eff-a238-029b310e6022`, {
-        method: "POST",
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ user_preference: cookieConsent })
-    })
-        .then(response => {
-            console.log("submit response", response);
-            if (!response.ok) {
-                throw new Error('Failed to submit consent');
-            }
-            return response.json();
-        })
-        .catch(error => {
-            console.error('Error submitting consent:', error);
-        });
+    // fetch(`https://moral-capital-bison.ngrok-free.app/ext/cookie-banner/consent/d564c8ed-234e-491d-bdb3-bcae4a8064d3/305599d8-398c-4eff-a238-029b310e6022`, {
+    //     method: "POST",
+    //     headers: {
+    //         'Content-Type': 'application/json'
+    //     },
+    //     body: JSON.stringify({ user_preference: cookieConsent })
+    // })
+    //     .then(response => {
+    //         console.log("submit response", response);
+    //         if (!response.ok) {
+    //             throw new Error('Failed to submit consent');
+    //         }
+    //         return response.json();
+    //     })
+    //     .catch(error => {
+    //         console.error('Error submitting consent:', error);
+    //     });
 
     // location.reload();
 }
