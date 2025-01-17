@@ -131,8 +131,8 @@ function submitConsent(agreedCategories) {
 
     cookieConsent.update = true;
     toggleBanner('hide');
-    document.cookie = `privyConsent=${JSON.stringify(cookieConsent)}; path=/`;
-    localStorage.setItem("privyConsent", JSON.stringify(cookieConsent));
+    // document.cookie = `privyConsent=${JSON.stringify(cookieConsent)}; path=/`;
+    // localStorage.setItem("privyConsent", JSON.stringify(cookieConsent));
 
     fetch(`https://moral-capital-bison.ngrok-free.app/ext/cookie-banner/consent/d564c8ed-234e-491d-bdb3-bcae4a8064d3/305599d8-398c-4eff-a238-029b310e6022`, {
         method: "POST",
