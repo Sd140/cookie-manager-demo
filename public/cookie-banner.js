@@ -196,7 +196,7 @@ window.onload = () => {
         cookie.update = false;
         document.cookie = `privyConsent=${JSON.stringify(cookie)}; path=/`;
         localStorage.setItem("privyConsent", JSON.stringify(cookie));
-        location.reload();
+        // location.reload();
     }
     consentCookie = JSON.parse(getCookieValue('privyConsent'));
 
