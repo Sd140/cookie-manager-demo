@@ -112,6 +112,7 @@ function createBanner(categorizedCookies, template) {
 function submitConsent(agreedCategories) {
     const agreedCookies = [];
     const cookieConsent = JSON.parse(getCookieValue('privyConsent'));
+    console.log('agreed categories', agreedCategories);
 
     if (agreedCategories === 'all') {
         Object.keys(cookieConsent).forEach(key => cookieConsent[key] = true);
@@ -126,6 +127,7 @@ function submitConsent(agreedCategories) {
         });
         Object.keys(cookieConsent).forEach(key => cookieConsent[key] = agreedCookies.includes(key));
     }
+    console.log('cookieConsent', cookieConsent);
 
     cookieConsent.update = true;
     toggleBanner('hide');
