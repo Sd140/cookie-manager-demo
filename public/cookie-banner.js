@@ -152,7 +152,7 @@ function submitConsent(agreedCategories) {
             console.error('Error submitting consent:', error);
         });
 
-    location.reload();
+    // location.reload();
 }
 
 
