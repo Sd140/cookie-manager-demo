@@ -3,42 +3,42 @@ const monitoredElements = [...nonScriptElements, 'script']
 const tagsList = [
    {
        tag: 'https://www.googletagmanager.com/gtag/js?id=G-KWC0VKDZKW&l=dataLayer&cx=c&gtm=45He51n0h1v9199743789za200',
-       category: ['NECESSARY'],
+       categories: ['NECESSARY'],
        type: 'script'
    },
    {
        tag: 'https://www.googletagmanager.com/gtm.js?id=GTM-KS3M7CSF',
-       category: ['MARKETING'],
+       categories: ['MARKETING'],
        type: 'script'
    },
    {
        tag: 'https://privy-cookie-manager.idfy.com/ext/cookie-banner/76e7bf3c-564f-4769-9c59-91ebada9eeaa',
-       category: ['MARKETING'],
+       categories: ['MARKETING'],
        type: 'script'
    },
    {
        tag: 'https://js.hsforms.net/forms/embed/v2.js',
-       category: ['MARKETING'],
+       categories: ['MARKETING'],
        type: 'script'
    },
    {
        tag: 'https://platform.twitter.com/widgets.js',
-       category: ['ANALYTICS'],
+       categories: ['ANALYTICS'],
        type: 'script'
    },
    {
        tag: 'https://www.youtube.com/embed/MS5jByTX_pk?si=H0EcHQpMyJdEWyPy',
-       category: ['ANALYTICS'],
+       categories: ['ANALYTICS'],
        type: 'iframe'
    },
    {
        tag: 'https://www.youtube.com/embed/rYb4JNGShOM?si=K3yUbeStbhNIMYNJ',
-       category: ['ANALYTICS'],
+       categories: ['ANALYTICS'],
        type: 'iframe'
    },
    {
        tag: 'https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P',
-       category: ['ANALYTICS', 'FUNCTIONAL'],
+       categories: ['ANALYTICS', 'FUNCTIONAL'],
        type: 'iframe'
    }
 ]
