@@ -241,33 +241,6 @@ function setupPrivacyObserver() {
    console.log('Privacy observer initialized.')
 }
 
-
-// Initialize the privacy observer
-// Override document.createElement
-function createElementWithPrivacyLogic(originalCreateElement) {
-   return function (...args) {
-       const element = originalCreateElement(...args)
-
-
-       // Apply privacy logic if it's a monitored element
-       if (monitoredElements.includes(args[0]?.toLowerCase())) {
-           handleTags(element) // Apply privacy logic at creation time
-       }
-
-
-       return element
-   }
-}
-
-
-// Using the enhanced createElement function
-// prettier-ignore
-(function () {
-   const originalCreateElement = document.createElement.bind(document)
-   document.createElement = createElementWithPrivacyLogic(
-       originalCreateElement
-   )
-})()
-
-
-setupPrivacyObserver()
+document.addEventListener('DOMContentLoaded', () => {
+   setupPrivacyObserver()
+})
