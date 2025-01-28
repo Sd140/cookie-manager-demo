@@ -263,7 +263,7 @@ function handleTags(element) {
        if (type === 'script') {
            element.type = 'text/plain'
            console.log(`Script blocked: ${url}`, type, categories)
-       } else if (type in nonScriptElements) {
+       } else if (nonScriptElements.includes(type)) {
            element.removeAttribute('src')
            element.setAttribute('data-src', originalSrc)
            console.log(`Media element blocked: ${url}`, type, categories)
