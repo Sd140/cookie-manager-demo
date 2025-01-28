@@ -343,7 +343,6 @@ function initTypeRewriter() {
    }
 }
 
-
 // Initialize the type rewriter
 initTypeRewriter()
 
