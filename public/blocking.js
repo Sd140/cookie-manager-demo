@@ -269,6 +269,16 @@ function handleTags(element) {
    }
 }
 /**
+* Processes all monitored elements in the DOM and rewrites their `type` or `src`.
+*/
+function processExistingElements() {
+   monitoredElements.forEach((tag) => {
+       document.querySelectorAll(tag).forEach((element) => {
+           handleTags(element)
+       })
+   })
+}
+/**
 * Sets up a MutationObserver to monitor DOM changes for compliance.
 */
 function setupPrivacyObserver() {
@@ -278,6 +288,7 @@ function setupPrivacyObserver() {
    //         handleTags(element) // Apply your privacy-related logic to each element
    //     })
    // })
+   processExistingElements()
    const observer = new MutationObserver((mutations) => {
        mutations.forEach((mutation) => {
            // Handle added nodes
@@ -315,36 +326,4 @@ function setupPrivacyObserver() {
 
 
 // Initialize the privacy observer
-// setupPrivacyObserver()
-/**
-* Ensures the rewriter runs after all initial DOM content is loaded.
-*/
-
-
-/**
-* Processes all monitored elements in the DOM and rewrites their `type` or `src`.
-*/
-function processExistingElements() {
-   monitoredElements.forEach((tag) => {
-       document.querySelectorAll(tag).forEach((element) => {
-           handleTags(element)
-       })
-   })
-}
-function initTypeRewriter() {
-   if (document.readyState === 'loading') {
-       document.addEventListener('DOMContentLoaded', () => {
-           processExistingElements()
-           setupPrivacyObserver()
-       })
-   } else {
-       processExistingElements()
-       setupPrivacyObserver()
-   }
-}
-
-// Initialize the type rewriter
-initTypeRewriter()
-
-
-
+setupPrivacyObserver()
