@@ -274,7 +274,7 @@ function handleTags(element) {
 }
 /**
 * Sets up a MutationObserver to monitor DOM changes for compliance.
-*/
+*/ 
 function setupPrivacyObserver() {
    // Process all monitored elements already present in the DOM
    monitoredElements.forEach((tag) => {
