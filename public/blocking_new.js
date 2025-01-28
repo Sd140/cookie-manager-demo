@@ -195,7 +195,9 @@ function handleTags(element) {
 */
 function processExistingElements() {
    monitoredElements.forEach((tag) => {
+       console.log("tag here", tag)
        document.querySelectorAll(tag).forEach((element) => {
+        console.log("element here", element)
            handleTags(element)
        })
    })
