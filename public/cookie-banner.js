@@ -1,13 +1,13 @@
 
-const template = {"bannerType":"box","buttonColor":"#214698","buttonsText":{"acceptAll":"Accept All","moreSettings":"More Settings","allowNecessary":"Allow Only Necessary","savePreferences":"Save My Preferences"},"contentMobile":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"contentDesktop":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"hoverTextColor":"#ffffff","positionMobile":"bottom","buttonTextColor":"#ffffff","positionDesktop":"bottom-right","hoverButtonColor":"#214699","preferenceManagerHorizontalPosition":"left"};
-const categorizedCookies = {"ANALYTICS":[{"meta_data":{"path":"/","size":138,"value":"eyJpZCI6IjZlNGRlMmUxLTUyN2MtNTE5Ni04MWI2LTk2MGNlYzM2MWE3NSIsImNyZWF0ZWQiOjE3MzczOTAzODQwNjUsImV4aXN0aW5nIjp0cnVlfQ==","secure":true,"session":false,"duration":"0 year(s), 11 month(s), 31 day(s)","httpOnly":false,"priority":"Medium","sameSite":"None","sameParty":false,"expires_at":1768926384,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"6f6b5daf-3458-4819-a551-379791de183b","category":"ANALYTICS","cookie_master_name":"_hjSessionUser_5091923","cookie_domain":".sanketsaboo.com","cookie_master_id":"8570bdcb-2f4d-435a-b623-a30186be2541","languages":{"en":{"language_id":"e41fe062-53ef-44a4-a0f9-52cfe02a2aeb","name":"_hjSessionUser_5091923","description":"This cookie is set by Hotjar and is used to detect the first pageview session of a user. This is a True/False flag set by the cookie."}}},{"meta_data":{"path":"/","size":106,"value":"AQJMTq6tbixNGQAAAZSEiWT3N1RMATGnpslWrGLl47GvDQni6RUWFsjPOidaGqffj38qNq9KI2683v96KdNFjg","secure":true,"session":false,"duration":"0 year(s), 0 month(s), 30 day(s)","httpOnly":false,"priority":"Medium","sameSite":"None","sameParty":false,"expires_at":1739982384.494426,"sourcePort":443,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"90bf19f7-d7f7-4b0a-bf36-7b1bae114f63","category":"ANALYTICS","cookie_master_name":"AnalyticsSyncHistory","cookie_domain":".linkedin.com","cookie_master_id":"cd1bf282-7e4c-431a-96f2-1a9f0ce24d67","languages":{"en":{"language_id":"5fea53bf-2642-4dd0-a996-5e77df3fc90b","name":"AnalyticsSyncHistory","description":"Used to store information about the time a sync with the lms_analytics cookie took place for users in the Designated Countries"}}},{"meta_data":{"path":"/","size":166,"value":"eyJpZCI6ImE2Y2M1YWRlLWRjMzgtNGEzMS05NjA5LTQxZmNlNTUyN2MwYyIsImMiOjE3MzczOTAzODQwNjcsInMiOjEsInIiOjEsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=","secure":true,"session":false,"duration":"0 year(s), 0 month(s), 1 day(s)","httpOnly":false,"priority":"Medium","sameSite":"None","sameParty":false,"expires_at":1737392184,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"6c66bafa-70a2-4bdf-b6fb-6f89371752e5","category":"ANALYTICS","cookie_master_name":"_hjSession_5091923","cookie_domain":".sanketsaboo.com","cookie_master_id":"5beb65d8-c1a2-4da4-ab49-4c9cbe151de6","languages":{"en":{"language_id":"67b682f9-fde5-4c1a-8e08-a141ad5ff255","name":"_hjSession_5091923","description":"This cookie is set by Hotjar. It is used to count how many times a website has been visited by different visitors - this is done by assigning the visitor an ID, so the visitor does not get registered twice."}}},{"meta_data":{"path":"/","size":51,"value":"GS1.1.1737390383.1.0.1737390385.0.0.0","secure":false,"session":false,"duration":"1 year(s), 1 month(s), 5 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1771950385.088889,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"3f4ac95c-523d-4843-9a6f-20fe908cbdc7","category":"ANALYTICS","cookie_master_name":"_ga_KWC0VKDZKW","cookie_domain":".sanketsaboo.com","cookie_master_id":"11acc004-4ad2-47d7-b0b9-8769f3d4852b","languages":{"en":{"language_id":"e7a5ad3a-ed1f-4d8b-af5f-a7caad93ff6f","name":"_ga_KWC0VKDZKW","description":"This cookie is used by Google Analytics to distinguish unique users by assigning a randomly generated number as a client identifier."}}},{"meta_data":{"path":"/","size":29,"value":"GA1.1.755204584.1737390384","secure":false,"session":false,"duration":"1 year(s), 1 month(s), 5 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1771950383.865565,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"8115d4b7-33bb-4cb3-bf05-a92981258c23","category":"ANALYTICS","cookie_master_name":"_ga","cookie_domain":".sanketsaboo.com","cookie_master_id":"b54a51b1-2e4a-45dc-ba92-91411b263037","languages":{"en":{"language_id":"f8846243-236f-46c4-8886-cc7b75c2e7b7","name":"_ga","description":"ID used to identify users"}}}],"MARKETING":[{"meta_data":{"path":"/","size":43,"value":"98b0ca78-2061-4277-806f-be1893bbf8eb","secure":true,"session":false,"duration":"0 year(s), 2 month(s), 30 day(s)","httpOnly":false,"priority":"Medium","sameSite":"None","sameParty":false,"expires_at":1745166385.030673,"sourcePort":443,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"3a979e25-f86f-41ad-94dc-67819b0493a3","category":"MARKETING","cookie_master_name":"li_sugr","cookie_domain":".linkedin.com","cookie_master_id":"06c72c31-9e5a-4ec9-aa62-f91e1e6664dd","languages":{"en":{"language_id":"0cc1b727-b0ce-4c91-ba3d-80aa42e01bfe","name":"li_sugr","description":"Used to make a probabilistic match of a user's identity outside the Designated Countries"}}},{"meta_data":{"path":"/","size":49,"value":"\"v=2&9218f288-70fd-4dbd-8653-37ac41fd817a\"","secure":true,"session":false,"duration":"0 year(s), 11 month(s), 31 day(s)","httpOnly":false,"priority":"Medium","sameSite":"None","sameParty":false,"expires_at":1768926385.030769,"sourcePort":443,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"6d85565d-5700-49fb-ac8c-624c54055dff","category":"MARKETING","cookie_master_name":"bcookie","cookie_domain":".linkedin.com","cookie_master_id":"322944bc-6210-4594-bfb2-7930a487f3f0","languages":{"en":{"language_id":"5d796293-001a-485a-aa43-097f3a1e0172","name":"bcookie","description":"Used by LinkedIn to track the use of embedded services."}}},{"meta_data":{"path":"/","size":112,"value":"\"b=TGST04:s=T:r=T:a=T:p=T:g=3361:u=1:x=1:i=1737390384:t=1737476784:v=2:sig=AQHZLKt3HNBs7NXAnouAtwkh7YfRbsb9\"","secure":true,"session":false,"duration":"0 year(s), 0 month(s), 1 day(s)","httpOnly":false,"priority":"Medium","sameSite":"None","sameParty":false,"expires_at":1737476785.249987,"sourcePort":443,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"e038af86-190e-4a06-b5e6-9c5890620a43","category":"MARKETING","cookie_master_name":"lidc","cookie_domain":".linkedin.com","cookie_master_id":"50a783f6-fd67-478f-bd25-ddf7ba32d788","languages":{"en":{"language_id":"bd20c0a6-8340-4f61-b22a-abb594fcb5ba","name":"lidc","description":"Used by the social networking service, LinkedIn, for tracking the use of embedded services."}}},{"meta_data":{"path":"/","size":96,"value":"\"v=1&202501201626243573627a-dd19-4977-8c5b-6a504ebb8b63AQHXOj6pNDpXZqNZQwFGzH6dFNYK4fj1\"","secure":true,"session":false,"duration":"0 year(s), 11 month(s), 31 day(s)","httpOnly":true,"priority":"Medium","sameSite":"None","sameParty":false,"expires_at":1768926384.77978,"sourcePort":443,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"a8621b5e-0851-4ee8-b285-bc4dcc494cdb","category":"MARKETING","cookie_master_name":"bscookie","cookie_domain":".www.linkedin.com","cookie_master_id":"dea9bb15-a5a6-4eee-8633-bf2dee58f8ad","languages":{"en":{"language_id":"51938ed0-71d6-452e-8a86-506039ed244c","name":"bscookie","description":"Used by LinkedIn to track the use of embedded services."}}},{"meta_data":{"path":"/","size":94,"value":"AQLWfl5oSJ5kCQAAAZSEiWT3r_zVyviaP2bR08SE82VMphqlnrmb8dL9ptaVW_Xu191Rzt0HbiVrqw","secure":true,"session":false,"duration":"0 year(s), 0 month(s), 30 day(s)","httpOnly":false,"priority":"Medium","sameSite":"None","sameParty":false,"expires_at":1739982384.494405,"sourcePort":443,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"bc400f48-b56d-4957-b0bd-7d5ab7ab36e4","category":"MARKETING","cookie_master_name":"UserMatchHistory","cookie_domain":".linkedin.com","cookie_master_id":"f6c2b9aa-cd32-410a-9ce0-fcf78c21d5b8","languages":{"en":{"language_id":"58e3e7ef-90f9-45eb-9804-ca03f80051ca","name":"UserMatchHistory","description":"These cookies are set by LinkedIn for advertising purposes, including: tracking visitors so that more relevant ads can be presented, allowing users to use the 'Apply with LinkedIn' or the 'Sign-in with LinkedIn' functions, collecting information about how visitors use the site, etc."}}},{"meta_data":{"path":"/","size":32,"value":"1.1.1622533595.1737390383","secure":false,"session":false,"duration":"0 year(s), 2 month(s), 30 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1745166383,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"ab07a86f-d657-408f-90ad-10c4b70a2a3c","category":"MARKETING","cookie_master_name":"_gcl_au","cookie_domain":".sanketsaboo.com","cookie_master_id":"3e337efc-b33f-4207-b949-5b2c8e77b414","languages":{"en":{"language_id":"de201a74-6ba0-4fd0-9818-1dd321752ebb","name":"_gcl_au","description":"Used by Google AdSense for experimenting with advertisement efficiency across websites using their services."}}}],"NECESSARY":[{"meta_data":{"path":"/","size":151,"value":"s%3AjaGlao536nWfn4TLN_opxNCcoeN9aVC4.hkpU4qkh99EO4LY0U4zio8LQXN7FHrqWqx%2BNArXDziw","secure":false,"session":false,"duration":"0 year(s), 0 month(s), 1 day(s)","httpOnly":true,"priority":"Medium","sameSite":"Lax","foundType":"response","sameParty":false,"expires_at":1737393985,"urlOfCookie":"https://privy-cookie-manager.idfystaging.com/ext/cookie-banner/926bcb22-53a2-4e83-9310-eb3cd4d83bde","sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"2a85565e-d769-4623-b026-eeb1d6c31df0","category":"NECESSARY","cookie_master_name":"connect.sid","cookie_domain":"privy-cookie-manager.idfystaging.com","cookie_master_id":"d5167c82-9798-4a7a-91ae-3a872da8a512","languages":{"en":{"language_id":"c9405c99-6ebd-433e-aff7-ce281e2f77f5","name":"connect.sid","description":"Maintains user session state across page requests."}}}],"FUNCTIONAL":[{"meta_data":{"path":"/","size":64,"value":"{\"ANALYTICS\":false,\"MARKETING\":false,\"update\":false}","secure":false,"session":true,"duration":"55 year(s), 0 month(s), 20 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":-1,"sourceScheme":"Secure","firstFoundUrl":"https://cookie-manager.sanketsaboo.com"},"cookie_id":"e46ab495-e4e0-4b6e-8e74-1a6f3ae8374a","category":"FUNCTIONAL","cookie_master_name":"privyConsent","cookie_domain":"cookie-manager.sanketsaboo.com","cookie_master_id":"4efdc4ab-471f-480f-a819-1a1d0bcc00d0","languages":{"en":{"language_id":"f6222eb8-249c-4c9f-816b-4dad9c55e9a8","name":"privyConsent","description":"This cookie is used to track the visitor's consent or refusal to the use of cookies on the website."}}}]};
+const template = { "bannerType": "box", "buttonColor": "#214698", "buttonsText": { "acceptAll": "Accept All", "moreSettings": "More Settings", "allowNecessary": "Allow Only Necessary", "savePreferences": "Save My Preferences" }, "contentMobile": { "cookieBannerNotice": "This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.", "preferenceManagerNotice": "IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you." }, "contentDesktop": { "cookieBannerNotice": "This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.", "preferenceManagerNotice": "IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you." }, "hoverTextColor": "#ffffff", "positionMobile": "bottom", "buttonTextColor": "#ffffff", "positionDesktop": "bottom-right", "hoverButtonColor": "#214699", "preferenceManagerHorizontalPosition": "left" };
+const categorizedCookies = { "ANALYTICS": [{ "meta_data": { "path": "/", "size": 138, "value": "eyJpZCI6IjZlNGRlMmUxLTUyN2MtNTE5Ni04MWI2LTk2MGNlYzM2MWE3NSIsImNyZWF0ZWQiOjE3MzczOTAzODQwNjUsImV4aXN0aW5nIjp0cnVlfQ==", "secure": true, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1768926384, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "6f6b5daf-3458-4819-a551-379791de183b", "category": "ANALYTICS", "cookie_master_name": "_hjSessionUser_5091923", "cookie_domain": ".sanketsaboo.com", "cookie_master_id": "8570bdcb-2f4d-435a-b623-a30186be2541", "languages": { "en": { "language_id": "e41fe062-53ef-44a4-a0f9-52cfe02a2aeb", "name": "_hjSessionUser_5091923", "description": "This cookie is set by Hotjar and is used to detect the first pageview session of a user. This is a True/False flag set by the cookie." } } }, { "meta_data": { "path": "/", "size": 106, "value": "AQJMTq6tbixNGQAAAZSEiWT3N1RMATGnpslWrGLl47GvDQni6RUWFsjPOidaGqffj38qNq9KI2683v96KdNFjg", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1739982384.494426, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "90bf19f7-d7f7-4b0a-bf36-7b1bae114f63", "category": "ANALYTICS", "cookie_master_name": "AnalyticsSyncHistory", "cookie_domain": ".linkedin.com", "cookie_master_id": "cd1bf282-7e4c-431a-96f2-1a9f0ce24d67", "languages": { "en": { "language_id": "5fea53bf-2642-4dd0-a996-5e77df3fc90b", "name": "AnalyticsSyncHistory", "description": "Used to store information about the time a sync with the lms_analytics cookie took place for users in the Designated Countries" } } }, { "meta_data": { "path": "/", "size": 166, "value": "eyJpZCI6ImE2Y2M1YWRlLWRjMzgtNGEzMS05NjA5LTQxZmNlNTUyN2MwYyIsImMiOjE3MzczOTAzODQwNjcsInMiOjEsInIiOjEsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1737392184, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "6c66bafa-70a2-4bdf-b6fb-6f89371752e5", "category": "ANALYTICS", "cookie_master_name": "_hjSession_5091923", "cookie_domain": ".sanketsaboo.com", "cookie_master_id": "5beb65d8-c1a2-4da4-ab49-4c9cbe151de6", "languages": { "en": { "language_id": "67b682f9-fde5-4c1a-8e08-a141ad5ff255", "name": "_hjSession_5091923", "description": "This cookie is set by Hotjar. It is used to count how many times a website has been visited by different visitors - this is done by assigning the visitor an ID, so the visitor does not get registered twice." } } }, { "meta_data": { "path": "/", "size": 51, "value": "GS1.1.1737390383.1.0.1737390385.0.0.0", "secure": false, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1771950385.088889, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "3f4ac95c-523d-4843-9a6f-20fe908cbdc7", "category": "ANALYTICS", "cookie_master_name": "_ga_KWC0VKDZKW", "cookie_domain": ".sanketsaboo.com", "cookie_master_id": "11acc004-4ad2-47d7-b0b9-8769f3d4852b", "languages": { "en": { "language_id": "e7a5ad3a-ed1f-4d8b-af5f-a7caad93ff6f", "name": "_ga_KWC0VKDZKW", "description": "This cookie is used by Google Analytics to distinguish unique users by assigning a randomly generated number as a client identifier." } } }, { "meta_data": { "path": "/", "size": 29, "value": "GA1.1.755204584.1737390384", "secure": false, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1771950383.865565, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "8115d4b7-33bb-4cb3-bf05-a92981258c23", "category": "ANALYTICS", "cookie_master_name": "_ga", "cookie_domain": ".sanketsaboo.com", "cookie_master_id": "b54a51b1-2e4a-45dc-ba92-91411b263037", "languages": { "en": { "language_id": "f8846243-236f-46c4-8886-cc7b75c2e7b7", "name": "_ga", "description": "ID used to identify users" } } }], "MARKETING": [{ "meta_data": { "path": "/", "size": 43, "value": "98b0ca78-2061-4277-806f-be1893bbf8eb", "secure": true, "session": false, "duration": "0 year(s), 2 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1745166385.030673, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "3a979e25-f86f-41ad-94dc-67819b0493a3", "category": "MARKETING", "cookie_master_name": "li_sugr", "cookie_domain": ".linkedin.com", "cookie_master_id": "06c72c31-9e5a-4ec9-aa62-f91e1e6664dd", "languages": { "en": { "language_id": "0cc1b727-b0ce-4c91-ba3d-80aa42e01bfe", "name": "li_sugr", "description": "Used to make a probabilistic match of a user's identity outside the Designated Countries" } } }, { "meta_data": { "path": "/", "size": 49, "value": "\"v=2&9218f288-70fd-4dbd-8653-37ac41fd817a\"", "secure": true, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1768926385.030769, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "6d85565d-5700-49fb-ac8c-624c54055dff", "category": "MARKETING", "cookie_master_name": "bcookie", "cookie_domain": ".linkedin.com", "cookie_master_id": "322944bc-6210-4594-bfb2-7930a487f3f0", "languages": { "en": { "language_id": "5d796293-001a-485a-aa43-097f3a1e0172", "name": "bcookie", "description": "Used by LinkedIn to track the use of embedded services." } } }, { "meta_data": { "path": "/", "size": 112, "value": "\"b=TGST04:s=T:r=T:a=T:p=T:g=3361:u=1:x=1:i=1737390384:t=1737476784:v=2:sig=AQHZLKt3HNBs7NXAnouAtwkh7YfRbsb9\"", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1737476785.249987, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "e038af86-190e-4a06-b5e6-9c5890620a43", "category": "MARKETING", "cookie_master_name": "lidc", "cookie_domain": ".linkedin.com", "cookie_master_id": "50a783f6-fd67-478f-bd25-ddf7ba32d788", "languages": { "en": { "language_id": "bd20c0a6-8340-4f61-b22a-abb594fcb5ba", "name": "lidc", "description": "Used by the social networking service, LinkedIn, for tracking the use of embedded services." } } }, { "meta_data": { "path": "/", "size": 96, "value": "\"v=1&202501201626243573627a-dd19-4977-8c5b-6a504ebb8b63AQHXOj6pNDpXZqNZQwFGzH6dFNYK4fj1\"", "secure": true, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1768926384.77978, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "a8621b5e-0851-4ee8-b285-bc4dcc494cdb", "category": "MARKETING", "cookie_master_name": "bscookie", "cookie_domain": ".www.linkedin.com", "cookie_master_id": "dea9bb15-a5a6-4eee-8633-bf2dee58f8ad", "languages": { "en": { "language_id": "51938ed0-71d6-452e-8a86-506039ed244c", "name": "bscookie", "description": "Used by LinkedIn to track the use of embedded services." } } }, { "meta_data": { "path": "/", "size": 94, "value": "AQLWfl5oSJ5kCQAAAZSEiWT3r_zVyviaP2bR08SE82VMphqlnrmb8dL9ptaVW_Xu191Rzt0HbiVrqw", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1739982384.494405, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "bc400f48-b56d-4957-b0bd-7d5ab7ab36e4", "category": "MARKETING", "cookie_master_name": "UserMatchHistory", "cookie_domain": ".linkedin.com", "cookie_master_id": "f6c2b9aa-cd32-410a-9ce0-fcf78c21d5b8", "languages": { "en": { "language_id": "58e3e7ef-90f9-45eb-9804-ca03f80051ca", "name": "UserMatchHistory", "description": "These cookies are set by LinkedIn for advertising purposes, including: tracking visitors so that more relevant ads can be presented, allowing users to use the 'Apply with LinkedIn' or the 'Sign-in with LinkedIn' functions, collecting information about how visitors use the site, etc." } } }, { "meta_data": { "path": "/", "size": 32, "value": "1.1.1622533595.1737390383", "secure": false, "session": false, "duration": "0 year(s), 2 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1745166383, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "ab07a86f-d657-408f-90ad-10c4b70a2a3c", "category": "MARKETING", "cookie_master_name": "_gcl_au", "cookie_domain": ".sanketsaboo.com", "cookie_master_id": "3e337efc-b33f-4207-b949-5b2c8e77b414", "languages": { "en": { "language_id": "de201a74-6ba0-4fd0-9818-1dd321752ebb", "name": "_gcl_au", "description": "Used by Google AdSense for experimenting with advertisement efficiency across websites using their services." } } }], "NECESSARY": [{ "meta_data": { "path": "/", "size": 151, "value": "s%3AjaGlao536nWfn4TLN_opxNCcoeN9aVC4.hkpU4qkh99EO4LY0U4zio8LQXN7FHrqWqx%2BNArXDziw", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "Lax", "foundType": "response", "sameParty": false, "expires_at": 1737393985, "urlOfCookie": "https://privy-cookie-manager.idfystaging.com/ext/cookie-banner/926bcb22-53a2-4e83-9310-eb3cd4d83bde", "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "2a85565e-d769-4623-b026-eeb1d6c31df0", "category": "NECESSARY", "cookie_master_name": "connect.sid", "cookie_domain": "privy-cookie-manager.idfystaging.com", "cookie_master_id": "d5167c82-9798-4a7a-91ae-3a872da8a512", "languages": { "en": { "language_id": "c9405c99-6ebd-433e-aff7-ce281e2f77f5", "name": "connect.sid", "description": "Maintains user session state across page requests." } } }], "FUNCTIONAL": [{ "meta_data": { "path": "/", "size": 64, "value": "{\"ANALYTICS\":false,\"MARKETING\":false,\"update\":false}", "secure": false, "session": true, "duration": "55 year(s), 0 month(s), 20 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": -1, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "e46ab495-e4e0-4b6e-8e74-1a6f3ae8374a", "category": "FUNCTIONAL", "cookie_master_name": "privyConsent", "cookie_domain": "cookie-manager.sanketsaboo.com", "cookie_master_id": "4efdc4ab-471f-480f-a819-1a1d0bcc00d0", "languages": { "en": { "language_id": "f6222eb8-249c-4c9f-816b-4dad9c55e9a8", "name": "privyConsent", "description": "This cookie is used to track the visitor's consent or refusal to the use of cookies on the website." } } }] };
 
-        function getCookieValue(name) {
-            const cookies = document.cookie.split('; ');
-            const cookie = cookies.find(cookie => cookie.startsWith(`${name}=`));
-            return cookie ? cookie.split('=')[1] : null;
-        }
-    
+function getCookieValue(name) {
+    const cookies = document.cookie.split('; ');
+    const cookie = cookies.find(cookie => cookie.startsWith(`${name}=`));
+    return cookie ? cookie.split('=')[1] : null;
+}
+
 function toggleBanner(action) {
     if (action === 'show') {
         document.getElementById('banner-home').style.display = '';
@@ -16,9 +16,9 @@ function toggleBanner(action) {
         document.getElementById("customize-screen-AE1VSVI8T5").style.display = 'none';
         document.getElementById('banner-home').style.display = 'none';
     }
-    }
+}
 
-    const categoryDescriptions = {
+const categoryDescriptions = {
     necessary: "Essential cookies are crucial for the delivery of services, applications, or resources you request. They enable the website to function properly by managing actions such as loading visual elements, accessing resources, or user sign-ins and sign-outs. Essential cookies also ensure the service's security and efficiency by enabling features like authentication and load balancing.",
     marketing: "Our advertising partners deploy these cookies to tailor advertising to your interests, based on your browsing behavior and preferences. They track your online activity to build a profile for customized advertising, ensuring the ads you encounter on other sites are aligned with your interests.",
     analytics: "Analytics cookies are used to gather information on website usage, helping us understand visitor behavior. They track user interactions, providing insights that enable us to enhance the website's user experience and functionality. These cookies do not identify you personally but offer aggregated data to improve site performance.",
@@ -26,7 +26,7 @@ function toggleBanner(action) {
     functional: "Set by us or third-party providers, functional cookies add extra features and enhance our website's functionality not directly necessary for the service you've requested. They enable convenience features such as pre-filled text fields, live chat support, and optional forms, improving your browsing experience with services like single sign-on (SSO).",
     others: "These cookies do not fall into standard categories but serve various purposes. They may enhance specific website features or support experimental or temporary services, and are typically associated with minor functions or specialized needs. Without these, the website's core functionality remains unaffected, but certain experiences or experiments may be impacted."
 }
-    function createBanner(categorizedCookies, template) {
+function createBanner(categorizedCookies, template) {
     let banner = `
     <div class="idfy-${template.bannerType}-AE1VSVI8T5" id="banner-home">
         <div class="banner-content-AE1VSVI8T5">
@@ -56,10 +56,10 @@ function toggleBanner(action) {
                     <p class="box-description-AE1VSVI8T5">${template.contentDesktop.preferenceManagerNotice}</p>
                     <div class="categories-AE1VSVI8T5">
                     ${Object.keys(categorizedCookies).map(category => {
-                        const cookieData = categorizedCookies[category];
-                        const isNecessary = category === 'NECESSARY';
-                        const disabledClass = isNecessary ? 'disabled' : '';
-                        return `
+        const cookieData = categorizedCookies[category];
+        const isNecessary = category === 'NECESSARY';
+        const disabledClass = isNecessary ? 'disabled' : '';
+        return `
                         <div class="category-AE1VSVI8T5">
                             <div class="category-header-AE1VSVI8T5">
                                 <div onclick="showDropdown('${category}')" style="cursor:pointer">
@@ -87,7 +87,7 @@ function toggleBanner(action) {
                             </div>
                         </div>
                         `;
-                    }).join('')}
+    }).join('')}
                     </div>
                 </div>
             </div>
@@ -107,54 +107,54 @@ function toggleBanner(action) {
 
     return banner;
 }
-    
 
-            function submitConsent(agreedCategories) {
-                const agreedCookies = [];
-                const cookieConsent = JSON.parse(getCookieValue('privyConsent'));
-    
-                if (agreedCategories === 'all') {
-                    Object.keys(cookieConsent).forEach(key => cookieConsent[key] = true);
-                } else if (agreedCategories === 'necessary') {
-                    Object.keys(cookieConsent).forEach(key => cookieConsent[key] = key === 'NECESSARY');
-                } else if (agreedCategories === 'preference') {
-                    const checkedBoxes = document.querySelectorAll('input[type="checkbox"]:checked');
-                    checkedBoxes.forEach(box => {
-                        const categoryName = box.id.replace('-toggle', '');
-                        agreedCookies.push(categoryName);
-                        cookieConsent[categoryName] = true;
-                    });
-                    Object.keys(cookieConsent).forEach(key => cookieConsent[key] = agreedCookies.includes(key));
-                }
-    
-                cookieConsent.update = true;
-                toggleBanner('hide');
-                document.cookie = `privyConsent=${JSON.stringify(cookieConsent)}; path=/`;
-                localStorage.setItem("privyConsent", JSON.stringify(cookieConsent));
-    
-                fetch(`https://privy-cookie-manager.idfy.com/ext/cookie-banner/consent/bccbd7b6-9485-40b5-969a-966d86921aed/6fd5e8d2-dc60-4558-abaf-c92de379ea43`, {
-                    method: "POST",
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ user_preference: cookieConsent })
-                })
-                .then(response => {
-                    console.log("submit response", response);
-                    if (!response.ok) {
-                        throw new Error('Failed to submit consent');
-                    }
-                    return response.json();
-                })
-                .catch(error => {
-                    console.error('Error submitting consent:', error);
-                });
-    
-                location.reload();
+
+function submitConsent(agreedCategories) {
+    const agreedCookies = [];
+    const cookieConsent = JSON.parse(getCookieValue('privyConsent'));
+
+    if (agreedCategories === 'all') {
+        Object.keys(cookieConsent).forEach(key => cookieConsent[key] = true);
+    } else if (agreedCategories === 'necessary') {
+        Object.keys(cookieConsent).forEach(key => cookieConsent[key] = key === 'NECESSARY');
+    } else if (agreedCategories === 'preference') {
+        const checkedBoxes = document.querySelectorAll('input[type="checkbox"]:checked');
+        checkedBoxes.forEach(box => {
+            const categoryName = box.id.replace('-toggle', '');
+            agreedCookies.push(categoryName);
+            cookieConsent[categoryName] = true;
+        });
+        Object.keys(cookieConsent).forEach(key => cookieConsent[key] = agreedCookies.includes(key));
+    }
+
+    cookieConsent.update = true;
+    toggleBanner('hide');
+    document.cookie = `privyConsent=${JSON.stringify(cookieConsent)}; path=/`;
+    localStorage.setItem("privyConsent", JSON.stringify(cookieConsent));
+
+    fetch(`https://privy-cookie-manager.idfy.com/ext/cookie-banner/consent/bccbd7b6-9485-40b5-969a-966d86921aed/6fd5e8d2-dc60-4558-abaf-c92de379ea43`, {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ user_preference: cookieConsent })
+    })
+        .then(response => {
+            console.log("submit response", response);
+            if (!response.ok) {
+                throw new Error('Failed to submit consent');
             }
-        
+            return response.json();
+        })
+        .catch(error => {
+            console.error('Error submitting consent:', error);
+        });
 
-    function blockIframe() {
+    location.reload();
+}
+
+
+function blockIframe() {
     const iframeElements = document.querySelectorAll('iframe');
     iframeElements.forEach(iframe => {
         const src = iframe.getAttribute('src');
@@ -177,8 +177,8 @@ function blockScript() {
         }
     });
 }
-    
- window.onload = () =>  {
+
+window.onload = () => {
     const categories = Object.keys(categorizedCookies);
 
     let consentCookie = JSON.parse(getCookieValue('privyConsent'));
@@ -211,8 +211,8 @@ function blockScript() {
     let horizontal = "flex-end", leftRight = "right", vertical = "bottom";
 
     if (template.positionDesktop.includes("left")) {
-    horizontal = "flex-start";
-    leftRight = "left";
+        horizontal = "flex-start";
+        leftRight = "left";
     }
     if (template.positionDesktop.includes("top")) {
         vertical = "top";
@@ -767,4 +767,329 @@ function blockScript() {
     } else {
         toggleBanner('hide');
     }
+
+
+
+    const nonScriptElements = ['embed', 'iframe', 'img']
+    const monitoredElements = [...nonScriptElements, 'script']
+    const tagsList = [
+       {
+           tag: 'https://www.googletagmanager.com/gtag/js?id=G-KWC0VKDZKW&l=dataLayer&cx=c&gtm=45He51n0h1v9199743789za200',
+           category: ['NECESSARY'],
+           type: 'script'
+       },
+       {
+           tag: 'https://www.googletagmanager.com/gtm.js?id=GTM-KS3M7CSF',
+           category: ['MARKETING'],
+           type: 'script'
+       },
+       {
+           tag: 'https://privy-cookie-manager.idfy.com/ext/cookie-banner/76e7bf3c-564f-4769-9c59-91ebada9eeaa',
+           category: ['MARKETING'],
+           type: 'script'
+       },
+       {
+           tag: 'https://js.hsforms.net/forms/embed/v2.js',
+           category: ['MARKETING'],
+           type: 'script'
+       },
+       {
+           tag: 'https://platform.twitter.com/widgets.js',
+           category: ['ANALYTICS'],
+           type: 'script'
+       },
+       {
+           tag: 'https://www.youtube.com/embed/MS5jByTX_pk?si=H0EcHQpMyJdEWyPy',
+           category: ['ANALYTICS'],
+           type: 'iframe'
+       },
+       {
+           tag: 'https://www.youtube.com/embed/rYb4JNGShOM?si=K3yUbeStbhNIMYNJ',
+           category: ['ANALYTICS'],
+           type: 'iframe'
+       },
+       {
+           tag: 'https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P',
+           category: ['ANALYTICS', 'FUNCTIONAL'],
+           type: 'iframe'
+       }
+    ]
+    /**
+    * Finds the object matching a given URL in the list.
+    *
+    * @param {Array} tagsList - The array of objects containing tags and categories.
+    * @param {string} url - The URL to match with the 'tag' field.
+    * @returns {Object|null} - The matched object or null if no match is found.
+    */
+    function findMatchingTag(url) {
+       const data = tagsList.find((item) => item.tag === url) || null
+       console.log('findMatchingTag', data)
+       return data
+    }
+    
+    
+    /**
+    * Retrieves privacy categories for a given URL.
+    * @param {string} url - The URL to categorize.
+    * @returns {Array} An array containing categories.
+    */
+    function getUrlDetails(url) {
+       const tagDetails = findMatchingTag(url) || {}
+       const results = {
+           categories: tagDetails['categories'] || [],
+           type: tagDetails['type'] || ''
+       }
+       console.log('getUrlDetails', results)
+    
+    
+       return results
+    }
+    /**
+    * Checks if the user has consented to specific privacy categories.
+    * It checks localStorage, then cookies, and falls back to default consent.
+    *
+    * @param {Array} categories - The list of category IDs to check.
+    * @returns {boolean} True if the user has consented to the specified categories, false otherwise.
+    */
+    function hasUserConsent(categories) {
+       if (!categories || categories.length === 0) {
+           console.log('No categories')
+           return true
+       } // If no categories are provided, consider consent granted.
+    
+    
+       const cookieName = 'privyConsent'
+       const defaultConsent = {
+           NECESSARY: true,
+           FUNCTIONAL: false,
+           ANALYTICS: false,
+           MARKETING: false,
+           OTHERS: false
+       }
+    
+    
+       // Function to check if the user consented to the specified categories
+       function checkConsent(consentObject) {
+           if (!consentObject) {
+               console.error('Consent object is null or undefined')
+               return false // Return false if consentObject is null or undefined
+           }
+           const results = categories.every(function (category) {
+               return consentObject[category] === true
+           })
+           console.log('checkConsent', results)
+           return results
+       }
+    
+    
+       // Helper function to safely parse consent data from a source
+       function getConsentData(source) {
+           try {
+               return JSON.parse(source)
+           } catch (error) {
+               console.error('Error parsing consent data:', error)
+               return null
+           }
+       }
+    
+    
+       // Function to check localStorage and return the result
+       function checkLocalStorage() {
+           const localStorageValue = localStorage.getItem(cookieName)
+           const results = localStorageValue
+               ? getConsentData(localStorageValue)
+               : null
+           console.log('checkLocalStorage', results)
+           return results
+       }
+    
+    
+       // Function to check cookies and return the result
+       function checkCookies() {
+           const cookieValue = document.cookie.split('; ').find(function (row) {
+               return row.startsWith(`${cookieName}=`)
+           })
+           const results = cookieValue
+               ? getConsentData(cookieValue.split('=')[1])
+               : null
+           console.log('checkCookies', results)
+           return results
+       }
+    
+    
+       // Try to get consent data from localStorage, cookies, or fall back to default
+       return (
+           checkConsent(checkLocalStorage()) ||
+           checkConsent(checkCookies()) ||
+           checkConsent(defaultConsent)
+       )
+    }
+    
+    
+    // /**
+    //  * Checks if the user has consented to all specified categories in the consent object.
+    //  *
+    //  * @param {Object} consentObject - The consent object to check against.
+    //  * @param {Array} categories - The list of category IDs to check.
+    //  * @returns {boolean} True if the user has consented to all specified categories, false otherwise.
+    //  */
+    // function checkConsent(consentObject, categories) {
+    //     if (!categories || categories.length === 0) {
+    //         return true // If no categories are provided, consider consent granted by default.
+    //     }
+    //     return categories.every((category) => consentObject[category] === true)
+    // }
+    
+    
+    // /**
+    //  * Checks if the user has consented to specific privacy categories.
+    //  * First checks a cookie with the name 'privyConsent', and if not found, checks local storage.
+    //  *
+    //  * @param {Array} categories - The list of category IDs to check.
+    //  * @returns {boolean} True if the user has consented, false otherwise.
+    //  */
+    // function hasUserConsent(categories) {
+    //     if (!categories || categories.length === 0) {
+    //         return true
+    //     }
+    //     const cookieName = 'privyConsent'
+    //     const defaultConsent = {
+    //         NECESSARY: true,
+    //         FUNCTIONAL: false,
+    //         ANALYTICS: false,
+    //         MARKETING: false
+    //     }
+    
+    
+    //     // First, check local storage for the value
+    //     const localStorageValue = localStorage.getItem(cookieName)
+    //     console.log('localStorageValue', localStorageValue)
+    //     if (localStorageValue) {
+    //         try {
+    //             const parsedLocalStorageValue = JSON.parse(localStorageValue)
+    //             const allConsentGranted = Object.values(
+    //                 parsedLocalStorageValue
+    //             ).every((consent) => consent === true)
+    //             return allConsentGranted // Returns true if all consents are granted, otherwise false.
+    //         } catch (error) {
+    //             console.error(
+    //                 'Error parsing privyConsent from localStorage:',
+    //                 error
+    //             )
+    //         }
+    //     }
+    
+    
+    //     // If not found in local storage, check cookies
+    //     const allCookies = document.cookie.split('; ')
+    //     const cookieValue = allCookies.find((row) =>
+    //         row.startsWith(`${cookieName}=`)
+    //     )
+    //     console.log('cookieValue', cookieValue)
+    //     if (cookieValue) {
+    //         try {
+    //             const parsedCookieValue = JSON.parse(cookieValue.split('=')[1])
+    //             const allConsentGranted = Object.values(parsedCookieValue).every(
+    //                 (consent) => consent === true
+    //             )
+    //             return allConsentGranted // Returns true if all consents are granted, otherwise false.
+    //         } catch (error) {
+    //             console.error('Error parsing privyConsent cookie:', error)
+    //         }
+    //     }
+    //     const allConsentGranted = Object.values(defaultConsent).every(
+    //         (consent) => consent === true
+    //     )
+    //     return allConsentGranted
+    // }
+    
+    
+    /**
+    * Adds privacy-related classes to an element based on its categories.
+    * @param {HTMLElement} element - The element to modify.
+    * @param {Object} categories - The privacy categories associated with the element.
+    */
+    function addPrivacyClasses(element, categories) {
+       if (categories.categoryIds.length) {
+           element.classList.add(
+               ...categories.map((category) => `privy-cmp-category-${category}`)
+           )
+       }
+    }
+    
+    
+    /**
+    * Handles media elements (img, iframe, embed) for privacy compliance.
+    * @param {HTMLElement} element - The media element to process.
+    */
+    function handleTags(element) {
+       const url = element.src || ''
+       const tagDetails = getUrlDetails(url)
+       const categories = tagDetails['categories']
+       const type = tagDetails['type']
+       if (categories.length > 0) {
+           addPrivacyClasses(element, categories)
+       }
+       if (!hasUserConsent(categories)) {
+           const originalSrc = element.src
+           if (type === 'script') {
+               element.type = 'text/plain'
+               console.log(`Script blocked: ${url}`, type, categories)
+           } else if (type in nonScriptElements) {
+               element.removeAttribute('src')
+               element.setAttribute('data-src', originalSrc)
+               console.log(`Media element blocked: ${url}`, type, categories)
+           } else {
+               console.log('Not a valid type')
+           }
+       }
+    }
+    /**
+    * Sets up a MutationObserver to monitor DOM changes for compliance.
+    */
+    function setupPrivacyObserver() {
+       // Process all monitored elements already present in the DOM
+       monitoredElements.forEach((tag) => {
+           document.querySelectorAll(tag).forEach((element) => {
+               handleTags(element) // Apply your privacy-related logic to each element
+           })
+       })
+       const observer = new MutationObserver((mutations) => {
+           mutations.forEach((mutation) => {
+               // Handle added nodes
+               mutation.addedNodes.forEach((node) => {
+                   if (
+                       node.nodeType === 1 &&
+                       monitoredElements.includes(node.tagName.toLowerCase())
+                   ) {
+                       console.log('Add Nodes', node)
+                       handleTags(node)
+                   }
+               })
+    
+    
+               // Handle attribute changes
+               if (mutation.attributeName === 'src') {
+                   const element = mutation.target
+                   console.log('Handle attribute changes', element)
+                   handleTags(element)
+               }
+           })
+       })
+    
+    
+       observer.observe(document.documentElement, {
+           childList: true,
+           subtree: true,
+           attributes: true,
+           attributeFilter: ['src']
+       })
+    
+    
+       console.log('Privacy observer initialized.')
+    }
+    
+    
+    // Initialize the privacy observer
+    setupPrivacyObserver()
 }
