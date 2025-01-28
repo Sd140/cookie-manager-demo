@@ -149,84 +149,6 @@ function hasUserConsent(categories) {
 }
 
 
-// /**
-//  * Checks if the user has consented to all specified categories in the consent object.
-//  *
-//  * @param {Object} consentObject - The consent object to check against.
-//  * @param {Array} categories - The list of category IDs to check.
-//  * @returns {boolean} True if the user has consented to all specified categories, false otherwise.
-//  */
-// function checkConsent(consentObject, categories) {
-//     if (!categories || categories.length === 0) {
-//         return true // If no categories are provided, consider consent granted by default.
-//     }
-//     return categories.every((category) => consentObject[category] === true)
-// }
-
-
-// /**
-//  * Checks if the user has consented to specific privacy categories.
-//  * First checks a cookie with the name 'privyConsent', and if not found, checks local storage.
-//  *
-//  * @param {Array} categories - The list of category IDs to check.
-//  * @returns {boolean} True if the user has consented, false otherwise.
-//  */
-// function hasUserConsent(categories) {
-//     if (!categories || categories.length === 0) {
-//         return true
-//     }
-//     const cookieName = 'privyConsent'
-//     const defaultConsent = {
-//         NECESSARY: true,
-//         FUNCTIONAL: false,
-//         ANALYTICS: false,
-//         MARKETING: false
-//     }
-
-
-//     // First, check local storage for the value
-//     const localStorageValue = localStorage.getItem(cookieName)
-//     console.log('localStorageValue', localStorageValue)
-//     if (localStorageValue) {
-//         try {
-//             const parsedLocalStorageValue = JSON.parse(localStorageValue)
-//             const allConsentGranted = Object.values(
-//                 parsedLocalStorageValue
-//             ).every((consent) => consent === true)
-//             return allConsentGranted // Returns true if all consents are granted, otherwise false.
-//         } catch (error) {
-//             console.error(
-//                 'Error parsing privyConsent from localStorage:',
-//                 error
-//             )
-//         }
-//     }
-
-
-//     // If not found in local storage, check cookies
-//     const allCookies = document.cookie.split('; ')
-//     const cookieValue = allCookies.find((row) =>
-//         row.startsWith(`${cookieName}=`)
-//     )
-//     console.log('cookieValue', cookieValue)
-//     if (cookieValue) {
-//         try {
-//             const parsedCookieValue = JSON.parse(cookieValue.split('=')[1])
-//             const allConsentGranted = Object.values(parsedCookieValue).every(
-//                 (consent) => consent === true
-//             )
-//             return allConsentGranted // Returns true if all consents are granted, otherwise false.
-//         } catch (error) {
-//             console.error('Error parsing privyConsent cookie:', error)
-//         }
-//     }
-//     const allConsentGranted = Object.values(defaultConsent).every(
-//         (consent) => consent === true
-//     )
-//     return allConsentGranted
-// }
-
-
 /**
 * Adds privacy-related classes to an element based on its categories.
 * @param {HTMLElement} element - The element to modify.
@@ -283,11 +205,6 @@ function processExistingElements() {
 */
 function setupPrivacyObserver() {
    // Process all monitored elements already present in the DOM
-   // monitoredElements.forEach((tag) => {
-   //     document.querySelectorAll(tag).forEach((element) => {
-   //         handleTags(element) // Apply your privacy-related logic to each element
-   //     })
-   // })
    processExistingElements()
    const observer = new MutationObserver((mutations) => {
        mutations.forEach((mutation) => {
