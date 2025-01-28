@@ -255,6 +255,7 @@ function handleTags(element) {
    const tagDetails = getUrlDetails(url)
    const categories = tagDetails['categories']
    const type = tagDetails['type']
+   console.log('handleTags', url, tagDetails, type, categories)
    if (categories.length > 0) {
        addPrivacyClasses(element, categories)
    }
@@ -274,7 +275,7 @@ function handleTags(element) {
 }
 /**
 * Sets up a MutationObserver to monitor DOM changes for compliance.
-*/ 
+*/
 function setupPrivacyObserver() {
    // Process all monitored elements already present in the DOM
    monitoredElements.forEach((tag) => {
