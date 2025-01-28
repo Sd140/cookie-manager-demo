@@ -12,11 +12,6 @@ const tagsList = [
        type: 'script'
    },
    {
-       tag: 'https://privy-cookie-manager.idfy.com/ext/cookie-banner/76e7bf3c-564f-4769-9c59-91ebada9eeaa',
-       categories: ['MARKETING'],
-       type: 'script'
-   },
-   {
        tag: 'https://js.hsforms.net/forms/embed/v2.js',
        categories: ['MARKETING'],
        type: 'script'
