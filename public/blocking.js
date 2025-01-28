@@ -238,7 +238,7 @@ function hasUserConsent(categories) {
 * @param {Object} categories - The privacy categories associated with the element.
 */
 function addPrivacyClasses(element, categories) {
-   if (categories.categoryIds.length) {
+   if (categories.length) {
        element.classList.add(
            ...categories.map((category) => `privy-cmp-category-${category}`)
        )
