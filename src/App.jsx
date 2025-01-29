@@ -51,7 +51,7 @@ function App() {
           <div className="home-data">
             <div className="hd-header">
               {/* youtube iframes */}
-              <div className="youtube-vid">
+              <div id="youtube-vid">
                 {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/MS5jByTX_pk?si=H0EcHQpMyJdEWyPy" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
                 </div>
 
