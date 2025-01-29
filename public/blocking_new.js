@@ -22,7 +22,7 @@ const tagsList = [
        type: 'script'
    },
    {
-       tag: 'https://www.youtube.com/embed/MS5jByTX_pk?si=H0EcHQpMyJdEWyPy',
+       tag: 'https://www.youtube.com/embed/MS5jByTX_pk?si\x3dH0EcHQpMyJdEWyPy',
        categories: ['ANALYTICS'],
        type: 'iframe'
    },
