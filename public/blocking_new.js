@@ -249,7 +249,3 @@ function setupPrivacyObserver() {
    console.log('Privacy observer initialized.')
 }
 
-
-document.addEventListener('DOMContentLoaded', () => {
-   setupPrivacyObserver()
-})
