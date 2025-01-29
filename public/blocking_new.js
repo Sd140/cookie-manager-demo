@@ -244,5 +244,7 @@ function setupPrivacyObserver() {
    console.log('Privacy observer initialized.')
 }
 
-
-setupPrivacyObserver()
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("listener strated");
+    setupPrivacyObserver()       
+});
