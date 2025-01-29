@@ -276,5 +276,5 @@ function observeYouTubeVideo() {
 //     )
 // })()
 
-setupPrivacyObserver()
+// setupPrivacyObserver()
 observeYouTubeVideo()
