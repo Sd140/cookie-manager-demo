@@ -237,7 +237,21 @@ function setupPrivacyObserver() {
 
     console.log('Privacy observer initialized.')
 }
+function observeYouTubeVideo() {
+        const observer = new MutationObserver((mutationsList, observer) => {
+            for (const mutation of mutationsList) {
+                if (mutation.type === "childList") {
+                    const youtubeIframe = document.querySelector("iframe");
+                    if (youtubeIframe) {
+                        blockYouTubeVideo();
+                        observer.disconnect(); // Stop observing once the iframe is modified
+                    }
+                }
+            }
+        });
 
+        observer.observe(document.body, { childList: true, subtree: true });
+    }
 // Initialize the privacy observer
 // Override document.createElement
 // function createElementWithPrivacyLogic(originalCreateElement) {
@@ -263,3 +277,4 @@ function setupPrivacyObserver() {
 // })()
 
 setupPrivacyObserver()
+observeYouTubeVideo()
