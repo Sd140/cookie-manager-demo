@@ -206,10 +206,15 @@ function processExistingElements() {
 function setupPrivacyObserver() {
    // Process all monitored elements already present in the DOM
    processExistingElements()
+   document.querySelectorAll('iframe').forEach((element) => {
+       handleTags(element)
+   })
    const observer = new MutationObserver((mutations) => {
        mutations.forEach((mutation) => {
            // Handle added nodes
            mutation.addedNodes.forEach((node) => {
+               console.log('Add Nodes', node)
+               handleTags(node)
                if (
                    node.nodeType === 1 &&
                    monitoredElements.includes(node.tagName.toLowerCase())
@@ -244,7 +249,7 @@ function setupPrivacyObserver() {
    console.log('Privacy observer initialized.')
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("listener strated");
-    setupPrivacyObserver()       
-});
+
+document.addEventListener('DOMContentLoaded', () => {
+   setupPrivacyObserver()
+})
