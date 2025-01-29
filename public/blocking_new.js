@@ -195,9 +195,7 @@ function handleTags(element) {
 */
 function processExistingElements() {
    monitoredElements.forEach((tag) => {
-       console.log("tag here", tag)
        document.querySelectorAll(tag).forEach((element) => {
-        console.log("element here", element)
            handleTags(element)
        })
    })
@@ -223,7 +221,10 @@ function setupPrivacyObserver() {
 
 
            // Handle attribute changes
-           if (mutation.attributeName === 'src') {
+           if (
+               mutation.type === 'attributes' &&
+               mutation.attributeName === 'src'
+           ) {
                const element = mutation.target
                console.log('Handle attribute changes', element)
                handleTags(element)
@@ -243,27 +244,5 @@ function setupPrivacyObserver() {
    console.log('Privacy observer initialized.')
 }
 
-// document.addEventListener('DOMContentLoaded', () => {
-//    setupPrivacyObserver()
-// })
 
-function blockContent() {
-    // Replace YouTube iframe with a placeholder
-    const youtubeIframe = document.querySelector('iframe[src*="youtube.com"]');
-    console.log("youtub iframe", youtubeIframe);
-    if (youtubeIframe) {
-      const youtubePlaceholder = document.createElement("div");
-      youtubePlaceholder.id = "youtube-iframe-placeholder";
-      youtubePlaceholder.style = `
-        width: 560px; height: 315px; background: #f0f0f0;
-        text-align: center; line-height: 315px; color: #ccc;
-      `;
-      youtubePlaceholder.innerText = "YouTube Video Placeholder (Consent Required)";
-      console.log("youtub rplaceholder", youtubePlaceholder);
-      youtubeIframe.replaceWith(youtubePlaceholder);
-    }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-    blockContent(); // Block YouTube iframe
-});
+setupPrivacyObserver()
