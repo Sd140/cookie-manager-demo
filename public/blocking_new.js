@@ -249,7 +249,7 @@ function setupPrivacyObserver() {
 
 function blockContent() {
     // Replace YouTube iframe with a placeholder
-    const youtubeIframe = document.querySelector('iframe[src*="youtube.com"]');
+    const youtubeIframe = document.querySelector('iframe');
     console.log("youtub iframe", youtubeIframe);
     if (youtubeIframe) {
       const youtubePlaceholder = document.createElement("div");
