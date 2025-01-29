@@ -243,13 +243,14 @@ function setupPrivacyObserver() {
    console.log('Privacy observer initialized.')
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-   setupPrivacyObserver()
-})
+// document.addEventListener('DOMContentLoaded', () => {
+//    setupPrivacyObserver()
+// })
 
 function blockContent() {
     // Replace YouTube iframe with a placeholder
     const youtubeIframe = document.querySelector('iframe[src*="youtube.com"]');
+    console.log("youtub iframe", youtubeIframe);
     if (youtubeIframe) {
       const youtubePlaceholder = document.createElement("div");
       youtubePlaceholder.id = "youtube-iframe-placeholder";
@@ -258,6 +259,7 @@ function blockContent() {
         text-align: center; line-height: 315px; color: #ccc;
       `;
       youtubePlaceholder.innerText = "YouTube Video Placeholder (Consent Required)";
+      console.log("youtub rplaceholder", youtubePlaceholder);
       youtubeIframe.replaceWith(youtubePlaceholder);
     }
 }
