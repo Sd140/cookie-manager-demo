@@ -12,6 +12,10 @@
             tag: 'https://www.googletagmanager.com/gtm.js?id=GTM-KS3M7CSF',
             categories: ['MARKETING'],
             type: 'script'
+        },{
+            tag: 'https://www.clarity.ms/tag/f4v1091lex',
+            categories: ['MARKETING'],
+            type: 'script'
         },
         {
             tag: 'https://js.hsforms.net/forms/embed/v2.js',
