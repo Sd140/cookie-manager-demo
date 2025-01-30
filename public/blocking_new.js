@@ -188,14 +188,14 @@ function handleTags(element) {
             console.log('Not a valid type')
         }
     }
-    // if (
-    //     element.tagName.toLowerCase() === 'iframe' &&
-    //     url.includes('youtube.com')
-    // ) {
-    //     console.log('YouTube iframe detected, blocking...')
-    //     element.setAttribute('data-src', url)
-    //     element.removeAttribute('src')
-    // }
+    if (
+        element.tagName.toLowerCase() === 'iframe' &&
+        url.includes('youtube.com')
+    ) {
+        console.log('YouTube iframe detected, blocking...')
+        element.setAttribute('data-src', url)
+        element.removeAttribute('src')
+    }
 }
 /**
  * Processes all monitored elements in the DOM and rewrites their `type` or `src`.
