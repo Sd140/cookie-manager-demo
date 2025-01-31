@@ -2,10 +2,8 @@ import "./styles/styles.css";
 import banner from "./assets/home_banner_bg.png";
 import scroll from "./assets/scroll_down.png";
 import idfyLogo from "./assets/idfy_logo.png"
-import { useState } from "react";
 
 function App() {
-  const [showVideo, setShowVideo] = useState(false);
 
   return (
     <div className="container">
@@ -55,12 +53,6 @@ function App() {
       </section>
 
       <div className="video-section">
-        {!showVideo && (
-          <button className="play-video-btn" onClick={() => setShowVideo(true)}>
-            Play Video
-          </button>
-        )}
-        {showVideo && (
           <div className="youtube-vid">
             <iframe
               width="560"
@@ -72,7 +64,6 @@ function App() {
               allowFullScreen
             ></iframe>
           </div>
-        )}
       </div>
 
       <div className="section-31 data">
