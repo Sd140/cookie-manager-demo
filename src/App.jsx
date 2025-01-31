@@ -47,20 +47,6 @@ function App() {
         </div>
       </section>
 
-      <div className="video-section">
-          <div className="youtube-vid">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/MS5jByTX_pk?si=H0EcHQpMyJdEWyPy"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
-          </div>
-      </div>
-
       <div className="section-31 data">
         <div className="container-12">
           <div className="home-data">
@@ -147,10 +133,10 @@ function App() {
         <h1 className="heading-76" style={{color: "black"}}>Youtube Iframe</h1>
         <div className="yt-videos-container">
           <div className="youtube-vid">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rYb4JNGShOM?si=K3yUbeStbhNIMYNJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rYb4JNGShOM?si=K3yUbeStbhNIMYNJ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
           <div className="youtube-vid">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rYb4JNGShOM?si=K3yUbeStbhNIMYNJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MS5jByTX_pk?si=H0EcHQpMyJdEWyPy" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
