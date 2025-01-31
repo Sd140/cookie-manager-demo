@@ -1,5 +1,5 @@
 /* eslint-disable */
-;(function () {
+; (function () {
     const nonScriptElements = ['embed', 'iframe', 'img']
     const monitoredElements = [...nonScriptElements, 'script']
     const tagsList = [
@@ -10,16 +10,11 @@
         },
         {
             tag: 'https://www.googletagmanager.com/gtm.js?id=GTM-KS3M7CSF',
-            categories: ['MARKETING'],
+            categories: ['NECESSARY'],
             type: 'script'
         },
         {
             tag: 'https://js.hsforms.net/forms/embed/v2.js',
-            categories: ['MARKETING'],
-            type: 'script'
-        },
-        {
-            tag: 'https://www.clarity.ms/tag/f4v1091lex',
             categories: ['MARKETING'],
             type: 'script'
         },
@@ -29,12 +24,17 @@
             type: 'script'
         },
         {
-            tag: 'https://www.youtube.com/embed/',
+            tag: 'https://www.youtube.com/embed/MS5jByTX_pk?si=H0EcHQpMyJdEWyPy',
+            categories: ['FUNCTIONAL'],
+            type: 'iframe'
+        },
+        {
+            tag: 'https://www.youtube.com/embed/rYb4JNGShOM?si=K3yUbeStbhNIMYNJ',
             categories: ['ANALYTICS'],
             type: 'iframe'
         },
         {
-            tag: 'https://open.spotify.com/embed/',
+            tag: 'https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P',
             categories: ['ANALYTICS', 'FUNCTIONAL'],
             type: 'iframe'
         }
