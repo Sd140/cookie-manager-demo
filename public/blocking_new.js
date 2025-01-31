@@ -24,12 +24,12 @@
             type: 'script'
         },
         {
-            tag: 'https://www.youtube.com/embed/MS5jByTX_pk?si=H0EcHQpMyJdEWyPy',
+            tag: 'https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1',
             categories: ['FUNCTIONAL'],
             type: 'iframe'
         },
         {
-            tag: 'https://www.youtube.com/embed/rYb4JNGShOM?si=K3yUbeStbhNIMYNJ',
+            tag: 'https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8',
             categories: ['ANALYTICS'],
             type: 'iframe'
         },
