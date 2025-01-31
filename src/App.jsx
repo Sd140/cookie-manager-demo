@@ -70,36 +70,6 @@ function App() {
         <div className="container-12">
           <div className="home-data">
             <div className="hd-header">
-              {/* <!-- Facebook Like Button --> */}
-              <div>
-                <div className="fb-like" data-href="https://cookie-manager.sanketsaboo.com" data-width="" data-layout="standard"
-                  data-action="like" data-size="large" data-share="true"></div>
-
-                {/* <!-- Facebook SDK --> */}
-                <script async defer crossOrigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0"
-                  nonce="YOUR_NONCE">
-                </script>
-              </div>
-
-              {/* <!-- Twitter Share Button --> */}
-              <div>
-                <a href="https://twitter.com/share" className="twitter-share-button" data-text="Check out this awesome site!"
-                  data-url="https://cookie-manager.sanketsaboo.com" data-hashtags="example,website" data-show-count="false">
-                  Tweet
-                </a>
-
-                {/* <!-- Twitter SDK --> */}
-                <script async src="https://platform.twitter.com/widgets.js"></script>
-              </div>
-              <div>
-                {/* Pinterest Save Button */}
-                <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/" data-pin-custom="true">
-                  <img src="https://assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" />
-                </a>
-
-                {/* <!-- Pinterest SDK --> */}
-                <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
-              </div>
 
               {/* video with cookies */}
               <iframe
@@ -108,10 +78,6 @@ function App() {
                 height="380"
                 allow="encrypted-media">
               </iframe>
-
-              <img src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1" width="1" height="1" />
-
-
 
               <h2 data-w-id="877904d2-8fa1-ad57-8a62-e5aaf389adda" style={{ opacity: 1, transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d" }} className="heading-76">
                 A comprehensive consent governance suite for all enterprises
