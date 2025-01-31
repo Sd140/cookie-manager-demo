@@ -508,9 +508,41 @@ body {
 }
 
 .div-block-20 a:hover {
-    opacity: .5;
+  opacity: 0.5;
 }
 
-.div-block-20 a:active, a:hover {
-    outline: 0;
+.div-block-20 a:active,
+a:hover {
+  outline: 0;
+}
+
+.yt-videos-section {
+  margin: 5rem 3rem 2rem;
+}
+
+.yt-videos-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.youtube-vid > iframe {
+  border-radius: 1rem;
+}
+
+.spotify-script-section{
+  background-color: #f7f9fc;
+  padding: 5rem 3rem 2rem;
+}
+
+.spotify-script-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.hbspt-form{
+  margin: 5rem 10rem 3rem;
 }

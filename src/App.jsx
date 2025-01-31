@@ -7,11 +7,6 @@ function App() {
 
   return (
     <div className="container">
-                    {/* youtube iframes */}
-
-              <div className="youtube-vid">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/rYb4JNGShOM?si=K3yUbeStbhNIMYNJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
       <header className="header">
         <div className="header-logo-section">
           <h1>PRIVY</h1>
@@ -71,13 +66,7 @@ function App() {
           <div className="home-data">
             <div className="hd-header">
 
-              {/* video with cookies */}
-              <iframe
-                src="https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P"
-                width="300"
-                height="380"
-                allow="encrypted-media">
-              </iframe>
+
 
               <h2 data-w-id="877904d2-8fa1-ad57-8a62-e5aaf389adda" style={{ opacity: 1, transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d" }} className="heading-76">
                 A comprehensive consent governance suite for all enterprises
@@ -150,6 +139,31 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+
+      <div className="yt-videos-section">
+        <h1 className="heading-76" style={{color: "black"}}>Youtube Iframe</h1>
+        <div className="yt-videos-container">
+          <div className="youtube-vid">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rYb4JNGShOM?si=K3yUbeStbhNIMYNJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div className="youtube-vid">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rYb4JNGShOM?si=K3yUbeStbhNIMYNJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div className="spotify-script-section">
+        <h1 className="heading-76" style={{color: "black"}}>Spotify Iframe</h1>
+        <div className="spotify-script-container">
+          <iframe
+            src="https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P"
+            width="300"
+            height="380"
+            allow="encrypted-media">
+          </iframe>
         </div>
       </div>
 
