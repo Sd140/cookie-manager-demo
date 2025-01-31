@@ -138,7 +138,7 @@ function App() {
 
           
           <div className="youtube-vid">
-            <iframe width="560" height="315" src="https://www.youtube.com/live/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
