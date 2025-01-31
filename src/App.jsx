@@ -2,8 +2,11 @@ import "./styles/styles.css";
 import banner from "./assets/home_banner_bg.png";
 import scroll from "./assets/scroll_down.png";
 import idfyLogo from "./assets/idfy_logo.png"
+import { useState } from "react";
 
 function App() {
+  const [showVideo, setShowVideo] = useState(false);
+
   return (
     <div className="container">
                     {/* youtube iframes */}
@@ -50,6 +53,27 @@ function App() {
           <span>Scroll Down <img src={scroll} alt="" /></span>
         </div>
       </section>
+
+      <div className="video-section">
+        {!showVideo && (
+          <button className="play-video-btn" onClick={() => setShowVideo(true)}>
+            Play Video
+          </button>
+        )}
+        {showVideo && (
+          <div className="youtube-vid">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/MS5jByTX_pk?si=H0EcHQpMyJdEWyPy"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+        )}
+      </div>
 
       <div className="section-31 data">
         <div className="container-12">
