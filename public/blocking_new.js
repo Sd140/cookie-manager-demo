@@ -1,5 +1,4 @@
-/* eslint-disable */
-; (function () {
+function autoBlocking() {
     const nonScriptElements = ['embed', 'iframe', 'img']
     const monitoredElements = [...nonScriptElements, 'script']
     const tagsList = [
@@ -19,6 +18,11 @@
             type: 'script'
         },
         {
+            tag: 'https://www.clarity.ms/tag/f4v1091lex',
+            categories: ['MARKETING'],
+            type: 'script'
+        },
+        {
             tag: 'https://platform.twitter.com/widgets.js',
             categories: ['ANALYTICS'],
             type: 'script'
@@ -31,7 +35,7 @@
         {
             tag: 'https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8',
             categories: ['ANALYTICS'],
-            type: 'iframe'
+            type: 'script'
         },
         {
             tag: 'https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P',
@@ -39,15 +43,18 @@
             type: 'iframe'
         }
     ]
-
+ 
+ 
     // Store original Element prototype methods
     const originalSetAttribute = Element.prototype.setAttribute
-    const originalSetAttributeNS = Element.prototype.setAttributeNS
-
+    // const originalSetAttributeNS = Element.prototype.setAttributeNS
+ 
+ 
     function findMatchingTag(url) {
         return tagsList.find((item) => url.includes(item.tag)) || null
     }
-
+ 
+ 
     function getUrlDetails(url) {
         const tagDetails = findMatchingTag(url) || {}
         return {
@@ -55,12 +62,14 @@
             type: tagDetails.type || ''
         }
     }
-
+ 
+ 
     function hasUserConsent(categories) {
         if (!categories || categories.length === 0) {
             return true
         }
-
+ 
+ 
         const cookieName = 'privyConsent'
         const defaultConsent = {
             NECESSARY: true,
@@ -69,14 +78,16 @@
             MARKETING: false,
             OTHERS: false
         }
-
+ 
+ 
         function checkConsent(consentObject) {
             if (!consentObject) return false
             return categories.every(
                 (category) => consentObject[category] === true
             )
         }
-
+ 
+ 
         function getConsentData(source) {
             try {
                 return JSON.parse(source)
@@ -85,14 +96,16 @@
                 return null
             }
         }
-
+ 
+ 
         // Check localStorage first
         const localStorageValue = localStorage.getItem(cookieName)
         if (localStorageValue) {
             const consent = getConsentData(localStorageValue)
             if (checkConsent(consent)) return true
         }
-
+ 
+ 
         // Then check cookies
         const cookieValue = document.cookie
             .split('; ')
@@ -101,11 +114,13 @@
             const consent = getConsentData(cookieValue.split('=')[1])
             if (checkConsent(consent)) return true
         }
-
+ 
+ 
         // Finally, check default consent
         return checkConsent(defaultConsent)
     }
-
+ 
+ 
     function addPrivacyClasses(element, categories) {
         if (categories.length) {
             element.classList.add(
@@ -115,21 +130,24 @@
             )
         }
     }
-
+ 
+ 
     function handleTags(element) {
         const url = element.src || element.getAttribute('src') || ''
         if (!url) return
-
+ 
+ 
         const tagDetails = getUrlDetails(url)
         const categories = tagDetails.categories
         const type = tagDetails.type
-
+ 
+ 
         // Add privacy classes
         addPrivacyClasses(element, categories)
-
+ 
+ 
         if (!hasUserConsent(categories)) {
             const originalSrc = url
-
             if (type === 'script') {
                 element.type = 'text/plain'
                 element.setAttribute('data-src', originalSrc)
@@ -144,7 +162,8 @@
             }
         }
     }
-
+ 
+ 
     // Override setAttribute to catch dynamic changes
     Element.prototype.setAttribute = function (name, value) {
         if (
@@ -163,12 +182,13 @@
         }
         originalSetAttribute.call(this, name, value)
     }
-
+ 
+ 
     // Add default styling for blocked elements
     const style = document.createElement('style')
     style.textContent = `
-        iframe[data-src]:not([src]), 
-        img[data-src]:not([src]), 
+        iframe[data-src]:not([src]),
+        img[data-src]:not([src]),
         embed[data-src]:not([src]) {
             display: block !important;
             background: #f0f0f0 !important;
@@ -178,8 +198,8 @@
             min-height: 100px !important;
             position: relative !important;
         }
-        
-        iframe[data-src]:not([src])::before, 
+       
+        iframe[data-src]:not([src])::before,
         img[data-src]:not([src])::before,
         embed[data-src]:not([src])::before {
             content: "Content blocked pending consent" !important;
@@ -189,7 +209,8 @@
         }
     `
     document.head.appendChild(style)
-
+ 
+ 
     function processExistingElements() {
         monitoredElements.forEach((tag) => {
             document.querySelectorAll(tag).forEach((element) => {
@@ -197,7 +218,8 @@
             })
         })
     }
-
+ 
+ 
     function setupPrivacyObserver() {
         const observer = new MutationObserver((mutations) => {
             mutations.forEach((mutation) => {
@@ -210,7 +232,8 @@
                         handleTags(node)
                     }
                 })
-
+ 
+ 
                 // Handle attribute changes
                 if (
                     mutation.type === 'attributes' &&
@@ -221,7 +244,8 @@
                 }
             })
         })
-
+ 
+ 
         observer.observe(document.documentElement, {
             childList: true,
             subtree: true,
@@ -229,23 +253,28 @@
             attributeFilter: ['src', 'type']
         })
     }
-
+ 
+ 
     // Initialize when DOM is ready
     function initialize() {
         processExistingElements()
         setupPrivacyObserver()
         console.log('Privacy controls initialized')
     }
-
+ 
+ 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initialize)
     } else {
         initialize()
     }
-
+ 
+ 
     // Export consent update function to global scope
     window.updatePrivacyConsent = function (consentObject) {
         localStorage.setItem('privyConsent', JSON.stringify(consentObject))
         processExistingElements()
     }
-})()
+ }
+ autoBlocking()
+ 
