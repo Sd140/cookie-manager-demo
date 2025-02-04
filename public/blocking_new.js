@@ -1,4 +1,4 @@
-function autoBlocking() {
+function initializePrivacyControls() {
     const nonScriptElements = ['embed', 'iframe', 'img']
     const monitoredElements = [...nonScriptElements, 'script']
     const tagsList = [
@@ -9,7 +9,7 @@ function autoBlocking() {
         },
         {
             tag: 'https://www.googletagmanager.com/gtm.js?id=GTM-KS3M7CSF',
-            categories: ['NECESSARY'],
+            categories: ['MARKETING'],
             type: 'script'
         },
         {
@@ -28,26 +28,19 @@ function autoBlocking() {
             type: 'script'
         },
         {
-            tag: 'https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1',
-            categories: ['FUNCTIONAL'],
+            tag: 'https://www.youtube.com/embed/',
+            categories: ['ANALYTICS'],
             type: 'iframe'
         },
         {
-            tag: 'https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8',
-            categories: ['ANALYTICS'],
-            type: 'script'
-        },
-        {
-            tag: 'https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P',
+            tag: 'https://open.spotify.com/embed/',
             categories: ['ANALYTICS', 'FUNCTIONAL'],
             type: 'iframe'
         }
     ]
  
  
-    // Store original Element prototype methods
     const originalSetAttribute = Element.prototype.setAttribute
-    // const originalSetAttributeNS = Element.prototype.setAttributeNS
  
  
     function findMatchingTag(url) {
@@ -68,8 +61,6 @@ function autoBlocking() {
         if (!categories || categories.length === 0) {
             return true
         }
- 
- 
         const cookieName = 'privyConsent'
         const defaultConsent = {
             NECESSARY: true,
@@ -80,91 +71,54 @@ function autoBlocking() {
         }
  
  
-        function checkConsent(consentObject) {
-            if (!consentObject) return false
-            return categories.every(
-                (category) => consentObject[category] === true
-            )
-        }
- 
- 
         function getConsentData(source) {
             try {
                 return JSON.parse(source)
-            } catch (error) {
-                console.error('Error parsing consent data:', error)
+            } catch {
                 return null
             }
         }
  
  
-        // Check localStorage first
-        const localStorageValue = localStorage.getItem(cookieName)
-        if (localStorageValue) {
-            const consent = getConsentData(localStorageValue)
-            if (checkConsent(consent)) return true
-        }
- 
- 
-        // Then check cookies
-        const cookieValue = document.cookie
-            .split('; ')
-            .find((row) => row.startsWith(`${cookieName}=`))
-        if (cookieValue) {
-            const consent = getConsentData(cookieValue.split('=')[1])
-            if (checkConsent(consent)) return true
-        }
- 
- 
-        // Finally, check default consent
-        return checkConsent(defaultConsent)
-    }
- 
- 
-    function addPrivacyClasses(element, categories) {
-        if (categories.length) {
-            element.classList.add(
-                ...categories.map(
-                    (category) => `privy-cmp-category-${category}`
-                )
+        function checkConsent(consentObject) {
+            return (
+                consentObject &&
+                categories.every((category) => consentObject[category] === true)
             )
         }
+ 
+ 
+        return (
+            checkConsent(getConsentData(localStorage.getItem(cookieName))) ||
+            checkConsent(
+                getConsentData(
+                    document.cookie
+                        .split('; ')
+                        .find((row) => row.startsWith(`${cookieName}=`))
+                        ?.split('=')[1]
+                )
+            ) ||
+            checkConsent(defaultConsent)
+        )
     }
  
  
     function handleTags(element) {
         const url = element.src || element.getAttribute('src') || ''
-        if (!url) return
- 
- 
+        if (!url) {
+            return
+        }
         const tagDetails = getUrlDetails(url)
-        const categories = tagDetails.categories
-        const type = tagDetails.type
- 
- 
-        // Add privacy classes
-        addPrivacyClasses(element, categories)
- 
- 
-        if (!hasUserConsent(categories)) {
-            const originalSrc = url
-            if (type === 'script') {
-                element.type = 'text/plain'
-                element.setAttribute('data-src', originalSrc)
-                element.removeAttribute('src')
-                console.log(`Script blocked: ${url}`, type, categories)
-            } else if (
-                nonScriptElements.includes(element.tagName.toLowerCase())
-            ) {
-                element.setAttribute('data-src', originalSrc)
-                element.removeAttribute('src')
-                console.log(`Media element blocked: ${url}`, type, categories)
+        if (!hasUserConsent(tagDetails.categories)) {
+            element.setAttribute('data-src', url)
+            element.removeAttribute('src')
+            if (tagDetails.type === 'script') {
+                element.setAttribute('type', 'text/plain')
             }
         }
     }
  
  
-    // Override setAttribute to catch dynamic changes
     Element.prototype.setAttribute = function (name, value) {
         if (
             name === 'src' &&
@@ -172,40 +126,28 @@ function autoBlocking() {
         ) {
             const tagDetails = getUrlDetails(value)
             if (!hasUserConsent(tagDetails.categories)) {
-                console.log(`Blocking src setting for ${this.tagName}:`, value)
                 originalSetAttribute.call(this, 'data-src', value)
+                // eslint-disable-next-line max-depth
                 if (this.tagName.toLowerCase() === 'script') {
                     originalSetAttribute.call(this, 'type', 'text/plain')
+                    return
                 }
-                return
             }
         }
         originalSetAttribute.call(this, name, value)
     }
  
  
-    // Add default styling for blocked elements
     const style = document.createElement('style')
     style.textContent = `
-        iframe[data-src]:not([src]),
-        img[data-src]:not([src]),
-        embed[data-src]:not([src]) {
-            display: block !important;
-            background: #f0f0f0 !important;
-            border: 1px solid #ccc !important;
-            padding: 20px !important;
-            text-align: center !important;
-            min-height: 100px !important;
-            position: relative !important;
+        iframe[data-src]:not([src]), img[data-src]:not([src]), embed[data-src]:not([src]) {
+            display: block !important; background: #f0f0f0 !important;
+            border: 1px solid #ccc !important; padding: 20px !important;
+            text-align: center !important; min-height: 100px !important;
         }
-       
-        iframe[data-src]:not([src])::before,
-        img[data-src]:not([src])::before,
-        embed[data-src]:not([src])::before {
+        iframe[data-src]:not([src])::before, img[data-src]:not([src])::before, embed[data-src]:not([src])::before {
             content: "Content blocked pending consent" !important;
-            display: block !important;
-            color: #666 !important;
-            font-family: sans-serif !important;
+            display: block !important; color: #666 !important;
         }
     `
     document.head.appendChild(style)
@@ -221,32 +163,22 @@ function autoBlocking() {
  
  
     function setupPrivacyObserver() {
-        const observer = new MutationObserver((mutations) => {
-            mutations.forEach((mutation) => {
-                // Handle added nodes
-                mutation.addedNodes.forEach((node) => {
-                    if (
-                        node.nodeType === 1 &&
-                        monitoredElements.includes(node.tagName.toLowerCase())
-                    ) {
-                        handleTags(node)
-                    }
-                })
- 
- 
-                // Handle attribute changes
+        new MutationObserver((mutations) => {
+            mutations.forEach(({ addedNodes, type, attributeName, target }) => {
+                addedNodes.forEach(
+                    (node) =>
+                        monitoredElements.includes(
+                            node.tagName?.toLowerCase()
+                        ) && handleTags(node)
+                )
                 if (
-                    mutation.type === 'attributes' &&
-                    (mutation.attributeName === 'src' ||
-                        mutation.attributeName === 'type')
+                    type === 'attributes' &&
+                    (attributeName === 'src' || attributeName === 'type')
                 ) {
-                    handleTags(mutation.target)
+                    handleTags(target)
                 }
             })
-        })
- 
- 
-        observer.observe(document.documentElement, {
+        }).observe(document.documentElement, {
             childList: true,
             subtree: true,
             attributes: true,
@@ -255,26 +187,14 @@ function autoBlocking() {
     }
  
  
-    // Initialize when DOM is ready
-    function initialize() {
-        processExistingElements()
-        setupPrivacyObserver()
-        console.log('Privacy controls initialized')
-    }
- 
- 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initialize)
-    } else {
-        initialize()
-    }
- 
- 
-    // Export consent update function to global scope
-    window.updatePrivacyConsent = function (consentObject) {
-        localStorage.setItem('privyConsent', JSON.stringify(consentObject))
-        processExistingElements()
-    }
+    processExistingElements()
+    setupPrivacyObserver()
+    console.log('Privacy controls initialized')
  }
- autoBlocking()
  
+ 
+ window.updatePrivacyConsent = function (consentObject) {
+    localStorage.setItem('privyConsent', JSON.stringify(consentObject))
+    initializePrivacyControls()
+ }
+  
