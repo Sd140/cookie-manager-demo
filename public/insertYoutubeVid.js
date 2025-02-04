@@ -1,5 +1,5 @@
-window.onload =
-    function () {
+// window.onload =
+function insertYouTubeVideo() {
         try {
             const container = document.getElementsByClassName('yt-videos-container');
             console.log("container", container);
@@ -24,7 +24,7 @@ window.onload =
         } catch (error) {
             console.log("error here", error)
         }
-    }
+}
 
 // Call the function to insert the video
-// insertYouTubeVideo();
+insertYouTubeVideo();
