@@ -25,6 +25,7 @@ function insertYouTubeVideo() {
             console.log("error here", error)
         }
 }
+document.addEventListener('DOMContentLoaded', insertYouTubeVideo);
 
 // Call the function to insert the video
-insertYouTubeVideo();
+// insertYouTubeVideo();
