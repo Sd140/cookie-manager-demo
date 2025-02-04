@@ -28,12 +28,17 @@ function initializePrivacyControls() {
             type: 'script'
         },
         {
-            tag: 'https://www.youtube.com/embed/',
-            categories: ['ANALYTICS'],
+            tag: 'https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1',
+            categories: ['FUNCTIONAL'],
             type: 'iframe'
         },
         {
-            tag: 'https://open.spotify.com/embed/',
+            tag: 'https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8',
+            categories: ['ANALYTICS'],
+            type: 'script'
+        },
+        {
+            tag: 'https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P',
             categories: ['ANALYTICS', 'FUNCTIONAL'],
             type: 'iframe'
         }
