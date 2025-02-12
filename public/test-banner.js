@@ -1,13 +1,6 @@
 
 const template = { "bannerType": "box", "buttonColor": "#214698", "buttonsText": { "acceptAll": "Accept All", "moreSettings": "More Settings", "allowNecessary": "Allow Only Necessary", "savePreferences": "Save My Preferences" }, "contentMobile": { "cookieBannerNotice": "This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.", "preferenceManagerNotice": "IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you." }, "contentDesktop": { "cookieBannerNotice": "This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.", "preferenceManagerNotice": "IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you." }, "hoverTextColor": "#ffffff", "positionMobile": "bottom", "buttonTextColor": "#ffffff", "positionDesktop": "bottom-right", "hoverButtonColor": "#214699", "preferenceManagerHorizontalPosition": "left" };
-const categorizedCookies = { "ANALYTICS": [{ "meta_data": { "path": "/", "size": 138, "value": "eyJpZCI6IjZlNGRlMmUxLTUyN2MtNTE5Ni04MWI2LTk2MGNlYzM2MWE3NSIsImNyZWF0ZWQiOjE3MzczOTAzODQwNjUsImV4aXN0aW5nIjp0cnVlfQ==", "secure": true, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1768926384, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "6f6b5daf-3458-4819-a551-379791de183b", "category": "ANALYTICS", "cookie_master_name": "_hjSessionUser_5091923", "cookie_domain": ".sanketsaboo.com", "cookie_master_id": "8570bdcb-2f4d-435a-b623-a30186be2541", "languages": { "en": { "language_id": "e41fe062-53ef-44a4-a0f9-52cfe02a2aeb", "name": "_hjSessionUser_5091923", "description": "This cookie is set by Hotjar and is used to detect the first pageview session of a user. This is a True/False flag set by the cookie." } } }, { "meta_data": { "path": "/", "size": 106, "value": "AQJMTq6tbixNGQAAAZSEiWT3N1RMATGnpslWrGLl47GvDQni6RUWFsjPOidaGqffj38qNq9KI2683v96KdNFjg", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1739982384.494426, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "90bf19f7-d7f7-4b0a-bf36-7b1bae114f63", "category": "ANALYTICS", "cookie_master_name": "AnalyticsSyncHistory", "cookie_domain": ".linkedin.com", "cookie_master_id": "cd1bf282-7e4c-431a-96f2-1a9f0ce24d67", "languages": { "en": { "language_id": "5fea53bf-2642-4dd0-a996-5e77df3fc90b", "name": "AnalyticsSyncHistory", "description": "Used to store information about the time a sync with the lms_analytics cookie took place for users in the Designated Countries" } } }, { "meta_data": { "path": "/", "size": 166, "value": "eyJpZCI6ImE2Y2M1YWRlLWRjMzgtNGEzMS05NjA5LTQxZmNlNTUyN2MwYyIsImMiOjE3MzczOTAzODQwNjcsInMiOjEsInIiOjEsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1737392184, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "6c66bafa-70a2-4bdf-b6fb-6f89371752e5", "category": "ANALYTICS", "cookie_master_name": "_hjSession_5091923", "cookie_domain": ".sanketsaboo.com", "cookie_master_id": "5beb65d8-c1a2-4da4-ab49-4c9cbe151de6", "languages": { "en": { "language_id": "67b682f9-fde5-4c1a-8e08-a141ad5ff255", "name": "_hjSession_5091923", "description": "This cookie is set by Hotjar. It is used to count how many times a website has been visited by different visitors - this is done by assigning the visitor an ID, so the visitor does not get registered twice." } } }, { "meta_data": { "path": "/", "size": 51, "value": "GS1.1.1737390383.1.0.1737390385.0.0.0", "secure": false, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1771950385.088889, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "3f4ac95c-523d-4843-9a6f-20fe908cbdc7", "category": "ANALYTICS", "cookie_master_name": "_ga_KWC0VKDZKW", "cookie_domain": ".sanketsaboo.com", "cookie_master_id": "11acc004-4ad2-47d7-b0b9-8769f3d4852b", "languages": { "en": { "language_id": "e7a5ad3a-ed1f-4d8b-af5f-a7caad93ff6f", "name": "_ga_KWC0VKDZKW", "description": "This cookie is used by Google Analytics to distinguish unique users by assigning a randomly generated number as a client identifier." } } }, { "meta_data": { "path": "/", "size": 29, "value": "GA1.1.755204584.1737390384", "secure": false, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1771950383.865565, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "8115d4b7-33bb-4cb3-bf05-a92981258c23", "category": "ANALYTICS", "cookie_master_name": "_ga", "cookie_domain": ".sanketsaboo.com", "cookie_master_id": "b54a51b1-2e4a-45dc-ba92-91411b263037", "languages": { "en": { "language_id": "f8846243-236f-46c4-8886-cc7b75c2e7b7", "name": "_ga", "description": "ID used to identify users" } } }], "MARKETING": [{ "meta_data": { "path": "/", "size": 43, "value": "98b0ca78-2061-4277-806f-be1893bbf8eb", "secure": true, "session": false, "duration": "0 year(s), 2 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1745166385.030673, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "3a979e25-f86f-41ad-94dc-67819b0493a3", "category": "MARKETING", "cookie_master_name": "li_sugr", "cookie_domain": ".linkedin.com", "cookie_master_id": "06c72c31-9e5a-4ec9-aa62-f91e1e6664dd", "languages": { "en": { "language_id": "0cc1b727-b0ce-4c91-ba3d-80aa42e01bfe", "name": "li_sugr", "description": "Used to make a probabilistic match of a user's identity outside the Designated Countries" } } }, { "meta_data": { "path": "/", "size": 49, "value": "\"v=2&9218f288-70fd-4dbd-8653-37ac41fd817a\"", "secure": true, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1768926385.030769, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "6d85565d-5700-49fb-ac8c-624c54055dff", "category": "MARKETING", "cookie_master_name": "bcookie", "cookie_domain": ".linkedin.com", "cookie_master_id": "322944bc-6210-4594-bfb2-7930a487f3f0", "languages": { "en": { "language_id": "5d796293-001a-485a-aa43-097f3a1e0172", "name": "bcookie", "description": "Used by LinkedIn to track the use of embedded services." } } }, { "meta_data": { "path": "/", "size": 112, "value": "\"b=TGST04:s=T:r=T:a=T:p=T:g=3361:u=1:x=1:i=1737390384:t=1737476784:v=2:sig=AQHZLKt3HNBs7NXAnouAtwkh7YfRbsb9\"", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1737476785.249987, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "e038af86-190e-4a06-b5e6-9c5890620a43", "category": "MARKETING", "cookie_master_name": "lidc", "cookie_domain": ".linkedin.com", "cookie_master_id": "50a783f6-fd67-478f-bd25-ddf7ba32d788", "languages": { "en": { "language_id": "bd20c0a6-8340-4f61-b22a-abb594fcb5ba", "name": "lidc", "description": "Used by the social networking service, LinkedIn, for tracking the use of embedded services." } } }, { "meta_data": { "path": "/", "size": 96, "value": "\"v=1&202501201626243573627a-dd19-4977-8c5b-6a504ebb8b63AQHXOj6pNDpXZqNZQwFGzH6dFNYK4fj1\"", "secure": true, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1768926384.77978, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "a8621b5e-0851-4ee8-b285-bc4dcc494cdb", "category": "MARKETING", "cookie_master_name": "bscookie", "cookie_domain": ".www.linkedin.com", "cookie_master_id": "dea9bb15-a5a6-4eee-8633-bf2dee58f8ad", "languages": { "en": { "language_id": "51938ed0-71d6-452e-8a86-506039ed244c", "name": "bscookie", "description": "Used by LinkedIn to track the use of embedded services." } } }, { "meta_data": { "path": "/", "size": 94, "value": "AQLWfl5oSJ5kCQAAAZSEiWT3r_zVyviaP2bR08SE82VMphqlnrmb8dL9ptaVW_Xu191Rzt0HbiVrqw", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1739982384.494405, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "bc400f48-b56d-4957-b0bd-7d5ab7ab36e4", "category": "MARKETING", "cookie_master_name": "UserMatchHistory", "cookie_domain": ".linkedin.com", "cookie_master_id": "f6c2b9aa-cd32-410a-9ce0-fcf78c21d5b8", "languages": { "en": { "language_id": "58e3e7ef-90f9-45eb-9804-ca03f80051ca", "name": "UserMatchHistory", "description": "These cookies are set by LinkedIn for advertising purposes, including: tracking visitors so that more relevant ads can be presented, allowing users to use the 'Apply with LinkedIn' or the 'Sign-in with LinkedIn' functions, collecting information about how visitors use the site, etc." } } }, { "meta_data": { "path": "/", "size": 32, "value": "1.1.1622533595.1737390383", "secure": false, "session": false, "duration": "0 year(s), 2 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1745166383, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "ab07a86f-d657-408f-90ad-10c4b70a2a3c", "category": "MARKETING", "cookie_master_name": "_gcl_au", "cookie_domain": ".sanketsaboo.com", "cookie_master_id": "3e337efc-b33f-4207-b949-5b2c8e77b414", "languages": { "en": { "language_id": "de201a74-6ba0-4fd0-9818-1dd321752ebb", "name": "_gcl_au", "description": "Used by Google AdSense for experimenting with advertisement efficiency across websites using their services." } } }], "NECESSARY": [{ "meta_data": { "path": "/", "size": 151, "value": "s%3AjaGlao536nWfn4TLN_opxNCcoeN9aVC4.hkpU4qkh99EO4LY0U4zio8LQXN7FHrqWqx%2BNArXDziw", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "Lax", "foundType": "response", "sameParty": false, "expires_at": 1737393985, "urlOfCookie": "https://privy-cookie-manager.idfystaging.com/ext/cookie-banner/926bcb22-53a2-4e83-9310-eb3cd4d83bde", "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "2a85565e-d769-4623-b026-eeb1d6c31df0", "category": "NECESSARY", "cookie_master_name": "connect.sid", "cookie_domain": "privy-cookie-manager.idfystaging.com", "cookie_master_id": "d5167c82-9798-4a7a-91ae-3a872da8a512", "languages": { "en": { "language_id": "c9405c99-6ebd-433e-aff7-ce281e2f77f5", "name": "connect.sid", "description": "Maintains user session state across page requests." } } }], "FUNCTIONAL": [{ "meta_data": { "path": "/", "size": 64, "value": "{\"ANALYTICS\":false,\"MARKETING\":false,\"update\":false}", "secure": false, "session": true, "duration": "55 year(s), 0 month(s), 20 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": -1, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com" }, "cookie_id": "e46ab495-e4e0-4b6e-8e74-1a6f3ae8374a", "category": "FUNCTIONAL", "cookie_master_name": "privyConsent", "cookie_domain": "cookie-manager.sanketsaboo.com", "cookie_master_id": "4efdc4ab-471f-480f-a819-1a1d0bcc00d0", "languages": { "en": { "language_id": "f6222eb8-249c-4c9f-816b-4dad9c55e9a8", "name": "privyConsent", "description": "This cookie is used to track the visitor's consent or refusal to the use of cookies on the website." } } }] };
-
-function getCookieValue(name) {
-    const cookies = document.cookie.split('; ');
-    const cookie = cookies.find(cookie => cookie.startsWith(`${name}=`));
-    return cookie ? cookie.split('=')[1] : null;
-}
-
+const categorizedCookies = { "FUNCTIONAL": [{ "meta_data": { "path": "/", "size": 100, "value": "{\"ANALYTICS\":false,\"MARKETING\":false,\"NECESSARY\":true,\"FUNCTIONAL\":false,\"update\":false}", "secure": false, "session": true, "duration": "55 year(s), 1 month(s), 13 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": -1, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com", "redirectedPage": "https://cookie-manager.sanketsaboo.com/" }, "cookie_id": "5251598e-f056-4d1a-90e7-eae99e734da0", "category": "FUNCTIONAL", "cookie_master_name": "privyConsent", "cookie_domain": "cookie-manager.sanketsaboo.com", "cookie_master_id": "7529c267-2824-4466-8f1f-5693859ee60f", "languages": { "en": { "language_id": "3d10b249-71ea-481c-8f41-33c42cb6115e", "name": "privyConsent", "description": "Stores the user's cookie consent state for the current domain." } } }, { "meta_data": { "path": "/", "size": 14, "value": "QgPpEb4BiTs", "secure": true, "session": true, "duration": "55 year(s), 1 month(s), 13 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": -1, "sourcePort": 443, "urlOfCookie": "https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8", "partitionKey": { "topLevelSite": "https://sanketsaboo.com", "hasCrossSiteAncestor": true }, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com", "redirectedPage": "https://cookie-manager.sanketsaboo.com/" }, "cookie_id": "100f488c-bc93-4477-88a6-863f80f3821c", "category": "FUNCTIONAL", "cookie_master_name": "YSC", "cookie_domain": ".youtube.com", "cookie_master_id": "5c881edf-d87d-40f1-bafa-0c461cfb9ac3", "languages": { "en": { "language_id": "614d01eb-35be-4afd-9c0d-addf3ea95ad8", "name": "YSC", "description": "Registers a unique ID to keep statistics of what videos from YouTube the user has seen." } } }, { "meta_data": { "path": "/", "size": 256, "value": "XdB3b0iKeF3Ni6r0wPF4dQ1qr5DaM0ob5978bbRptT0-1739352260-1.0.1.1-yjikMqv0PSuE5Bsb3PYVCTR2Z0yjGKRxqvxkJ5L1AGeWu5SoaVYZXMjdv.1FThaMxd9i0p1kKRUZW8hsEaZUrA", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": 1739354060, "urlOfCookie": "https://exceptions.hubspot.com/api/1/store/?sentry_version=7&sentry_client=raven-js%2F3.19.1&isPageEvent=true&deployable=embedded-viral-link-ui", "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com", "redirectedPage": "https://cookie-manager.sanketsaboo.com/" }, "cookie_id": "7faaa769-5c6b-47ad-9b76-0bf154e6f9af", "category": "FUNCTIONAL", "cookie_master_name": "__cf_bm", "cookie_domain": ".hubspot.com", "cookie_master_id": "a48ca2d2-a54d-409c-8478-10cc5328faf1", "languages": { "en": { "language_id": "f415dcc5-f13f-4be7-9a93-6ffb70f20be0", "name": "__cf_bm", "description": "Cloudflare's bot products identify and mitigate automated traffic to protect your site from bad bots. Cloudflare places the __cf_bm cookie on End User devices that access Customer sites that are protected by Bot Management or Bot Fight Mode. The __cf_bm cookie is necessary for the proper functioning of these bot solutions." } } }, { "meta_data": { "path": "/", "size": 145, "value": "VplmZ19tVrobZntK0Qpujj57LEzWGgQ_d7JainqtuYw-1739352260262-0.0.1.1-604800000", "secure": true, "session": true, "duration": "NaN year(s), NaN month(s), NaN day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": "NA", "urlOfCookie": "https://exceptions.hubspot.com/api/1/store/?sentry_version=7&sentry_client=raven-js%2F3.19.1&isPageEvent=true&deployable=embedded-viral-link-ui", "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com", "redirectedPage": "https://cookie-manager.sanketsaboo.com/" }, "cookie_id": "c50f80de-3df9-4676-87ce-62235f44a0e8", "category": "FUNCTIONAL", "cookie_master_name": "_cfuvid", "cookie_domain": ".hubspot.com", "cookie_master_id": "00be4539-51b7-4722-8d56-d002d981dcaa", "languages": { "en": { "language_id": "6ab11431-bb45-4139-acd0-421ccf90ecca", "name": "_cfuvid", "description": "The _cfuvid cookie is only set when a site uses this option in a Rate Limiting Rule, and is only used to allow the Cloudflare WAF to distinguish individual users who share the same IP address." } } }], "NECESSARY": [{ "meta_data": { "path": "/", "size": 66, "value": "CIHP2dPyidqPARCIz4-L6L2LAxiIz4-L6L2LAw%3D%3D", "secure": true, "session": false, "duration": "0 year(s), 5 month(s), 28 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1754904256.728219, "sourcePort": 443, "partitionKey": { "topLevelSite": "https://sanketsaboo.com", "hasCrossSiteAncestor": true }, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com", "redirectedPage": "https://cookie-manager.sanketsaboo.com/" }, "cookie_id": "f5adff5f-5508-4f0f-9bc2-1eeef4fc6141", "category": "NECESSARY", "cookie_master_name": "__Secure-ROLLOUT_TOKEN", "cookie_domain": ".youtube.com", "cookie_master_id": "cb1b7457-dcd2-40d6-97ca-cdf8d23f5aa0", "languages": { "en": { "language_id": "529f3bc3-9d0e-4c0f-8219-675e2f40a8c8", "name": "__Secure-ROLLOUT_TOKEN", "description": "Used for controlling the rollout of new site design changes." } } }, { "meta_data": { "path": "/", "size": 180, "value": "CIHP2dPyidqPARCIz4-L6L2LAxiIz4-L6L2LAw%3D%3D", "secure": true, "session": false, "duration": "0 year(s), 5 month(s), 28 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "none", "foundType": "response", "sameParty": false, "expires_at": 1754904256, "urlOfCookie": "https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8", "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com", "redirectedPage": "https://cookie-manager.sanketsaboo.com/" }, "cookie_id": "c0d962f0-35b8-4e06-81a5-5c17e440936f", "category": "NECESSARY", "cookie_master_name": "__Secure-ROLLOUT_TOKEN", "cookie_domain": "youtube.com", "cookie_master_id": "dcbee141-9cb5-41ef-80b1-e1beabd27b2b", "languages": { "en": { "language_id": "fa15bd6e-1bef-4354-953d-0c607890986e", "name": "__Secure-ROLLOUT_TOKEN", "description": "edited description" } } }], "MARKETING": [{ "meta_data": { "path": "/", "size": 44, "value": "CgJJThIEGgAgQg%3D%3D", "secure": true, "session": false, "duration": "0 year(s), 5 month(s), 28 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1754904258.678508, "sourcePort": 443, "urlOfCookie": "https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8", "partitionKey": { "topLevelSite": "https://sanketsaboo.com", "hasCrossSiteAncestor": true }, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com", "redirectedPage": "https://cookie-manager.sanketsaboo.com/" }, "cookie_id": "b5403d1f-a4fb-4f25-8a9d-db306c5416ea", "category": "MARKETING", "cookie_master_name": "VISITOR_PRIVACY_METADATA", "cookie_domain": ".youtube.com", "cookie_master_id": "b06a2480-2b8c-4a29-9661-897840713b39", "languages": { "en": { "language_id": "7f27c102-470b-4192-8b13-dc1373ad7840", "name": "VISITOR_PRIVACY_METADATA", "description": "Youtube visitor privacy metadata cookie" } } }, { "meta_data": { "path": "/", "size": 29, "value": "D9V5HyD3Itc", "secure": true, "session": false, "duration": "0 year(s), 5 month(s), 28 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1754904258.678463, "sourcePort": 443, "urlOfCookie": "https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8", "partitionKey": { "topLevelSite": "https://sanketsaboo.com", "hasCrossSiteAncestor": true }, "sourceScheme": "Secure", "firstFoundUrl": "https://cookie-manager.sanketsaboo.com", "redirectedPage": "https://cookie-manager.sanketsaboo.com/" }, "cookie_id": "c0527242-7515-40bf-8e77-dde525aae9d1", "category": "MARKETING", "cookie_master_name": "VISITOR_INFO1_LIVE", "cookie_domain": ".youtube.com", "cookie_master_id": "87985e87-d4ed-47a2-8cac-aed1964e891c", "languages": { "en": { "language_id": "dfc4f70f-9115-4299-bd0a-0b99601eefc8", "name": "VISITOR_INFO1_LIVE", "description": "Tries to estimate the users' bandwidth on pages with integrated YouTube videos. Also used for marketing" } } }] };
 function toggleBanner(action) {
     if (action === 'show') {
         document.getElementById('banner-home').style.display = '';
@@ -111,7 +104,7 @@ function createBanner(categorizedCookies, template) {
 
 function submitConsent(agreedCategories) {
     const agreedCookies = [];
-    const cookieConsent = JSON.parse(getCookieValue('privyConsent'));
+    const cookieConsent = parsedConsentData(getCookieDetails(cookieName));
 
     if (agreedCategories === 'all') {
         Object.keys(cookieConsent).forEach(key => cookieConsent[key] = true);
@@ -132,7 +125,7 @@ function submitConsent(agreedCategories) {
     document.cookie = `privyConsent=${JSON.stringify(cookieConsent)}; path=/`;
     localStorage.setItem("privyConsent", JSON.stringify(cookieConsent));
 
-    fetch(`https://privy-cookie-manager.idfy.com/ext/cookie-banner/consent/bccbd7b6-9485-40b5-969a-966d86921aed/6fd5e8d2-dc60-4558-abaf-c92de379ea43`, {
+    fetch(`http://localhost:3000/ext/cookie-banner/consent/d564c8ed-234e-491d-bdb3-bcae4a8064d3/6865b588-e1d5-46d4-b17e-76349b115e29`, {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'
@@ -153,35 +146,10 @@ function submitConsent(agreedCategories) {
     location.reload();
 }
 
-
-function blockIframe() {
-    const iframeElements = document.querySelectorAll('iframe');
-    iframeElements.forEach(iframe => {
-        const src = iframe.getAttribute('src');
-        if (src) {
-            iframe.setAttribute('data-src', src);
-            iframe.removeAttribute('src');
-        }
-    });
-}
-
-function blockScript() {
-    const scriptElements = document.querySelectorAll('script');
-
-    scriptElements.forEach(script => {
-        if (!script.hasAttribute('type')) {
-            script.setAttribute('type', 'text/plain');
-        } else {
-            script.setAttribute('type', 'text/plain');
-            console.log(script.outerHTML);
-        }
-    });
-}
-
 window.onload = () => {
     const categories = Object.keys(categorizedCookies);
 
-    let consentCookie = JSON.parse(getCookieValue('privyConsent'));
+    let consentCookie = parsedConsentData(getCookieDetails(cookieName));
     if (!consentCookie) {
         let cookie = {};
         for (let key of categories) {
@@ -196,7 +164,7 @@ window.onload = () => {
         localStorage.setItem("privyConsent", JSON.stringify(cookie));
         location.reload();
     }
-    consentCookie = JSON.parse(getCookieValue('privyConsent'));
+    consentCookie = parsedConsentData(getCookieDetails(cookieName));
 
     let consentButtonDiv = document.createElement('div');
     consentButtonDiv.className = "consent-button-AE1VSVI8T5";
@@ -767,58 +735,148 @@ window.onload = () => {
     } else {
         toggleBanner('hide');
     }
-    block()
+
+    autoBlocking()
 }
 
 
-/* eslint-disable */
-function block() {
-    const nonScriptElements = ['embed', 'iframe', 'img']
-    const monitoredElements = [...nonScriptElements, 'script']
+const DEFAULT_COOKIE_CONSENT = {
+    NECESSARY: true,
+    FUNCTIONAL: false,
+    ANALYTICS: false,
+    MARKETING: false,
+    OTHERS: false
+}
+const nonScriptElements = ['embed', 'iframe', 'img']
+const monitoredElements = [...nonScriptElements, 'script']
+const cookieName = 'privyConsent'
+const tagsList = [
+    {
+        tag: 'https://www.googletagmanager.com/gtag/js?id=G-KWC0VKDZKW&l=dataLayer&cx=c&gtm=45He51n0h1v9199743789za200',
+        categories: ['NECESSARY'],
+        type: 'script'
+    },
+    {
+        tag: 'https://www.googletagmanager.com/gtm.js?id=GTM-KS3M7CSF',
+        categories: ['MARKETING'],
+        type: 'script'
+    },
+    {
+        tag: 'https://js.hsforms.net/forms/embed/v2.js',
+        categories: ['MARKETING'],
+        type: 'script'
+    },
+    {
+        tag: 'https://www.clarity.ms/tag/f4v1091lex',
+        categories: ['MARKETING'],
+        type: 'script'
+    },
+    {
+        tag: 'https://platform.twitter.com/widgets.js',
+        categories: ['ANALYTICS'],
+        type: 'script'
+    },
+    {
+        tag: 'https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1',
+        categories: ['FUNCTIONAL'],
+        type: 'iframe'
+    },
+    {
+        tag: 'https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8',
+        categories: ['ANALYTICS'],
+        type: 'script'
+    },
+    {
+        tag: 'https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P',
+        categories: ['ANALYTICS', 'FUNCTIONAL'],
+        type: 'iframe'
+    }
+]
+function findMatchingTag(url) {
+    return tagsList.find((item) => url.includes(item.tag)) || null
+}
+function getUrlDetails(url) {
+    const tagDetails = findMatchingTag(url) || {}
+    return {
+        categories: tagDetails.categories || [],
+        type: tagDetails.type || ''
+    }
+}
+function checkConsent(categories, consentObject) {
+    if (!consentObject) return false
+    return categories.every((category) => consentObject[category] === true)
+}
 
+function parsedConsentData(source) {
+    try {
+        return JSON.parse(source)
+    } catch (error) {
+        console.error('Error parsing consent data:', error)
+        return null
+    }
+}
+function getCookieDetails(cookieName, defaultConsent = DEFAULT_COOKIE_CONSENT) {
+    const localStorageValue = localStorage.getItem(cookieName)
+    if (localStorageValue) {
+        return localStorageValue
+    }
+    const cookieValue = document.cookie
+        .split('; ')
+        .find((row) => row.startsWith(`${cookieName}=`))
+    if (cookieValue) {
+        return cookieValue
+    }
+    console.log('No cookie found on browser defaultConsent set')
+    return defaultConsent
+}
+
+function hasUserConsent(categories, defaultConsent = DEFAULT_COOKIE_CONSENT) {
+    if (!categories || categories.length === 0) {
+        return true
+    }
+    const cookieDetails = getCookieDetails(cookieName, defaultConsent)
+    const consent = parsedConsentData(cookieDetails)
+    return checkConsent(categories, consent)
+}
+
+function addPrivacyClasses(element, categories) {
+    if (categories.length) {
+        element.classList.add(
+            ...categories.map((category) => `privy-cmp-category-${category}`)
+        )
+    }
+}
+
+function handleTags(element) {
+    const url = element.src || element.getAttribute('src') || ''
+    if (!url) return
+
+    const tagDetails = getUrlDetails(url)
+    const categories = tagDetails.categories
+    const type = tagDetails.type
+
+    // Add privacy classes
+    addPrivacyClasses(element, categories)
+
+    if (!hasUserConsent(categories)) {
+        const originalSrc = url
+        if (type === 'script') {
+            element.type = 'text/plain'
+            element.setAttribute('data-src', originalSrc)
+            element.removeAttribute('src')
+            console.log(`Script blocked: ${url}`, type, categories)
+        } else if (nonScriptElements.includes(element.tagName.toLowerCase())) {
+            element.setAttribute('data-src', originalSrc)
+            element.removeAttribute('src')
+            console.log(`Media element blocked: ${url}`, type, categories)
+        }
+    }
+}
+
+function autoBlocking() {
     // Store original Element prototype methods
     const originalSetAttribute = Element.prototype.setAttribute
-    const originalSetAttributeNS = Element.prototype.setAttributeNS
-
-    function addPrivacyClasses(element, categories) {
-        if (categories.length) {
-            element.classList.add(
-                ...categories.map(
-                    (category) => `privy-cmp-category-${category}`
-                )
-            )
-        }
-    }
-
-    function handleTags(element) {
-        console.log("element", element);
-        const url = element.src || element.getAttribute('src') || ''
-        if (!url) return
-
-        const tagDetails = getUrlDetails(url)
-        const categories = tagDetails.categories
-        const type = tagDetails.type
-
-        // Add privacy classes
-        addPrivacyClasses(element, categories)
-
-        if (!hasUserConsent(categories)) {
-            const originalSrc = url
-
-            if (type === 'script') {
-                element.type = 'text/plain'
-                element.setAttribute('data-src', originalSrc)
-                element.removeAttribute('src')
-                console.log(`Script blocked: ${url}`, type, categories)
-            } else if (
-                nonScriptElements.includes(element.tagName.toLowerCase())
-            ) {
-                element.setAttribute('data-src', originalSrc)
-                element.removeAttribute('src')
-                console.log(`Media element blocked: ${url}`, type, categories)
-            }
-        }
-    }
+    // const originalSetAttributeNS = Element.prototype.setAttributeNS
 
     // Override setAttribute to catch dynamic changes
     Element.prototype.setAttribute = function (name, value) {
@@ -925,108 +983,3 @@ function block() {
     }
 }
 
-const tagsList = [
-    {
-        tag: 'https://www.googletagmanager.com/gtag/js?id=G-KWC0VKDZKW&l=dataLayer&cx=c&gtm=45He51n0h1v9199743789za200',
-        categories: ['NECESSARY'],
-        type: 'script'
-    },
-    {
-        tag: 'https://www.googletagmanager.com/gtm.js?id=GTM-KS3M7CSF',
-        categories: ['MARKETING'],
-        type: 'script'
-    },
-    {
-        tag: 'https://js.hsforms.net/forms/embed/v2.js',
-        categories: ['MARKETING'],
-        type: 'script'
-    },
-    {
-        tag: 'https://www.clarity.ms/tag/f4v1091lex',
-        categories: ['MARKETING'],
-        type: 'script'
-    },
-    {
-        tag: 'https://platform.twitter.com/widgets.js',
-        categories: ['ANALYTICS'],
-        type: 'script'
-    },
-    {
-        tag: 'https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1',
-        categories: ['FUNCTIONAL'],
-        type: 'iframe'
-    },
-    {
-        tag: 'https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8',
-        categories: ['ANALYTICS'],
-        type: 'script'
-    },
-    {
-        tag: 'https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P',
-        categories: ['ANALYTICS', 'FUNCTIONAL'],
-        type: 'iframe'
-    }
-]
-
-const DEFAULT_COOKIE_CONSENT = {
-    NECESSARY: true,
-    FUNCTIONAL: false,
-    ANALYTICS: false,
-    MARKETING: false,
-    OTHERS: false
-}
-
-function findMatchingTag(url) {
-    return tagsList.find((item) => url.includes(item.tag)) || null
-}
-
-function getUrlDetails(url) {
-    const tagDetails = findMatchingTag(url) || {}
-    return {
-        categories: tagDetails.categories || [],
-        type: tagDetails.type || ''
-    }
-}
-
-function hasUserConsent(categories, defaultConsent = DEFAULT_COOKIE_CONSENT) {
-    if (!categories || categories.length === 0) {
-        return true
-    }
-
-    const cookieName = 'privyConsent'
-
-    function checkConsent(consentObject) {
-        if (!consentObject) return false
-        return categories.every(
-            (category) => consentObject[category] === true
-        )
-    }
-
-    function getConsentData(source) {
-        try {
-            return JSON.parse(source)
-        } catch (error) {
-            console.error('Error parsing consent data:', error)
-            return null
-        }
-    }
-
-    // Check localStorage first
-    const localStorageValue = localStorage.getItem(cookieName)
-    if (localStorageValue) {
-        const consent = getConsentData(localStorageValue)
-        if (checkConsent(consent)) return true
-    }
-
-    // Then check cookies
-    const cookieValue = document.cookie
-        .split('; ')
-        .find((row) => row.startsWith(`${cookieName}=`))
-    if (cookieValue) {
-        const consent = getConsentData(cookieValue.split('=')[1])
-        if (checkConsent(consent)) return true
-    }
-
-    // Finally, check default consent
-    return checkConsent(DEFAULT_COOKIE_CONSENT)
-}
