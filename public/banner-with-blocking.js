@@ -1,1 +1,1003 @@
-const _0x362458=_0x69f4;function _0x69f4(_0x104736,_0xd46082){const _0x57b779=_0x3af0();return _0x69f4=function(_0x494ebc,_0x5532a6){_0x494ebc=_0x494ebc-(-0xe6*-0x2+0x17c7+-0x1*0x18d9);let _0xa2459c=_0x57b779[_0x494ebc];return _0xa2459c;},_0x69f4(_0x104736,_0xd46082);}(function(_0x4752c3,_0x26b09b){const _0x79e204=_0x69f4,_0x23b5bd=_0x4752c3();while(!![]){try{const _0x2a4da3=parseInt(_0x79e204(0x130))/(0x4e1*-0x4+0x6b7+-0x16*-0x95)+-parseInt(_0x79e204(0x139))/(-0x1227+-0x2032+0x325b)+-parseInt(_0x79e204(0xfd))/(-0x12c4*-0x1+0x18b3*-0x1+0x5f2)+-parseInt(_0x79e204(0x103))/(0x1e*-0x139+-0x3e*-0x6f+0x9d0)+-parseInt(_0x79e204(0x100))/(-0x4*0x2c6+0x1b25+-0x1008)*(parseInt(_0x79e204(0x11f))/(-0x198a+0x1*-0x44e+0x2*0xeef))+-parseInt(_0x79e204(0x160))/(0x6a2+0xc0b+-0x12a6)*(parseInt(_0x79e204(0x142))/(0x1fb1+-0x72*-0xd+-0x2573))+parseInt(_0x79e204(0x10f))/(0x1*0x178f+0x1480+-0x2c06);if(_0x2a4da3===_0x26b09b)break;else _0x23b5bd['push'](_0x23b5bd['shift']());}catch(_0xa4005d){_0x23b5bd['push'](_0x23b5bd['shift']());}}}(_0x3af0,0x4*-0x54c5c+0x124a8b*0x1+-0x22*-0x7f2b));const template={'bannerType':'box','buttonColor':'#214698','buttonsText':{'acceptAll':_0x362458(0x14b),'moreSettings':_0x362458(0x123),'allowNecessary':_0x362458(0xd2),'savePreferences':_0x362458(0x108)},'contentMobile':{'cookieBannerNotice':'This\x20website\x20stores\x20cookies\x20on\x20your\x20computer\x20device.\x20These\x20cookies\x20are\x20used\x20to\x20enhance\x20your\x20browser\x20experience,\x20for\x20analytics\x20on\x20how\x20our\x20website\x20is\x20used,\x20and\x20to\x20assist\x20in\x20our\x20marketing\x20and\x20promotional\x20efforts.','preferenceManagerNotice':_0x362458(0x152)},'contentDesktop':{'cookieBannerNotice':'This\x20website\x20stores\x20cookies\x20on\x20your\x20computer\x20device.\x20These\x20cookies\x20are\x20used\x20to\x20enhance\x20your\x20browser\x20experience,\x20for\x20analytics\x20on\x20how\x20our\x20website\x20is\x20used,\x20and\x20to\x20assist\x20in\x20our\x20marketing\x20and\x20promotional\x20efforts.','preferenceManagerNotice':'IDfy\x27s\x20website\x20may\x20request\x20cookies\x20to\x20be\x20set\x20on\x20your\x20device.\x20We\x20use\x20cookies\x20to\x20identify\x20when\x20you\x20visit\x20our\x20sites,\x20to\x20understand\x20your\x20interactions,\x20and\x20to\x20enhance\x20and\x20personalize\x20your\x20experience.\x20Cookies\x20also\x20support\x20social\x20media\x20features\x20and\x20tailor\x20your\x20engagement\x20with\x20IDfy,\x20including\x20delivering\x20more\x20relevant\x20advertisements.\x20You\x20can\x20review\x20the\x20different\x20category\x20headings\x20to\x20learn\x20more\x20and\x20adjust\x20your\x20cookie\x20preferences\x20anytime.\x20Please\x20keep\x20in\x20mind\x20that\x20your\x20choices\x20may\x20affect\x20your\x20experience\x20on\x20our\x20IDfy\x20sites\x20and\x20the\x20quality\x20of\x20services\x20we\x20can\x20provide.\x20Blocking\x20certain\x20types\x20of\x20cookies\x20might\x20affect\x20the\x20functionality\x20and\x20service\x20offerings\x20made\x20available\x20to\x20you.'},'hoverTextColor':'#ffffff','positionMobile':_0x362458(0xc5),'buttonTextColor':'#ffffff','positionDesktop':'bottom-right','hoverButtonColor':'#214699','preferenceManagerHorizontalPosition':'left'},categorizedCookies={'OTHER':[{'meta_data':{'path':'/','size':0xa6,'value':'%7B%22attributes%22%3A%5B%5D%2C%22subscribedToOldSdk%22%3Afalse%2C%22deviceUuid%22%3A%222e42da86-3dc6-4ef1-b382-5efdccd7aabe%22%2C%22deviceAdded%22%3Atrue%7D','secure':!![],'session':![],'duration':'1\x20year(s),\x201\x20month(s),\x205\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','sameParty':![],'expires_at':1774522696.033778,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'c376565f-5931-4acf-bbf7-b7e4340c1980','category':'OTHER','cookie_master_name':'USER_DATA','cookie_domain':_0x362458(0xf6),'cookie_master_id':'48dd8532-b4f3-473f-b080-95488eb4787e','languages':{'en':{'language_id':'f5fbf9d8-e060-43a3-8d2c-89da2f1ad778','name':_0x362458(0x12f),'description':_0x362458(0xf2)}}}],'FUNCTIONAL':[{'meta_data':{'path':'/','size':0x123,'value':_0x362458(0x137),'secure':![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x207\x20day(s)','httpOnly':!![],'priority':_0x362458(0x135),'sameParty':![],'expires_at':1740567515.240037,'sourcePort':0x1bb,'urlOfCookie':'https://api.thesouledstore.com/api/v1/souled-army','sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/mywishlist','redirectedPage':'https://www.thesouledstore.com/mywishlist'},'cookie_id':'ebb44530-7732-4820-a0a1-53f5b5119294','category':'FUNCTIONAL','cookie_master_name':'laravel_session','cookie_domain':'api.thesouledstore.com','cookie_master_id':'f934794d-f835-4106-a8d8-2f12ba6a3b6a','languages':{'en':{'language_id':'3959b62f-d21f-46a1-a4f5-8492ced42fd3','name':_0x362458(0x13c),'description':_0x362458(0xd5)}}},{'meta_data':{'path':'/','size':0x7d,'value':'CheckForPermission','secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':_0x362458(0x14d),'foundType':'response','sameParty':![],'expires_at':0x67b5bccb,'urlOfCookie':'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/836942520/?random=1739962695006&cv=11&fst=1739962695006&bg=ffffff&guid=ON&async=1&gtm=45be52d0v879068245za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102067808~102482433~102539968~102558064~102587591~102605417~102640600&u_w=1470&u_h=956&url=https%3A%2F%2Fwww.thesouledstore.com%2F&hn=www.googleadservices.com&frm=0&npa=0&auid=616273594.1739962695&fledge=1&data=event%3Dlanding_homepage%3Bemail%3DNA%3Bgender%3DNA%3BCountry_Id%3D99&rfmt=3&fmt=4','sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'c7787a37-ee9e-4671-abce-1ba52be9b927','category':'FUNCTIONAL','cookie_master_name':'test_cookie','cookie_domain':'.doubleclick.net','cookie_master_id':'1d65695a-edb9-4622-a166-9d036bcde558','languages':{'en':{'language_id':_0x362458(0x149),'name':'test_cookie','description':'This\x20cookie\x20is\x20set\x20by\x20DoubleClick\x20(which\x20is\x20owned\x20by\x20Google)\x20to\x20determine\x20if\x20the\x20website\x20visitor\x27s\x20browser\x20supports\x20cookies.'}}},{'meta_data':{'path':'/','size':0x7,'value':'A','secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':!![],'priority':'Medium','sameParty':![],'expires_at':1739966289.515734,'sourceScheme':'Secure','firstFoundUrl':_0x362458(0x164),'redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'9b055664-a8a2-475a-b4c6-afa8054d3a80','category':'FUNCTIONAL','cookie_master_name':'AKA_A2','cookie_domain':'.thesouledstore.com','cookie_master_id':'aaa3c9bd-0314-4c74-805f-235b761e0c87','languages':{'en':{'language_id':_0x362458(0xd4),'name':_0x362458(0x13f),'description':'Used\x20for\x20Akamai\x27s\x20Advanced\x20Acceleration\x20feature,\x20intended\x20to\x20improve\x20web\x20performance'}}},{'meta_data':{'path':'/','size':0x4f,'value':_0x362458(0xe8),'secure':!![],'session':!![],'duration':'NaN\x20year(s),\x20NaN\x20month(s),\x20NaN\x20day(s)','httpOnly':![],'priority':_0x362458(0x135),'sameSite':'None','foundType':'response','sameParty':![],'expires_at':'NA','urlOfCookie':'https://bam.nr-data.net/1/NRJS-27baf8db6af46366ebc?a=1090119261&sa=1&v=1210.e2a3f80&t=Unnamed%20Transaction&rst=30626&ck=1&ref=https://www.thesouledstore.com/product/powerpuff-girls-girl-power-blossom-girls-cotton-full-skeeve-tshirts&be=207&fe=30438&dc=30437&af=err,xhr,stn,ins,spa&perf=%7B%22timing%22:%7B%22of%22:1739962961292,%22n%22:0,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22ce%22:1,%22rq%22:2,%22rp%22:191,%22rpe%22:205,%22dl%22:199,%22di%22:16578,%22ds%22:30437,%22de%22:30438,%22dc%22:30438,%22l%22:30439,%22le%22:30445%7D,%22navigation%22:%7B%7D%7D&jsonp=NREUM.setToken','sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/product/powerpuff-girls-girl-power-blossom-girls-cotton-full-skeeve-tshirts','redirectedPage':_0x362458(0xce)},'cookie_id':'4ee3c9fd-99cd-49af-9ed7-857997bd59fb','category':'FUNCTIONAL','cookie_master_name':'JSESSIONID','cookie_domain':'.nr-data.net','cookie_master_id':'9798b5c2-dc9a-4aba-aca0-4c9645633403','languages':{'en':{'language_id':'1d34d025-ae5e-44c8-a690-9bcd816b08cf','name':_0x362458(0xef),'description':'JSESSIONID\x20is\x20a\x20cookie\x20generated\x20by\x20Servlet\x20containers\x20and\x20used\x20for\x20session\x20management\x20in\x20J2EE\x20web\x20applications\x20for\x20HTTP\x20protocol.\x20If\x20a\x20Web\x20server\x20is\x20using\x20a\x20cookie\x20for\x20session\x20management,\x20it\x20creates\x20and\x20sends\x20JSESSIONID\x20cookie\x20to\x20the\x20client\x20and\x20then\x20the\x20client\x20sends\x20it\x20back\x20to\x20the\x20server\x20in\x20subsequent\x20HTTP\x20requests.\x20JSESSIONID\x20is\x20a\x20platform\x20session\x20cookie\x20and\x20is\x20used\x20by\x20sites\x20with\x20JavaServer\x20Pages\x20(JSP).\x20The\x20cookie\x20is\x20used\x20to\x20maintain\x20an\x20anonymous\x20user\x20session\x20by\x20the\x20server.'}}},{'meta_data':{'path':'/','size':0x64,'value':'A','secure':!![],'session':![],'duration':_0x362458(0xde),'httpOnly':!![],'priority':'Medium','sameSite':'Lax','foundType':'response','sameParty':![],'expires_at':0x67b5c751,'urlOfCookie':'https://www.thesouledstore.com/','sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'133ad5f4-2d8b-4665-969e-da9b195a70c3','category':'FUNCTIONAL','cookie_master_name':'AKA_A2','cookie_domain':'thesouledstore.com','cookie_master_id':_0x362458(0x14e),'languages':{'en':{'language_id':'f2a2238d-14e4-4a41-a0c3-8fb96687948e','name':_0x362458(0x13f),'description':_0x362458(0xdb)}}},{'meta_data':{'path':'/','size':0x80,'value':'0B9A0A8B7BEB6C560F6C1F137A706DF0','secure':!![],'session':![],'duration':'1\x20year(s),\x200\x20month(s),\x2025\x20day(s)','httpOnly':![],'priority':_0x362458(0x135),'sameSite':'None','foundType':_0x362458(0x148),'sameParty':![],'expires_at':0x69b7e248,'urlOfCookie':'https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=5FE325287CC747E2B05BC9E3ABFDE65C&RedC=c.clarity.ms&MXFR=36412E81C9E663F32CDE3B19CDE66D50','sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'cecff50a-4eaa-41fd-a130-3d14c034ed78','category':'FUNCTIONAL','cookie_master_name':'SRM_B','cookie_domain':'c.bing.com','cookie_master_id':_0x362458(0xea),'languages':{'en':{'language_id':_0x362458(0x120),'name':'SRM_B','description':_0x362458(0xca)}}}],'NECESSARY':[{'meta_data':{'path':'/','size':0x6d,'value':_0x362458(0x131),'secure':![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x207\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'Lax','sameParty':![],'expires_at':0x67bef3c7,'sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':_0x362458(0x143)},'cookie_id':'ab1df80d-bee0-4b61-831f-f192293fbe71','category':'NECESSARY','cookie_master_name':'RT','cookie_domain':'.www.thesouledstore.com','cookie_master_id':_0x362458(0x119),'languages':{'en':{'language_id':'54b8b32b-8756-44a0-ba7c-02289aa96bef','name':'RT','description':_0x362458(0xbb)}}},{'meta_data':{'path':'/','size':0x117,'value':_0x362458(0x146),'secure':!![],'session':![],'duration':'1\x20year(s),\x201\x20month(s),\x205\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','sameParty':![],'expires_at':1774522696.040998,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':_0x362458(0x132),'category':'NECESSARY','cookie_master_name':'SESSION','cookie_domain':'.thesouledstore.com','cookie_master_id':'be4e90a7-6972-4791-97ff-5889a158cd1c','languages':{'en':{'language_id':'06f877c3-28c6-44b1-813a-a9f17a2ccbd9','name':_0x362458(0xe3),'description':'A\x20standard\x20cookie\x20used\x20to\x20maintain\x20session\x20state\x20for\x20the\x20user\x20in\x20various\x20web\x20applications.'}}},{'meta_data':{'path':'/','size':0x14,'value':'google','secure':![],'session':![],'duration':_0x362458(0x112),'httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':1774522722.408465,'sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com/mywishlist','redirectedPage':_0x362458(0xe2)},'cookie_id':'a367e3d1-5056-4e56-8cfa-d68e365afdfe','category':'NECESSARY','cookie_master_name':_0x362458(0x153),'cookie_domain':'.www.thesouledstore.com','cookie_master_id':'71b03096-c026-4df6-a744-9ab0f10f17a7','languages':{'en':{'language_id':'d43779ef-81b2-4ca0-a7e3-60b8020efd97','name':'G_ENABLED_IDPS','description':'Used\x20by\x20Google\x20for\x20Single\x20Sign\x20On\x20functionality.'}}}],'MARKETING':[{'meta_data':{'path':'/','size':0x8d,'value':'0B9A0A8B7BEB6C560F6C1F137A706DF0','secure':!![],'session':![],'duration':'1\x20year(s),\x200\x20month(s),\x2025\x20day(s)','httpOnly':![],'priority':_0x362458(0x124),'sameSite':'None','foundType':'response','sameParty':![],'expires_at':0x69b7e248,'urlOfCookie':_0x362458(0x147),'sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':_0x362458(0x141),'category':'MARKETING','cookie_master_name':'MUID','cookie_domain':'.bing.com','cookie_master_id':_0x362458(0xec),'languages':{'en':{'language_id':'e83d62e1-97c9-4228-912a-72d7cbe78cc0','name':'MUID','description':'Identifies\x20unique\x20web\x20browsers\x20visiting\x20Microsoft\x20sites.\x20These\x20cookies\x20are\x20used\x20for\x20advertising,\x20site\x20analytics,\x20and\x20other\x20operational\x20purposes.'}}},{'meta_data':{'path':'/','size':0xcd,'value':_0x362458(0xe5),'secure':!![],'session':![],'duration':_0x362458(0xde),'httpOnly':![],'priority':'Medium','sameSite':'None','foundType':'response','sameParty':![],'expires_at':0x67b70ac7,'urlOfCookie':_0x362458(0xcf),'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':_0x362458(0x143)},'cookie_id':'05da9693-50ba-4681-8820-e0b2688158db','category':_0x362458(0xe0),'cookie_master_name':'lidc','cookie_domain':'.linkedin.com','cookie_master_id':'6942aaf4-a341-4c9e-aaf6-6dc4a3405f78','languages':{'en':{'language_id':_0x362458(0x155),'name':_0x362458(0x14c),'description':'Used\x20by\x20the\x20social\x20networking\x20service,\x20LinkedIn,\x20for\x20tracking\x20the\x20use\x20of\x20embedded\x20services.'}}},{'meta_data':{'path':'/','size':0x29,'value':'fb.1.1739962716755.415546465840705518','secure':![],'session':![],'duration':'0\x20year(s),\x202\x20month(s),\x2030\x20day(s)','httpOnly':![],'priority':_0x362458(0x135),'sameSite':'Lax','sameParty':![],'expires_at':0x682c605c,'sourceScheme':'Secure','firstFoundUrl':_0x362458(0xe2),'redirectedPage':_0x362458(0xe2)},'cookie_id':'5d054b9b-e205-4411-9e08-2aef7c3afb4d','category':_0x362458(0xe0),'cookie_master_name':'_fbp','cookie_domain':_0x362458(0xf6),'cookie_master_id':_0x362458(0xfe),'languages':{'en':{'language_id':_0x362458(0x15d),'name':'_fbp','description':'Used\x20by\x20Facebook\x20to\x20deliver\x20a\x20series\x20of\x20advertisement\x20products\x20such\x20as\x20real\x20time\x20bidding\x20from\x20third\x20party\x20advertisers'}}},{'meta_data':{'path':'/','size':0x65,'value':'0','secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','foundType':'response','sameParty':![],'expires_at':0x67b5bba0,'urlOfCookie':'https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=5FE325287CC747E2B05BC9E3ABFDE65C&MUID=0B9A0A8B7BEB6C560F6C1F137A706DF0','sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'901fe0ff-60ff-4254-91de-1d2a8f4e28ab','category':'MARKETING','cookie_master_name':'ANONCHK','cookie_domain':_0x362458(0xc0),'cookie_master_id':'74ff17f1-d38c-4be6-9557-23586364f9b2','languages':{'en':{'language_id':'4ce1d601-39f1-42dd-95fd-af27046e9fd5','name':_0x362458(0xf1),'description':'Used\x20to\x20store\x20session\x20ID\x20for\x20a\x20users\x20session\x20to\x20ensure\x20that\x20clicks\x20from\x20adverts\x20on\x20the\x20Bing\x20search\x20engine\x20are\x20verified\x20for\x20reporting\x20purposes\x20and\x20for\x20personalisation'}}},{'meta_data':{'path':'/','size':0x7b,'value':'1','secure':!![],'session':![],'duration':'0\x20year(s),\x202\x20month(s),\x2030\x20day(s)','httpOnly':!![],'priority':'Medium','sameSite':'none','foundType':'response','sameParty':![],'expires_at':0x682c6047,'urlOfCookie':'https://www.google-analytics.com/privacy-sandbox/register-conversion?_c=1&cid=1557804692.1739962695&dbk=2846476769878293630&dma=0&en=homepage_visits&gtm=45je52d0v880986332za200&npa=0&tid=G-NXPBDLCSFK&dl=https%3A%2F%2Fwww.thesouledstore.com%3F','sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':_0x362458(0xd7),'category':'MARKETING','cookie_master_name':_0x362458(0x13b),'cookie_domain':'www.google-analytics.com','cookie_master_id':'ae6c9087-8b89-400e-95b0-f647a2750931','languages':{'en':{'language_id':'2be60cf6-4187-45e3-bf6f-2cfc7ac5b236','name':'ar_debug','description':'Store\x20and\x20track\x20conversions'}}},{'meta_data':{'path':'/','size':0x5e,'value':'0','secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x207\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','foundType':_0x362458(0x148),'sameParty':![],'expires_at':0x67bef3c8,'urlOfCookie':'https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=5FE325287CC747E2B05BC9E3ABFDE65C&RedC=c.clarity.ms&MXFR=36412E81C9E663F32CDE3B19CDE66D50','sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':_0x362458(0x143)},'cookie_id':'8dc9bd02-48a2-4310-acd7-db2fa08b306e','category':'MARKETING','cookie_master_name':'MR','cookie_domain':'c.bing.com','cookie_master_id':'e27adf46-3266-4933-803a-b3e2212417c8','languages':{'en':{'language_id':'f75c7732-68c8-49dd-b393-c2920c5a9145','name':'MR','description':_0x362458(0xe9)}}},{'meta_data':{'path':'/','size':0x2b,'value':_0x362458(0xd6),'secure':![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':![],'priority':_0x362458(0x135),'sameParty':![],'expires_at':0x67b5ba22,'sourcePort':0x1bb,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/product/girls-leggings-tss-originals-fun-floral','redirectedPage':'https://www.thesouledstore.com/product/girls-leggings-tss-originals-fun-floral'},'cookie_id':'6941fef8-0be9-402c-86b1-a441aaf60437','category':_0x362458(0xe0),'cookie_master_name':_0x362458(0x12e),'cookie_domain':_0x362458(0xf6),'cookie_master_id':_0x362458(0x158),'languages':{'en':{'language_id':'e34aaf1c-2a8b-4fdc-bea4-993fde00d7cb','name':_0x362458(0x12e),'description':'WebEngage\x20cookies\x20to\x20deliver\x20a\x20more\x20personalized\x20experience\x20on\x20the\x20website.'}}},{'meta_data':{'path':'/','size':0x6b,'value':'1','secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x2031\x20day(s)','httpOnly':!![],'priority':'Medium','sameSite':'None','foundType':'response','sameParty':![],'expires_at':0x67ddd9d6,'urlOfCookie':'https://px.ads.linkedin.com/attribution_trigger?pid=3332458&time=1739962724405&url=https%3A%2F%2Fwww.thesouledstore.com%2Fmywishlist','sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/mywishlist','redirectedPage':'https://www.thesouledstore.com/mywishlist'},'cookie_id':'f1224a0e-f285-4ee1-a655-1c54fe16ecbc','category':'MARKETING','cookie_master_name':'ar_debug','cookie_domain':'px.ads.linkedin.com','cookie_master_id':'0db79137-75c2-4566-aa7b-48f942d4eb4e','languages':{'en':{'language_id':'c7d2ab5e-a6ff-4fd8-acb7-526134483695','name':'ar_debug','description':'Store\x20and\x20track\x20conversions'}}},{'meta_data':{'path':'/','size':0x17,'value':'1739962692210','secure':![],'session':![],'duration':'0\x20year(s),\x2011\x20month(s),\x2031\x20day(s)','httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':0x6996ecc4,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':_0x362458(0x118),'category':'MARKETING','cookie_master_name':'__tr_luptv','cookie_domain':'.thesouledstore.com','cookie_master_id':_0x362458(0x122),'languages':{'en':{'language_id':'512d892c-8d64-4ef6-a49f-0509deb9bb8e','name':'__tr_luptv','description':'Cookie\x20set\x20by\x20Twitter\x20used\x20for\x20advertising\x20and\x20tracking.'}}},{'meta_data':{'path':'/','size':0x99,'value':_0x362458(0x162),'secure':!![],'session':![],'duration':'0\x20year(s),\x202\x20month(s),\x2030\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','foundType':_0x362458(0x148),'sameParty':![],'expires_at':0x682c6046,'urlOfCookie':_0x362458(0x125),'sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'d56fe8fc-022a-4b8e-8d51-0b534bf0fdf0','category':_0x362458(0xe0),'cookie_master_name':'li_sugr','cookie_domain':_0x362458(0x128),'cookie_master_id':'0d118baa-ca1a-453e-b92e-342ab0c50f38','languages':{'en':{'language_id':'ee6018b8-4e43-4b13-ad50-819f4206f5ec','name':'li_sugr','description':'Used\x20to\x20make\x20a\x20probabilistic\x20match\x20of\x20a\x20user\x27s\x20identity\x20outside\x20the\x20Designated\x20Countries'}}},{'meta_data':{'path':'/','size':0x8e,'value':'\x22v=2&6dadb4a2-3476-423b-8e45-3cac939bd537\x22','secure':!![],'session':![],'duration':_0x362458(0xe6),'httpOnly':![],'priority':_0x362458(0x135),'sameSite':'None','foundType':'response','sameParty':![],'expires_at':0x6996ecc7,'urlOfCookie':'https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3332458&time=1739962693129&li_adsId=16da3f2d-0bda-40ee-8952-71599544447d&url=https%3A%2F%2Fwww.thesouledstore.com%2F&cookiesTest=true','sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'47203aa4-926a-4ff3-8e5f-2c95e6928ef0','category':_0x362458(0xe0),'cookie_master_name':'bcookie','cookie_domain':'.linkedin.com','cookie_master_id':_0x362458(0x105),'languages':{'en':{'language_id':'f90a8542-f1b9-4559-bf9b-c16ff8f8bea5','name':'bcookie','description':'Used\x20by\x20LinkedIn\x20to\x20track\x20the\x20use\x20of\x20embedded\x20services.'}}},{'meta_data':{'path':'/','size':0x1f,'value':'1.1.616273594.1739962695','secure':![],'session':![],'duration':'0\x20year(s),\x202\x20month(s),\x2030\x20day(s)','httpOnly':![],'priority':_0x362458(0x135),'sameParty':![],'expires_at':0x682c6046,'sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':_0x362458(0xbd),'category':_0x362458(0xe0),'cookie_master_name':_0x362458(0x10a),'cookie_domain':_0x362458(0xf6),'cookie_master_id':_0x362458(0xbe),'languages':{'en':{'language_id':'41d51f30-dcb5-4100-8a44-be293b2a0787','name':'_gcl_au','description':'Used\x20by\x20Google\x20AdSense\x20for\x20experimenting\x20with\x20advertisement\x20efficiency\x20across\x20websites\x20using\x20their\x20services.'}}},{'meta_data':{'path':'/','size':0x94,'value':'0Uy0UthSeNKB3yyZU..BntbpD...1.0.BntbpD.','secure':!![],'session':![],'duration':'0\x20year(s),\x202\x20month(s),\x2030\x20day(s)','httpOnly':!![],'priority':_0x362458(0x135),'sameSite':'None','foundType':_0x362458(0x148),'sameParty':![],'expires_at':0x682c6143,'urlOfCookie':'https://www.facebook.com/tr/?id=360696207456838&ev=PageView&dl=https%3A%2F%2Fwww.thesouledstore.com%2Fproduct%2Fjungle-book-mowglis-quest-kidswear-boys-shirts&rl=&if=false&ts=1739962946716&sw=1470&sh=956&v=2.9.183&r=stable&ec=0&o=4126&fbp=fb.1.1739962716755.415546465840705518&ler=empty&it=1739962943810&coo=false&cdl=&rqm=GET','sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/product/jungle-book-mowglis-quest-kidswear-boys-shirts','redirectedPage':'https://www.thesouledstore.com/product/jungle-book-mowglis-quest-kidswear-boys-shirts'},'cookie_id':'8e97f1ac-58ee-4b7e-9dd2-49e2721849bb','category':'MARKETING','cookie_master_name':'fr','cookie_domain':'.facebook.com','cookie_master_id':_0x362458(0xc8),'languages':{'en':{'language_id':'7346dbfc-3f2d-4702-a40f-447695e8f101','name':'fr','description':_0x362458(0xcc)}}},{'meta_data':{'path':'/','size':0x73,'value':'1','secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x2030\x20day(s)','httpOnly':!![],'priority':_0x362458(0x135),'sameSite':'none','foundType':'response','sameParty':![],'expires_at':0x67dd465d,'urlOfCookie':_0x362458(0xe1),'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/kids/boys-coord-sets','redirectedPage':'https://www.thesouledstore.com/kids/boys-coord-sets'},'cookie_id':'37804d0e-ee48-4414-b991-f77dbb72c9f6','category':'MARKETING','cookie_master_name':'ar_debug','cookie_domain':'.doubleclick.net','cookie_master_id':'02ba6c80-9cd7-46d9-bc69-e61938343a95','languages':{'en':{'language_id':'6fddd490-5ecf-4aeb-b66a-3b22012eb1a0','name':'ar_debug','description':'Store\x20and\x20track\x20conversions'}}}],'ANALYTICS':[{'meta_data':{'path':'/','size':0x1f,'value':'GA1.2.1853534718.1739962695','secure':![],'session':![],'duration':_0x362458(0xde),'httpOnly':![],'priority':_0x362458(0x135),'sameParty':![],'expires_at':0x67b70ac6,'sourceScheme':'Secure','firstFoundUrl':_0x362458(0x164),'redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'4bb1bc4c-f1a5-4290-b26b-2c00b7de12d8','category':'ANALYTICS','cookie_master_name':_0x362458(0x117),'cookie_domain':'.thesouledstore.com','cookie_master_id':'88f70d65-d8b8-4204-8b5d-58a345d72b5d','languages':{'en':{'language_id':'821a4efb-ae16-487d-914a-7c3c3a3af8a7','name':_0x362458(0x117),'description':'ID\x20used\x20to\x20identify\x20users\x20for\x2024\x20hours\x20after\x20last\x20activity'}}},{'meta_data':{'path':'/','size':0x8a,'value':'eyJpZCI6ImNjOTdlNDI2LTBjMTgtNTdlYi05MThjLWVkZTc2ZjA2NjM4OSIsImNyZWF0ZWQiOjE3Mzk5NjI3MTcxODksImV4aXN0aW5nIjpmYWxzZX0=','secure':!![],'session':![],'duration':_0x362458(0xe6),'httpOnly':![],'priority':_0x362458(0x135),'sameSite':'None','sameParty':![],'expires_at':0x6996ecdd,'sourceScheme':_0x362458(0x15f),'firstFoundUrl':_0x362458(0xe2),'redirectedPage':'https://www.thesouledstore.com/mywishlist'},'cookie_id':_0x362458(0x104),'category':'ANALYTICS','cookie_master_name':'_hjSessionUser_2590087','cookie_domain':'.thesouledstore.com','cookie_master_id':_0x362458(0xeb),'languages':{'en':{'language_id':'d153802a-bad6-4a27-ba13-cace5af4da9b','name':'_hjSessionUser_2590087','description':_0x362458(0x11a)}}},{'meta_data':{'path':'/','size':0x2f,'value':_0x362458(0x106),'secure':![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':![],'priority':_0x362458(0x135),'sameParty':![],'expires_at':0x67b5ba89,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/mywishlist','redirectedPage':'https://www.thesouledstore.com/mywishlist'},'cookie_id':_0x362458(0x14a),'category':'ANALYTICS','cookie_master_name':'dicbo_id','cookie_domain':'www.thesouledstore.com','cookie_master_id':'d8ea3959-a596-4096-a9a1-4fb9cce56d24','languages':{'en':{'language_id':'b9007ef8-b8d5-4c6f-b5e6-4cb74cb0ce8a','name':'dicbo_id','description':'This\x20cookie\x20is\x20used\x20to\x20collect\x20anonymous\x20data\x20related\x20to\x20the\x20user’s\x20website\x20visits,\x20such\x20as\x20the\x20number\x20of\x20visits,\x20average\x20time\x20spent\x20on\x20the\x20website,\x20and\x20what\x20pages\x20have\x20been\x20loaded.'}}},{'meta_data':{'path':'/','size':0x8a,'value':'eyJpZCI6ImNjOTdlNDI2LTBjMTgtNTdlYi05MThjLWVkZTc2ZjA2NjM4OSIsImNyZWF0ZWQiOjE3Mzk5NjI3MTcxODksImV4aXN0aW5nIjp0cnVlfQ==','secure':!![],'session':![],'duration':'0\x20year(s),\x2011\x20month(s),\x2031\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','sameParty':![],'expires_at':0x6996ed3a,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/explore/perfumes','redirectedPage':_0x362458(0xfb)},'cookie_id':'e7fa676a-3161-4fb2-8a88-9b65f5208e2a','category':'ANALYTICS','cookie_master_name':_0x362458(0x126),'cookie_domain':_0x362458(0x109),'cookie_master_id':_0x362458(0x101),'languages':{'en':{'language_id':'63ccc7f9-b0d4-4fb6-93c7-647273fc8a6d','name':'_hjSessionUser_2590087','description':'This\x20cookie\x20is\x20set\x20by\x20Hotjar\x20and\x20is\x20used\x20to\x20count\x20how\x20many\x20times\x20a\x20website\x20has\x20been\x20visited\x20by\x20different\x20users\x20-\x20this\x20is\x20done\x20by\x20assigning\x20a\x20random\x20ID\x20to\x20each\x20user\x20so\x20that\x20the\x20user\x20will\x20not\x20be\x20counted\x20as\x20a\x20new\x20visitor.'}}},{'meta_data':{'path':'/','size':0x24,'value':'%7B%22p%22%3A1%7D','secure':![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':![],'priority':_0x362458(0x135),'sameParty':![],'expires_at':0x67b5be0c,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/mywishlist','redirectedPage':'https://www.thesouledstore.com/mywishlist'},'cookie_id':'1a8c0198-b286-4fe3-bf46-c01ca425a24d','category':'ANALYTICS','cookie_master_name':'WZRK_S_865-K54-K75Z','cookie_domain':'.thesouledstore.com','cookie_master_id':_0x362458(0x115),'languages':{'en':{'language_id':'e162dc45-e088-4d3e-a290-0511f34f3e96','name':'WZRK_S_865-K54-K75Z','description':'WebEngage\x20cookie\x20for\x20tracking\x20and\x20analytics\x20purposes\x20provided\x20by\x20WebEngage\x20platform.'}}},{'meta_data':{'path':'/','size':0x2c,'value':'2e42da86-3dc6-4ef1-b382-5efdccd7aabe','secure':![],'session':!![],'duration':_0x362458(0x107),'httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':-(0x14fe+0x1ebb*0x1+-0x14b*0x28),'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'e821ea71-2699-4fbb-b562-65328bcbd94a','category':'ANALYTICS','cookie_master_name':'moe_uuid','cookie_domain':_0x362458(0xf6),'cookie_master_id':'297229f2-25e7-4624-a4b9-6eeeac619be3','languages':{'en':{'language_id':'e3da6141-218d-4077-877b-b65690dd3262','name':'moe_uuid','description':_0x362458(0xf4)}}},{'meta_data':{'path':'/','size':0x34,'value':_0x362458(0xcd),'secure':![],'session':![],'duration':'1\x20year(s),\x201\x20month(s),\x205\x20day(s)','httpOnly':![],'priority':_0x362458(0x135),'sameParty':![],'expires_at':1774522695.073299,'sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':_0x362458(0x143)},'cookie_id':'ee4f960c-1292-4368-9d02-e3f78ea46df9','category':'ANALYTICS','cookie_master_name':'_ga_NXPBDLCSFK','cookie_domain':'.thesouledstore.com','cookie_master_id':'0160578d-06da-4fc9-b1ff-689ac707a7c5','languages':{'en':{'language_id':'e313c280-e5dc-4993-b6ad-d14032f73d08','name':_0x362458(0xc9),'description':'This\x20cookie\x20is\x20used\x20to\x20distinguish\x20unique\x20users\x20by\x20assigning\x20a\x20randomly\x20generated\x20number\x20as\x20a\x20client\x20identifier.'}}},{'meta_data':{'path':'/','size':0x15,'value':'deleted','secure':![],'session':![],'duration':'1\x20year(s),\x201\x20month(s),\x205\x20day(s)','httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':1774522793.383282,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/explore/perfumes','redirectedPage':_0x362458(0xfb)},'cookie_id':'94d5e5c3-074d-4de5-b645-70aee32588a1','category':'ANALYTICS','cookie_master_name':'_ga_NXPBDLCSFK','cookie_domain':'www.thesouledstore.com','cookie_master_id':'27525b10-6ffb-4a52-906f-c4d6b6617508','languages':{'en':{'language_id':'12de6345-96d4-4736-ad24-b4e8e9cd0d54','name':'_ga_NXPBDLCSFK','description':_0x362458(0x12b)}}},{'meta_data':{'path':'/','size':0x3d,'value':'1xsr2fd%7C1739962696278%7C1%7C0%7Cu.clarity.ms%2Fcollect','secure':![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':![],'priority':_0x362458(0x135),'sameParty':![],'expires_at':0x67b70ac8,'sourceScheme':'Secure','firstFoundUrl':_0x362458(0x164),'redirectedPage':_0x362458(0x143)},'cookie_id':_0x362458(0xd0),'category':'ANALYTICS','cookie_master_name':'_clsk','cookie_domain':'.thesouledstore.com','cookie_master_id':'79587429-c996-4ed9-a5cb-52396856e4b2','languages':{'en':{'language_id':_0x362458(0x12d),'name':'_clsk','description':'This\x20cookie\x20is\x20installed\x20by\x20Microsoft\x20Clarity\x20to\x20store\x20information\x20of\x20how\x20visitors\x20use\x20a\x20website\x20and\x20help\x20in\x20creating\x20an\x20analytics\x20report\x20of\x20how\x20the\x20website\x20is\x20doing.\x20The\x20data\x20collected\x20including\x20the\x20number\x20visitors,\x20the\x20source\x20where\x20they\x20have\x20come\x20from,\x20and\x20the\x20pages\x20visited\x20in\x20an\x20anonymous\x20form.'}}},{'meta_data':{'path':'/','size':0x15,'value':'deleted','secure':![],'session':![],'duration':'1\x20year(s),\x201\x20month(s),\x205\x20day(s)','httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':1774522806.864513,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/explore/perfumes','redirectedPage':_0x362458(0xfb)},'cookie_id':'4e78dbbb-a542-4bc1-9109-ef00a550c78a','category':'ANALYTICS','cookie_master_name':_0x362458(0xc9),'cookie_domain':'.www.thesouledstore.com','cookie_master_id':'e8f5bf1e-99b4-4fcf-946e-176a9ce055bd','languages':{'en':{'language_id':'166fc5a8-15fb-47d0-bcb1-3caa2a65d218','name':_0x362458(0xc9),'description':'This\x20cookie\x20is\x20set\x20by\x20Google\x20Analytics\x20and\x20is\x20used\x20to\x20distinguish\x20unique\x20users\x20by\x20assigning\x20a\x20randomly\x20generated\x20number\x20as\x20a\x20client\x20identifier.'}}},{'meta_data':{'path':'/','size':0x13,'value':'1','secure':![],'session':![],'duration':_0x362458(0xde),'httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':0x67b5b998,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com/mywishlist','redirectedPage':'https://www.thesouledstore.com/mywishlist'},'cookie_id':'efcfec96-6f6b-4cf8-9f31-991a17574041','category':'ANALYTICS','cookie_master_name':'_gat_UA-40900109-1','cookie_domain':'.thesouledstore.com','cookie_master_id':'6a50c8c4-1670-4f52-b388-825469d50fec','languages':{'en':{'language_id':_0x362458(0xc7),'name':'_gat_UA-40900109-1','description':_0x362458(0x150)}}},{'meta_data':{'path':'/','size':0x21,'value':'1y0hoyu%7C2%7Cftk%7C0%7C1876','secure':![],'session':![],'duration':_0x362458(0xe6),'httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':0x6996ecc6,'sourceScheme':'Secure','firstFoundUrl':_0x362458(0x164),'redirectedPage':_0x362458(0x143)},'cookie_id':'f72640ef-f842-4a17-a478-73f63dcfd55a','category':'ANALYTICS','cookie_master_name':'_clck','cookie_domain':_0x362458(0xf6),'cookie_master_id':'e3f7d650-a834-4ac3-9b65-61c85d3dff9a','languages':{'en':{'language_id':'3432cab3-8ed8-4fcd-b623-45919cc8588e','name':_0x362458(0xc6),'description':_0x362458(0x111)}}},{'meta_data':{'path':'/','size':0x18,'value':'1','secure':![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':0x67b5b982,'sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'4d7cb620-1817-4d75-ad5e-95cfc5285923','category':'ANALYTICS','cookie_master_name':'_gat_gtag_UA_40900109_1','cookie_domain':_0x362458(0xf6),'cookie_master_id':_0x362458(0xbc),'languages':{'en':{'language_id':'fe99d6cb-4eca-44ea-b3e1-1c822b0dfd4d','name':'_gat_gtag_UA_40900109_1','description':'Used\x20to\x20throttle\x20the\x20request\x20rate,\x20limiting\x20the\x20collection\x20of\x20data\x20on\x20high\x20traffic\x20sites.'}}},{'meta_data':{'path':'/','size':0x39,'value':'T','secure':!![],'session':!![],'duration':'NaN\x20year(s),\x20NaN\x20month(s),\x20NaN\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','foundType':_0x362458(0x148),'sameParty':![],'expires_at':'NA','urlOfCookie':'https://c.clarity.ms/c.gif','sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'109db8c4-a364-40ab-a386-0c0bb81976e4','category':'ANALYTICS','cookie_master_name':'SM','cookie_domain':'c.clarity.ms','cookie_master_id':_0x362458(0x15e),'languages':{'en':{'language_id':'b49d7f2a-2999-48fa-8eeb-6def2893c2e3','name':'SM','description':'This\x20is\x20a\x20Microsoft\x20cookie\x20which\x20we\x20use\x20to\x20measure\x20the\x20use\x20of\x20the\x20website\x20for\x20internal\x20analytics'}}},{'meta_data':{'path':'/','size':0x1e,'value':'GA1.1.1557804692.1739962695','secure':![],'session':![],'duration':'1\x20year(s),\x201\x20month(s),\x205\x20day(s)','httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':1774522695.049025,'sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':_0x362458(0x156),'category':_0x362458(0x13e),'cookie_master_name':'_ga','cookie_domain':_0x362458(0xf6),'cookie_master_id':'f0c1f80c-6547-46e7-95f6-3efede3d41c8','languages':{'en':{'language_id':_0x362458(0xda),'name':'_ga','description':'ID\x20used\x20to\x20identify\x20users'}}},{'meta_data':{'path':'/','size':0xa6,'value':'eyJpZCI6IjI0MWUyZGVkLTkwYTMtNDRmOS1iNDgzLWIzNTg4YzliNjdiYyIsImMiOjE3Mzk5NjI3MTcxOTAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=','secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','sameParty':![],'expires_at':0x67b5c065,'sourceScheme':_0x362458(0x15f),'firstFoundUrl':'https://www.thesouledstore.com/mywishlist','redirectedPage':'https://www.thesouledstore.com/mywishlist'},'cookie_id':_0x362458(0xfc),'category':_0x362458(0x13e),'cookie_master_name':_0x362458(0x165),'cookie_domain':'.thesouledstore.com','cookie_master_id':'cd602a36-ecad-42de-9641-dbad7f6ee0d4','languages':{'en':{'language_id':_0x362458(0xc4),'name':'_hjSession_2590087','description':'This\x20cookie\x20is\x20set\x20by\x20Hotjar.\x20It\x20is\x20used\x20to\x20detect\x20the\x20first\x20pageview\x20session\x20of\x20a\x20user,\x20also\x20related\x20to\x20Hotjar\x20analytics.'}}},{'meta_data':{'path':'/','size':0x87,'value':'df4a7040572047d3957f397b88bec48c.20250219.20260219','secure':!![],'session':![],'duration':'0\x20year(s),\x2011\x20month(s),\x2031\x20day(s)','httpOnly':!![],'priority':_0x362458(0x135),'sameSite':'none','foundType':'response','sameParty':![],'expires_at':0x6996ecc6,'urlOfCookie':'https://www.clarity.ms/tag/l1mc8vm6q5','sourceScheme':'Secure','firstFoundUrl':'https://www.thesouledstore.com','redirectedPage':'https://www.thesouledstore.com/'},'cookie_id':'336a25b4-6441-4494-baa7-527d1f05f9c1','category':'ANALYTICS','cookie_master_name':'CLID','cookie_domain':'www.clarity.ms','cookie_master_id':'b287ff7b-69d0-4804-9bf9-053855083be3','languages':{'en':{'language_id':_0x362458(0x10c),'name':'CLID','description':_0x362458(0xf8)}}}]};function toggleBanner(_0x2397ef){const _0xed0752=_0x362458;if(_0x2397ef===_0xed0752(0x140))document['getElementById']('banner-home')['style']['display']='';else _0x2397ef===_0xed0752(0x11c)&&(document[_0xed0752(0x12c)](_0xed0752(0x138))['style']['display']='none',document['getElementById']('banner-home')['style']['display']='none');}function processUserConsentBasedOnPreference(_0x6198d9,_0x229a49){const _0x10ceac=_0x362458,_0x3065e8=[];if(_0x229a49==='all')Object['keys'](_0x6198d9)['forEach'](_0x51a6ef=>_0x6198d9[_0x51a6ef]=!![]);else{if(_0x229a49==='necessary')Object[_0x10ceac(0x129)](_0x6198d9)['forEach'](_0x469b91=>_0x6198d9[_0x469b91]=_0x469b91==='NECESSARY');else{if(_0x229a49==='preference'){const _0x23c837=document['querySelectorAll'](_0x10ceac(0xf9));_0x23c837['forEach'](_0x35129c=>{const _0x415cd0=_0x35129c['id']['replace']('-toggle','');_0x3065e8['push'](_0x415cd0),_0x6198d9[_0x415cd0]=!![];}),Object[_0x10ceac(0x129)](_0x6198d9)['forEach'](_0xec1df1=>_0x6198d9[_0xec1df1]=_0x3065e8['includes'](_0xec1df1));}}}return _0x6198d9['update']=!![],toggleBanner('hide'),document['cookie']='privyConsent='+JSON[_0x10ceac(0x11e)](_0x6198d9)+';\x20path=/',localStorage['setItem']('privyConsent',JSON['stringify'](_0x6198d9)),_0x6198d9;}const categoryDescriptions={'necessary':'Essential\x20cookies\x20are\x20crucial\x20for\x20the\x20delivery\x20of\x20services,\x20applications,\x20or\x20resources\x20you\x20request.\x20They\x20enable\x20the\x20website\x20to\x20function\x20properly\x20by\x20managing\x20actions\x20such\x20as\x20loading\x20visual\x20elements,\x20accessing\x20resources,\x20or\x20user\x20sign-ins\x20and\x20sign-outs.\x20Essential\x20cookies\x20also\x20ensure\x20the\x20service\x27s\x20security\x20and\x20efficiency\x20by\x20enabling\x20features\x20like\x20authentication\x20and\x20load\x20balancing.','marketing':_0x362458(0xc2),'analytics':'Analytics\x20cookies\x20are\x20used\x20to\x20gather\x20information\x20on\x20website\x20usage,\x20helping\x20us\x20understand\x20visitor\x20behavior.\x20They\x20track\x20user\x20interactions,\x20providing\x20insights\x20that\x20enable\x20us\x20to\x20enhance\x20the\x20website\x27s\x20user\x20experience\x20and\x20functionality.\x20These\x20cookies\x20do\x20not\x20identify\x20you\x20personally\x20but\x20offer\x20aggregated\x20data\x20to\x20improve\x20site\x20performance.','performance':'These\x20cookies\x20collect\x20data\x20on\x20how\x20visitors\x20interact\x20with\x20our\x20website,\x20allowing\x20us\x20to\x20measure\x20and\x20improve\x20our\x20site\x27s\x20and\x20software\x27s\x20effectiveness.\x20They\x20help\x20us\x20track\x20visits\x20and\x20traffic\x20sources,\x20optimizing\x20our\x20website\x27s\x20performance.\x20Without\x20these\x20cookies,\x20we\x20lose\x20the\x20ability\x20to\x20monitor\x20our\x20site\x27s\x20engagement\x20and\x20enhance\x20user\x20experience.','functional':'Set\x20by\x20us\x20or\x20third-party\x20providers,\x20functional\x20cookies\x20add\x20extra\x20features\x20and\x20enhance\x20our\x20website\x27s\x20functionality\x20not\x20directly\x20necessary\x20for\x20the\x20service\x20you\x27ve\x20requested.\x20They\x20enable\x20convenience\x20features\x20such\x20as\x20pre-filled\x20text\x20fields,\x20live\x20chat\x20support,\x20and\x20optional\x20forms,\x20improving\x20your\x20browsing\x20experience\x20with\x20services\x20like\x20single\x20sign-on\x20(SSO).','others':'These\x20cookies\x20do\x20not\x20fall\x20into\x20standard\x20categories\x20but\x20serve\x20various\x20purposes.\x20They\x20may\x20enhance\x20specific\x20website\x20features\x20or\x20support\x20experimental\x20or\x20temporary\x20services,\x20and\x20are\x20typically\x20associated\x20with\x20minor\x20functions\x20or\x20specialized\x20needs.\x20Without\x20these,\x20the\x20website\x27s\x20core\x20functionality\x20remains\x20unaffected,\x20but\x20certain\x20experiences\x20or\x20experiments\x20may\x20be\x20impacted.'};function createBanner(_0x2e534d,_0xc69c81){const _0x31b318=_0x362458;let _0xf1d14f='\x0a\x20\x20\x20\x20<div\x20class=\x22idfy-'+_0xc69c81['bannerType']+'-AE1VSVI8T5\x22\x20id=\x22banner-home\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22banner-content-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20class=\x22banner-heading-AE1VSVI8T5\x22>Cookie\x20Notice</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22'+_0xc69c81[_0x31b318(0x145)]+'-inner-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22description-AE1VSVI8T5\x20'+_0xc69c81['bannerType']+'-desc-AE1VSVI8T5\x22\x20>'+_0xc69c81['contentDesktop'][_0x31b318(0xd1)]+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22'+_0xc69c81[_0x31b318(0x145)]+_0x31b318(0xd8)+_0xc69c81['bannerType']+'-button-AE1VSVI8T5\x22>'+_0xc69c81['buttonsText']['acceptAll']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22submitConsent(\x27necessary\x27)\x22\x20class=\x22'+_0xc69c81[_0x31b318(0x145)]+'-button-AE1VSVI8T5\x22>'+_0xc69c81['buttonsText'][_0x31b318(0x144)]+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22customize-btn-AE1VSVI8T5\x22\x20class=\x22'+_0xc69c81[_0x31b318(0x145)]+'-button-AE1VSVI8T5\x22>'+_0xc69c81['buttonsText']['moreSettings']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22powered-AE1VSVI8T5\x22\x20style=\x22border-radius:0px\x200px\x2010px\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20Powered\x20by\x20<span><a\x20href=\x22https://www.privyone.com/\x22\x20target=\x22_blank\x22>PRIVY</a></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20<div\x20id=\x22customize-screen-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22customize-settings-screen-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22close-btn-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22close-button-AE1VSVI8T5\x22>×</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20class=\x22box-heading-AE1VSVI8T5\x22>About\x20cookies\x20on\x20this\x20site.</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22box-description-AE1VSVI8T5\x22>'+_0xc69c81['contentDesktop']['preferenceManagerNotice']+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22categories-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+Object['keys'](_0x2e534d)[_0x31b318(0xee)](_0x5183b7=>{const _0x4887ab=_0x31b318,_0x20f76f=_0x2e534d[_0x5183b7],_0x26642f=_0x5183b7==='NECESSARY',_0x1e37ff=_0x26642f?'disabled':'';return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22category-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22category-header-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20onclick=\x22showDropdown(\x27'+_0x5183b7+'\x27)\x22\x20style=\x22cursor:pointer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22dropdown-arrow-AE1VSVI8T5\x20rotated-AE1VSVI8T5\x20dropdown-arrow-'+_0x5183b7+'\x22>^</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22'+_0x5183b7+'\x22>'+(_0x5183b7[_0x4887ab(0xcb)](0x1a4a+0x366+-0x1db0)+_0x5183b7['slice'](-0x1c5*-0x11+-0xce6+-0x112e)['toLowerCase']())+_0x4887ab(0x15a)+_0x5183b7+_0x4887ab(0x154)+(_0x26642f?_0x4887ab(0xdf):'')+'\x20'+_0x1e37ff+_0x4887ab(0x159)+_0x5183b7+'-toggle\x22\x20class=\x22toggle-label-AE1VSVI8T5\x20'+_0x1e37ff+'\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22dropdown-'+_0x5183b7+'\x22\x20class=\x22dropdown-content-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22category-description-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+categoryDescriptions[_0x5183b7['toLowerCase']()]+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20onclick=\x22viewCookies(\x27'+_0x5183b7+'\x27)\x22\x20id=\x22view-cookies-'+_0x5183b7+'\x22\x20class=\x22view-cookies-AE1VSVI8T5\x22>View\x20Cookies</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22show-cookies-AE1VSVI8T5\x20show-cookies-AE1VSVI8T5-'+_0x5183b7+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22all-cookies-AE1VSVI8T5-'+_0x5183b7+'\x22\x20class=\x22all-cookies-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x20f76f[_0x4887ab(0xee)](_0x2e76f4=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22cookie-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22cookie-name-AE1VSVI8T5\x22><span>\x20Name\x20</span>:\x20'+_0x2e76f4['cookie_master_name']+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22platform-AE1VSVI8T5\x22><span>Platform\x20</span>:\x20'+_0x2e76f4['cookie_domain']+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')['join']('')+_0x4887ab(0x15c);})[_0x31b318(0xe7)]('')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-panel-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22preference-button-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22submitConsent(\x27preference\x27)\x22\x20class=\x22button1-AE1VSVI8T5\x22>'+_0xc69c81['buttonsText']['savePreferences']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22submitConsent(\x27necessary\x27)\x22\x20class=\x22button2-AE1VSVI8T5\x22>'+_0xc69c81['buttonsText']['allowNecessary']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22powered-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Powered\x20by\x20<span><a\x20href=\x22https://www.privyone.com/\x22\x20target=\x22_blank\x22>PRIVY</a></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20';return _0xf1d14f;}function submitConsent(_0x7a93a4){const _0x3be054=_0x362458,_0x2d07f8=parsedConsentData(getCookieDetails(cookieName));processUserConsentBasedOnPreference(_0x2d07f8,_0x7a93a4),fetch(_0x3be054(0x157),{'method':'POST','headers':{'Content-Type':'application/json'},'body':JSON['stringify']({'user_preference':_0x2d07f8})})['then'](_0x1e1723=>{console['log']('submit\x20response',_0x1e1723);if(!_0x1e1723['ok'])throw new Error('Failed\x20to\x20submit\x20consent');return _0x1e1723['json']();})['catch'](_0x22dd89=>{console['error']('Error\x20submitting\x20consent:',_0x22dd89);}),location[_0x3be054(0x113)]();}function showBanner(){const _0x448f01=_0x362458,_0x434108=Object['keys'](categorizedCookies);let _0x50d1e3=parsedConsentData(getCookieDetails(cookieName));if(!_0x50d1e3){let _0x14094c={};for(let _0x5840b7 of _0x434108){_0x5840b7==='NECESSARY'?_0x14094c[_0x5840b7]=!![]:_0x14094c[_0x5840b7]=![];}_0x14094c[_0x448f01(0xfa)]=![],document[_0x448f01(0x127)]='privyConsent='+JSON['stringify'](_0x14094c)+';\x20path=/',localStorage[_0x448f01(0xf3)]('privyConsent',JSON['stringify'](_0x14094c)),location['reload']();}_0x50d1e3=parsedConsentData(getCookieDetails(cookieName));let _0x2fc993=document['createElement']('div');_0x2fc993['className']='consent-button-AE1VSVI8T5',document['body']['appendChild'](_0x2fc993);const _0x4ee04b=createBanner(categorizedCookies,template,_0x50d1e3),_0x3c80b9=document['createElement']('div');_0x3c80b9[_0x448f01(0x10d)]=_0x448f01(0x13d),_0x3c80b9['innerHTML']=_0x4ee04b,document[_0x448f01(0x11d)]['appendChild'](_0x3c80b9);let _0x1c646f='flex-end',_0x116ca1='right',_0x5a60ea=_0x448f01(0xc5);template['positionDesktop'][_0x448f01(0xbf)](_0x448f01(0xed))&&(_0x1c646f='flex-start',_0x116ca1=_0x448f01(0xed));template['positionDesktop'][_0x448f01(0xbf)]('top')&&(_0x5a60ea=_0x448f01(0xff));const _0x448925=document['createElement'](_0x448f01(0xc1));_0x448925[_0x448f01(0x10e)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-container-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20glideBanner\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x200%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateY(100%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateY(0%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.idfy-box-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20'+_0x1c646f+_0x448f01(0x121)+_0x5a60ea+':\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x116ca1+':\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2053%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x2070em;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'+template['fontName']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x202147483647\x20!important;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200px\x200px\x2010px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20glideBanner\x201.5s\x20ease-in-out\x20forwards;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.idfy-banner-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20flex-end;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5a60ea+':\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'+template['fontName']+_0x448f01(0x102)+_0x5a60ea+':\x2030px;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20'+_0x116ca1+':\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20width:\x2025%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20min-width:325px;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20font-family:\x20'+template['fontName']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20z-index:\x202147483647\x20!important;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20box-shadow:\x200px\x200px\x2010px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20animation:\x20glideBanner\x201.5s\x20ease-in-out\x20forwards;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-content-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow-y:auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x202s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-heading-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2018px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:bold\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:1\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:0px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:#000000\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-inner-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.description-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#484E56;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201.3\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:14px\x200px\x2014px\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:0px!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:#484E56\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-desc-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex:7\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:10px\x2010px\x2010px\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:normal\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-button-container-AE1VSVI8T5,.box-button-container-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20right!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2010px!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20.box-button-container-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20font-size:\x2014px!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20text-align:\x20center!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.box-button-AE1VSVI8T5,.banner-button-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-right:\x202.5px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20'+template['buttonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x209px\x2020px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20'+template['buttonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20white\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:inline-block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20Normal!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'+template['fontName']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#allow-btn-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:'+template['buttonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20'+template['buttonTextColor']+_0x448f01(0x151)+template['buttonColor']+'!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/*\x20custmise\x20banner\x20screen\x20css\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#customize-screen-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.customize-settings-screen-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2040%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2080%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-width:\x20290px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x20370px\x20;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200px\x200px\x2010px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x202147483647\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translate(-50%,\x20-50%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'+template['fontName']+';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20scroll;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-between;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.content-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px;\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.close-btn-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20end;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-bottom:\x200.5px\x20solid\x20#B2B5B8;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20sticky;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:2147483647\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.close-button-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#7D8187\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200px\x2010px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2020px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20transparent\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:inline-block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.box-heading-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2018px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#131A25\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:bold\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:1\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:0px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.box-description-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x2014px\x200px!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#484E56\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201.35\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.categories-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2025px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.category-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.category-header-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-between;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#B2B5B8;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#FAFAFB;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.category-AE1VSVI8T5\x20label\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:1\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#000000\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20inline\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20400\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-switch-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-label-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20inline-block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2040px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2020px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#ccc;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-label-AE1VSVI8T5::after\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x27\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x201px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x201px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-switch-AE1VSVI8T5:checked+.toggle-label-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#1C43B9;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-switch-AE1VSVI8T5:checked+.toggle-label-AE1VSVI8T5::after\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateX(20px);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-label-AE1VSVI8T5.disabled\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#ccc;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200.7;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20not-allowed;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20.toggle-label-AE1VSVI8T5.disabled::after\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#fff;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.dropdown-arrow-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-right:\x2010px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(2.5,\x202)\x20translate(0,\x202px);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20transparent\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20baseline;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Courier\x20New\x27,\x20Courier,\x20monospace\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20transform\x200.3s\x20ease\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:inline-block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20100!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x201px\x206px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:13.3px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#000000\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.rotated-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(2.5,\x202)\x20translate(0,\x20-3px)\x20rotate(180deg);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20transform\x200.3s\x20ease;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.dropdown-content-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#F3F3F4;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200px\x208px\x2016px\x200px\x20rgba(0,\x200,\x200,\x200.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x200\x200\x2010px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.category-description-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#131A25\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x2015px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:0px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.view-cookies-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#214698\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2010px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.show-cookies-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x20170px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20scroll\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.show-cookies-AE1VSVI8T5::-webkit-scrollbar\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.all-cookies-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#F3F3F4;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200px\x208px\x2016px\x200px\x20rgba(0,\x200,\x200,\x200.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x200\x200\x2010px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x202px\x2010px\x209px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#131A25;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.cookie-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#E2E2E2;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x208px\x2018px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x206px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20scroll;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.cookie-AE1VSVI8T5::-webkit-scrollbar\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.cookie-name-AE1VSVI8T5,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.platform-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x202px\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#131A25\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.bottom-panel-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20sticky;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.preference-button-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-top:\x200.5px\x20solid\x20#B2B5B8;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-around;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:row;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.preference-button-AE1VSVI8T5\x20button\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px\x2018px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20//\x20width:45%\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x203px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20//\x20display:inline-block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20Normal!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'+template[_0x448f01(0xd3)]+_0x448f01(0x10b)+template['butonTextColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20'+template['buttonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20'+template[_0x448f01(0xba)]+';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex:1;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.button2-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20'+template[_0x448f01(0xba)]+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20'+template['buttonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex:1;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.button2-AE1VSVI8T5:hover,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.button1-AE1VSVI8T5:hover,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.classic-button-AE1VSVI8T5:hover,.banner-button-AE1VSVI8T5:hover,.box-button-AE1VSVI8T5:hover,#allow-btn-AE1VSVI8T5:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20'+template['hoverButtonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20'+template['hoverTextColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20'+template['hoverButtonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.powered-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20right;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#F3F3F4;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2010px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x201px\x2010px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:0px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#7D8187\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:normal\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:1\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.powered-AE1VSVI8T5\x20a\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#1C43B9\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-decoration:none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2010px!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:1\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@media\x20(max-width:\x20900px)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.box-button-container-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.box-button-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2015px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2013px\x2022px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-inner-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20right\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@media\x20(max-width:\x20480px)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.idfy-banner-AE1VSVI8T5,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.idfy-box-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:0;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-height:80%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow:scroll;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-button-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2015px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2013px\x2022px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.customize-settings-screen-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:85vh;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:90vw;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-width:480px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:0;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:0;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.preference-button-AE1VSVI8T5\x20button{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2013px\x2022px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2015px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@media\x20(max-width:\x20850px){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.preference-button-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',document['head']['appendChild'](_0x448925);const _0x1e54e4=document['createElement']('script');_0x1e54e4[_0x448f01(0x10e)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20closeButton\x20=\x20document.querySelector(\x22.close-btn-AE1VSVI8T5\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20closeButton.addEventListener(\x27click\x27,\x20function\x20()\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20customizeScreen\x20=\x20document.getElementById(\x22customize-screen-AE1VSVI8T5\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20customizeScreen.style.display\x20=\x20\x22none\x22\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20bannerHome\x20=\x20document.getElementById(\x22banner-home\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bannerHome.style.display\x20=\x20\x22\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20})\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20customizeButton\x20=\x20document.getElementById(\x22customize-btn-AE1VSVI8T5\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20customizeButton.addEventListener(\x27click\x27,\x20function\x20()\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20customizeScreen\x20=\x20document.getElementById(\x22customize-screen-AE1VSVI8T5\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20customizeScreen.style.display\x20=\x20\x22block\x22;\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20bannerHome\x20=\x20document.getElementById(\x22banner-home\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bannerHome.style.display\x20=\x20\x22none\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20})\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20function\x20showDropdown(category)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20dropdown\x20=\x20document.getElementById(\x27dropdown-\x27\x20+\x20category);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20allCookies\x20=\x20document.getElementById(\x27all-cookies-AE1VSVI8T5-\x27\x20+\x20category);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20dropIcon\x20=\x20document.querySelector(\x27.dropdown-arrow-\x27\x20+\x20category);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(dropdown.style.display\x20===\x20\x22block\x22\x20||\x20allCookies.style.display\x20===\x20\x22block\x22)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropdown.style.display\x20=\x20\x22none\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20allCookies.style.display\x20=\x20\x22none\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropIcon.classList.add(\x27rotated-AE1VSVI8T5\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20else\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropdown.style.display\x20=\x20\x22block\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropIcon.classList.remove(\x27rotated-AE1VSVI8T5\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20function\x20viewCookies(category)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20allCookies\x20=\x20document.getElementById(\x27all-cookies-AE1VSVI8T5-\x27\x20+\x20category);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20allCookies.style.display\x20=\x20\x22block\x22;\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20dropdown\x20=\x20document.getElementById(\x27dropdown-\x27\x20+\x20category);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropdown.style.display\x20=\x20\x22none\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}',document['head']['appendChild'](_0x1e54e4),_0x50d1e3['update']===![]?toggleBanner('show'):toggleBanner('hide'),autoBlocking();}document['addEventListener']('DOMContentLoaded',showBanner);const DEFAULT_COOKIE_CONSENT={'NECESSARY':!![],'FUNCTIONAL':![],'ANALYTICS':![],'MARKETING':![],'OTHERS':![]},nonScriptElements=['embed',_0x362458(0x161),_0x362458(0x12a)],monitoredElements=[...nonScriptElements,_0x362458(0x114)],cookieName='privyConsent',tagsList=[{'tag':'https://www.googletagmanager.com/gtag/js?id=G-KWC0VKDZKW&l=dataLayer&cx=c&gtm=45He51n0h1v9199743789za200','categories':['NECESSARY'],'type':'script'},{'tag':'https://www.googletagmanager.com/gtm.js?id=GTM-KS3M7CSF','categories':[_0x362458(0xe0)],'type':_0x362458(0x114)},{'tag':_0x362458(0x133),'categories':['MARKETING'],'type':'script'},{'tag':_0x362458(0xdd),'categories':['MARKETING'],'type':'script'},{'tag':'https://platform.twitter.com/widgets.js','categories':['ANALYTICS'],'type':'script'},{'tag':'https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1','categories':['FUNCTIONAL'],'type':'iframe'},{'tag':'https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8','categories':[_0x362458(0x13e)],'type':_0x362458(0x114)},{'tag':'https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P','categories':[_0x362458(0x13e),'FUNCTIONAL'],'type':_0x362458(0x161)}];function _0x3af0(){const _0x5f098d=['Medium','nodeType','eyJpdiI6IlNBcFNnXC9FXC8wdzR3UmRlN1hFWU9DUT09IiwidmFsdWUiOiJrNEVRWHRCclFXYVZvb3FqSUlVamJ1NXYwSnVkUU0xNmQ5RllqREQzbzdVTVdJVmxra1pLUmNlSnRvc3M4MmRGKzBVbnVPVUNGaWpKRmowNXhJZ3k5Zz09IiwibWFjIjoiNTg3ZGJhNjQwMzc4YzNiNjIwODgwN2E5ZWFmOGRjYWQ0MzNmYzMyZDJmZDE2ZWIwZmRlOTJlMTFiOTM1N2FiZSJ9','customize-screen-AE1VSVI8T5','3221696aUrnOp','error','ar_debug','laravel_session','banner-container-AE1VSVI8T5','ANALYTICS','AKA_A2','show','13dee570-0354-4068-b192-1f6370d201a0','4321224rfXHme','https://www.thesouledstore.com/','allowNecessary','bannerType','%7B%22sessionKey%22%3A%220595788d-e0fb-4114-b209-71690b9151e2%22%2C%22sessionStartTime%22%3A%222025-02-19T10%3A58%3A15.978Z%22%2C%22sessionMaxTime%22%3A1800%2C%22customIdentifiersToTrack%22%3A%5B%5D%2C%22sessionExpiryTime%22%3A1739964496040%2C%22numberOfSessions%22%3A1%7D','https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=5FE325287CC747E2B05BC9E3ABFDE65C&RedC=c.clarity.ms&MXFR=36412E81C9E663F32CDE3B19CDE66D50','response','2fa43968-e208-4b8d-987c-533d188206d9','f2a44a54-703b-4e71-9210-d9233fce822d','Accept\x20All','lidc','none','91b92006-8449-4b1f-8a32-596fea5f6aa2','log','Used\x20to\x20throttle\x20the\x20request\x20rate\x20and\x20limit\x20data\x20collection\x20on\x20high-traffic\x20sites.','!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20','IDfy\x27s\x20website\x20may\x20request\x20cookies\x20to\x20be\x20set\x20on\x20your\x20device.\x20We\x20use\x20cookies\x20to\x20identify\x20when\x20you\x20visit\x20our\x20sites,\x20to\x20understand\x20your\x20interactions,\x20and\x20to\x20enhance\x20and\x20personalize\x20your\x20experience.\x20Cookies\x20also\x20support\x20social\x20media\x20features\x20and\x20tailor\x20your\x20engagement\x20with\x20IDfy,\x20including\x20delivering\x20more\x20relevant\x20advertisements.\x20You\x20can\x20review\x20the\x20different\x20category\x20headings\x20to\x20learn\x20more\x20and\x20adjust\x20your\x20cookie\x20preferences\x20anytime.\x20Please\x20keep\x20in\x20mind\x20that\x20your\x20choices\x20may\x20affect\x20your\x20experience\x20on\x20our\x20IDfy\x20sites\x20and\x20the\x20quality\x20of\x20services\x20we\x20can\x20provide.\x20Blocking\x20certain\x20types\x20of\x20cookies\x20might\x20affect\x20the\x20functionality\x20and\x20service\x20offerings\x20made\x20available\x20to\x20you.','G_ENABLED_IDPS','-toggle\x22\x20class=\x22toggle-switch-AE1VSVI8T5\x22\x20','635e13b3-0800-4fe1-967f-c5b3a4c7b88d','ba1e9c19-de01-4095-8cfe-99e26ca89585','http://localhost:3000/ext/cookie-banner/consent/d564c8ed-234e-491d-bdb3-bcae4a8064d3/292a571c-599b-48c1-80c5-59a583288b48','4707c404-f233-4010-8e5f-a4fb65837623','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22','\x20Cookies</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22','text/plain','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','79ab5eb0-90a7-4cbe-9af6-1479330aef91','b3d852b4-46f2-4b58-ad0d-a5c739fdecd8','Secure','14HPVjGG','iframe','f8c05323-ff71-4b0e-b506-0feb2300622c','Error\x20parsing\x20consent\x20data:','https://www.thesouledstore.com','_hjSession_2590087','buttonColor','This\x20cookie\x20is\x20used\x20by\x20Twitter\x20to\x20provide\x20embedded\x20content\x20from\x20Twitter\x20on\x20websites.','59fe3daf-c89a-417b-a179-3b3be1bb4596','994ab6a5-5e34-4dbe-9361-3868e8b308ce','80148fd2-42ca-42f1-8991-542a38e0e886','includes','c.clarity.ms','style','Our\x20advertising\x20partners\x20deploy\x20these\x20cookies\x20to\x20tailor\x20advertising\x20to\x20your\x20interests,\x20based\x20on\x20your\x20browsing\x20behavior\x20and\x20preferences.\x20They\x20track\x20your\x20online\x20activity\x20to\x20build\x20a\x20profile\x20for\x20customized\x20advertising,\x20ensuring\x20the\x20ads\x20you\x20encounter\x20on\x20other\x20sites\x20are\x20aligned\x20with\x20your\x20interests.','getAttribute','aeef8e91-77a0-415e-bd3b-64ad88e802d3','bottom','_clck','6a9699d0-c603-4f51-98b3-ff0beae79156','470ba75a-94aa-4f0e-ba55-70aaaddd89b4','_ga_NXPBDLCSFK','Collected\x20user\x20data\x20is\x20specifically\x20adapted\x20to\x20the\x20user\x20or\x20device.\x20The\x20usercan\x20also\x20be\x20followed\x20outside\x20of\x20the\x20loaded\x20website,\x20creating\x20a\x20picture\x20of\x20the\x20visitor\x27s\x20behavior.','charAt','Contains\x20a\x20unique\x20browser\x20and\x20user\x20ID,\x20used\x20for\x20targeted\x20advertising.','GS1.1.1739962695.1.0.1739962695.60.0.0','https://www.thesouledstore.com/product/powerpuff-girls-girl-power-blossom-girls-cotton-full-skeeve-tshirts','https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3332458&time=1739962693129&li_adsId=16da3f2d-0bda-40ee-8952-71599544447d&url=https%3A%2F%2Fwww.thesouledstore.com%2F&cookiesTest=true','d8db1ffc-1695-42d2-bded-f2624204822d','cookieBannerNotice','Allow\x20Only\x20Necessary','fontName','648983fd-ac4c-450a-a313-33d7bac1151b','Internally\x20laravel\x20uses\x20laravel_session\x20to\x20identify\x20a\x20session\x20instance\x20for\x20a\x20user','%7B%22p%22%3A81%7D','a4e34754-ec85-4dff-b800-43c3a163a6ea','-button-container-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22submitConsent(\x27all\x27)\x22\x20id=\x22allow-btn-AE1VSVI8T5\x22\x20class=\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20iframe[data-src]:not([src]),\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20img[data-src]:not([src]),\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20embed[data-src]:not([src])\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#f0f0f0\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#ccc\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-height:\x20100px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20iframe[data-src]:not([src])::before,\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20img[data-src]:not([src])::before,\x0a\x20\x20\x20\x20\x20\x20\x20\x20embed[data-src]:not([src])::before\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x22Content\x20blocked\x20pending\x20consent\x22\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#666\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20sans-serif\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20','27d3544c-3b0a-498c-a9d1-a173db6e5110','Used\x20for\x20Akamai\x27s\x20Advanced\x20Acceleration\x20feature,\x20intended\x20to\x20improve\x20web\x20performance','call','https://www.clarity.ms/tag/f4v1091lex','0\x20year(s),\x200\x20month(s),\x201\x20day(s)','checked\x20disabled','MARKETING','https://ad.doubleclick.net/activity;register_conversion=1;src=9855056;type=sitew0;cat=dcm_s0;ord=1;num=836610747948;npa=0;auiddc=616273594.1739962695;u1=https%3A%2F%2Fwww.thesouledstore.com%2Fkids%2Fboys-coord-sets;ps=1;pcor=1135655044;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;gtm=45fe52d0z878742836za201zb78742836;gcd=13l3l3l3l1l1;dma=0;tag_exp=102067808~102482432~102539968~102558064~102587591~102605417~102640600;epver=2;~oref=https%3A%2F%2Fwww.thesouledstore.com%2Fkids%2Fboys-coord-sets?','https://www.thesouledstore.com/mywishlist','SESSION','privy-data-src','\x22b=TGST06:s=T:r=T:a=T:p=T:g=3091:u=1:x=1:i=1739962695:t=1740049095:v=2:sig=AQFEpMqqN_LbJQkxFAXj5ypt8YkJKzhu\x22','0\x20year(s),\x2011\x20month(s),\x2031\x20day(s)','join','d15c72a5f8ce75d0','Used\x20to\x20collect\x20information\x20for\x20analytics\x20purposes.','62c259e9-669d-4a5a-a362-7244a07b105d','b107fe57-1d6c-413b-ad52-3b8bc343ff2a','1b3328f5-2954-49d5-84ca-ee21e9317c6f','left','map','JSESSIONID','textContent','ANONCHK','This\x20cookie\x20may\x20store\x20user-specific\x20information\x20entered\x20on\x20a\x20website.','setItem','This\x20cookie\x20is\x20used\x20for\x20behavioral\x20targeting\x20and\x20analytics\x20purposes\x20by\x20Media.net.','toLowerCase','.thesouledstore.com','tag','The\x20cookie\x20is\x20set\x20by\x20embedded\x20Microsoft\x20Clarity\x20scripts.\x20The\x20purpose\x20of\x20this\x20cookie\x20is\x20for\x20heatmap\x20and\x20session\x20recording.','input[type=\x22checkbox\x22]:checked','update','https://www.thesouledstore.com/explore/perfumes','10af1574-5fc9-4ea8-bd4f-01ef6bae1946','2893866xljKBI','0c61838b-131c-4bdc-98a1-55552093d3ef','top','530SsIZFr','311672e5-0cef-4fff-a908-f25f26490d99','\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x202147483647\x20!important;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200px\x200px\x2010px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20glideBanner\x201.5s\x20ease-in-out\x20forwards;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20.idfy-box-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20flex-direction:column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20background-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20justify-content:\x20flex-end;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20//\x20\x20\x20\x20\x20','5290292miNKkf','aaf46fc6-67c5-4e8c-9c18-08e8f29a98db','ee3ec135-41a8-4f6f-a8b9-9e4ac5eee2d0','%7B%22dicbo_fetch%22%3A1739962717790%7D','55\x20year(s),\x201\x20month(s),\x2020\x20day(s)','Save\x20My\x20Preferences','.www.thesouledstore.com','_gcl_au','\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.button1-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20','2da24d55-0846-455d-90fe-4596fd16f543','className','innerHTML','45802413DSKckP','documentElement','\x20This\x20cookie\x20is\x20installed\x20by\x20Microsoft\x20Clarity\x20to\x20store\x20information\x20of\x20how\x20visitors\x20use\x20a\x20website\x20and\x20help\x20in\x20creating\x20an\x20analytics\x20report\x20of\x20how\x20the\x20website\x20is\x20doing.\x20The\x20data\x20collected\x20including\x20the\x20number\x20visitors,\x20the\x20source\x20where\x20they\x20have\x20come\x20from,\x20and\x20the\x20pages\x20visited\x20in\x20an\x20anonymous\x20form.','1\x20year(s),\x201\x20month(s),\x205\x20day(s)','reload','script','b09a9326-a7b3-4b86-86ce-94ee6cb651b1','type','_gid','cb99dc12-159d-4a4a-844c-89df95dc5770','29b83f18-19b7-48d2-8103-fa7ddf20a420','This\x20cookie\x20is\x20set\x20by\x20Hotjar\x20to\x20identify\x20a\x20new\x20user’s\x20first\x20session.\x20It\x20stores\x20a\x20true/false\x20value,\x20indicating\x20whether\x20this\x20was\x20the\x20first\x20time\x20Hotjar\x20saw\x20this\x20user.\x20It\x20is\x20used\x20by\x20Recording\x20filters\x20to\x20identify\x20new\x20user\x20sessions.','forEach','hide','body','stringify','9642rHoMSH','9f0c6920-a856-433f-9d55-5efe62416625',';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','495d5587-5724-4651-820a-b0e90122c860','More\x20Settings','High','https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3332458&time=1739962693129&li_adsId=16da3f2d-0bda-40ee-8952-71599544447d&url=https%3A%2F%2Fwww.thesouledstore.com%2F','_hjSessionUser_2590087','cookie','.linkedin.com','keys','img','Used\x20to\x20distinguish\x20users\x20and\x20generate\x20statistical\x20data\x20on\x20website\x20usage.','getElementById','243bfbf1-d243-437e-8161-e1737d243fb7','test_WZRK_S_865-K54-K75Z1','USER_DATA','976223dhRKhB','\x22z=1&dm=www.thesouledstore.com&si=67e48c96-01b5-4c45-9446-37fbb560965c&ss=m7bsuz3w&sl=1&tt=59y&rl=1&ld=59z\x22','08b91122-b28b-4167-805a-1e7501e844c6','//js.hsforms.net/forms/embed/v2.js','setAttribute'];_0x3af0=function(){return _0x5f098d;};return _0x3af0();}function findMatchingTag(_0x84b002){const _0x10f42e=_0x362458;return tagsList['find'](_0x35fae3=>_0x84b002['includes'](_0x35fae3[_0x10f42e(0xf7)]))||null;}function getUrlDetails(_0x30f387){const _0x3063c3=_0x362458,_0x188fbb=findMatchingTag(_0x30f387)||{};return{'categories':_0x188fbb['categories']||[],'type':_0x188fbb[_0x3063c3(0x116)]||''};}function checkConsent(_0x1f6669,_0x42c845){if(!_0x42c845)return![];return _0x1f6669['every'](_0x4fd05c=>_0x42c845[_0x4fd05c]===!![]);}function parsedConsentData(_0x3593b3){const _0x8302c0=_0x362458;try{return JSON['parse'](_0x3593b3);}catch(_0x32ed82){return console[_0x8302c0(0x13a)](_0x8302c0(0x163),_0x32ed82),null;}}function getCookieDetails(_0x54090a,_0x393677=DEFAULT_COOKIE_CONSENT){const _0x5e26f0=localStorage['getItem'](_0x54090a);if(_0x5e26f0)return _0x5e26f0;const _0x38d815=document['cookie']['split'](';\x20')['find'](_0x16bc72=>_0x16bc72['startsWith'](_0x54090a+'='));if(_0x38d815)return _0x38d815;return console['log']('No\x20cookie\x20found\x20on\x20browser\x20defaultConsent\x20set'),_0x393677;}function hasUserConsent(_0x1cdf77,_0x220396=DEFAULT_COOKIE_CONSENT){if(!_0x1cdf77||_0x1cdf77['length']===-0xeef+-0x1*-0x1981+-0xa92)return!![];const _0x17e366=getCookieDetails(cookieName,_0x220396),_0x4d2b24=parsedConsentData(_0x17e366);return checkConsent(_0x1cdf77,_0x4d2b24);}function addPrivacyClasses(_0x15cafb,_0x2c5fbe){const _0x4a22df=_0x362458;_0x2c5fbe['length']&&_0x2c5fbe[_0x4a22df(0x11b)](_0x3f3f85=>{const _0x394ba2='privy-cmp-category-'+_0x3f3f85;!_0x15cafb['classList']['contains'](_0x394ba2)&&_0x15cafb['classList']['add'](_0x394ba2);});}function handleTags(_0x1792e6){const _0x508df3=_0x362458,_0x260629=_0x1792e6['src']||_0x1792e6[_0x508df3(0xc3)]('src')||'';if(!_0x260629)return;const _0x1ae9f8=getUrlDetails(_0x260629),_0x22b268=_0x1ae9f8['categories'],_0x461c61=_0x1ae9f8['type'];addPrivacyClasses(_0x1792e6,_0x22b268);if(!hasUserConsent(_0x22b268)){const _0x2253df=_0x260629;if(_0x461c61==='script')_0x1792e6['type']='text/plain',_0x1792e6['setAttribute']('privy-data-src',_0x2253df),_0x1792e6['removeAttribute']('src'),console[_0x508df3(0x14f)]('Script\x20blocked:\x20'+_0x260629,_0x461c61,_0x22b268);else nonScriptElements['includes'](_0x1792e6['tagName']['toLowerCase']())&&(_0x1792e6['setAttribute'](_0x508df3(0xe4),_0x2253df),_0x1792e6['removeAttribute']('src'),console[_0x508df3(0x14f)]('Media\x20element\x20blocked:\x20'+_0x260629,_0x461c61,_0x22b268));}}function reconsentPreference(_0x3bb5c7){const _0x303280=getCookieDetails(cookieName);processUserConsentBasedOnPreference(_0x303280,'preference'),processExistingElements();}function setupPrivacyObserver(){const _0x565d73=_0x362458,_0x220a54=new MutationObserver(_0x111039=>{_0x111039['forEach'](_0x6c373a=>{const _0x16ae5f=_0x69f4;_0x6c373a['addedNodes'][_0x16ae5f(0x11b)](_0x50a9f3=>{const _0x2dbd09=_0x16ae5f;_0x50a9f3[_0x2dbd09(0x136)]===0x1*0x191b+-0xead+0x11*-0x9d&&monitoredElements['includes'](_0x50a9f3['tagName']['toLowerCase']())&&handleTags(_0x50a9f3);}),_0x6c373a['type']==='attributes'&&(_0x6c373a['attributeName']==='src'||_0x6c373a['attributeName']===_0x16ae5f(0x116))&&handleTags(_0x6c373a['target']);});});_0x220a54['observe'](document[_0x565d73(0x110)],{'childList':!![],'subtree':!![],'attributes':!![],'attributeFilter':['src',_0x565d73(0x116)]});}function processExistingElements(){monitoredElements['forEach'](_0x33d0a9=>{const _0x57dca9=_0x69f4;document['querySelectorAll'](_0x33d0a9)[_0x57dca9(0x11b)](_0x25ccf5=>{handleTags(_0x25ccf5);});});}function autoBlocking(){const _0x1a79b9=_0x362458,_0x5a7861=Element['prototype'][_0x1a79b9(0x134)];Element['prototype']['setAttribute']=function(_0x32e690,_0x8b3f15){const _0x182560=_0x1a79b9;if(_0x32e690==='src'&&monitoredElements['includes'](this['tagName'][_0x182560(0xf5)]())){const _0x5ace5b=getUrlDetails(_0x8b3f15);if(!hasUserConsent(_0x5ace5b['categories'])){console['log']('Blocking\x20src\x20setting\x20for\x20'+this['tagName']+':',_0x8b3f15),_0x5a7861['call'](this,'data-src',_0x8b3f15);this['tagName']['toLowerCase']()==='script'&&_0x5a7861['call'](this,_0x182560(0x116),_0x182560(0x15b));return;}}_0x5a7861[_0x182560(0xdc)](this,_0x32e690,_0x8b3f15);};const _0x579e7b=document['createElement'](_0x1a79b9(0xc1));_0x579e7b[_0x1a79b9(0xf0)]=_0x1a79b9(0xd9),document['head']['appendChild'](_0x579e7b);function _0x4e71f4(){processExistingElements(),setupPrivacyObserver(),console['log']('Privacy\x20controls\x20initialized');}document['readyState']==='loading'?document['addEventListener']('DOMContentLoaded',_0x4e71f4):_0x4e71f4(),window['updatePrivacyConsent']=function(_0x45a396){const _0x4814b5=_0x1a79b9;localStorage[_0x4814b5(0xf3)]('privyConsent',JSON['stringify'](_0x45a396)),processExistingElements();};}
+
+const template = { "bannerType": "box", "buttonColor": "#214698", "buttonsText": { "acceptAll": "Accept All", "moreSettings": "More Settings", "allowNecessary": "Allow Only Necessary", "savePreferences": "Save My Preferences" }, "contentMobile": { "cookieBannerNotice": "This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.", "preferenceManagerNotice": "IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you." }, "contentDesktop": { "cookieBannerNotice": "This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.", "preferenceManagerNotice": "IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you." }, "hoverTextColor": "#ffffff", "positionMobile": "bottom", "buttonTextColor": "#ffffff", "positionDesktop": "bottom-left", "hoverButtonColor": "#214699", "preferenceManagerHorizontalPosition": "left" };
+const categorizedCookies = { "OTHER": [{ "meta_data": { "path": "/", "size": 166, "value": "%7B%22attributes%22%3A%5B%5D%2C%22subscribedToOldSdk%22%3Afalse%2C%22deviceUuid%22%3A%222e42da86-3dc6-4ef1-b382-5efdccd7aabe%22%2C%22deviceAdded%22%3Atrue%7D", "secure": true, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1774522696.033778, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "c376565f-5931-4acf-bbf7-b7e4340c1980", "category": "OTHER", "cookie_master_name": "USER_DATA", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "48dd8532-b4f3-473f-b080-95488eb4787e", "languages": { "en": { "language_id": "f5fbf9d8-e060-43a3-8d2c-89da2f1ad778", "name": "USER_DATA", "description": "This cookie may store user-specific information entered on a website." } } }], "FUNCTIONAL": [{ "meta_data": { "path": "/", "size": 291, "value": "eyJpdiI6IlNBcFNnXC9FXC8wdzR3UmRlN1hFWU9DUT09IiwidmFsdWUiOiJrNEVRWHRCclFXYVZvb3FqSUlVamJ1NXYwSnVkUU0xNmQ5RllqREQzbzdVTVdJVmxra1pLUmNlSnRvc3M4MmRGKzBVbnVPVUNGaWpKRmowNXhJZ3k5Zz09IiwibWFjIjoiNTg3ZGJhNjQwMzc4YzNiNjIwODgwN2E5ZWFmOGRjYWQ0MzNmYzMyZDJmZDE2ZWIwZmRlOTJlMTFiOTM1N2FiZSJ9", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 7 day(s)", "httpOnly": true, "priority": "Medium", "sameParty": false, "expires_at": 1740567515.240037, "sourcePort": 443, "urlOfCookie": "https://api.thesouledstore.com/api/v1/souled-army", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/mywishlist", "redirectedPage": "https://www.thesouledstore.com/mywishlist" }, "cookie_id": "ebb44530-7732-4820-a0a1-53f5b5119294", "category": "FUNCTIONAL", "cookie_master_name": "laravel_session", "cookie_domain": "api.thesouledstore.com", "cookie_master_id": "f934794d-f835-4106-a8d8-2f12ba6a3b6a", "languages": { "en": { "language_id": "3959b62f-d21f-46a1-a4f5-8492ced42fd3", "name": "laravel_session", "description": "Internally laravel uses laravel_session to identify a session instance for a user" } } }, { "meta_data": { "path": "/", "size": 125, "value": "CheckForPermission", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "none", "foundType": "response", "sameParty": false, "expires_at": 1739963595, "urlOfCookie": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/836942520/?random=1739962695006&cv=11&fst=1739962695006&bg=ffffff&guid=ON&async=1&gtm=45be52d0v879068245za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102067808~102482433~102539968~102558064~102587591~102605417~102640600&u_w=1470&u_h=956&url=https%3A%2F%2Fwww.thesouledstore.com%2F&hn=www.googleadservices.com&frm=0&npa=0&auid=616273594.1739962695&fledge=1&data=event%3Dlanding_homepage%3Bemail%3DNA%3Bgender%3DNA%3BCountry_Id%3D99&rfmt=3&fmt=4", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "c7787a37-ee9e-4671-abce-1ba52be9b927", "category": "FUNCTIONAL", "cookie_master_name": "test_cookie", "cookie_domain": ".doubleclick.net", "cookie_master_id": "1d65695a-edb9-4622-a166-9d036bcde558", "languages": { "en": { "language_id": "2fa43968-e208-4b8d-987c-533d188206d9", "name": "test_cookie", "description": "This cookie is set by DoubleClick (which is owned by Google) to determine if the website visitor's browser supports cookies." } } }, { "meta_data": { "path": "/", "size": 7, "value": "A", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": true, "priority": "Medium", "sameParty": false, "expires_at": 1739966289.515734, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "9b055664-a8a2-475a-b4c6-afa8054d3a80", "category": "FUNCTIONAL", "cookie_master_name": "AKA_A2", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "aaa3c9bd-0314-4c74-805f-235b761e0c87", "languages": { "en": { "language_id": "648983fd-ac4c-450a-a313-33d7bac1151b", "name": "AKA_A2", "description": "Used for Akamai's Advanced Acceleration feature, intended to improve web performance" } } }, { "meta_data": { "path": "/", "size": 79, "value": "d15c72a5f8ce75d0", "secure": true, "session": true, "duration": "NaN year(s), NaN month(s), NaN day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": "NA", "urlOfCookie": "https://bam.nr-data.net/1/NRJS-27baf8db6af46366ebc?a=1090119261&sa=1&v=1210.e2a3f80&t=Unnamed%20Transaction&rst=30626&ck=1&ref=https://www.thesouledstore.com/product/powerpuff-girls-girl-power-blossom-girls-cotton-full-skeeve-tshirts&be=207&fe=30438&dc=30437&af=err,xhr,stn,ins,spa&perf=%7B%22timing%22:%7B%22of%22:1739962961292,%22n%22:0,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22ce%22:1,%22rq%22:2,%22rp%22:191,%22rpe%22:205,%22dl%22:199,%22di%22:16578,%22ds%22:30437,%22de%22:30438,%22dc%22:30438,%22l%22:30439,%22le%22:30445%7D,%22navigation%22:%7B%7D%7D&jsonp=NREUM.setToken", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/product/powerpuff-girls-girl-power-blossom-girls-cotton-full-skeeve-tshirts", "redirectedPage": "https://www.thesouledstore.com/product/powerpuff-girls-girl-power-blossom-girls-cotton-full-skeeve-tshirts" }, "cookie_id": "4ee3c9fd-99cd-49af-9ed7-857997bd59fb", "category": "FUNCTIONAL", "cookie_master_name": "JSESSIONID", "cookie_domain": ".nr-data.net", "cookie_master_id": "9798b5c2-dc9a-4aba-aca0-4c9645633403", "languages": { "en": { "language_id": "1d34d025-ae5e-44c8-a690-9bcd816b08cf", "name": "JSESSIONID", "description": "JSESSIONID is a cookie generated by Servlet containers and used for session management in J2EE web applications for HTTP protocol. If a Web server is using a cookie for session management, it creates and sends JSESSIONID cookie to the client and then the client sends it back to the server in subsequent HTTP requests. JSESSIONID is a platform session cookie and is used by sites with JavaServer Pages (JSP). The cookie is used to maintain an anonymous user session by the server." } } }, { "meta_data": { "path": "/", "size": 100, "value": "A", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "Lax", "foundType": "response", "sameParty": false, "expires_at": 1739966289, "urlOfCookie": "https://www.thesouledstore.com/", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "133ad5f4-2d8b-4665-969e-da9b195a70c3", "category": "FUNCTIONAL", "cookie_master_name": "AKA_A2", "cookie_domain": "thesouledstore.com", "cookie_master_id": "91b92006-8449-4b1f-8a32-596fea5f6aa2", "languages": { "en": { "language_id": "f2a2238d-14e4-4a41-a0c3-8fb96687948e", "name": "AKA_A2", "description": "Used for Akamai's Advanced Acceleration feature, intended to improve web performance" } } }, { "meta_data": { "path": "/", "size": 128, "value": "0B9A0A8B7BEB6C560F6C1F137A706DF0", "secure": true, "session": false, "duration": "1 year(s), 0 month(s), 25 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": 1773658696, "urlOfCookie": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=5FE325287CC747E2B05BC9E3ABFDE65C&RedC=c.clarity.ms&MXFR=36412E81C9E663F32CDE3B19CDE66D50", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "cecff50a-4eaa-41fd-a130-3d14c034ed78", "category": "FUNCTIONAL", "cookie_master_name": "SRM_B", "cookie_domain": "c.bing.com", "cookie_master_id": "62c259e9-669d-4a5a-a362-7244a07b105d", "languages": { "en": { "language_id": "9f0c6920-a856-433f-9d55-5efe62416625", "name": "SRM_B", "description": "Collected user data is specifically adapted to the user or device. The usercan also be followed outside of the loaded website, creating a picture of the visitor's behavior." } } }], "NECESSARY": [{ "meta_data": { "path": "/", "size": 109, "value": "\"z=1&dm=www.thesouledstore.com&si=67e48c96-01b5-4c45-9446-37fbb560965c&ss=m7bsuz3w&sl=1&tt=59y&rl=1&ld=59z\"", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 7 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "Lax", "sameParty": false, "expires_at": 1740567495, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "ab1df80d-bee0-4b61-831f-f192293fbe71", "category": "NECESSARY", "cookie_master_name": "RT", "cookie_domain": ".www.thesouledstore.com", "cookie_master_id": "29b83f18-19b7-48d2-8103-fa7ddf20a420", "languages": { "en": { "language_id": "54b8b32b-8756-44a0-ba7c-02289aa96bef", "name": "RT", "description": "This cookie is used by Twitter to provide embedded content from Twitter on websites." } } }, { "meta_data": { "path": "/", "size": 279, "value": "%7B%22sessionKey%22%3A%220595788d-e0fb-4114-b209-71690b9151e2%22%2C%22sessionStartTime%22%3A%222025-02-19T10%3A58%3A15.978Z%22%2C%22sessionMaxTime%22%3A1800%2C%22customIdentifiersToTrack%22%3A%5B%5D%2C%22sessionExpiryTime%22%3A1739964496040%2C%22numberOfSessions%22%3A1%7D", "secure": true, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1774522696.040998, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "08b91122-b28b-4167-805a-1e7501e844c6", "category": "NECESSARY", "cookie_master_name": "SESSION", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "be4e90a7-6972-4791-97ff-5889a158cd1c", "languages": { "en": { "language_id": "06f877c3-28c6-44b1-813a-a9f17a2ccbd9", "name": "SESSION", "description": "A standard cookie used to maintain session state for the user in various web applications." } } }, { "meta_data": { "path": "/", "size": 20, "value": "google", "secure": false, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1774522722.408465, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/mywishlist", "redirectedPage": "https://www.thesouledstore.com/mywishlist" }, "cookie_id": "a367e3d1-5056-4e56-8cfa-d68e365afdfe", "category": "NECESSARY", "cookie_master_name": "G_ENABLED_IDPS", "cookie_domain": ".www.thesouledstore.com", "cookie_master_id": "71b03096-c026-4df6-a744-9ab0f10f17a7", "languages": { "en": { "language_id": "d43779ef-81b2-4ca0-a7e3-60b8020efd97", "name": "G_ENABLED_IDPS", "description": "Used by Google for Single Sign On functionality." } } }], "MARKETING": [{ "meta_data": { "path": "/", "size": 141, "value": "0B9A0A8B7BEB6C560F6C1F137A706DF0", "secure": true, "session": false, "duration": "1 year(s), 0 month(s), 25 day(s)", "httpOnly": false, "priority": "High", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": 1773658696, "urlOfCookie": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=5FE325287CC747E2B05BC9E3ABFDE65C&RedC=c.clarity.ms&MXFR=36412E81C9E663F32CDE3B19CDE66D50", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "13dee570-0354-4068-b192-1f6370d201a0", "category": "MARKETING", "cookie_master_name": "MUID", "cookie_domain": ".bing.com", "cookie_master_id": "1b3328f5-2954-49d5-84ca-ee21e9317c6f", "languages": { "en": { "language_id": "e83d62e1-97c9-4228-912a-72d7cbe78cc0", "name": "MUID", "description": "Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes." } } }, { "meta_data": { "path": "/", "size": 205, "value": "\"b=TGST06:s=T:r=T:a=T:p=T:g=3091:u=1:x=1:i=1739962695:t=1740049095:v=2:sig=AQFEpMqqN_LbJQkxFAXj5ypt8YkJKzhu\"", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": 1740049095, "urlOfCookie": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3332458&time=1739962693129&li_adsId=16da3f2d-0bda-40ee-8952-71599544447d&url=https%3A%2F%2Fwww.thesouledstore.com%2F&cookiesTest=true", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "05da9693-50ba-4681-8820-e0b2688158db", "category": "MARKETING", "cookie_master_name": "lidc", "cookie_domain": ".linkedin.com", "cookie_master_id": "6942aaf4-a341-4c9e-aaf6-6dc4a3405f78", "languages": { "en": { "language_id": "635e13b3-0800-4fe1-967f-c5b3a4c7b88d", "name": "lidc", "description": "Used by the social networking service, LinkedIn, for tracking the use of embedded services." } } }, { "meta_data": { "path": "/", "size": 41, "value": "fb.1.1739962716755.415546465840705518", "secure": false, "session": false, "duration": "0 year(s), 2 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "Lax", "sameParty": false, "expires_at": 1747738716, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/mywishlist", "redirectedPage": "https://www.thesouledstore.com/mywishlist" }, "cookie_id": "5d054b9b-e205-4411-9e08-2aef7c3afb4d", "category": "MARKETING", "cookie_master_name": "_fbp", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "0c61838b-131c-4bdc-98a1-55552093d3ef", "languages": { "en": { "language_id": "79ab5eb0-90a7-4cbe-9af6-1479330aef91", "name": "_fbp", "description": "Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers" } } }, { "meta_data": { "path": "/", "size": 101, "value": "0", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": 1739963296, "urlOfCookie": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=5FE325287CC747E2B05BC9E3ABFDE65C&MUID=0B9A0A8B7BEB6C560F6C1F137A706DF0", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "901fe0ff-60ff-4254-91de-1d2a8f4e28ab", "category": "MARKETING", "cookie_master_name": "ANONCHK", "cookie_domain": "c.clarity.ms", "cookie_master_id": "74ff17f1-d38c-4be6-9557-23586364f9b2", "languages": { "en": { "language_id": "4ce1d601-39f1-42dd-95fd-af27046e9fd5", "name": "ANONCHK", "description": "Used to store session ID for a users session to ensure that clicks from adverts on the Bing search engine are verified for reporting purposes and for personalisation" } } }, { "meta_data": { "path": "/", "size": 123, "value": "1", "secure": true, "session": false, "duration": "0 year(s), 2 month(s), 30 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "none", "foundType": "response", "sameParty": false, "expires_at": 1747738695, "urlOfCookie": "https://www.google-analytics.com/privacy-sandbox/register-conversion?_c=1&cid=1557804692.1739962695&dbk=2846476769878293630&dma=0&en=homepage_visits&gtm=45je52d0v880986332za200&npa=0&tid=G-NXPBDLCSFK&dl=https%3A%2F%2Fwww.thesouledstore.com%3F", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "a4e34754-ec85-4dff-b800-43c3a163a6ea", "category": "MARKETING", "cookie_master_name": "ar_debug", "cookie_domain": "www.google-analytics.com", "cookie_master_id": "ae6c9087-8b89-400e-95b0-f647a2750931", "languages": { "en": { "language_id": "2be60cf6-4187-45e3-bf6f-2cfc7ac5b236", "name": "ar_debug", "description": "Store and track conversions" } } }, { "meta_data": { "path": "/", "size": 94, "value": "0", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 7 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": 1740567496, "urlOfCookie": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=5FE325287CC747E2B05BC9E3ABFDE65C&RedC=c.clarity.ms&MXFR=36412E81C9E663F32CDE3B19CDE66D50", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "8dc9bd02-48a2-4310-acd7-db2fa08b306e", "category": "MARKETING", "cookie_master_name": "MR", "cookie_domain": "c.bing.com", "cookie_master_id": "e27adf46-3266-4933-803a-b3e2212417c8", "languages": { "en": { "language_id": "f75c7732-68c8-49dd-b393-c2920c5a9145", "name": "MR", "description": "Used to collect information for analytics purposes." } } }, { "meta_data": { "path": "/", "size": 43, "value": "%7B%22p%22%3A81%7D", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1739962914, "sourcePort": 443, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/product/girls-leggings-tss-originals-fun-floral", "redirectedPage": "https://www.thesouledstore.com/product/girls-leggings-tss-originals-fun-floral" }, "cookie_id": "6941fef8-0be9-402c-86b1-a441aaf60437", "category": "MARKETING", "cookie_master_name": "test_WZRK_S_865-K54-K75Z1", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "4707c404-f233-4010-8e5f-a4fb65837623", "languages": { "en": { "language_id": "e34aaf1c-2a8b-4fdc-bea4-993fde00d7cb", "name": "test_WZRK_S_865-K54-K75Z1", "description": "WebEngage cookies to deliver a more personalized experience on the website." } } }, { "meta_data": { "path": "/", "size": 107, "value": "1", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 31 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": 1742592470, "urlOfCookie": "https://px.ads.linkedin.com/attribution_trigger?pid=3332458&time=1739962724405&url=https%3A%2F%2Fwww.thesouledstore.com%2Fmywishlist", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/mywishlist", "redirectedPage": "https://www.thesouledstore.com/mywishlist" }, "cookie_id": "f1224a0e-f285-4ee1-a655-1c54fe16ecbc", "category": "MARKETING", "cookie_master_name": "ar_debug", "cookie_domain": "px.ads.linkedin.com", "cookie_master_id": "0db79137-75c2-4566-aa7b-48f942d4eb4e", "languages": { "en": { "language_id": "c7d2ab5e-a6ff-4fd8-acb7-526134483695", "name": "ar_debug", "description": "Store and track conversions" } } }, { "meta_data": { "path": "/", "size": 23, "value": "1739962692210", "secure": false, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1771498692, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "cb99dc12-159d-4a4a-844c-89df95dc5770", "category": "MARKETING", "cookie_master_name": "__tr_luptv", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "495d5587-5724-4651-820a-b0e90122c860", "languages": { "en": { "language_id": "512d892c-8d64-4ef6-a49f-0509deb9bb8e", "name": "__tr_luptv", "description": "Cookie set by Twitter used for advertising and tracking." } } }, { "meta_data": { "path": "/", "size": 153, "value": "f8c05323-ff71-4b0e-b506-0feb2300622c", "secure": true, "session": false, "duration": "0 year(s), 2 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": 1747738694, "urlOfCookie": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3332458&time=1739962693129&li_adsId=16da3f2d-0bda-40ee-8952-71599544447d&url=https%3A%2F%2Fwww.thesouledstore.com%2F", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "d56fe8fc-022a-4b8e-8d51-0b534bf0fdf0", "category": "MARKETING", "cookie_master_name": "li_sugr", "cookie_domain": ".linkedin.com", "cookie_master_id": "0d118baa-ca1a-453e-b92e-342ab0c50f38", "languages": { "en": { "language_id": "ee6018b8-4e43-4b13-ad50-819f4206f5ec", "name": "li_sugr", "description": "Used to make a probabilistic match of a user's identity outside the Designated Countries" } } }, { "meta_data": { "path": "/", "size": 142, "value": "\"v=2&6dadb4a2-3476-423b-8e45-3cac939bd537\"", "secure": true, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": 1771498695, "urlOfCookie": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3332458&time=1739962693129&li_adsId=16da3f2d-0bda-40ee-8952-71599544447d&url=https%3A%2F%2Fwww.thesouledstore.com%2F&cookiesTest=true", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "47203aa4-926a-4ff3-8e5f-2c95e6928ef0", "category": "MARKETING", "cookie_master_name": "bcookie", "cookie_domain": ".linkedin.com", "cookie_master_id": "ee3ec135-41a8-4f6f-a8b9-9e4ac5eee2d0", "languages": { "en": { "language_id": "f90a8542-f1b9-4559-bf9b-c16ff8f8bea5", "name": "bcookie", "description": "Used by LinkedIn to track the use of embedded services." } } }, { "meta_data": { "path": "/", "size": 31, "value": "1.1.616273594.1739962695", "secure": false, "session": false, "duration": "0 year(s), 2 month(s), 30 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1747738694, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "994ab6a5-5e34-4dbe-9361-3868e8b308ce", "category": "MARKETING", "cookie_master_name": "_gcl_au", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "80148fd2-42ca-42f1-8991-542a38e0e886", "languages": { "en": { "language_id": "41d51f30-dcb5-4100-8a44-be293b2a0787", "name": "_gcl_au", "description": "Used by Google AdSense for experimenting with advertisement efficiency across websites using their services." } } }, { "meta_data": { "path": "/", "size": 148, "value": "0Uy0UthSeNKB3yyZU..BntbpD...1.0.BntbpD.", "secure": true, "session": false, "duration": "0 year(s), 2 month(s), 30 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": 1747738947, "urlOfCookie": "https://www.facebook.com/tr/?id=360696207456838&ev=PageView&dl=https%3A%2F%2Fwww.thesouledstore.com%2Fproduct%2Fjungle-book-mowglis-quest-kidswear-boys-shirts&rl=&if=false&ts=1739962946716&sw=1470&sh=956&v=2.9.183&r=stable&ec=0&o=4126&fbp=fb.1.1739962716755.415546465840705518&ler=empty&it=1739962943810&coo=false&cdl=&rqm=GET", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/product/jungle-book-mowglis-quest-kidswear-boys-shirts", "redirectedPage": "https://www.thesouledstore.com/product/jungle-book-mowglis-quest-kidswear-boys-shirts" }, "cookie_id": "8e97f1ac-58ee-4b7e-9dd2-49e2721849bb", "category": "MARKETING", "cookie_master_name": "fr", "cookie_domain": ".facebook.com", "cookie_master_id": "470ba75a-94aa-4f0e-ba55-70aaaddd89b4", "languages": { "en": { "language_id": "7346dbfc-3f2d-4702-a40f-447695e8f101", "name": "fr", "description": "Contains a unique browser and user ID, used for targeted advertising." } } }, { "meta_data": { "path": "/", "size": 115, "value": "1", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 30 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "none", "foundType": "response", "sameParty": false, "expires_at": 1742554717, "urlOfCookie": "https://ad.doubleclick.net/activity;register_conversion=1;src=9855056;type=sitew0;cat=dcm_s0;ord=1;num=836610747948;npa=0;auiddc=616273594.1739962695;u1=https%3A%2F%2Fwww.thesouledstore.com%2Fkids%2Fboys-coord-sets;ps=1;pcor=1135655044;uaa=;uab=;uafvl=;uamb=0;uam=;uap=;uapv=;uaw=0;frm=0;gtm=45fe52d0z878742836za201zb78742836;gcd=13l3l3l3l1l1;dma=0;tag_exp=102067808~102482432~102539968~102558064~102587591~102605417~102640600;epver=2;~oref=https%3A%2F%2Fwww.thesouledstore.com%2Fkids%2Fboys-coord-sets?", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/kids/boys-coord-sets", "redirectedPage": "https://www.thesouledstore.com/kids/boys-coord-sets" }, "cookie_id": "37804d0e-ee48-4414-b991-f77dbb72c9f6", "category": "MARKETING", "cookie_master_name": "ar_debug", "cookie_domain": ".doubleclick.net", "cookie_master_id": "02ba6c80-9cd7-46d9-bc69-e61938343a95", "languages": { "en": { "language_id": "6fddd490-5ecf-4aeb-b66a-3b22012eb1a0", "name": "ar_debug", "description": "Store and track conversions" } } }], "ANALYTICS": [{ "meta_data": { "path": "/", "size": 31, "value": "GA1.2.1853534718.1739962695", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1740049094, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "4bb1bc4c-f1a5-4290-b26b-2c00b7de12d8", "category": "ANALYTICS", "cookie_master_name": "_gid", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "88f70d65-d8b8-4204-8b5d-58a345d72b5d", "languages": { "en": { "language_id": "821a4efb-ae16-487d-914a-7c3c3a3af8a7", "name": "_gid", "description": "ID used to identify users for 24 hours after last activity" } } }, { "meta_data": { "path": "/", "size": 138, "value": "eyJpZCI6ImNjOTdlNDI2LTBjMTgtNTdlYi05MThjLWVkZTc2ZjA2NjM4OSIsImNyZWF0ZWQiOjE3Mzk5NjI3MTcxODksImV4aXN0aW5nIjpmYWxzZX0=", "secure": true, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1771498717, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/mywishlist", "redirectedPage": "https://www.thesouledstore.com/mywishlist" }, "cookie_id": "aaf46fc6-67c5-4e8c-9c18-08e8f29a98db", "category": "ANALYTICS", "cookie_master_name": "_hjSessionUser_2590087", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "b107fe57-1d6c-413b-ad52-3b8bc343ff2a", "languages": { "en": { "language_id": "d153802a-bad6-4a27-ba13-cace5af4da9b", "name": "_hjSessionUser_2590087", "description": "This cookie is set by Hotjar to identify a new user’s first session. It stores a true/false value, indicating whether this was the first time Hotjar saw this user. It is used by Recording filters to identify new user sessions." } } }, { "meta_data": { "path": "/", "size": 47, "value": "%7B%22dicbo_fetch%22%3A1739962717790%7D", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1739963017, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/mywishlist", "redirectedPage": "https://www.thesouledstore.com/mywishlist" }, "cookie_id": "f2a44a54-703b-4e71-9210-d9233fce822d", "category": "ANALYTICS", "cookie_master_name": "dicbo_id", "cookie_domain": "www.thesouledstore.com", "cookie_master_id": "d8ea3959-a596-4096-a9a1-4fb9cce56d24", "languages": { "en": { "language_id": "b9007ef8-b8d5-4c6f-b5e6-4cb74cb0ce8a", "name": "dicbo_id", "description": "This cookie is used to collect anonymous data related to the user’s website visits, such as the number of visits, average time spent on the website, and what pages have been loaded." } } }, { "meta_data": { "path": "/", "size": 138, "value": "eyJpZCI6ImNjOTdlNDI2LTBjMTgtNTdlYi05MThjLWVkZTc2ZjA2NjM4OSIsImNyZWF0ZWQiOjE3Mzk5NjI3MTcxODksImV4aXN0aW5nIjp0cnVlfQ==", "secure": true, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1771498810, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/explore/perfumes", "redirectedPage": "https://www.thesouledstore.com/explore/perfumes" }, "cookie_id": "e7fa676a-3161-4fb2-8a88-9b65f5208e2a", "category": "ANALYTICS", "cookie_master_name": "_hjSessionUser_2590087", "cookie_domain": ".www.thesouledstore.com", "cookie_master_id": "311672e5-0cef-4fff-a908-f25f26490d99", "languages": { "en": { "language_id": "63ccc7f9-b0d4-4fb6-93c7-647273fc8a6d", "name": "_hjSessionUser_2590087", "description": "This cookie is set by Hotjar and is used to count how many times a website has been visited by different users - this is done by assigning a random ID to each user so that the user will not be counted as a new visitor." } } }, { "meta_data": { "path": "/", "size": 36, "value": "%7B%22p%22%3A1%7D", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1739963916, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/mywishlist", "redirectedPage": "https://www.thesouledstore.com/mywishlist" }, "cookie_id": "1a8c0198-b286-4fe3-bf46-c01ca425a24d", "category": "ANALYTICS", "cookie_master_name": "WZRK_S_865-K54-K75Z", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "b09a9326-a7b3-4b86-86ce-94ee6cb651b1", "languages": { "en": { "language_id": "e162dc45-e088-4d3e-a290-0511f34f3e96", "name": "WZRK_S_865-K54-K75Z", "description": "WebEngage cookie for tracking and analytics purposes provided by WebEngage platform." } } }, { "meta_data": { "path": "/", "size": 44, "value": "2e42da86-3dc6-4ef1-b382-5efdccd7aabe", "secure": false, "session": true, "duration": "55 year(s), 1 month(s), 20 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": -1, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "e821ea71-2699-4fbb-b562-65328bcbd94a", "category": "ANALYTICS", "cookie_master_name": "moe_uuid", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "297229f2-25e7-4624-a4b9-6eeeac619be3", "languages": { "en": { "language_id": "e3da6141-218d-4077-877b-b65690dd3262", "name": "moe_uuid", "description": "This cookie is used for behavioral targeting and analytics purposes by Media.net." } } }, { "meta_data": { "path": "/", "size": 52, "value": "GS1.1.1739962695.1.0.1739962695.60.0.0", "secure": false, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1774522695.073299, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "ee4f960c-1292-4368-9d02-e3f78ea46df9", "category": "ANALYTICS", "cookie_master_name": "_ga_NXPBDLCSFK", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "0160578d-06da-4fc9-b1ff-689ac707a7c5", "languages": { "en": { "language_id": "e313c280-e5dc-4993-b6ad-d14032f73d08", "name": "_ga_NXPBDLCSFK", "description": "This cookie is used to distinguish unique users by assigning a randomly generated number as a client identifier." } } }, { "meta_data": { "path": "/", "size": 21, "value": "deleted", "secure": false, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1774522793.383282, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/explore/perfumes", "redirectedPage": "https://www.thesouledstore.com/explore/perfumes" }, "cookie_id": "94d5e5c3-074d-4de5-b645-70aee32588a1", "category": "ANALYTICS", "cookie_master_name": "_ga_NXPBDLCSFK", "cookie_domain": "www.thesouledstore.com", "cookie_master_id": "27525b10-6ffb-4a52-906f-c4d6b6617508", "languages": { "en": { "language_id": "12de6345-96d4-4736-ad24-b4e8e9cd0d54", "name": "_ga_NXPBDLCSFK", "description": "Used to distinguish users and generate statistical data on website usage." } } }, { "meta_data": { "path": "/", "size": 61, "value": "1xsr2fd%7C1739962696278%7C1%7C0%7Cu.clarity.ms%2Fcollect", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1740049096, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "d8db1ffc-1695-42d2-bded-f2624204822d", "category": "ANALYTICS", "cookie_master_name": "_clsk", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "79587429-c996-4ed9-a5cb-52396856e4b2", "languages": { "en": { "language_id": "243bfbf1-d243-437e-8161-e1737d243fb7", "name": "_clsk", "description": "This cookie is installed by Microsoft Clarity to store information of how visitors use a website and help in creating an analytics report of how the website is doing. The data collected including the number visitors, the source where they have come from, and the pages visited in an anonymous form." } } }, { "meta_data": { "path": "/", "size": 21, "value": "deleted", "secure": false, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1774522806.864513, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/explore/perfumes", "redirectedPage": "https://www.thesouledstore.com/explore/perfumes" }, "cookie_id": "4e78dbbb-a542-4bc1-9109-ef00a550c78a", "category": "ANALYTICS", "cookie_master_name": "_ga_NXPBDLCSFK", "cookie_domain": ".www.thesouledstore.com", "cookie_master_id": "e8f5bf1e-99b4-4fcf-946e-176a9ce055bd", "languages": { "en": { "language_id": "166fc5a8-15fb-47d0-bcb1-3caa2a65d218", "name": "_ga_NXPBDLCSFK", "description": "This cookie is set by Google Analytics and is used to distinguish unique users by assigning a randomly generated number as a client identifier." } } }, { "meta_data": { "path": "/", "size": 19, "value": "1", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1739962776, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/mywishlist", "redirectedPage": "https://www.thesouledstore.com/mywishlist" }, "cookie_id": "efcfec96-6f6b-4cf8-9f31-991a17574041", "category": "ANALYTICS", "cookie_master_name": "_gat_UA-40900109-1", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "6a50c8c4-1670-4f52-b388-825469d50fec", "languages": { "en": { "language_id": "6a9699d0-c603-4f51-98b3-ff0beae79156", "name": "_gat_UA-40900109-1", "description": "Used to throttle the request rate and limit data collection on high-traffic sites." } } }, { "meta_data": { "path": "/", "size": 33, "value": "1y0hoyu%7C2%7Cftk%7C0%7C1876", "secure": false, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1771498694, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "f72640ef-f842-4a17-a478-73f63dcfd55a", "category": "ANALYTICS", "cookie_master_name": "_clck", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "e3f7d650-a834-4ac3-9b65-61c85d3dff9a", "languages": { "en": { "language_id": "3432cab3-8ed8-4fcd-b623-45919cc8588e", "name": "_clck", "description": " This cookie is installed by Microsoft Clarity to store information of how visitors use a website and help in creating an analytics report of how the website is doing. The data collected including the number visitors, the source where they have come from, and the pages visited in an anonymous form." } } }, { "meta_data": { "path": "/", "size": 24, "value": "1", "secure": false, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1739962754, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "4d7cb620-1817-4d75-ad5e-95cfc5285923", "category": "ANALYTICS", "cookie_master_name": "_gat_gtag_UA_40900109_1", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "59fe3daf-c89a-417b-a179-3b3be1bb4596", "languages": { "en": { "language_id": "fe99d6cb-4eca-44ea-b3e1-1c822b0dfd4d", "name": "_gat_gtag_UA_40900109_1", "description": "Used to throttle the request rate, limiting the collection of data on high traffic sites." } } }, { "meta_data": { "path": "/", "size": 57, "value": "T", "secure": true, "session": true, "duration": "NaN year(s), NaN month(s), NaN day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "foundType": "response", "sameParty": false, "expires_at": "NA", "urlOfCookie": "https://c.clarity.ms/c.gif", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "109db8c4-a364-40ab-a386-0c0bb81976e4", "category": "ANALYTICS", "cookie_master_name": "SM", "cookie_domain": "c.clarity.ms", "cookie_master_id": "b3d852b4-46f2-4b58-ad0d-a5c739fdecd8", "languages": { "en": { "language_id": "b49d7f2a-2999-48fa-8eeb-6def2893c2e3", "name": "SM", "description": "This is a Microsoft cookie which we use to measure the use of the website for internal analytics" } } }, { "meta_data": { "path": "/", "size": 30, "value": "GA1.1.1557804692.1739962695", "secure": false, "session": false, "duration": "1 year(s), 1 month(s), 5 day(s)", "httpOnly": false, "priority": "Medium", "sameParty": false, "expires_at": 1774522695.049025, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "ba1e9c19-de01-4095-8cfe-99e26ca89585", "category": "ANALYTICS", "cookie_master_name": "_ga", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "f0c1f80c-6547-46e7-95f6-3efede3d41c8", "languages": { "en": { "language_id": "27d3544c-3b0a-498c-a9d1-a173db6e5110", "name": "_ga", "description": "ID used to identify users" } } }, { "meta_data": { "path": "/", "size": 166, "value": "eyJpZCI6IjI0MWUyZGVkLTkwYTMtNDRmOS1iNDgzLWIzNTg4YzliNjdiYyIsImMiOjE3Mzk5NjI3MTcxOTAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=", "secure": true, "session": false, "duration": "0 year(s), 0 month(s), 1 day(s)", "httpOnly": false, "priority": "Medium", "sameSite": "None", "sameParty": false, "expires_at": 1739964517, "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com/mywishlist", "redirectedPage": "https://www.thesouledstore.com/mywishlist" }, "cookie_id": "10af1574-5fc9-4ea8-bd4f-01ef6bae1946", "category": "ANALYTICS", "cookie_master_name": "_hjSession_2590087", "cookie_domain": ".thesouledstore.com", "cookie_master_id": "cd602a36-ecad-42de-9641-dbad7f6ee0d4", "languages": { "en": { "language_id": "aeef8e91-77a0-415e-bd3b-64ad88e802d3", "name": "_hjSession_2590087", "description": "This cookie is set by Hotjar. It is used to detect the first pageview session of a user, also related to Hotjar analytics." } } }, { "meta_data": { "path": "/", "size": 135, "value": "df4a7040572047d3957f397b88bec48c.20250219.20260219", "secure": true, "session": false, "duration": "0 year(s), 11 month(s), 31 day(s)", "httpOnly": true, "priority": "Medium", "sameSite": "none", "foundType": "response", "sameParty": false, "expires_at": 1771498694, "urlOfCookie": "https://www.clarity.ms/tag/l1mc8vm6q5", "sourceScheme": "Secure", "firstFoundUrl": "https://www.thesouledstore.com", "redirectedPage": "https://www.thesouledstore.com/" }, "cookie_id": "336a25b4-6441-4494-baa7-527d1f05f9c1", "category": "ANALYTICS", "cookie_master_name": "CLID", "cookie_domain": "www.clarity.ms", "cookie_master_id": "b287ff7b-69d0-4804-9bf9-053855083be3", "languages": { "en": { "language_id": "2da24d55-0846-455d-90fe-4596fd16f543", "name": "CLID", "description": "The cookie is set by embedded Microsoft Clarity scripts. The purpose of this cookie is for heatmap and session recording." } } }] };
+function toggleBanner(action) {
+    if (action === 'show') {
+        document.getElementById('banner-home').style.display = ''
+    } else if (action === 'hide') {
+        document.getElementById(
+            'customize-screen-privy-cmp-AE1VSVI8T5'
+        ).style.display = 'none'
+        document.getElementById('banner-home').style.display = 'none'
+    }
+}
+function setCookieOnBrowser(cookieConsent, cookieName) {
+    document.cookie = `${cookieName}=${JSON.stringify(cookieConsent)}; path=/`
+    localStorage.setItem(cookieName, JSON.stringify(cookieConsent))
+}
+function processUserConsentBasedOnPreference(
+    cookieConsent,
+    agreedCategories,
+    cookieName
+) {
+    const agreedCookies = []
+    if (agreedCategories === 'all') {
+        Object.keys(cookieConsent).forEach((key) => (cookieConsent[key] = true))
+    } else if (agreedCategories === 'necessary') {
+        Object.keys(cookieConsent).forEach(
+            (key) => (cookieConsent[key] = key === 'NECESSARY')
+        )
+    } else if (agreedCategories === 'preference') {
+        const checkedBoxes = document.querySelectorAll(
+            'input[type="checkbox"].toggle-switch-privy-cmp-AE1VSVI8T5:checked'
+        )
+        checkedBoxes.forEach((box) => {
+            const categoryName = box.id.replace('-toggle', '')
+            agreedCookies.push(categoryName)
+            cookieConsent[categoryName] = true
+        })
+        Object.keys(cookieConsent).forEach(
+            (key) => (cookieConsent[key] = agreedCookies.includes(key))
+        )
+    }
+    cookieConsent.update = true
+    cookieConsent['NECESSARY'] = true
+    toggleBanner('hide')
+    setCookieOnBrowser(cookieConsent, cookieName)
+    return cookieConsent
+}
+
+const categoryDescriptions = {
+    necessary: "Essential cookies are crucial for the delivery of services, applications, or resources you request. They enable the website to function properly by managing actions such as loading visual elements, accessing resources, or user sign-ins and sign-outs. Essential cookies also ensure the service's security and efficiency by enabling features like authentication and load balancing.",
+    marketing: "Our advertising partners deploy these cookies to tailor advertising to your interests, based on your browsing behavior and preferences. They track your online activity to build a profile for customized advertising, ensuring the ads you encounter on other sites are aligned with your interests.",
+    analytics: "Analytics cookies are used to gather information on website usage, helping us understand visitor behavior. They track user interactions, providing insights that enable us to enhance the website's user experience and functionality. These cookies do not identify you personally but offer aggregated data to improve site performance.",
+    performance: "These cookies collect data on how visitors interact with our website, allowing us to measure and improve our site's and software's effectiveness. They help us track visits and traffic sources, optimizing our website's performance. Without these cookies, we lose the ability to monitor our site's engagement and enhance user experience.",
+    functional: "Set by us or third-party providers, functional cookies add extra features and enhance our website's functionality not directly necessary for the service you've requested. They enable convenience features such as pre-filled text fields, live chat support, and optional forms, improving your browsing experience with services like single sign-on (SSO).",
+    others: "These cookies do not fall into standard categories but serve various purposes. They may enhance specific website features or support experimental or temporary services, and are typically associated with minor functions or specialized needs. Without these, the website's core functionality remains unaffected, but certain experiences or experiments may be impacted."
+}
+function createBanner(categorizedCookies, template) {
+    let banner = 
+    <div class="idfy-${template.bannerType}-privy-cmp-AE1VSVI8T5" id="banner-home">
+        <div class="banner-content-privy-cmp-AE1VSVI8T5">
+            <h2 class="banner-heading-privy-cmp-AE1VSVI8T5">Cookie Notice</h2>
+            <div class="${template.bannerType}-inner-privy-cmp-AE1VSVI8T5">
+                <p class="description-privy-cmp-AE1VSVI8T5 ${template.bannerType}-desc-privy-cmp-AE1VSVI8T5" >${template.contentDesktop.cookieBannerNotice}</p>
+                <div class="${template.bannerType}-button-container-privy-cmp-AE1VSVI8T5">
+                    <button onclick="submitConsent('all')" id="allow-btn-privy-cmp-AE1VSVI8T5" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.acceptAll}</button>
+                    <button onclick="submitConsent('necessary')" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.allowNecessary}</button>
+                    <button id="customize-btn-privy-cmp-AE1VSVI8T5" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.moreSettings}</button>
+                </div>
+            </div>
+        </div>
+        <div class="powered-privy-cmp-AE1VSVI8T5" style="border-radius:0px 0px 10px 10px;">
+        Powered by <span><a href="https://www.privyone.com/" target="_blank">PRIVY</a></span>
+        </div>
+    </div>
+
+    <div id="customize-screen-privy-cmp-AE1VSVI8T5">
+        <div class="customize-settings-screen-privy-cmp-AE1VSVI8T5 ${template.preferenceManagerHorizontalPosition}">
+            <div>
+                <div class="close-btn-privy-cmp-AE1VSVI8T5">
+                    <div class="close-button-privy-cmp-AE1VSVI8T5">×</div>
+                </div>
+                <div class="content-privy-cmp-AE1VSVI8T5">
+                    <h2 class="box-heading-privy-cmp-AE1VSVI8T5">About cookies on this site.</h2>
+                    <p class="box-description-privy-cmp-AE1VSVI8T5">${template.contentDesktop.preferenceManagerNotice}</p>
+                    <div class="categories-privy-cmp-AE1VSVI8T5">
+                    ${Object.keys(categorizedCookies).map(category => {
+                        const consentCookie = parsedConsentData(getCookieDetails(cookieName));
+                        const isAgreedCategory = consentCookie[category];
+                        const cookieData = categorizedCookies[category];
+                        const isNecessary = category === 'NECESSARY';
+                        const disabledClass = isNecessary ? 'disabled' : '';
+                        return `
+                        <div class="category-privy-cmp-AE1VSVI8T5">
+                            <div class="dropdown-content-privy-cmp-AE1VSVI8T5">
+                                <div class="category-header-privy-cmp-AE1VSVI8T5">
+                                    <div onclick="showDropdown('${category}')" style="cursor:pointer">
+                                        <div class="dropdown-arrow-privy-cmp-AE1VSVI8T5 rotated-privy-cmp-AE1VSVI8T5 dropdown-arrow-${category}">^</div>
+                                        <label for="${category}">${category.charAt(0) + category.slice(1).toLowerCase()} Cookies</label>
+                                    </div>
+                                    <input type="checkbox" id="${category}-toggle" class="toggle-switch-privy-cmp-AE1VSVI8T5" ${isAgreedCategory ? 'checked ' : ''} ${disabledClass}>
+                                    <label for="${category}-toggle" class="toggle-label-privy-cmp-AE1VSVI8T5 ${disabledClass}"></label>
+                                </div>
+                                <div id="dropdown-${category}" class="dropdown-content-inside-privy-cmp-AE1VSVI8T5">
+                                    <div class="category-description-privy-cmp-AE1VSVI8T5">
+                                        ${categoryDescriptions[category.toLowerCase()]}
+                                    </div>
+                                    <div onclick="viewCookieDetails('${category}')" id="view-cookies-${category}" class="view-cookies-privy-cmp-AE1VSVI8T5">View Cookies</div>
+                                </div>
+                                <div class="show-cookies-privy-cmp-AE1VSVI8T5 show-cookies-privy-cmp-AE1VSVI8T5-${category}">
+                                    <div id="all-cookies-privy-cmp-AE1VSVI8T5-${category}" class="all-cookies-privy-cmp-AE1VSVI8T5">
+                                        ${cookieData.map(cookie => `
+                                        <div class="cookie-privy-cmp-AE1VSVI8T5">
+                                            <p class="cookie-name-privy-cmp-AE1VSVI8T5"><span> Name </span>: ${cookie.cookie_master_name}</p>
+                                            <p class="platform-privy-cmp-AE1VSVI8T5"><span>Platform </span>: ${cookie.cookie_domain}</p>
+                                        </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        `;
+                    }).join('')}
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-panel-privy-cmp-AE1VSVI8T5">
+                <div class="preference-button-privy-cmp-AE1VSVI8T5">
+                    <button onclick="submitConsent('preference')" class="button1-privy-cmp-AE1VSVI8T5">${template.buttonsText.savePreferences}</button>
+                    <button onclick="submitConsent('necessary')" class="button2-privy-cmp-AE1VSVI8T5">${template.buttonsText.allowNecessary}</button>
+                </div>
+                <div class="powered-privy-cmp-AE1VSVI8T5">
+                    Powered by <span><a href="https://www.privyone.com/" target="_blank">PRIVY</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    `;
+
+    return banner;
+}
+
+
+function submitConsent(agreedCategories) {
+    const cookieConsent = parsedConsentData(getCookieDetails(cookieName));
+    processUserConsentBasedOnPreference(cookieConsent, agreedCategories, cookieName)
+    fetch(`http://localhost:3000/ext/cookie-banner/consent/d564c8ed-234e-491d-bdb3-bcae4a8064d3/270991ee-618b-49a3-a730-4fd49270ea71`, {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ user_preference: cookieConsent })
+    })
+        .then(response => {
+            console.log("submit response", response);
+            if (!response.ok) {
+                throw new Error('Failed to submit consent');
+            }
+            return response.json();
+        })
+        .catch(error => {
+            console.error('Error submitting consent:', error);
+        });
+
+    location.reload();
+}
+
+function showBanner() {
+
+    let consentCookie = parsedConsentData((getCookieDetails(cookieName)));
+    if (typeof consentCookie?.update !== 'boolean') {
+        consentCookie.update = false;
+        setCookieOnBrowser(consentCookie, cookieName)
+        location.reload();
+    }
+
+    let consentButtonDiv = document.createElement('div');
+    consentButtonDiv.className = "consent-button-privy-cmp-AE1VSVI8T5";
+    document.body.appendChild(consentButtonDiv);
+
+    const banner = createBanner(categorizedCookies, template, consentCookie);
+    const bannerContainer = document.createElement('div');
+    bannerContainer.className = "banner-container-privy-cmp-AE1VSVI8T5";
+    bannerContainer.innerHTML = banner;
+    document.body.appendChild(bannerContainer);
+
+    let horizontal = "flex-end", leftRight = "right", vertical = "bottom";
+
+    if (template.positionDesktop.includes("left")) {
+        horizontal = "flex-start";
+        leftRight = "left";
+    }
+    if (template.positionDesktop.includes("top")) {
+        vertical = "top";
+    }
+
+    const styleTag = document.createElement("style");
+    styleTag.innerHTML = `
+          .banner-container-privy-cmp-AE1VSVI8T5{
+            margin: 5px;
+          }
+          
+          @keyframes glideBanner {
+            0% {
+              transform: translateY(100%);
+            }
+            100% {
+              transform: translateY(0%);
+            }
+          }
+  
+          .idfy-box-privy-cmp-AE1VSVI8T5 {
+              display: flex;
+              flex-direction:column;
+              background-color: white;
+              justify-content: ${horizontal};
+              position: fixed;
+              ${vertical}: 20px;
+              ${leftRight}: 10px;
+              width: 53%;
+              max-width: 70em;
+              border-radius: 10px;
+              font-family: ${template.fontName} !important;
+              -webkit-font-smoothing: antialiased;
+              z-index: 2147483647 !important; 
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+              animation: glideBanner 1.5s ease-in-out forwards;
+          }
+  
+          .idfy-banner-privy-cmp-AE1VSVI8T5 {
+            display: flex;
+            flex-direction:column;
+            background-color: white;
+            justify-content: flex-end;
+            position: fixed;
+            ${vertical}: 0px;
+            right: 0px;
+            left: 0px;
+            width: 100%;
+            border-radius: 10px;
+            font-family: ${template.fontName} !important;
+            -webkit-font-smoothing: antialiased;
+            z-index: 2147483647 !important; 
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            animation: glideBanner 1.5s ease-in-out forwards;
+          }
+  
+          .banner-content-privy-cmp-AE1VSVI8T5 {
+            overflow-y:auto;
+            padding: 20px !important;
+            transition: 2s;
+          }
+  
+          .banner-heading-privy-cmp-AE1VSVI8T5 {
+            font-size: 18px !important;
+            margin: 0px !important;
+            font-weight:bold !important;
+            line-height:1 !important;
+            padding:0px !important;
+            color:#000000 !important;
+          }
+  
+          .banner-inner-privy-cmp-AE1VSVI8T5 {
+            display: flex !important;
+            align-items: center !important;
+          }
+   
+          .description-privy-cmp-AE1VSVI8T5 {
+              font-size: 14px !important;
+              color: #484E56;
+              line-height: 1.3 !important;
+              margin:14px 0px 14px 0px !important;
+              padding:0px!important;
+              color:#484E56 !important;
+          }
+  
+          .banner-desc-privy-cmp-AE1VSVI8T5{
+            flex:7 !important;
+            margin:10px 10px 10px 0px !important;
+            font-weight:normal !important;
+          }
+  
+          .banner-button-container-privy-cmp-AE1VSVI8T5,.box-button-container-privy-cmp-AE1VSVI8T5 {
+              text-align: right!important;
+              margin-top: 10px!important;
+          }
+  
+          .box-button-privy-cmp-AE1VSVI8T5,.banner-button-privy-cmp-AE1VSVI8T5{
+              margin-right: 2.5px !important;
+              color: ${template.buttonColor} !important;
+              padding: 9px 20px !important;
+              border: 1px solid ${template.buttonColor} !important;
+              border-radius: 8px !important;
+              background: white !important;
+              display:inline-block !important;
+              line-height: 1!important;
+              font-weight: Normal!important;
+              font-size: 12px !important;
+              font-family: ${template.fontName} !important;
+              -webkit-font-smoothing: antialiased;
+          }
+
+  
+          #allow-btn-privy-cmp-AE1VSVI8T5 {
+              background-color:${template.buttonColor} !important;
+              color: ${template.buttonTextColor}!important;
+              border: 1px solid ${template.buttonColor}!important;
+          }
+  
+          /* custmise banner screen css */
+          #customize-screen-privy-cmp-AE1VSVI8T5 {
+              display: none;
+          }
+  
+         .customize-settings-screen-privy-cmp-AE1VSVI8T5 {
+              width: 40%;
+              height: 100%;
+              min-width: 290px;
+              max-width: 30% ;
+              background-color: white;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+              position: fixed;
+              z-index: 2147483647 !important;
+              top: 0;
+              font-family: ${template.fontName};
+              -webkit-font-smoothing: antialiased;
+              overflow: scroll;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              border-radius: 5px;
+          }
+        
+          .left{
+            left: 0;
+          }
+
+          .right{
+            right: 0;
+          }
+
+          .centre{
+            height: 70%;
+            width: 70%;
+            left: 15%;
+            top: 15%;
+           }
+  
+          .content-privy-cmp-AE1VSVI8T5 {
+              padding: 20px;
+  
+          }
+  
+          .close-btn-privy-cmp-AE1VSVI8T5 {
+              display: flex;
+              justify-content: end;
+              border-bottom: 0.5px solid #B2B5B8;
+              padding: 10px; 
+              position: sticky;
+              top: 0;
+              background-color: #fff;
+              z-index:2147483647 !important;
+          }
+  
+          .close-button-privy-cmp-AE1VSVI8T5 {
+              color: #7D8187 !important;
+              margin: 0px 10px !important;
+              font-size: 20px !important;
+              background-color: transparent !important;
+              border: none !important;
+              cursor: pointer;
+              display:inline-block !important;
+              padding: 0 !important;
+          }
+  
+          .box-heading-privy-cmp-AE1VSVI8T5 {
+              font-size: 18px !important;
+              margin: 0px !important;
+              color: #131A25 !important;
+              font-weight:bold !important;
+              line-height:1 !important;
+              padding:0px !important;
+          }
+  
+          .box-description-privy-cmp-AE1VSVI8T5 {
+              font-size: 14px !important;
+              margin: 14px 0px!important;
+              color: #484E56 !important;
+              line-height: 1.35 !important;
+              padding: 0px !important;
+          }
+  
+          .categories-privy-cmp-AE1VSVI8T5 {
+              margin-top: 25px;
+              display: flex;
+              flex-direction: column;
+          }
+  
+          .category-privy-cmp-AE1VSVI8T5 {
+              margin-bottom: 10px;
+          }
+  
+          .category-header-privy-cmp-AE1VSVI8T5 {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              border: 1px solid #B2B5B8;
+              border-radius: 10px;
+              padding: 10px;
+              background-color: #FAFAFB;
+          }
+  
+          .category-privy-cmp-AE1VSVI8T5 label {
+              font-size: 14px !important;
+              line-height:1 !important;
+              margin: 0px !important;
+              padding: 0px !important;
+              color: #000000 !important;
+              display: inline !important;
+              font-weight: 400 !important;
+          }
+  
+          .toggle-switch-privy-cmp-AE1VSVI8T5 {
+              display: none !important;
+          }
+  
+          .toggle-label-privy-cmp-AE1VSVI8T5 {
+              display: inline-block !important;
+              width: 40px !important;
+              height: 20px !important;
+              background-color: #ccc;
+              border-radius: 10px;
+              position: relative !important;
+              cursor: pointer;
+          }
+  
+          .toggle-label-privy-cmp-AE1VSVI8T5::after {
+              content: '';
+              width: 18px;
+              height: 18px;
+              background-color: white;
+              border-radius: 50%;
+              position: absolute !important;
+              top: 1px;
+              left: 1px;
+              transition: 0.3s;
+          }
+  
+          .toggle-switch-privy-cmp-AE1VSVI8T5:checked+.toggle-label-privy-cmp-AE1VSVI8T5 {
+              background-color: #1C43B9;
+          }
+  
+          .toggle-switch-privy-cmp-AE1VSVI8T5:checked+.toggle-label-privy-cmp-AE1VSVI8T5::after {
+              transform: translateX(20px);
+          }
+  
+          .toggle-label-privy-cmp-AE1VSVI8T5.disabled {
+            background-color: #ccc; 
+            opacity: 0.7; 
+            cursor: not-allowed; 
+        }
+        
+        .toggle-label-privy-cmp-AE1VSVI8T5.disabled::after {
+            background-color: #fff; 
+        }
+  
+          .dropdown-arrow-privy-cmp-AE1VSVI8T5 {
+              margin-right: 10px !important;
+              transform: scale(2.5, 2) translate(0, 2px);
+              background-color: transparent !important;
+              border: none !important;
+              align-items: baseline;
+              font-family: 'Courier New', Courier, monospace !important;
+              transition: transform 0.3s ease !important;
+              display:inline-block !important;
+              line-height: 1!important;
+              font-weight: 100!important;
+              padding: 1px 6px !important;
+              font-size:13.3px !important;
+              color: #000000 !important;
+          }
+  
+          .rotated-privy-cmp-AE1VSVI8T5 {
+              transform: scale(2.5, 2) translate(0, -3px) rotate(180deg);
+              transition: transform 0.3s ease;
+          }
+  
+          .dropdown-content-privy-cmp-AE1VSVI8T5 {
+               background-color: #F3F3F4;
+               border-radius: 10px;
+          }
+            
+        .dropdown-content-inside-privy-cmp-AE1VSVI8T5 {
+              display: none;
+              padding: 20px;
+        }
+  
+          .category-description-privy-cmp-AE1VSVI8T5 {
+              font-size: 11px !important;
+              color: #131A25 !important;
+              line-height: 15px !important;
+              margin:0px !important;
+              padding: 0px !important;
+          }
+  
+          .view-cookies-privy-cmp-AE1VSVI8T5 {
+              font-size: 11px !important;
+              color: #214698 !important;
+              margin-top: 10px !important;
+              cursor: pointer;
+          }
+  
+          .show-cookies-privy-cmp-AE1VSVI8T5 {
+            max-height: 170px !important;
+            overflow: scroll !important;
+          }
+          .show-cookies-privy-cmp-AE1VSVI8T5::-webkit-scrollbar {
+            display: none;
+          }
+  
+          .all-cookies-privy-cmp-AE1VSVI8T5 {
+              display: none;
+              background-color: #F3F3F4;
+              box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+              border-radius: 0 0 10px 10px;
+              padding: 2px 10px 9px 10px;
+              color: #131A25;
+              font-size: 11px;
+          }
+  
+          .cookie-privy-cmp-AE1VSVI8T5 {
+              font-size: 11px !important;
+              background-color: #E2E2E2;
+              padding: 8px 18px !important;
+              margin-top: 6px !important;
+              border-radius: 12px;
+              overflow: scroll;
+          }
+          .cookie-privy-cmp-AE1VSVI8T5::-webkit-scrollbar {
+            display: none;
+          }
+  
+          .cookie-name-privy-cmp-AE1VSVI8T5,
+          .platform-privy-cmp-AE1VSVI8T5 {
+              margin: 2px 0px !important;
+              font-size: 11px !important;
+              line-height: 1 !important;
+              color: #131A25 !important;
+              padding: 0px !important;
+          }
+  
+          .bottom-panel-privy-cmp-AE1VSVI8T5 {
+              position: sticky;
+              bottom: 0;
+              width: 100%;
+          }
+  
+          .preference-button-privy-cmp-AE1VSVI8T5 {
+              border-top: 0.5px solid #B2B5B8;
+              padding: 10px;
+              text-align: center;
+              background-color: #fff;
+              display:flex;
+              justify-content: space-around;
+              flex-direction:row;
+          }
+  
+          .preference-button-privy-cmp-AE1VSVI8T5 button {
+              padding: 10px 18px !important;
+              // width:45% !important;
+              font-size: 12px !important;
+              border-radius: 8px !important;
+              margin: 3px !important;
+              // display:inline-block !important;
+              line-height: 1!important;
+              font-weight: Normal!important;
+              font-family: ${template.fontName} !important;
+              -webkit-font-smoothing: antialiased;
+          }
+  
+  
+  
+          .button1-privy-cmp-AE1VSVI8T5 {
+              color: ${template.butonTextColor} !important;
+              border: 1px solid ${template.buttonColor} !important;
+              background-color: ${template.buttonColor};
+              transition: 0.3s;
+              flex:1;
+          }
+  
+          .button2-privy-cmp-AE1VSVI8T5 {
+              color: ${template.buttonColor} !important;
+              border: 1px solid ${template.buttonColor} !important;
+              background-color: #fff;
+              transition: 0.3s;
+              flex:1;
+          }
+  
+          .button2-privy-cmp-AE1VSVI8T5:hover,
+          .button1-privy-cmp-AE1VSVI8T5:hover,
+          .classic-button-privy-cmp-AE1VSVI8T5:hover,.banner-button-privy-cmp-AE1VSVI8T5:hover,.box-button-privy-cmp-AE1VSVI8T5:hover,#allow-btn-privy-cmp-AE1VSVI8T5:hover {
+              background-color: ${template.hoverButtonColor} !important;
+              color: ${template.hoverTextColor} !important;
+              transition: 0.3s;
+              border: 1px solid ${template.hoverButtonColor} !important;
+          }
+  
+          .powered-privy-cmp-AE1VSVI8T5 {
+              text-align: right;
+              background-color: #F3F3F4;
+              font-size: 10px !important;
+              padding: 1px 10px !important;
+              margin:0px !important;
+              color: #7D8187 !important;
+              font-weight:normal !important;
+              line-height:1 !important;
+          }
+  
+          .powered-privy-cmp-AE1VSVI8T5 a {
+              color: #1C43B9 !important;
+              font-weight: bold !important;
+              text-decoration:none !important;
+              font-size: 10px!important;
+              line-height:1 !important;
+            } 
+  
+          @media (max-width: 900px) {
+            .box-button-container-privy-cmp-AE1VSVI8T5{
+              text-align: center!important;
+            }
+            .box-button-privy-cmp-AE1VSVI8T5 {
+              width: 100%;
+              height: 100%;
+              font-size: 15px !important;
+              padding: 13px 22px !important;
+              display:block !important;
+            }
+  
+            .banner-inner-privy-cmp-AE1VSVI8T5 {
+              display: block !important;
+              align-items: right !important;
+            }
+          }
+  
+  
+          @media (max-width: 480px) {
+            .idfy-banner-privy-cmp-AE1VSVI8T5,
+            .idfy-box-privy-cmp-AE1VSVI8T5{
+              bottom: 0;
+              right: 0;
+              left:0;
+              width: 100%;
+              max-height:80%;
+              overflow:scroll;
+            }
+  
+            .banner-button-privy-cmp-AE1VSVI8T5{
+                  width: 100%;
+                  height: 100%;
+                  font-size: 15px !important;
+                  padding: 13px 22px !important;
+                  display:block !important;
+                }
+  
+            .customize-settings-screen-privy-cmp-AE1VSVI8T5 {
+              height:85vh;
+              width:90vw;
+              max-width:480px;
+              padding:0;
+              margin:0;
+            }
+  
+            .preference-button-privy-cmp-AE1VSVI8T5 button{
+              padding: 13px 22px !important;
+              font-size: 15px !important;
+            }
+  
+          }
+  
+          @media (max-width: 850px){
+            .preference-button-privy-cmp-AE1VSVI8T5{
+              flex-direction:column;
+            }
+          }
+            
+            `
+    document.head.appendChild(styleTag);
+
+    const scriptTag = document.createElement("script");
+    scriptTag.innerHTML = `
+          const closeButton = document.querySelector(".close-btn-privy-cmp-AE1VSVI8T5")
+          closeButton.addEventListener('click', function () {
+              const customizeScreen = document.getElementById("customize-screen-privy-cmp-AE1VSVI8T5")
+              customizeScreen.style.display = "none"
+      
+              const bannerHome = document.getElementById("banner-home")
+              bannerHome.style.display = ""
+          })
+      
+          const customizeButton = document.getElementById("customize-btn-privy-cmp-AE1VSVI8T5")
+          customizeButton.addEventListener('click', function () {
+              const customizeScreen = document.getElementById("customize-screen-privy-cmp-AE1VSVI8T5")
+              customizeScreen.style.display = "block";
+      
+              const bannerHome = document.getElementById("banner-home")
+              bannerHome.style.display = "none" 
+      
+          })
+      
+          function showDropdown(category) {
+            const dropdown = document.getElementById('dropdown-' + category);
+            const allCookies = document.getElementById('all-cookies-privy-cmp-AE1VSVI8T5-' + category);
+            const dropIcon = document.querySelector('.dropdown-arrow-' + category);
+            if (dropdown.style.display === "block" || allCookies.style.display === "block") {
+                dropdown.style.display = "none";
+                allCookies.style.display = "none";
+                dropIcon.classList.add('rotated-privy-cmp-AE1VSVI8T5');
+            } else {
+                dropdown.style.display = "block";
+                dropIcon.classList.remove('rotated-privy-cmp-AE1VSVI8T5');
+            }
+        }
+      
+           function viewCookieDetails(category) {
+            const allCookies = document.getElementById('all-cookies-privy-cmp-AE1VSVI8T5-' + category);
+            allCookies.style.display = "block";
+    
+            const dropdown = document.getElementById('dropdown-' + category);
+            dropdown.style.display = "none";
+            }`
+    document.head.appendChild(scriptTag);
+
+    if (consentCookie.update === true) {
+        toggleBanner('hide');
+    } else {
+        toggleBanner('show');
+    }
+    autoBlocking()
+}
+document.addEventListener('DOMContentLoaded', showBanner);
+/* eslint-disable */
+const DEFAULT_COOKIE_CONSENT = {
+    NECESSARY: true,
+    FUNCTIONAL: false,
+    ANALYTICS: false,
+    MARKETING: false,
+    OTHERS: false
+}
+const nonScriptElements = ['embed', 'iframe', 'img']
+const monitoredElements = [...nonScriptElements, 'script']
+const cookieName = 'privyConsent'
+const tagsList = [
+    {
+        tag: 'https://www.googletagmanager.com/gtag/js?id=G-KWC0VKDZKW&l=dataLayer&cx=c&gtm=45He51n0h1v9199743789za200',
+        categories: ['NECESSARY'],
+        type: 'script'
+    },
+    {
+        tag: 'https://www.googletagmanager.com/gtm.js?id=GTM-KS3M7CSF',
+        categories: ['MARKETING'],
+        type: 'script'
+    },
+    {
+        tag: '//js.hsforms.net/forms/embed/v2.js',
+        categories: ['MARKETING'],
+        type: 'script'
+    },
+    {
+        tag: 'https://www.clarity.ms/tag/f4v1091lex',
+        categories: ['MARKETING'],
+        type: 'script'
+    },
+    {
+        tag: 'https://platform.twitter.com/widgets.js',
+        categories: ['ANALYTICS'],
+        type: 'script'
+    },
+    {
+        tag: 'https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1',
+        categories: ['FUNCTIONAL'],
+        type: 'iframe'
+    },
+    {
+        tag: 'https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8',
+        categories: ['ANALYTICS'],
+        type: 'script'
+    },
+    {
+        tag: 'https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P',
+        categories: ['ANALYTICS', 'FUNCTIONAL'],
+        type: 'iframe'
+    }
+]
+function findMatchingTag(url) {
+    return tagsList.find((item) => url.includes(item.tag)) || null
+}
+function getUrlDetails(url) {
+    const tagDetails = findMatchingTag(url) || {}
+    return {
+        categories: tagDetails.categories || [],
+        type: tagDetails.type || ''
+    }
+}
+function checkConsent(categories, consentObject) {
+    if (!consentObject) return false
+    return categories.every((category) => consentObject[category] === true)
+}
+
+function parsedConsentData(source) {
+    try {
+        if (typeof source === 'string') {
+            return JSON.parse(source)
+        }
+        if (typeof source === 'object') {
+            return source
+        }
+        return null
+    } catch (error) {
+        console.error('Error parsing consent data:', error)
+        return null
+    }
+}
+function getCookieDetails(cookieName, defaultConsent = DEFAULT_COOKIE_CONSENT) {
+    const localStorageValue = localStorage.getItem(cookieName)
+    if (localStorageValue) {
+        console.log("in local storage check", localStorageValue);
+        return localStorageValue
+    }
+    const cookieValue = document.cookie
+        .split('; ')
+        .find((row) => row.startsWith(`${cookieName}=`))
+    if (cookieValue) {
+        const cookie = cookieValue.split('=')
+        console.log("in cookie check", cookie[1]);
+        return cookie[1]
+    }
+    console.log('No cookie found on browser defaultConsent set')
+    return defaultConsent
+}
+
+function hasUserConsent(categories, defaultConsent = DEFAULT_COOKIE_CONSENT) {
+    if (!categories || categories.length === 0) {
+        return true
+    }
+    const cookieDetails = getCookieDetails(cookieName, defaultConsent)
+    const consent = parsedConsentData(cookieDetails)
+    return checkConsent(categories, consent)
+}
+
+function addPrivacyClasses(element, categories) {
+    if (categories.length) {
+        categories.forEach((category) => {
+            const className = `privy-cmp-category-${category}`
+            if (!element.classList.contains(className)) {
+                element.classList.add(className)
+            }
+        })
+    }
+}
+
+function handleTags(element) {
+    const url = element.src || element.getAttribute('src') || ''
+    if (!url) return
+
+    const tagDetails = getUrlDetails(url)
+    const categories = tagDetails.categories
+    const type = tagDetails.type
+
+    // Add privacy classes
+    addPrivacyClasses(element, categories)
+
+    if (!hasUserConsent(categories)) {
+        const originalSrc = url
+        if (type === 'script') {
+            element.type = 'text/plain'
+            element.setAttribute('privy-data-src', originalSrc)
+            element.removeAttribute('src')
+            console.log(`Script blocked: ${url}`, type, categories)
+        } else if (nonScriptElements.includes(element.tagName.toLowerCase())) {
+            element.setAttribute('privy-data-src', originalSrc)
+            element.removeAttribute('src')
+            console.log(`Media element blocked: ${url}`, type, categories)
+        }
+    }
+}
+function reconsentPreference(agreedCategories) {
+    const cookieDetails = getCookieDetails(cookieName)
+    processUserConsentBasedOnPreference(
+        cookieDetails,
+        agreedCategories,
+        cookieName
+    )
+    processExistingElements()
+    location.reload()
+}
+function setupPrivacyObserver() {
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            // Handle added nodes
+            mutation.addedNodes.forEach((node) => {
+                if (
+                    node.nodeType === 1 &&
+                    monitoredElements.includes(node.tagName.toLowerCase())
+                ) {
+                    handleTags(node)
+                }
+            })
+
+            // Handle attribute changes
+            if (
+                mutation.type === 'attributes' &&
+                (mutation.attributeName === 'src' ||
+                    mutation.attributeName === 'type')
+            ) {
+                handleTags(mutation.target)
+            }
+        })
+    })
+
+    observer.observe(document.documentElement, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        attributeFilter: ['src', 'type']
+    })
+}
+function processExistingElements() {
+    monitoredElements.forEach((tag) => {
+        document.querySelectorAll(tag).forEach((element) => {
+            handleTags(element)
+        })
+    })
+}
+function autoBlocking() {
+    // Store original Element prototype methods
+    const originalSetAttribute = Element.prototype.setAttribute
+    // const originalSetAttributeNS = Element.prototype.setAttributeNS
+
+    // Override setAttribute to catch dynamic changes
+    Element.prototype.setAttribute = function (name, value) {
+        if (
+            name === 'src' &&
+            monitoredElements.includes(this.tagName.toLowerCase())
+        ) {
+            const tagDetails = getUrlDetails(value)
+            if (!hasUserConsent(tagDetails.categories)) {
+                console.log(`Blocking src setting for ${this.tagName}:`, value)
+                originalSetAttribute.call(this, 'data-src', value)
+                if (this.tagName.toLowerCase() === 'script') {
+                    originalSetAttribute.call(this, 'type', 'text/plain')
+                }
+                return
+            }
+        }
+        originalSetAttribute.call(this, name, value)
+    }
+
+    // Add default styling for blocked elements
+    const style = document.createElement('style')
+    style.textContent = `
+        iframe[data-src]:not([src]), 
+        img[data-src]:not([src]), 
+        embed[data-src]:not([src]) {
+            display: block !important;
+            background: #f0f0f0 !important;
+            border: 1px solid #ccc !important;
+            padding: 20px !important;
+            text-align: center !important;
+            min-height: 100px !important;
+            position: relative !important;
+        }
+        
+        iframe[data-src]:not([src])::before, 
+        img[data-src]:not([src])::before,
+        embed[data-src]:not([src])::before {
+            content: "Content blocked pending consent" !important;
+            display: block !important;
+            color: #666 !important;
+            font-family: sans-serif !important;
+        }
+    `
+    document.head.appendChild(style)
+    // Initialize when DOM is ready
+    function initialize() {
+        processExistingElements()
+        setupPrivacyObserver()
+        console.log('Privacy controls initialized')
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize)
+    } else {
+        initialize()
+    }
+
+    // Export consent update function to global scope
+    window.updatePrivacyConsent = function (consentObject) {
+        localStorage.setItem(cookieName, JSON.stringify(consentObject))
+        processExistingElements()
+    }
+}
+
