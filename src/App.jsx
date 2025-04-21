@@ -14,6 +14,7 @@ function App() {
           <img src={idfyLogo} alt="IDfy"></img>
         </div>
         <nav className="nav">
+          <a href="#" id="preference-privy-cmp">Cookie Preference</a>
           <a href="#about">About Us</a>
           <a href="#products">Products</a>
           <a href="#resources">Resources</a>
