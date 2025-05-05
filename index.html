@@ -20,11 +20,12 @@
       TCString,
       GVL
     } from 'https://cdn.skypack.dev/@iabtcf/core@1.5.6';
-
-    GVL.baseUrl = 'https://cdn-cookieyes.com/common/iab-gvl-v3.json';
-
+  
+    // ✅ Official IAB source with CORS
+    GVL.baseUrl = 'https://vendor-list.consensu.org/v3/vendor-list.json';
+  
     const gvl = new GVL();
-
+  
     gvl.readyPromise.then(() => {
       const tcModel = new TCModel(gvl);
       tcModel.cmpId = 123;
@@ -33,7 +34,7 @@
       tcModel.consentLanguage = 'EN';
       tcModel.purposeConsents.set([1, 2]);
       tcModel.vendorConsents.set([10, 20, 30]);
-
+  
       const tcString = TCString.encode(tcModel);
       console.log('✅ Encoded TC String:', tcString);
       console.log('🧠 Full TCModel:', tcModel);
