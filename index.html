@@ -9,37 +9,10 @@
 
   <!-- Cookie Scripts Section  -->
   <!-- <script type="text/javascript" src="cookie-banner.js"></script> -->
-  
-<!-- Start cookieyes banner --> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/a7405f25eda1126173389101/script.js"></script> <!-- End cookieyes banner -->
+  <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/c1b5bba9-d393-45d4-a8c5-f93aec89d83e"></script>  
+<!-- <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/a7405f25eda1126173389101/script.js"></script> End cookieyes banner -->
   
   <!-- ---------------------- -->
-
-  <script type="module">
-    import {
-      TCModel,
-      TCString,
-      GVL
-    } from 'https://cdn.skypack.dev/@iabtcf/core@1.5.6';
-  
-    // ✅ Official IAB source with CORS
-    GVL.baseUrl = 'https://vendor-list.consensu.org/v3/';
-  
-    const gvl = new GVL();
-  
-    gvl.readyPromise.then(() => {
-      const tcModel = new TCModel(gvl);
-      tcModel.cmpId = 123;
-      tcModel.cmpVersion = 1;
-      tcModel.consentScreen = 0;
-      tcModel.consentLanguage = 'EN';
-      tcModel.purposeConsents.set([1, 2]);
-      tcModel.vendorConsents.set([10, 20, 30]);
-  
-      const tcString = TCString.encode(tcModel);
-      console.log('✅ Encoded TC String:', tcString);
-      console.log('🧠 Full TCModel:', tcModel);
-    });
-  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
