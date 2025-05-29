@@ -1,8 +1,20 @@
+const isIab = true;
 
-const template = {"bannerType":"banner","buttonColor":"#214698","buttonsText":{"acceptAll":"Accept All","moreSettings":"More Settings","allowNecessary":"Allow Only Necessary","savePreferences":"Save My Preferences"},"contentMobile":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"contentDesktop":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"hoverTextColor":"#ffffff","positionMobile":"bottom","buttonTextColor":"#ffffff","positionDesktop":"bottom","hoverButtonColor":"#214699","preferenceManagerHorizontalPosition":"left"};
+const template = {"bannerType":"banner","buttonColor":"#214698","buttonsText":{"acceptAll":"Accept All","moreSettings":"More Settings","allowNecessary":"Allow Only Necessary","savePreferences":"Save My Preferences"},"contentMobile":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"contentDesktop":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"hoverTextColor":"#ffffff","positionMobile":"bottom","buttonTextColor":"#ffffff","positionDesktop":"bottom","hoverButtonColor":"#214699","preferenceManagerHorizontalPosition":"centre"};
 const categorizedCookies = {"ANALYTICS":[{"meta_data":{"path":"/","size":31,"value":"104564747.1.10.1745301233","secure":false,"session":false,"duration":"0 year(s), 0 month(s), 1 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1745303032,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"d868ede2-f0dd-46fe-9d38-3213407f03ab","category":"ANALYTICS","cookie_master_name":"__utmb","cookie_domain":".zee.com","cookie_master_id":"f9d1f42b-3f8b-4927-831d-20827b191051","languages":{"en":{"language_id":"37c13091-2eff-4dbc-834a-4e711bbdebe1","name":"__utmb","description":"Used to distinguish new sessions and visits. This cookie is set when the GA.js javascript library is loaded and there is no existing __utmb cookie. The cookie is updated every time data is sent to the Google Analytics server."}}},{"meta_data":{"path":"/","size":15,"value":"104564747","secure":false,"session":true,"duration":"55 year(s), 3 month(s), 21 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":-1,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"43c5c9ba-c8f4-4b57-9bb3-6b21d912db92","category":"ANALYTICS","cookie_master_name":"__utmc","cookie_domain":".zee.com","cookie_master_id":"a8155910-1f2e-470d-802b-36523ba84afd","languages":{"en":{"language_id":"3d92e0e9-eb7f-4fef-b358-3028491e6a20","name":"__utmc","description":"Used only with old Urchin versions of Google Analytics and not with GA.js. Was used to distinguish between new sessions and visits at the end of a session."}}},{"meta_data":{"path":"/","size":7,"value":"1","secure":false,"session":false,"duration":"0 year(s), 0 month(s), 1 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1745301832,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"057ba2f5-c2d9-4cbb-84f1-57274f998f22","category":"ANALYTICS","cookie_master_name":"__utmt","cookie_domain":".zee.com","cookie_master_id":"defbf1c1-9ca5-492e-920c-84057ff5ef02","languages":{"en":{"language_id":"ab4f7aff-61b2-444c-9335-065489f7a74e","name":"__utmt","description":"Used to monitor number of Google Analytics server requests"}}},{"meta_data":{"path":"/","size":76,"value":"104564747.1745301233.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)","secure":false,"session":false,"duration":"0 year(s), 5 month(s), 31 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1761069232,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"f73494e1-f296-4edd-8274-1ada7e3a0d12","category":"ANALYTICS","cookie_master_name":"__utmz","cookie_domain":".zee.com","cookie_master_id":"d805ef11-0163-47f0-863d-e5a08fcdc155","languages":{"en":{"language_id":"14813f53-4527-4e4a-92d4-696192a1f7fc","name":"__utmz","description":"Contains information about the traffic source or campaign that directed user to the website. The cookie is set when the GA.js javascript is loaded and updated when data is sent to the Google Anaytics server"}}},{"meta_data":{"path":"/","size":61,"value":"104564747.1698590699.1745301233.1745301233.1745301233.1","secure":false,"session":false,"duration":"1 year(s), 1 month(s), 5 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1779861232.820199,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"693c71ab-1a8d-4c63-a9b0-084d1ad5413b","category":"ANALYTICS","cookie_master_name":"__utma","cookie_domain":".zee.com","cookie_master_id":"0610aa03-0d74-465f-8d84-594755083261","languages":{"en":{"language_id":"bcbe81cd-6927-4a29-9265-74e404a389db","name":"__utma","description":"ID used to identify users and sessions"}}}],"FUNCTIONAL":[{"meta_data":{"path":"/","size":96,"value":"{\"NECESSARY\":true,\"FUNCTIONAL\":true,\"ANALYTICS\":true,\"MARKETING\":true,\"OTHERS\":true}","secure":true,"session":false,"duration":"0 year(s), 11 month(s), 31 day(s)","httpOnly":false,"priority":"Medium","sameSite":"Lax","sameParty":false,"expires_at":1776837228,"sourcePort":443,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"ada7457c-abad-403c-b617-b006d08f0339","category":"FUNCTIONAL","cookie_master_name":"privyConsent","cookie_domain":"zee.com","cookie_master_id":"a8ef2cbb-0629-41a3-8c47-a47fd834e9ee","languages":{"en":{"language_id":"273ac95d-6586-42a5-b076-aff0615bc762","name":"privyConsent","description":"Stores the user's cookie consent state for the current domain."}}},{"meta_data":{"path":"/","size":179,"value":"SFMyNTY.g3QAAAABbQAAAAhndWVzdF9pZG0AAAAkMzc3YmU0MzktZWU1NC00YWY2LWE4YmMtMDZkODQ4ZjgzNjBl.4TBNPr_4m0RH71j0AZfYvdRRr9frjNsAxd3Dpj-RsB8","secure":false,"session":true,"duration":"NaN year(s), NaN month(s), NaN day(s)","httpOnly":true,"priority":"Medium","sameSite":"Lax","callStack":[],"foundType":"network","sameParty":false,"expires_at":"NA","urlOfCookie":"https://www.zee.com","requestChain":{"type":"parser","sourceUrls":["https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap"],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","initiatorType":null,"redirectedPage":"https://www.zee.com/"},"cookie_id":"df95a702-f3dd-40f9-a869-2b59ce1cb372","category":"FUNCTIONAL","cookie_master_name":"_fontshare_key","cookie_domain":"www.zee.com","cookie_master_id":"18d6ec76-6ea1-41e9-ae12-b5fdee7864fd","languages":{"en":{"language_id":"066fd265-1c60-4114-b080-ad709b02505b","name":"_fontshare_key","description":"This cookie is set by Fontshare to manage font usage on websites."}}},{"meta_data":{"path":"/recaptcha","size":205,"value":"09ALcxeyoN5oFfO7Iy7fenLEbJOXeIXjE5yIh8ps_i1b5L3NdLzV6HPaSnFx6yGpHvOYeYFI0ttA967hIuUrKYqcw","secure":true,"session":false,"duration":"0 year(s), 5 month(s), 28 day(s)","httpOnly":true,"priority":"HIGH","sameSite":"none","callStack":[],"foundType":"network","sameParty":false,"expires_at":1760853234,"urlOfCookie":"https://www.zee.com","requestChain":{"type":"script","sourceUrls":["https://www.google.com/recaptcha/api2/reload?k=6LdngqIgAAAAANJnBYK4E8kHf6xcSW9tJrsh8Qy7"],"uniqueUrls":["https://www.gstatic.com/recaptcha/releases/ItfkQiGBlJCsN5gUMmHbpLEb/recaptcha__en.js","https://www.gstatic.com/recaptcha/releases/ItfkQiGBlJDHuTkOhlT3zHpB/recaptcha__en.js"]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","initiatorType":null,"redirectedPage":"https://www.zee.com/"},"cookie_id":"5b23f8a9-4f9e-4611-8329-6a65328dca9c","category":"FUNCTIONAL","cookie_master_name":"_GRECAPTCHA","cookie_domain":"www.zee.com","cookie_master_id":"f03409b9-977d-4bad-b312-57b4fd51f5a7","languages":{"en":{"language_id":"2f2930a4-c778-4bad-8279-880fd76a186f","name":"_GRECAPTCHA","description":"Google reCAPTCHA sets a necessary cookie (_GRECAPTCHA) when executed for the purpose of providing its risk analysis."}}}]};
 
+const DEFAULT_COOKIE_CONSENT = {
+    NECESSARY: true,
+    FUNCTIONAL: false,
+    ANALYTICS: false,
+    MARKETING: false,
+    OTHER: false
+}
+const nonScriptElements = ['embed', 'iframe', 'img', 'script']
+const monitoredElements = [...nonScriptElements, 'script']
+const cookieName = 'privyConsent'
 const tagsList = [{"tag":"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap","categories":["FUNCTIONAL"],"type":"script"},{"tag":"https://www.google.com/recaptcha/api2/reload?k=6LdngqIgAAAAANJnBYK4E8kHf6xcSW9tJrsh8Qy7","categories":["FUNCTIONAL"],"type":"script"}];
+
 function toggleBanner(action) {
     if (action === 'show') {
         document.getElementById('banner-home').style.display = ''
@@ -127,7 +139,110 @@ function processUserConsentBasedOnPreference(
     return cookieConsent
 }
 
-    const categoryDescriptions = {"necessary":"Essential cookies are crucial for the delivery of services, applications, or resources you request. They enable the website to function properly by managing actions such as loading visNecessual elements, accessing resources, or user sign-ins and sign-outs. Essential cookies also ensure the service's security and efficiency by enabling features like authentication and load balancing.","performance":"These cookies collect data on how visitors interact with our website, allowing us to measure and improve our site's and software's effectiveness. They help us track visits and traffic sources, optimizing our website's performance. Without these cookies, we lose the ability to monitor our site's engagement and enhance user experience.","functional":"Set by us or third-party providers, functional cookies add extra features and enhance our website's functionality not directly necessary for the service you've requested. They enable convenience features such as pre-filled text fields, live chat support, and optional forms, improving your browsing experience with services like single sign-on (SSO).","marketing":"Our advertising partners deploy these cookies to tailor advertising to your interests, based on your browsing behavior and preferences. They track your online activity to build a profile for customized advertising, ensuring the ads you encounter on other sites are aligned with your interests.","analytics":"Analytics cookies are used to gather information on website usage, helping us understand visitor behavior. They track user interactions, providing insights that enable us to enhance the website's user experience and functionality. These cookies do not identify you personally but offer aggregated data to improve site performance.","other":"These cookies do not fall into standard categories but serve various purposes. They may enhance specific website features or support experimental or temporary services, and are typically associated with minor functions or specialized needs. Without these, the website's core functionality remains unaffected, but certain experiences or experiments may be impacted."}
+const categoryDescriptions = {"necessary":"Essential cookies are crucial for the delivery of services, applications, or resources you request. They enable the website to function properly by managing actions such as loading visNecessual elements, accessing resources, or user sign-ins and sign-outs. Essential cookies also ensure the service's security and efficiency by enabling features like authentication and load balancing.","performance":"These cookies collect data on how visitors interact with our website, allowing us to measure and improve our site's and software's effectiveness. They help us track visits and traffic sources, optimizing our website's performance. Without these cookies, we lose the ability to monitor our site's engagement and enhance user experience.","functional":"Set by us or third-party providers, functional cookies add extra features and enhance our website's functionality not directly necessary for the service you've requested. They enable convenience features such as pre-filled text fields, live chat support, and optional forms, improving your browsing experience with services like single sign-on (SSO).","marketing":"Our advertising partners deploy these cookies to tailor advertising to your interests, based on your browsing behavior and preferences. They track your online activity to build a profile for customized advertising, ensuring the ads you encounter on other sites are aligned with your interests.","analytics":"Analytics cookies are used to gather information on website usage, helping us understand visitor behavior. They track user interactions, providing insights that enable us to enhance the website's user experience and functionality. These cookies do not identify you personally but offer aggregated data to improve site performance.","other":"These cookies do not fall into standard categories but serve various purposes. They may enhance specific website features or support experimental or temporary services, and are typically associated with minor functions or specialized needs. Without these, the website's core functionality remains unaffected, but certain experiences or experiments may be impacted."}
+/////////////////////////
+
+const iabContent=`
+    <div class="content-privy-cmp-AE1VSVI8T5">
+        <p class="box-description-privy-cmp-AE1VSVI8T5">${template.contentDesktop.preferenceManagerNotice}</p>
+        <div class="consent-tabs-privy-cmp-AE1VSVI8T5">
+            <div class="consent-tabs-inside-privy-cmp-AE1VSVI8T5">
+                <h2 class="tab-privy-cmp-AE1VSVI8T5 active">Purposes</h2>
+                <h2 class="tab-privy-cmp-AE1VSVI8T5">Features</h2>
+                <h2 class="tab-privy-cmp-AE1VSVI8T5">Vendors</h2>
+            </div>
+        </div>
+        <div class="categories-privy-cmp-AE1VSVI8T5">
+        ${Object.keys(categorizedCookies).map(category => {
+            const consentCookie = parsedConsentData(getCookieDetails(cookieName));
+            const isAgreedCategory = consentCookie[category];
+            const cookieData = categorizedCookies[category];
+            const isNecessary = category === 'NECESSARY';
+            const disabledClass = isNecessary ? 'disabled' : '';
+            return `
+            <div class="category-privy-cmp-AE1VSVI8T5">
+                <div class="dropdown-content-privy-cmp-AE1VSVI8T5">
+                    <div class="category-header-privy-cmp-AE1VSVI8T5">
+                        <div onclick="showDropdown('${category}')" style="cursor:pointer">
+                            <div class="dropdown-arrow-privy-cmp-AE1VSVI8T5 rotated-privy-cmp-AE1VSVI8T5 dropdown-arrow-${category}">^</div>
+                            <label for="${category}">${category.charAt(0) + category.slice(1).toLowerCase()} Cookies</label>
+                        </div>
+                        <input type="checkbox" id="${category}-toggle" class="toggle-switch-privy-cmp-AE1VSVI8T5" ${isAgreedCategory ? 'checked ' : ''} ${disabledClass}>
+                        <label for="${category}-toggle" class="toggle-label-privy-cmp-AE1VSVI8T5 ${disabledClass}"></label>
+                    </div>
+                    <div id="dropdown-${category}" class="dropdown-content-inside-privy-cmp-AE1VSVI8T5">
+                        <div class="category-description-privy-cmp-AE1VSVI8T5">
+                            ${categoryDescriptions[category.toLowerCase()]}
+                        </div>
+                        <div onclick="viewCookieDetails('${category}')" id="view-cookies-${category}" class="view-cookies-privy-cmp-AE1VSVI8T5">View Cookies</div>
+                    </div>
+                    <div class="show-cookies-privy-cmp-AE1VSVI8T5 show-cookies-privy-cmp-AE1VSVI8T5-${category}">
+                        <div id="all-cookies-privy-cmp-AE1VSVI8T5-${category}" class="all-cookies-privy-cmp-AE1VSVI8T5">
+                            ${cookieData.map(cookie => `
+                            <div class="cookie-privy-cmp-AE1VSVI8T5">
+                                <p class="cookie-name-privy-cmp-AE1VSVI8T5"><span> Name </span>: ${cookie.cookie_master_name}</p>
+                                <p class="platform-privy-cmp-AE1VSVI8T5"><span>Platform </span>: ${cookie.cookie_domain}</p>
+                            </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+        }).join('')}
+        </div>
+    </div>
+`
+
+const nonIabContent = `
+    <div class="content-privy-cmp-AE1VSVI8T5">
+        <p class="box-description-privy-cmp-AE1VSVI8T5">${template.contentDesktop.preferenceManagerNotice}</p>
+        <div class="categories-privy-cmp-AE1VSVI8T5">
+        ${Object.keys(categorizedCookies).map(category => {
+            const consentCookie = parsedConsentData(getCookieDetails(cookieName));
+            const isAgreedCategory = consentCookie[category];
+            const cookieData = categorizedCookies[category];
+            const isNecessary = category === 'NECESSARY';
+            const disabledClass = isNecessary ? 'disabled' : '';
+            return `
+            <div class="category-privy-cmp-AE1VSVI8T5">
+                <div class="dropdown-content-privy-cmp-AE1VSVI8T5">
+                    <div class="category-header-privy-cmp-AE1VSVI8T5">
+                        <div onclick="showDropdown('${category}')" style="cursor:pointer">
+                            <div class="dropdown-arrow-privy-cmp-AE1VSVI8T5 rotated-privy-cmp-AE1VSVI8T5 dropdown-arrow-${category}">^</div>
+                            <label for="${category}">${category.charAt(0) + category.slice(1).toLowerCase()} Cookies</label>
+                        </div>
+                        <input type="checkbox" id="${category}-toggle" class="toggle-switch-privy-cmp-AE1VSVI8T5" ${isAgreedCategory ? 'checked ' : ''} ${disabledClass}>
+                        <label for="${category}-toggle" class="toggle-label-privy-cmp-AE1VSVI8T5 ${disabledClass}"></label>
+                    </div>
+                    <div id="dropdown-${category}" class="dropdown-content-inside-privy-cmp-AE1VSVI8T5">
+                        <div class="category-description-privy-cmp-AE1VSVI8T5">
+                            ${categoryDescriptions[category.toLowerCase()]}
+                        </div>
+                        <div onclick="viewCookieDetails('${category}')" id="view-cookies-${category}" class="view-cookies-privy-cmp-AE1VSVI8T5">View Cookies</div>
+                    </div>
+                    <div class="show-cookies-privy-cmp-AE1VSVI8T5 show-cookies-privy-cmp-AE1VSVI8T5-${category}">
+                        <div id="all-cookies-privy-cmp-AE1VSVI8T5-${category}" class="all-cookies-privy-cmp-AE1VSVI8T5">
+                            ${cookieData.map(cookie => `
+                            <div class="cookie-privy-cmp-AE1VSVI8T5">
+                                <p class="cookie-name-privy-cmp-AE1VSVI8T5"><span> Name </span>: ${cookie.cookie_master_name}</p>
+                                <p class="platform-privy-cmp-AE1VSVI8T5"><span>Platform </span>: ${cookie.cookie_domain}</p>
+                            </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+        }).join('')}
+        </div>
+    </div>
+`
+const bannerContent = isIab? iabContent : nonIabContent;
+
+////////////////////////
+
+
     function createBanner(categorizedCookies, template) {
     let banner = `
     <div class="idfy-${template.bannerType}-privy-cmp-AE1VSVI8T5" id="banner-home">
@@ -151,52 +266,11 @@ function processUserConsentBasedOnPreference(
         <div class="customize-settings-screen-privy-cmp-AE1VSVI8T5 ${template.preferenceManagerHorizontalPosition}">
             <div>
                 <div class="close-btn-privy-cmp-AE1VSVI8T5">
+                    <h2 class="box-heading-privy-cmp-AE1VSVI8T5">Privacy Preference Center</h2>
                     <div class="close-button-privy-cmp-AE1VSVI8T5">×</div>
                 </div>
-                ////////////////////////////////////////////////////////////////
-                <div class="content-privy-cmp-AE1VSVI8T5">
-                    <h2 class="box-heading-privy-cmp-AE1VSVI8T5">About cookies on this site.</h2>
-                    <p class="box-description-privy-cmp-AE1VSVI8T5">${template.contentDesktop.preferenceManagerNotice}</p>
-                    <div class="categories-privy-cmp-AE1VSVI8T5">
-                    ${Object.keys(categorizedCookies).map(category => {
-                        const consentCookie = parsedConsentData(getCookieDetails(cookieName));
-                        const isAgreedCategory = consentCookie[category];
-                        const cookieData = categorizedCookies[category];
-                        const isNecessary = category === 'NECESSARY';
-                        const disabledClass = isNecessary ? 'disabled' : '';
-                        return `
-                        <div class="category-privy-cmp-AE1VSVI8T5">
-                            <div class="dropdown-content-privy-cmp-AE1VSVI8T5">
-                                <div class="category-header-privy-cmp-AE1VSVI8T5">
-                                    <div onclick="showDropdown('${category}')" style="cursor:pointer">
-                                        <div class="dropdown-arrow-privy-cmp-AE1VSVI8T5 rotated-privy-cmp-AE1VSVI8T5 dropdown-arrow-${category}">^</div>
-                                        <label for="${category}">${category.charAt(0) + category.slice(1).toLowerCase()} Cookies</label>
-                                    </div>
-                                    <input type="checkbox" id="${category}-toggle" class="toggle-switch-privy-cmp-AE1VSVI8T5" ${isAgreedCategory ? 'checked ' : ''} ${disabledClass}>
-                                    <label for="${category}-toggle" class="toggle-label-privy-cmp-AE1VSVI8T5 ${disabledClass}"></label>
-                                </div>
-                                <div id="dropdown-${category}" class="dropdown-content-inside-privy-cmp-AE1VSVI8T5">
-                                    <div class="category-description-privy-cmp-AE1VSVI8T5">
-                                        ${categoryDescriptions[category.toLowerCase()]}
-                                    </div>
-                                    <div onclick="viewCookieDetails('${category}')" id="view-cookies-${category}" class="view-cookies-privy-cmp-AE1VSVI8T5">View Cookies</div>
-                                </div>
-                                <div class="show-cookies-privy-cmp-AE1VSVI8T5 show-cookies-privy-cmp-AE1VSVI8T5-${category}">
-                                    <div id="all-cookies-privy-cmp-AE1VSVI8T5-${category}" class="all-cookies-privy-cmp-AE1VSVI8T5">
-                                        ${cookieData.map(cookie => `
-                                        <div class="cookie-privy-cmp-AE1VSVI8T5">
-                                            <p class="cookie-name-privy-cmp-AE1VSVI8T5"><span> Name </span>: ${cookie.cookie_master_name}</p>
-                                            <p class="platform-privy-cmp-AE1VSVI8T5"><span>Platform </span>: ${cookie.cookie_domain}</p>
-                                        </div>
-                                        `).join('')}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        `;
-                    }).join('')}
-                    </div>
-                </div>
+                ////////////////////////////////////////////
+                ${bannerContent}
                 ////////////////////////////////////////////////////////////////
             </div>
 
@@ -291,6 +365,13 @@ function submitConsent(agreedCategories) {
 
     const styleTag = document.createElement("style");
     styleTag.innerHTML = `
+        :root {
+            --privy-cmp-primary-color:${template.buttonColor};
+            --privy-cmp-button-text-color:${template.buttonTextColor};
+            --privy-cmp-button-hover-color:${template.hoverButtonColor};
+            --privy-cmp-text-hover-color:${template.hoverTextColor};
+            --privy-cmp-font-name:${template.fontName};
+        }
           .banner-container-privy-cmp-AE1VSVI8T5{
             margin: 5px;
           }
@@ -315,7 +396,7 @@ function submitConsent(agreedCategories) {
               width: 53%;
               max-width: 70em;
               border-radius: 10px;
-              font-family: ${template.fontName} !important;
+              font-family: var(--privy-cmp-font-name) !important;
               -webkit-font-smoothing: antialiased;
               z-index: 2147483647 !important; 
               box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -333,7 +414,7 @@ function submitConsent(agreedCategories) {
             left: 0px;
             width: 100%;
             border-radius: 10px;
-            font-family: ${template.fontName} !important;
+            font-family: var(--privy-cmp-font-name) !important;
             -webkit-font-smoothing: antialiased;
             z-index: 2147483647 !important; 
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -382,23 +463,23 @@ function submitConsent(agreedCategories) {
   
           .box-button-privy-cmp-AE1VSVI8T5,.banner-button-privy-cmp-AE1VSVI8T5{
               margin-right: 2.5px !important;
-              color: ${template.buttonColor} !important;
+              color: var(--privy-cmp-primary-color) !important;
               padding: 9px 20px !important;
-              border: 1px solid ${template.buttonColor} !important;
+              border: 1px solid var(--privy-cmp-primary-color) !important;
               border-radius: 8px !important;
               background: white !important;
               display:inline-block !important;
               line-height: 1!important;
               font-weight: Normal!important;
               font-size: 12px !important;
-              font-family: ${template.fontName} !important;
+              font-family: var(--privy-cmp-font-name) !important;
               -webkit-font-smoothing: antialiased;
           }
   
           #allow-btn-privy-cmp-AE1VSVI8T5 {
-              background-color:${template.buttonColor} !important;
-              color: ${template.buttonTextColor}!important;
-              border: 1px solid ${template.buttonColor}!important;
+              background-color:var(--privy-cmp-primary-color) !important;
+              color: var(--privy-cmp-button-text-color)!important;
+              border: 1px solid var(--privy-cmp-primary-color)!important;
           }
   
           /* custmise banner screen css */
@@ -416,7 +497,7 @@ function submitConsent(agreedCategories) {
               position: fixed;
               z-index: 2147483647 !important;
               top: 0;
-              font-family: ${template.fontName};
+              font-family: var(--privy-cmp-font-name);
               -webkit-font-smoothing: antialiased;
               overflow: scroll;
               display: flex;
@@ -441,24 +522,23 @@ function submitConsent(agreedCategories) {
            }
   
           .content-privy-cmp-AE1VSVI8T5 {
-              padding: 20px;
-  
+              padding: 0px 15px 20px;
           }
   
           .close-btn-privy-cmp-AE1VSVI8T5 {
               display: flex;
-              justify-content: end;
+              justify-content: space-between;
               border-bottom: 0.5px solid #B2B5B8;
-              padding: 10px; 
+              padding: 10px 20px; 
               position: sticky;
               top: 0;
               background-color: #fff;
               z-index:2147483647 !important;
+              align-items:center;
           }
   
           .close-button-privy-cmp-AE1VSVI8T5 {
               color: #7D8187 !important;
-              margin: 0px 10px !important;
               font-size: 20px !important;
               background-color: transparent !important;
               border: none !important;
@@ -668,23 +748,23 @@ function submitConsent(agreedCategories) {
               // display:inline-block !important;
               line-height: 1!important;
               font-weight: Normal!important;
-              font-family: ${template.fontName} !important;
+              font-family: var(--privy-cmp-font-name) !important;
               -webkit-font-smoothing: antialiased;
           }
   
   
   
           .button1-privy-cmp-AE1VSVI8T5 {
-              color: ${template.buttonTextColor} !important;
-              border: 1px solid ${template.buttonColor} !important;
-              background-color: ${template.buttonColor};
+              color: var(--privy-cmp-button-text-color) !important;
+              border: 1px solid var(--privy-cmp-primary-color) !important;
+              background-color: var(--privy-cmp-primary-color);
               transition: 0.3s;
               flex:1;
           }
   
           .button2-privy-cmp-AE1VSVI8T5 {
-              color: ${template.buttonColor} !important;
-              border: 1px solid ${template.buttonColor} !important;
+              color: var(--privy-cmp-primary-color) !important;
+              border: 1px solid var(--privy-cmp-primary-color) !important;
               background-color: #fff;
               transition: 0.3s;
               flex:1;
@@ -693,10 +773,10 @@ function submitConsent(agreedCategories) {
           .button2-privy-cmp-AE1VSVI8T5:hover,
           .button1-privy-cmp-AE1VSVI8T5:hover,
           .classic-button-privy-cmp-AE1VSVI8T5:hover,.banner-button-privy-cmp-AE1VSVI8T5:hover,.box-button-privy-cmp-AE1VSVI8T5:hover,#allow-btn-privy-cmp-AE1VSVI8T5:hover {
-              background-color: ${template.hoverButtonColor} !important;
-              color: ${template.hoverTextColor} !important;
+              background-color: var(--privy-cmp-button-hover-color) !important;
+              color: var(--privy-cmp-text-hover-color) !important;
               transition: 0.3s;
-              border: 1px solid ${template.hoverButtonColor} !important;
+              border: 1px solid var(--privy-cmp-button-hover-color) !important;
           }
   
           .powered-privy-cmp-AE1VSVI8T5 {
@@ -717,6 +797,38 @@ function submitConsent(agreedCategories) {
               font-size: 10px!important;
               line-height:1 !important;
             } 
+
+            .consent-tabs-privy-cmp-AE1VSVI8T5{
+                padding: 5px 10px !important;
+                border: 1px solid #B2B5B8 !important;
+                border-radius: 8px !important;
+                display:flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+            }
+            
+            .consent-tabs-privy-cmp-AE1VSVI8T5 .consent-tabs-inside-privy-cmp-AE1VSVI8T5{
+                width:  80% !important;
+                display:flex !important;
+                gap:1rem !important;
+                justify-content:space-between !important;
+                align-items:center !important;
+            }
+
+            .consent-tabs-privy-cmp-AE1VSVI8T5 .tab-privy-cmp-AE1VSVI8T5{
+                color: var(--privy-cmp-primary-color) !important;
+                font-size: 1rem !important;
+                font-weight: normal !important;
+                padding: 5px 25px !important;
+                border-radius: 5px !important;
+                cursor: pointer;
+            }
+
+            .consent-tabs-privy-cmp-AE1VSVI8T5 .active{
+                background-color: rgba(9, 11, 15, 0.08 ) !important;
+                color: #000 !important;
+            }
+
   
           @media (max-width: 900px) {
             .box-button-container-privy-cmp-AE1VSVI8T5{
@@ -821,7 +933,9 @@ function submitConsent(agreedCategories) {
     
             const dropdown = document.getElementById('dropdown-' + category);
             dropdown.style.display = "none";
-            }`
+            }
+            
+    `
     document.head.appendChild(scriptTag);
 
     if (consentCookie.update === true) {
@@ -847,16 +961,7 @@ function submitConsent(agreedCategories) {
     }
 });
 /* eslint-disable */
-const DEFAULT_COOKIE_CONSENT = {
-    NECESSARY: true,
-    FUNCTIONAL: false,
-    ANALYTICS: false,
-    MARKETING: false,
-    OTHER: false
-}
-const nonScriptElements = ['embed', 'iframe', 'img', 'script']
-const monitoredElements = [...nonScriptElements, 'script']
-const cookieName = 'privyConsent'
+
 
 function findMatchingTag(url) {
     return tagsList.find((item) => url.includes(item.tag)) || null
