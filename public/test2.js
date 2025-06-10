@@ -1,4 +1,4 @@
-  const categorizedCookies = {};
+ const categorizedCookies = {};
         const IAB_TCF_VENDOR_URL = "http://localhost:3000/ext/cookie-banner/api/v1/iab-tcf/"
         const tagsList = [];
         /* eslint-disable */
@@ -7230,7 +7230,7 @@ function setIABTCFConsent(gvl, consents) {
     const model = new IABTcf.TCModel(gvl)
 
     // Mandatory fields required for a valid TC string
-    model.cmpId = 123 // Replace with your registered CMP ID from IAB
+    model.cmpId = 401 // Replace with your registered CMP ID from IAB
     model.cmpVersion = 1 // Version of your CMP UI
     model.vendorListVersion = gvl.vendorListVersion // From loaded GVL
     model.policyVersion = gvl.tcfPolicyVersion // Also from GVL
@@ -7275,7 +7275,7 @@ function setIABTCFConsent(gvl, consents) {
     console.log('Decoded TC Model:', decodedModel)
 
     // Initialize the CMP API and update __tcfapi with the new TC string
-    const cmpApi = new window.IABTcfAPI.CmpApi(123, 1, true)
+    const cmpApi = new window.IABTcfAPI.CmpApi(401, 1, true)
     cmpApi.update(encoded, true) // `true` notifies any queued __tcfapi calls immediately
 
     // Optionally expose the TC string + decoded model on the window for debugging/testing
@@ -7709,7 +7709,7 @@ function renderVendorChips(vendors) {
         const template = {"bannerType":"box","buttonColor":"#214698","buttonsText":{"acceptAll":"Accept All","moreSettings":"More Settings","allowNecessary":"Allow Only Necessary","savePreferences":"Save My Preferences"},"contentMobile":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"contentDesktop":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"hoverTextColor":"#ffffff","positionMobile":"bottom","buttonTextColor":"#ffffff","positionDesktop":"bottom-right","hoverButtonColor":"#214699","preferenceManagerHorizontalPosition":"centre"};
         const bannerSessionId = getSessionId()
         function sendEventDetails(dataFiduciaryId, bannerId, type) {
-                    fetch(`undefined/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/999c653b-a51b-4eb7-a120-80fee49d6c76`, {
+                    fetch(`undefined/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/538ad294-3819-4f6c-b6e4-be433c51336d`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -8085,9 +8085,9 @@ function autoBlocking() {
          function showBanner() {
     let consentCookie = parsedConsentData(getCookieDetails(cookieName));
     const consentedBannerId = getConsentedBannerId()
-    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `999c653b-a51b-4eb7-a120-80fee49d6c76`){
+    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `538ad294-3819-4f6c-b6e4-be433c51336d`){
         consentCookie.update = false;
-        setConsentedBannerId(`999c653b-a51b-4eb7-a120-80fee49d6c76`)
+        setConsentedBannerId(`538ad294-3819-4f6c-b6e4-be433c51336d`)
         setCookieOnBrowser(consentCookie, cookieName)
         location.reload()
     }
@@ -8896,7 +8896,7 @@ function autoBlocking() {
         toggleBanner('hide');
     } else {
         toggleBanner('show');
-        sendEventDetails(`8c25669844d6`, `999c653b-a51b-4eb7-a120-80fee49d6c76`, 'BannerView');
+        sendEventDetails(`8c25669844d6`, `538ad294-3819-4f6c-b6e4-be433c51336d`, 'BannerView');
         }
         autoBlocking()
         // Initialize all tabs
@@ -8905,7 +8905,7 @@ function autoBlocking() {
     document.addEventListener('DOMContentLoaded', showBanner);
     document.addEventListener("click", function (event) {
     if (event.target.id === "customize-btn-privy-cmp-AE1VSVI8T5") {
-        sendEventDetails(`8c25669844d6`, `999c653b-a51b-4eb7-a120-80fee49d6c76`, 'CustomizeCookiesView');
+        sendEventDetails(`8c25669844d6`, `538ad294-3819-4f6c-b6e4-be433c51336d`, 'CustomizeCookiesView');
     }
     if (event.target.id === "preference-privy-cmp") {
         // toggleBanner('preference')
@@ -8913,7 +8913,7 @@ function autoBlocking() {
         customizeScreen.style.display = "block";
         const bannerHome = document.getElementById("banner-home")
         bannerHome.style.display = "none" 
-        sendEventDetails(`8c25669844d6`, `999c653b-a51b-4eb7-a120-80fee49d6c76`, 'PreferenceCenter');
+        sendEventDetails(`8c25669844d6`, `538ad294-3819-4f6c-b6e4-be433c51336d`, 'PreferenceCenter');
     }
 }); //Common 
          //Common
