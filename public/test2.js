@@ -1,4 +1,4 @@
- const categorizedCookies = {};
+  const categorizedCookies = {};
         const IAB_TCF_VENDOR_URL = "http://localhost:3000/ext/cookie-banner/api/v1/iab-tcf/"
         const tagsList = [];
         /* eslint-disable */
@@ -7314,29 +7314,35 @@ function submitIabConsent(actionButton) {
         specialFeatures: [],
         vendors: [],
         legitimateVendors: []
+    };
+
+    console.log('actionButton', actionButton);
+
+    if (actionButton === 'all') {
+        collectConsentData('.iab-consent-privy-cmp-AE1VSVI8T5', consentData);
+    } else if (actionButton === 'save') {
+        collectConsentData('.iab-consent-privy-cmp-AE1VSVI8T5:checked', consentData);
+    } else if (actionButton === 'necessary') {
+        console.log('Only necessary cookies allowed — optional consents skipped.');
     }
 
-    console.log('actionButton', actionButton)
+    setIABTCFConsent(gvl, consentData);
+    console.log('user consent', consentData);
+}
 
-    document.querySelectorAll('.iab-consent-privy-cmp-AE1VSVI8T5').forEach((input) => {
-        if (input.checked) {
-            const dataAttribute = input.getAttribute('data-iab-consent') // e.g., "purposes"
-            const agreedConsent = input.id // e.g., "purposes-1", "vendors-15"
+function collectConsentData(selector, consentData) {
+    document.querySelectorAll(selector).forEach((input) => {
+        const dataAttribute = input.getAttribute('data-iab-consent');
+        const agreedConsent = input.id;
 
-            const idParts = agreedConsent.split('-')
-            const idOnly = idParts.length > 1 ? parseInt(idParts[1], 10) : null
+        const idParts = agreedConsent.split('-');
+        const idOnly = idParts.length > 1 ? parseInt(idParts[1], 10) : null;
 
-            if (idOnly !== null && consentData.hasOwnProperty(dataAttribute)) {
-                consentData[dataAttribute].push(idOnly)
-            }
-
-            console.log('agreed iab consent', dataAttribute, idOnly)
+        if (idOnly !== null && consentData.hasOwnProperty(dataAttribute)) {
+            consentData[dataAttribute].push(idOnly);
+            console.log('agreed iab consent:', dataAttribute, idOnly);
         }
-    })
-
-    console.log('gvl heree', gvl)
-    setIABTCFConsent(gvl, consentData)
-    console.log('finalConsent', consentData)
+    });
 }
 
 /* eslint-disable-next-line max-params */
@@ -7586,7 +7592,6 @@ function renderIllustrations(illustrations = []) {
 
 function renderPurposeDropdown(purpose, type, gvl, toggle = false, isHidden) {
     const purposeId = `${type}-${purpose.id}`
-
     const vendorsHTML = getVendorsLinkedToItem(purpose.id, gvl, type);
 
     return `
@@ -7699,11 +7704,12 @@ function renderVendorChips(vendors) {
         )
         .join('')
 }
+
         
         const template = {"bannerType":"box","buttonColor":"#214698","buttonsText":{"acceptAll":"Accept All","moreSettings":"More Settings","allowNecessary":"Allow Only Necessary","savePreferences":"Save My Preferences"},"contentMobile":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"contentDesktop":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"hoverTextColor":"#ffffff","positionMobile":"bottom","buttonTextColor":"#ffffff","positionDesktop":"bottom-right","hoverButtonColor":"#214699","preferenceManagerHorizontalPosition":"centre"};
         const bannerSessionId = getSessionId()
         function sendEventDetails(dataFiduciaryId, bannerId, type) {
-                    fetch(`undefined/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/c5c305dc-3b8b-4978-9b4e-625d1cb07577`, {
+                    fetch(`undefined/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/999c653b-a51b-4eb7-a120-80fee49d6c76`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -7996,6 +8002,8 @@ function autoBlocking() {
 } //Common 
         
     const categoryDescriptions = {"necessary":"Essential cookies are crucial for the delivery of services, applications, or resources you request. They enable the website to function properly by managing actions such as loading visNecessual elements, accessing resources, or user sign-ins and sign-outs. Essential cookies also ensure the service's security and efficiency by enabling features like authentication and load balancing.","performance":"These cookies collect data on how visitors interact with our website, allowing us to measure and improve our site's and software's effectiveness. They help us track visits and traffic sources, optimizing our website's performance. Without these cookies, we lose the ability to monitor our site's engagement and enhance user experience.","functional":"Set by us or third-party providers, functional cookies add extra features and enhance our website's functionality not directly necessary for the service you've requested. They enable convenience features such as pre-filled text fields, live chat support, and optional forms, improving your browsing experience with services like single sign-on (SSO).","marketing":"Our advertising partners deploy these cookies to tailor advertising to your interests, based on your browsing behavior and preferences. They track your online activity to build a profile for customized advertising, ensuring the ads you encounter on other sites are aligned with your interests.","analytics":"Analytics cookies are used to gather information on website usage, helping us understand visitor behavior. They track user interactions, providing insights that enable us to enhance the website's user experience and functionality. These cookies do not identify you personally but offer aggregated data to improve site performance.","other":"These cookies do not fall into standard categories but serve various purposes. They may enhance specific website features or support experimental or temporary services, and are typically associated with minor functions or specialized needs. Without these, the website's core functionality remains unaffected, but certain experiences or experiments may be impacted."}
+    const submitConsentHandler = submitIabConsent;
+
     function createBanner(categorizedCookies, template) {
     let banner = `
     <div class="idfy-${template.bannerType}-privy-cmp-AE1VSVI8T5" id="banner-home">
@@ -8004,8 +8012,8 @@ function autoBlocking() {
             <div class="${template.bannerType}-inner-privy-cmp-AE1VSVI8T5">
                 <p class="description-privy-cmp-AE1VSVI8T5 ${template.bannerType}-desc-privy-cmp-AE1VSVI8T5" >${template.contentDesktop.cookieBannerNotice}</p>
                 <div class="${template.bannerType}-button-container-privy-cmp-AE1VSVI8T5">
-                    <button onclick="submitConsent('all')" id="allow-btn-privy-cmp-AE1VSVI8T5" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.acceptAll}</button>
-                    <button onclick="submitConsent('necessary')" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.allowNecessary}</button>
+                    <button onclick="submitConsentHandler('all')" id="allow-btn-privy-cmp-AE1VSVI8T5" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.acceptAll}</button>
+                    <button onclick="submitConsentHandler('necessary')" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.allowNecessary}</button>
                     <button id="customize-btn-privy-cmp-AE1VSVI8T5" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.moreSettings}</button>
                 </div>
             </div>
@@ -8045,8 +8053,8 @@ function autoBlocking() {
         </div>
         <div class="iab-bottom-panel-buttons-privy-cmp-AE1VSVI8T5">
             <button class="iab-bottom-panel-button-privy-cmp-AE1VSVI8T5" onclick="submitIabConsent('save')">Save</button>
-            <button class="iab-bottom-panel-button-privy-cmp-AE1VSVI8T5" onclick="submitIabConsent('reject')">Reject All</button>
-            <button class="iab-bottom-panel-button-privy-cmp-AE1VSVI8T5" onclick="submitIabConsent('accept')">Accept All</button>
+            <button class="iab-bottom-panel-button-privy-cmp-AE1VSVI8T5" onclick="submitIabConsent('necessary')">Reject All</button>
+            <button class="iab-bottom-panel-button-privy-cmp-AE1VSVI8T5" onclick="submitIabConsent('all')">Accept All</button>
         </div>
     </div>
 
@@ -8077,9 +8085,9 @@ function autoBlocking() {
          function showBanner() {
     let consentCookie = parsedConsentData(getCookieDetails(cookieName));
     const consentedBannerId = getConsentedBannerId()
-    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `c5c305dc-3b8b-4978-9b4e-625d1cb07577`){
+    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `999c653b-a51b-4eb7-a120-80fee49d6c76`){
         consentCookie.update = false;
-        setConsentedBannerId(`c5c305dc-3b8b-4978-9b4e-625d1cb07577`)
+        setConsentedBannerId(`999c653b-a51b-4eb7-a120-80fee49d6c76`)
         setCookieOnBrowser(consentCookie, cookieName)
         location.reload()
     }
@@ -8888,7 +8896,7 @@ function autoBlocking() {
         toggleBanner('hide');
     } else {
         toggleBanner('show');
-        sendEventDetails(`8c25669844d6`, `c5c305dc-3b8b-4978-9b4e-625d1cb07577`, 'BannerView');
+        sendEventDetails(`8c25669844d6`, `999c653b-a51b-4eb7-a120-80fee49d6c76`, 'BannerView');
         }
         autoBlocking()
         // Initialize all tabs
@@ -8897,7 +8905,7 @@ function autoBlocking() {
     document.addEventListener('DOMContentLoaded', showBanner);
     document.addEventListener("click", function (event) {
     if (event.target.id === "customize-btn-privy-cmp-AE1VSVI8T5") {
-        sendEventDetails(`8c25669844d6`, `c5c305dc-3b8b-4978-9b4e-625d1cb07577`, 'CustomizeCookiesView');
+        sendEventDetails(`8c25669844d6`, `999c653b-a51b-4eb7-a120-80fee49d6c76`, 'CustomizeCookiesView');
     }
     if (event.target.id === "preference-privy-cmp") {
         // toggleBanner('preference')
@@ -8905,7 +8913,7 @@ function autoBlocking() {
         customizeScreen.style.display = "block";
         const bannerHome = document.getElementById("banner-home")
         bannerHome.style.display = "none" 
-        sendEventDetails(`8c25669844d6`, `c5c305dc-3b8b-4978-9b4e-625d1cb07577`, 'PreferenceCenter');
+        sendEventDetails(`8c25669844d6`, `999c653b-a51b-4eb7-a120-80fee49d6c76`, 'PreferenceCenter');
     }
 }); //Common 
          //Common
