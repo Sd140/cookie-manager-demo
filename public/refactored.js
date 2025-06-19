@@ -1,4 +1,5 @@
- const categorizedCookies = {};
+ const cookieName = 'euconsent'
+        const categorizedCookies = {};
         const IAB_TCF_VENDOR_URL = "http://localhost:3000/ext/cookie-banner/api/v1/iab-tcf/"
         const tagsList = [];
         /* eslint-disable */
@@ -7237,11 +7238,11 @@ async function loadGVL() {
     try {
         await gvl.readyPromise
         window.__GVL__ = gvl
-        cmpApi = new CmpApi(401, 1, true)
+        cmpApi = new CmpApi(CMPDATA['cmp_id'], CMPDATA['cmp_version'], true)
         // cmpApi.cmpStatus = 'loaded'
         // cmpApi.displayStatus = 'visible'
         console.log('CmpApi created:', cmpApi)
-        const existingConsent = getCookieDetails('euconsent', false)
+        const existingConsent = getCookieDetails(cookieName, false)
         if (existingConsent) {
             console.log('Existing consent found:', existingConsent)
             try {
@@ -7290,8 +7291,8 @@ function setIABTCFConsent(gvl, consents) {
     const model = new IABTcf.TCModel(gvl)
 
     // Mandatory fields required for a valid TC string
-    model.cmpId = 401 // Replace with your registered CMP ID from IAB
-    model.cmpVersion = 1 // Version of your CMP UI
+    model.cmpId = CMPDATA['cmp_id'] // Replace with your registered CMP ID from IAB
+    model.cmpVersion = CMPDATA['cmp_version'] // Version of your CMP UI
     model.vendorListVersion = gvl.vendorListVersion // From loaded GVL
     model.policyVersion = gvl.tcfPolicyVersion // Also from GVL
     model.consentLanguage = 'EN' // ISO 639-1 language code
@@ -7334,7 +7335,7 @@ function setIABTCFConsent(gvl, consents) {
     const decodedModel = IABTcf.TCString.decode(encoded, gvl)
     console.log('Decoded TC Model:', decodedModel)
     cmpApi.update(encoded, false)
-    setCookieOnBrowser(encoded, 'euconsent')
+    setCookieOnBrowser(encoded, cookieName)
     // Optionally expose the TC string + decoded model on the window for debugging/testing
     window.__TCF_CONSENT__ = {
         tcString: encoded,
@@ -7349,6 +7350,11 @@ loadGVL()
 //   loadGVL();
 // });
  // IAB TCF Initialization
+        const CMPDATA = {
+        cmp_id: 2,
+        cmp_version: 1
+        }
+        const CONSENT_URL= 'http://localhost:3000/ext/cookie-banner/api/v1/consent/8c25669844d6/ac321ced-a7db-48eb-bac6-6680b4009845'
         /* eslint-disable */
 
 function createToggle(id, consentType, classes = '', toggle = false, isHidden = false) {
@@ -7391,7 +7397,35 @@ function submitIabConsent(actionButton) {
     toggleBanner('hide')
     console.log('user consent', consentData)
 }
+function iabtcfConsent() {
+    const tc_string = getCookieDetails(cookieName)
+    setConsentedBannerId(bannerId)
+    fetch(CONSENT_URL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            user_preference: { 'iabtcf': true },
+            sid: getSessionId(),
+            data_principal_id: getPrivyDataPrincipalId(),
+            tc_string: tc_string,
+            submission_type: agreedCategories
+        })
+    })
+        .then((response) => {
+            console.log('submit response', response)
+            if (!response.ok) {
+                throw new Error('Failed to submit consent')
+            }
+            return response.json()
+        })
+        .catch((error) => {
+            console.error('Error submitting consent:', error)
+        })
 
+    location.reload()
+}
 function collectConsentData(selector, consentData) {
     document.querySelectorAll(selector).forEach((input) => {
         const dataAttribute = input.getAttribute('data-iab-consent')
@@ -7781,7 +7815,7 @@ function setTogglesBasedIabConsent(consentData) {
                     toggle.classList.add('active-privy-cmp-AE1VSVI8T5')
                 }
             } else {
-                input.checked = false;
+                input.checked = false
                 if (toggle) {
                     toggle.classList.remove('active-privy-cmp-AE1VSVI8T5')
                 }
@@ -7827,7 +7861,7 @@ function tabNavigationIABTCF() {
 }
 
 function setupBannerBasedOnConsentIABTCF(dataFiduciaryId, bannerId) {
-    const existingConsent = getCookieDetails('euconsent', '')
+    const existingConsent = getCookieDetails(cookieName, '')
     try {
         const decodedModel = IABTcf.TCString.decode(existingConsent, gvl)
         console.log('decodedModel', decodedModel)
@@ -7842,7 +7876,7 @@ function setupBannerBasedOnConsentIABTCF(dataFiduciaryId, bannerId) {
             specialFeatures: Array.from(decodedModel.specialFeatureOptins.set_),
             vendors: Array.from(decodedModel.vendorConsents.set_),
             legitimateVendors: Array.from(decodedModel.vendorLegitimateInterests.set_)
-        };
+        }
 
         if (existingConsent && decodedModel) {
             setTogglesBasedIabConsent(consentData)
@@ -7866,10 +7900,9 @@ function setupBannerBasedOnConsentIABTCF(dataFiduciaryId, bannerId) {
             MARKETING: false
             // OTHER: false
         }
-        const cookieName = 'privyConsent'
         const bannerSessionId = getSessionId()
         function sendEventDetails(dataFiduciaryId, bannerId, type) {
-                    fetch(`http://localhost:3000/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/719e5d80-0693-40a2-b40c-999d4654afc3`, {
+                    fetch(`http://localhost:3000/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/ac321ced-a7db-48eb-bac6-6680b4009845`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -8854,17 +8887,17 @@ function toggleConsentUIState() {
     `
     document.head.appendChild(iabStyleTag)
     initializeTabs(gvl)
-    setupBannerBasedOnConsentIABTCF(`8c25669844d6`, `719e5d80-0693-40a2-b40c-999d4654afc3`)
+    setupBannerBasedOnConsentIABTCF(`8c25669844d6`, `ac321ced-a7db-48eb-bac6-6680b4009845`)
         }
         
         document.addEventListener("click", function (event) {
             if (event.target.id === "customize-btn-privy-cmp-AE1VSVI8T5") {
-                sendEventDetails(`8c25669844d6`, `719e5d80-0693-40a2-b40c-999d4654afc3`, 'CustomizeCookiesView');
+                sendEventDetails(`8c25669844d6`, `ac321ced-a7db-48eb-bac6-6680b4009845`, 'CustomizeCookiesView');
             }
 
             if (event.target.id === "preference-privy-cmp") {
                 toggleBanner('preference')
-                sendEventDetails(`8c25669844d6`, `719e5d80-0693-40a2-b40c-999d4654afc3`, 'PreferenceCenter');
+                sendEventDetails(`8c25669844d6`, `ac321ced-a7db-48eb-bac6-6680b4009845`, 'PreferenceCenter');
             }
 }) //Common 
          //Common
