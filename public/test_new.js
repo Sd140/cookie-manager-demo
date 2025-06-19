@@ -2077,7 +2077,7 @@
                                 this.throwIfInvalidInt(t, 'cmpVersion', 0),
                                 (r.CmpApiModel.cmpId = e),
                                 (r.CmpApiModel.cmpVersion = t),
-                                (r.CmpApiModel.tcfPolicyVersion = 5),
+                                (r.CmpApiModel.tcfPolicyVersion = 2),
                                 (this.isServiceSpecific = !!n),
                                 (this.callResponder = new i.CallResponder(o))
                         }
@@ -7097,197 +7097,124 @@
         return e[r].call(i.exports, i, i.exports, n), i.exports
     })(6206)
 })()
+/* eslint-disable */
+;(() => {
+    var t = {
+            63: (t) => {
+                'use strict'
+                function e(t) {
+                    return (e =
+                        'function' == typeof Symbol && 'symbol' == typeof Symbol.iterator
+                            ? function (t) {
+                                  return typeof t
+                              }
+                            : function (t) {
+                                  return t &&
+                                      'function' == typeof Symbol &&
+                                      t.constructor === Symbol &&
+                                      t !== Symbol.prototype
+                                      ? 'symbol'
+                                      : typeof t
+                              })(t)
+                }
+                t.exports = function () {
+                    for (var t, o, r = [], n = window, a = n; a; ) {
+                        try {
+                            if (a.frames.__tcfapiLocator) {
+                                t = a
+                                break
+                            }
+                        } catch (t) {}
+                        if (a === n.top) break
+                        a = a.parent
+                    }
+                    t ||
+                        ((function t() {
+                            var e = n.document,
+                                o = !!n.frames.__tcfapiLocator
+                            if (!o)
+                                if (e.body) {
+                                    var r = e.createElement('iframe')
+                                    ;(r.style.cssText = 'display:none'),
+                                        (r.name = '__tcfapiLocator'),
+                                        e.body.appendChild(r)
+                                } else setTimeout(t, 5)
+                            return !o
+                        })(),
+                        (n.__tcfapi = function () {
+                            for (var t = arguments.length, e = new Array(t), n = 0; n < t; n++) e[n] = arguments[n]
+                            if (!e.length) return r
+                            'setGdprApplies' === e[0]
+                                ? e.length > 3 &&
+                                  2 === parseInt(e[1], 10) &&
+                                  'boolean' == typeof e[3] &&
+                                  ((o = e[3]), 'function' == typeof e[2] && e[2]('set', !0))
+                                : 'ping' === e[0]
+                                ? 'function' == typeof e[2] &&
+                                  e[2]({
+                                      gdprApplies: o,
+                                      cmpLoaded: !1,
+                                      cmpStatus: 'stub'
+                                  })
+                                : r.push(e)
+                        }),
+                        n.addEventListener(
+                            'message',
+                            function (t) {
+                                var o = 'string' == typeof t.data,
+                                    r = {}
+                                if (o)
+                                    try {
+                                        r = JSON.parse(t.data)
+                                    } catch (t) {}
+                                else r = t.data
+                                var n = 'object' === e(r) && null !== r ? r.__tcfapiCall : null
+                                n &&
+                                    window.__tcfapi(
+                                        n.command,
+                                        n.version,
+                                        function (e, r) {
+                                            var a = {
+                                                __tcfapiReturn: {
+                                                    returnValue: e,
+                                                    success: r,
+                                                    callId: n.callId
+                                                }
+                                            }
+                                            t &&
+                                                t.source &&
+                                                t.source.postMessage &&
+                                                t.source.postMessage(o ? JSON.stringify(a) : a, '*')
+                                        },
+                                        n.parameter
+                                    )
+                            },
+                            !1
+                        ))
+                }
+            }
+        },
+        e = {}
+    window.IABTcfStub = (function o(r) {
+        var n = e[r]
+        if (void 0 !== n) return n.exports
+        var a = (e[r] = { exports: {} })
+        return t[r](a, a.exports, o), a.exports
+    })(63)
+})()
  // IAB TCF Core Modules
         /* eslint-disable */
 let gvl = {}
-let cmpApi = null
-
-const { CmpApi } = window.IABTcfAPI
-
-;(function () {
-    const makeStub = () => {
-        const TCF_LOCATOR_NAME = '__tcfapiLocator'
-        const queue = []
-        const currentWindow = window
-        let frameLocator = currentWindow
-        let cmpFrame
-        let gdprApplies
-
-        function addFrame() {
-            const doc = currentWindow.document
-            const otherCMP = !!currentWindow.frames[TCF_LOCATOR_NAME]
-
-            if (!otherCMP) {
-                if (doc.body) {
-                    const iframe = doc.createElement('iframe')
-
-                    iframe.style.cssText = 'display:none'
-                    iframe.name = TCF_LOCATOR_NAME
-                    doc.body.appendChild(iframe)
-                } else {
-                    setTimeout(addFrame, 5)
-                }
-            }
-
-            return !otherCMP
-        }
-
-        function tcfAPIHandler(...args) {
-            if (!args.length) {
-                /**
-                 * shortcut to get the queue when the full CMP
-                 * implementation loads; it can call tcfapiHandler()
-                 * with no arguments to get the queued arguments
-                 */
-
-                return queue
-            } else if (args[0] === 'setGdprApplies') {
-                /**
-                 * shortcut to set gdprApplies if the publisher
-                 * knows that they apply GDPR rules to all
-                 * traffic (see the section on "What does the
-                 * gdprApplies value mean" for more
-                 */
-                if (args.length > 3 && parseInt(args[1], 10) === 2 && typeof args[3] === 'boolean') {
-                    gdprApplies = args[3]
-
-                    if (typeof args[2] === 'function') {
-                        args[2]('set', true)
-                    }
-                }
-            } else if (args[0] === 'ping') {
-                /**
-                 * Only supported method; give PingReturn
-                 * object as response
-                 */
-                if (typeof args[2] === 'function') {
-                    args[2]({
-                        gdprApplies: gdprApplies,
-                        cmpLoaded: false,
-                        cmpStatus: 'stub'
-                    })
-                }
-            } else {
-                /**
-                 * some other method, just queue it for the
-                 * full CMP implementation to deal with
-                 */
-                queue.push(args)
-            }
-        }
-
-        function postMessageEventHandler(event) {
-            const msgIsString = typeof event.data === 'string'
-            let json = {}
-
-            if (msgIsString) {
-                try {
-                    /**
-                     * Try to parse the data from the event.  This is important
-                     * to have in a try/catch because often messages may come
-                     * through that are not JSON
-                     */
-                    json = JSON.parse(event.data)
-                } catch (ignore) {}
-            } else {
-                json = event.data
-            }
-
-            const payload = typeof json === 'object' && json !== null ? json.__tcfapiCall : null
-
-            if (payload) {
-                let eventSource = event?.source
-                window.__tcfapi(
-                    payload.command,
-                    payload.version,
-                    function (retValue, success) {
-                        let returnMsg = {
-                            __tcfapiReturn: {
-                                returnValue: retValue,
-                                success: success,
-                                callId: payload.callId
-                            }
-                        }
-
-                        if (eventSource && eventSource.postMessage) {
-                            eventSource.postMessage(msgIsString ? JSON.stringify(returnMsg) : returnMsg, '*')
-                        }
-                    },
-                    payload.parameter
-                )
-                eventSource = null
-            }
-        }
-
-        /**
-         * Iterate up to the top window checking for an already-created
-         * "__tcfapilLocator" frame on every level. If one exists already then we are
-         * not the master CMP and will not queue commands.
-         */
-        while (frameLocator) {
-            try {
-                if (frameLocator.frames[TCF_LOCATOR_NAME]) {
-                    cmpFrame = frameLocator
-                    break
-                }
-            } catch (ignore) {}
-
-            // if we're at the top and no cmpFrame
-            if (frameLocator === currentWindow.top) {
-                break
-            }
-
-            // Move up
-            frameLocator = frameLocator.parent
-        }
-
-        if (!cmpFrame) {
-            // we have recur'd up the windows and have found no __tcfapiLocator frame
-            addFrame()
-            currentWindow.__tcfapi = tcfAPIHandler
-            currentWindow.addEventListener('message', postMessageEventHandler, false)
-        }
-    }
-
-    if (typeof module !== 'undefined') {
-        module.exports = makeStub
-    } else {
-        makeStub()
-    }
-})()
 async function loadGVL() {
     IABTcf.GVL.baseUrl = IAB_TCF_VENDOR_URL
     gvl = new IABTcf.GVL()
-
     try {
         await gvl.readyPromise
+        console.log('GVL loaded:', gvl)
+        // Store GVL globally if needed later
         window.__GVL__ = gvl
-        cmpApi = new CmpApi(401, 1, true)
-        cmpApi.cmpStatus = 'loaded'
-        cmpApi.displayStatus = 'visible'
-        console.log('CmpApi created:', cmpApi)
-        const existingConsent = getCookieDetails('euconsent')
-        if (existingConsent) {
-            console.log('Existing consent found:', existingConsent)
-            try {
-                toggleBanner('hide'); 
-                cmpApi.update(existingConsent, true)
-            } catch (err) {
-                console.error('Invalid TC String: ', err)
-                cmpApi.update('', true)
-            }
-        } else {
-            // instead if '' if we use null that means gdpr is set to false
-            cmpApi.update('', true) // emits 'cmpuishown'
-        }
-        // Notify CMP ready
-        cmpApi.eventStatus = 'tcloaded'
-        const tcfapiQueue = window.__tcfapi()
-        // window.__tcfapi = realTCFAPIImplementation;
-        tcfapiQueue.forEach((args) => window.__tcfapi.apply(null, args))
-        console.log('GVL loaded successfully, CMP ready')
     } catch (err) {
-        console.error('GVL failed', err)
+        console.error('GVL fetch failed:', err)
     }
 }
 
@@ -7303,7 +7230,7 @@ function setIABTCFConsent(gvl, consents) {
     const model = new IABTcf.TCModel(gvl)
 
     // Mandatory fields required for a valid TC string
-    model.cmpId = 401 // Replace with your registered CMP ID from IAB
+    model.cmpId = 123 // Replace with your registered CMP ID from IAB
     model.cmpVersion = 1 // Version of your CMP UI
     model.vendorListVersion = gvl.vendorListVersion // From loaded GVL
     model.policyVersion = gvl.tcfPolicyVersion // Also from GVL
@@ -7325,29 +7252,32 @@ function setIABTCFConsent(gvl, consents) {
     } = consents
 
     // Set user consent for purposes (Purposes 1–10 from GVL)
-    model.purposeConsents.set(purposes)
+    model.purposeConsents.set(new Set(purposes))
 
     // Set consent for vendors
-    model.vendorConsents.set(vendors)
+    model.vendorConsents.set(new Set(vendors))
 
     // Set legitimate interest purposes
-    model.purposeLegitimateInterests.set(legitimatePurposes)
+    model.purposeLegitimateInterests.set(new Set(legitimatePurposes))
 
     // Set legitimate interest vendors
-    model.vendorLegitimateInterests.set(legitimateVendors)
+    model.vendorLegitimateInterests.set(new Set(legitimateVendors))
 
     // Set opt-in for special features (e.g., precise geolocation)
-    model.specialFeatureOptins.set(specialFeatures)
+    model.specialFeatureOptins.set(new Set(specialFeatures))
 
     // Encode the model into a TC string
-    const encoded = IABTcf.TCString.encode(model, { isForVendors: true })
+    const encoded = IABTcf.TCString.encode(model)
     console.log('TC String:', encoded)
 
     // Decode the TC string for debugging/validation
     const decodedModel = IABTcf.TCString.decode(encoded, gvl)
     console.log('Decoded TC Model:', decodedModel)
-    cmpApi.update(encoded, false)
-    setCookieOnBrowser(encoded, 'euconsent')
+
+    // Initialize the CMP API and update __tcfapi with the new TC string
+    const cmpApi = new window.IABTcfAPI.CmpApi(123, 1, true)
+    cmpApi.update(encoded, true) // `true` notifies any queued __tcfapi calls immediately
+
     // Optionally expose the TC string + decoded model on the window for debugging/testing
     window.__TCF_CONSENT__ = {
         tcString: encoded,
@@ -7388,32 +7318,25 @@ function submitIabConsent(actionButton) {
 
     console.log('actionButton', actionButton)
 
-    if (actionButton === 'all') {
-        collectConsentData('.iab-consent-privy-cmp-AE1VSVI8T5', consentData)
-    } else if (actionButton === 'save') {
-        collectConsentData('.iab-consent-privy-cmp-AE1VSVI8T5:checked', consentData)
-    } else if (actionButton === 'necessary') {
-        console.log('Only necessary cookies allowed — optional consents skipped.')
-    }
+    document.querySelectorAll('.iab-consent-privy-cmp-AE1VSVI8T5').forEach((input) => {
+        if (input.checked) {
+            const dataAttribute = input.getAttribute('data-iab-consent') // e.g., "purposes"
+            const agreedConsent = input.id // e.g., "purposes-1", "vendors-15"
 
-    setIABTCFConsent(gvl, consentData)
-    toggleBanner('hide'); 
-    console.log('user consent', consentData)
-}
+            const idParts = agreedConsent.split('-')
+            const idOnly = idParts.length > 1 ? parseInt(idParts[1], 10) : null
 
-function collectConsentData(selector, consentData) {
-    document.querySelectorAll(selector).forEach((input) => {
-        const dataAttribute = input.getAttribute('data-iab-consent')
-        const agreedConsent = input.id
+            if (idOnly !== null && consentData.hasOwnProperty(dataAttribute)) {
+                consentData[dataAttribute].push(idOnly)
+            }
 
-        const idParts = agreedConsent.split('-')
-        const idOnly = idParts.length > 1 ? parseInt(idParts[1], 10) : null
-
-        if (idOnly !== null && consentData.hasOwnProperty(dataAttribute)) {
-            consentData[dataAttribute].push(idOnly)
-            console.log('agreed iab consent:', dataAttribute, idOnly)
+            console.log('agreed iab consent', dataAttribute, idOnly)
         }
     })
+
+    console.log('gbl heree', gvl)
+    setIABTCFConsent(gvl, consentData)
+    console.log('finalConsent', consentData)
 }
 
 /* eslint-disable-next-line max-params */
@@ -7430,7 +7353,7 @@ function renderFeatureSection(title, description, featuresMap, type, vendorsMap,
         const featureDesc = feature.description
 
         // Collect vendors that declare this feature
-        const vendorsHTML = getVendorsLinkedToItem(feature.id, gvl, type)
+        const vendorsHTML = getVendorsLinkedToItem(feature.id, gvl, type);
 
         sectionHtml += `
       <div class="dropdown-wrapper-privy-cmp-AE1VSVI8T5">
@@ -7444,7 +7367,7 @@ function renderFeatureSection(title, description, featuresMap, type, vendorsMap,
         <div class="iab-dropdown-content-privy-cmp-AE1VSVI8T5 hide-privy-cmp-AE1VSVI8T5">
           <div class="iab-desc-privy-cmp-AE1VSVI8T5">${featureDesc}</div>
           <div class="iab-vendors-privy-cmp-AE1VSVI8T5">
-          ${renderVendorChips(vendorsHTML)}
+            ${renderVendorChips(vendorsHTML)}
           </div>
         </div>
       </div>
@@ -7556,6 +7479,10 @@ function renderPurposeSection(title, items, retentionMonths) {
 }
 
 function renderVendorsFromGVL(gvl) {
+    if (!gvl || typeof gvl !== 'object') {
+        console.warn('Invalid GVL passed to renderPurposes')
+        return ''
+    }
     const fullVendorList = gvl.vendors_
     const purposesMap = gvl.purposes
     const specialPurposesMap = gvl.specialPurposes
@@ -7573,10 +7500,11 @@ function renderVendorsFromGVL(gvl) {
         <h2 class="sub-tab-option-privy-cmp-AE1VSVI8T5 vendors-tab-privy-cmp-AE1VSVI8T5" data-tab="user-consent">User Consent</h2>
         <h2 class="sub-tab-option-privy-cmp-AE1VSVI8T5 vendors-tab-privy-cmp-AE1VSVI8T5" data-tab="legitimate-interest">Legitimate Interest</h2>
     </div>
-          <div class="subtab-content-privy-cmp-AE1VSVI8T5 userconsent-privy-cmp-AE1VSVI8T5" data-tab="user-consent">
-    ${vendorHtml}
+    <div class="subtab-content-privy-cmp-AE1VSVI8T5 userconsent-privy-cmp-AE1VSVI8T5" data-tab="user-consent">
+        ${vendorHtml}
     </div>
-    <div class="subtab-content-privy-cmp-AE1VSVI8T5 legitimate-interest-privy-cmp-AE1VSVI8T5" data-tab="legitimate-interest">    ${legitimateVendorHtml}
+    <div class="subtab-content-privy-cmp-AE1VSVI8T5 legitimate-interest-privy-cmp-AE1VSVI8T5" data-tab="legitimate-interest">    
+        ${legitimateVendorHtml}
     </div>
     `
 
@@ -7649,6 +7577,26 @@ function renderPurposes(gvl) {
     /* eslint-enable indent */
 }
 
+function renderVendorChips(vendors) {
+    if (!vendors || vendors.length === 0) {
+        return `<div class="iab-vendor-privy-cmp-AE1VSVI8T5">
+        <div>No vendors listed</div></div>`
+    }
+
+    return vendors
+        .map(
+            (vendor) => `
+        <div class="iab-vendor-privy-cmp-AE1VSVI8T5">
+          <div>${vendor.name}</div>
+          <a href="${vendor.urls?.[0]?.privacy || '#'}" target="_blank"
+              class="vendor-link-privy-cmp-AE1VSVI8T5" aria-label="Visit vendor site">
+            ↗
+          </a>
+        </div>`
+        )
+        .join('')
+}
+
 function renderIllustrations(illustrations = []) {
     if (!illustrations.length) {
         return ''
@@ -7663,7 +7611,7 @@ function renderIllustrations(illustrations = []) {
 
 function renderPurposeDropdown(purpose, type, gvl, toggle = false, isHidden) {
     const purposeId = `${type}-${purpose.id}`
-    const vendorsHTML = getVendorsLinkedToItem(purpose.id, gvl, type)
+    const vendorsHTML = getVendorsLinkedToItem(purpose.id, gvl, type);
 
     return `
     <div class="dropdown-wrapper-privy-cmp-AE1VSVI8T5"> 
@@ -7736,73 +7684,11 @@ function bindDropdowns() {
         })
     })
 }
-
-function getVendorsLinkedToItem(itemId, gvl, type) {
-    if (!gvl || !gvl.vendors || typeof gvl.vendors !== 'object') return []
-
-    // Map the passed type to the actual vendor object key
-    const typeMap = {
-        purposes: 'purposes',
-        legitimatePurposes: 'legIntPurposes',
-        specialPurposes: 'specialPurposes',
-        features: 'features',
-        specialFeatures: 'specialFeatures'
-    }
-
-    const vendorKey = typeMap[type]
-    if (!vendorKey) return []
-
-    const vendors = Object.values(gvl.vendors)
-    return vendors.filter((vendor) => Array.isArray(vendor[vendorKey]) && vendor[vendorKey].includes(itemId))
-}
-
-function renderVendorChips(vendors) {
-    if (!vendors || vendors.length === 0) {
-        return `<div class="iab-vendor-privy-cmp-AE1VSVI8T5">
-        <div>No vendors listed</div></div>`
-    }
-
-    return vendors
-        .map(
-            (vendor) => `
-        <div class="iab-vendor-privy-cmp-AE1VSVI8T5">
-          <div>${vendor.name}</div>
-          <a href="${vendor.urls?.[0]?.privacy || '#'}" target="_blank"
-              class="vendor-link-privy-cmp-AE1VSVI8T5" aria-label="Visit vendor site">
-            ↗
-          </a>
-        </div>`
-        )
-        .join('')
-}
-
-function setTogglesBasedIabConsent(consentData) {
-    try {            
-        document.querySelectorAll('.iab-consent-privy-cmp-AE1VSVI8T5').forEach((input) => {
-            const dataAttribute = input.getAttribute('data-iab-consent');
-            const idParts = input.id.split('-');
-            const id = idParts.length > 1 ? parseInt(idParts[1], 10) : null;
-
-            if (consentData[dataAttribute] &&
-                    consentData[dataAttribute].includes(id)) {
-                input.checked = true;
-
-                const toggle = input.nextElementSibling;
-                if (toggle) {
-                    toggle.classList.add('active-privy-cmp-AE1VSVI8T5');
-                }
-            } 
-        });
-    } catch (error) {
-        console.error('Error displaying stored IAB consent!', error);
-    }
-}
-
         
         const template = {"bannerType":"box","buttonColor":"#214698","buttonsText":{"acceptAll":"Accept All","moreSettings":"More Settings","allowNecessary":"Allow Only Necessary","savePreferences":"Save My Preferences"},"contentMobile":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"contentDesktop":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"hoverTextColor":"#ffffff","positionMobile":"bottom","buttonTextColor":"#ffffff","positionDesktop":"bottom-right","hoverButtonColor":"#214699","preferenceManagerHorizontalPosition":"centre"};
         const bannerSessionId = getSessionId()
         function sendEventDetails(dataFiduciaryId, bannerId, type) {
-                    fetch(`http://localhost:3000/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/94e09dce-04f7-46ff-86b3-3e2871e56248`, {
+                    fetch(`undefined/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/e4463fe7-b367-4c74-bf50-d414c1d114f3`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -7855,16 +7741,6 @@ function checkConsent(categories, consentObject) {
 function getConsentedBannerId() {
     const bannerId = localStorage.getItem('privyConsentedBannerId')
     return bannerId
-}
-
-function addReconsentButton() {
-    const reconsentButton = document.createElement('button');
-    reconsentButton.id = 'preference-privy-cmp';
-    reconsentButton.className = 'reconsent-button-privy-cmp-AE1VSVI8T5';
-    reconsentButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e3e3e3"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-75 29-147t81-128.5q52-56.5 125-91T475-881q21 0 43 2t45 7q-9 45 6 85t45 66.5q30 26.5 71.5 36.5t85.5-5q-26 59 7.5 113t99.5 56q1 11 1.5 20.5t.5 20.5q0 82-31.5 154.5t-85.5 127q-54 54.5-127 86T480-80Zm-60-480q25 0 42.5-17.5T480-620q0-25-17.5-42.5T420-680q-25 0-42.5 17.5T360-620q0 25 17.5 42.5T420-560Zm-80 200q25 0 42.5-17.5T400-420q0-25-17.5-42.5T340-480q-25 0-42.5 17.5T280-420q0 25 17.5 42.5T340-360Zm260 40q17 0 28.5-11.5T640-360q0-17-11.5-28.5T600-400q-17 0-28.5 11.5T560-360q0 17 11.5 28.5T600-320ZM480-160q122 0 216.5-84T800-458q-50-22-78.5-60T683-603q-77-11-132-66t-68-132q-80-2-140.5 29t-101 79.5Q201-644 180.5-587T160-480q0 133 93.5 226.5T480-160Zm0-324Z"/></svg>`;
-
-    console.log("reconsent button", reconsentButton);
-    document.body.appendChild(reconsentButton);
 }
 
 function setConsentedBannerId(bannerId) {
@@ -8047,7 +7923,6 @@ function autoBlocking() {
     function initialize() {
         processExistingElements()
         setupPrivacyObserver()
-        addReconsentButton()
         console.log('Privacy controls initialized')
     }
 
@@ -8065,48 +7940,20 @@ function autoBlocking() {
 }
  //Common 
         function toggleBanner(action) {
-    const bannerHome = document.getElementById('banner-home')
-    const customizeScreen = document.getElementById('customize-screen-privy-cmp-AE1VSVI8T5')
-    const reconsentButton = document.getElementById('preference-privy-cmp')
-    console.log('toggleBanner', action, bannerHome, customizeScreen, reconsentButton)
     if (action === 'show') {
-        if(bannerHome){
-            bannerHome.style.display = ''
-        }
-        if (customizeScreen) {
-            customizeScreen.style.display = 'none'
-        }
-        if(reconsentButton) {
-            reconsentButton.style.display = 'none'
-        }
+        document.getElementById('banner-home').style.display = ''
     } else if (action === 'hide') {
-        if (bannerHome) {
-            bannerHome.style.display = 'none'
-        }
-        if (customizeScreen) {
-            customizeScreen.style.display = 'none'
-        }
-        if(reconsentButton) {
-            reconsentButton.style.display = 'block'
-        }
+        document.getElementById('customize-screen-privy-cmp-AE1VSVI8T5').style.display = 'none'
+        document.getElementById('banner-home').style.display = 'none'
     } else if (action === 'preference') {
-        if(bannerHome){
-            bannerHome.style.display = 'none'
-        }
-        if(customizeScreen) {
-            customizeScreen.style.display = 'block'
-        }
-        if(reconsentButton) {
-            reconsentButton.style.display = 'none'
-        }
+        document.getElementById('banner-home').style.display = ''
     }
 } //Common
         function setCookieOnBrowser(cookieConsent, cookieName) {
     console.log('setCookieOnBrowser', cookieConsent)
-    const consentValue = typeof cookieConsent === 'string' ? cookieConsent : JSON.stringify(cookieConsent)
-    document.cookie = `${cookieName}=${consentValue}; path=/`
-    localStorage.setItem(cookieName, consentValue)
-    // TODO: Remove this shopify integration
+    document.cookie = `${cookieName}=${JSON.stringify(cookieConsent)}; path=/`
+    localStorage.setItem(cookieName, JSON.stringify(cookieConsent))
+    // //TODO: Remove this shopify integration
     // shopifyConsent(cookieConsent)
 } //Common 
         function processUserConsentBasedOnPreference(cookieConsent, agreedCategories, cookieName) {
@@ -8134,8 +7981,6 @@ function autoBlocking() {
 } //Common 
         
     const categoryDescriptions = {"necessary":"Essential cookies are crucial for the delivery of services, applications, or resources you request. They enable the website to function properly by managing actions such as loading visNecessual elements, accessing resources, or user sign-ins and sign-outs. Essential cookies also ensure the service's security and efficiency by enabling features like authentication and load balancing.","performance":"These cookies collect data on how visitors interact with our website, allowing us to measure and improve our site's and software's effectiveness. They help us track visits and traffic sources, optimizing our website's performance. Without these cookies, we lose the ability to monitor our site's engagement and enhance user experience.","functional":"Set by us or third-party providers, functional cookies add extra features and enhance our website's functionality not directly necessary for the service you've requested. They enable convenience features such as pre-filled text fields, live chat support, and optional forms, improving your browsing experience with services like single sign-on (SSO).","marketing":"Our advertising partners deploy these cookies to tailor advertising to your interests, based on your browsing behavior and preferences. They track your online activity to build a profile for customized advertising, ensuring the ads you encounter on other sites are aligned with your interests.","analytics":"Analytics cookies are used to gather information on website usage, helping us understand visitor behavior. They track user interactions, providing insights that enable us to enhance the website's user experience and functionality. These cookies do not identify you personally but offer aggregated data to improve site performance.","other":"These cookies do not fall into standard categories but serve various purposes. They may enhance specific website features or support experimental or temporary services, and are typically associated with minor functions or specialized needs. Without these, the website's core functionality remains unaffected, but certain experiences or experiments may be impacted."}
-    const submitConsentHandler = submitIabConsent;
-
     function createBanner(categorizedCookies, template) {
     let banner = `
     <div class="idfy-${template.bannerType}-privy-cmp-AE1VSVI8T5" id="banner-home">
@@ -8144,8 +7989,8 @@ function autoBlocking() {
             <div class="${template.bannerType}-inner-privy-cmp-AE1VSVI8T5">
                 <p class="description-privy-cmp-AE1VSVI8T5 ${template.bannerType}-desc-privy-cmp-AE1VSVI8T5" >${template.contentDesktop.cookieBannerNotice}</p>
                 <div class="${template.bannerType}-button-container-privy-cmp-AE1VSVI8T5">
-                    <button onclick="submitConsentHandler('all')" id="allow-btn-privy-cmp-AE1VSVI8T5" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.acceptAll}</button>
-                    <button onclick="submitConsentHandler('necessary')" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.allowNecessary}</button>
+                    <button onclick="submitConsent('all')" id="allow-btn-privy-cmp-AE1VSVI8T5" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.acceptAll}</button>
+                    <button onclick="submitConsent('necessary')" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.allowNecessary}</button>
                     <button id="customize-btn-privy-cmp-AE1VSVI8T5" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.moreSettings}</button>
                 </div>
             </div>
@@ -8185,8 +8030,8 @@ function autoBlocking() {
         </div>
         <div class="iab-bottom-panel-buttons-privy-cmp-AE1VSVI8T5">
             <button class="iab-bottom-panel-button-privy-cmp-AE1VSVI8T5" onclick="submitIabConsent('save')">Save</button>
-            <button class="iab-bottom-panel-button-privy-cmp-AE1VSVI8T5" onclick="submitIabConsent('necessary')">Reject All</button>
-            <button class="iab-bottom-panel-button-privy-cmp-AE1VSVI8T5" onclick="submitIabConsent('all')">Accept All</button>
+            <button class="iab-bottom-panel-button-privy-cmp-AE1VSVI8T5" onclick="submitIabConsent('reject')">Reject All</button>
+            <button class="iab-bottom-panel-button-privy-cmp-AE1VSVI8T5" onclick="submitIabConsent('accept')">Accept All</button>
         </div>
     </div>
 
@@ -8217,9 +8062,9 @@ function autoBlocking() {
          function showBanner() {
     let consentCookie = parsedConsentData(getCookieDetails(cookieName));
     const consentedBannerId = getConsentedBannerId()
-    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `94e09dce-04f7-46ff-86b3-3e2871e56248`){
+    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `e4463fe7-b367-4c74-bf50-d414c1d114f3`){
         consentCookie.update = false;
-        setConsentedBannerId(`94e09dce-04f7-46ff-86b3-3e2871e56248`)
+        setConsentedBannerId(`e4463fe7-b367-4c74-bf50-d414c1d114f3`)
         setCookieOnBrowser(consentCookie, cookieName)
         location.reload()
     }
@@ -8736,33 +8581,8 @@ function autoBlocking() {
             flex-direction:column;
             }
         }
-        .reconsent-button-privy-cmp-AE1VSVI8T5 {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            background-color: var(--privy-cmp-primary-color);
-            color: var(--privy-cmp-button-text-color);
-            padding: 0.8rem;
-            border-radius: 50%;
-            box-shadow: 0px 0px 10px rgb(0 0 0 / 0.3);
-            cursor: pointer;
-            height: 55px;
-            display: none;
-            z-index: 2147483648;
-            border: none;
-            outline: none;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        .reconsent-button-privy-cmp-AE1VSVI8T5:hover {
-            background-color: var(--privy-cmp-button-hover-color);
-            transform: scale(1.1);
-        }
-            .reconsent-button-privy-cmp-AE1VSVI8T5 svg,
-        .reconsent-button-privy-cmp-AE1VSVI8T5 svg path {
-            pointer-events: none;
-        }
-        `
+    
+    `
     document.head.appendChild(styleTag);
 
     const scriptTag = document.createElement("script");
@@ -9053,7 +8873,7 @@ function autoBlocking() {
         toggleBanner('hide');
     } else {
         toggleBanner('show');
-        sendEventDetails(`8c25669844d6`, `94e09dce-04f7-46ff-86b3-3e2871e56248`, 'BannerView');
+        sendEventDetails(`8c25669844d6`, `e4463fe7-b367-4c74-bf50-d414c1d114f3`, 'BannerView');
         }
         autoBlocking()
         // Initialize all tabs
@@ -9061,13 +8881,37 @@ function autoBlocking() {
 }
     document.addEventListener('DOMContentLoaded', showBanner);
     document.addEventListener("click", function (event) {
-        if (event.target.id === "customize-btn-privy-cmp-AE1VSVI8T5") {
-            sendEventDetails(`8c25669844d6`, `94e09dce-04f7-46ff-86b3-3e2871e56248`, 'CustomizeCookiesView');
-        }
-
-        if (event.target.id === "preference-privy-cmp") {
-            toggleBanner('preference')
-            sendEventDetails(`8c25669844d6`, `94e09dce-04f7-46ff-86b3-3e2871e56248`, 'PreferenceCenter');
-        }
+    if (event.target.id === "customize-btn-privy-cmp-AE1VSVI8T5") {
+        sendEventDetails(`8c25669844d6`, `e4463fe7-b367-4c74-bf50-d414c1d114f3`, 'CustomizeCookiesView');
+    }
+    if (event.target.id === "preference-privy-cmp") {
+        // toggleBanner('preference')
+        const customizeScreen = document.getElementById("customize-screen-privy-cmp-AE1VSVI8T5")
+        customizeScreen.style.display = "block";
+        const bannerHome = document.getElementById("banner-home")
+        bannerHome.style.display = "none" 
+        sendEventDetails(`8c25669844d6`, `e4463fe7-b367-4c74-bf50-d414c1d114f3`, 'PreferenceCenter');
+    }
 }); //Common 
-         //Common
+
+function getVendorsLinkedToItem(itemId, gvl, type) {
+    if (!gvl || !gvl.vendors || typeof gvl.vendors !== 'object') return [];
+    console.log('keyss', type)
+
+    // Map the passed type to the actual vendor object key
+    const typeMap = {
+        purposes: 'purposes',
+        legitimatePurposes: 'legIntPurposes',
+        specialPurposes: 'specialPurposes',
+        features: 'features',
+        specialFeatures: 'specialFeatures',
+    };
+
+    const vendorKey = typeMap[type];
+    if (!vendorKey) return [];
+
+    const vendors = Object.values(gvl.vendors);
+    const final= vendors.filter((vendor) => Array.isArray(vendor[vendorKey]) && vendor[vendorKey].includes(itemId));
+    console.log('final', final)
+    return final;
+}

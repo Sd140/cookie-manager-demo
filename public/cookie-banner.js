@@ -1,1 +1,1072 @@
-const _0x4ef3c7=_0x4dab;(function(_0x236351,_0x15e860){const _0x10e2d7=_0x4dab,_0x436740=_0x236351();while(!![]){try{const _0x267158=parseInt(_0x10e2d7(0x1c5))/(-0x15b*-0x1+0x384+0x59*-0xe)*(-parseInt(_0x10e2d7(0x1bc))/(-0x13*-0x1c7+0x29*-0x1e+-0x1cf5))+-parseInt(_0x10e2d7(0x151))/(-0x1fb8+-0x3*-0x2c2+0x1775)+parseInt(_0x10e2d7(0x1c2))/(-0x1*-0x173f+-0x2319+0xbde)+parseInt(_0x10e2d7(0x1cb))/(0x4c7+-0x1d31+0x186f)+-parseInt(_0x10e2d7(0x1e0))/(0x14d8+0x61*-0x49+0x6d7)*(parseInt(_0x10e2d7(0x153))/(-0x4*0x77b+-0x7eb+0x2*0x12ef))+parseInt(_0x10e2d7(0x191))/(-0x11d0*-0x2+-0x25c2+0x22a)+-parseInt(_0x10e2d7(0x163))/(-0x1884+-0x89*-0x46+-0xce9)*(-parseInt(_0x10e2d7(0x186))/(0x6*-0x61d+0x1688+0xe30));if(_0x267158===_0x15e860)break;else _0x436740['push'](_0x436740['shift']());}catch(_0x1fc1e1){_0x436740['push'](_0x436740['shift']());}}}(_0x2aa8,0x70fa*0x1b+-0x76005+-0x502b*-0x6));const template={'bannerType':_0x4ef3c7(0x1d6),'buttonColor':'#214698','buttonsText':{'acceptAll':'Accept\x20All','moreSettings':'More\x20Settings','allowNecessary':'Allow\x20Only\x20Necessary','savePreferences':'Save\x20My\x20Preferences'},'contentMobile':{'cookieBannerNotice':'This\x20website\x20stores\x20cookies\x20on\x20your\x20computer\x20device.\x20These\x20cookies\x20are\x20used\x20to\x20enhance\x20your\x20browser\x20experience,\x20for\x20analytics\x20on\x20how\x20our\x20website\x20is\x20used,\x20and\x20to\x20assist\x20in\x20our\x20marketing\x20and\x20promotional\x20efforts.','preferenceManagerNotice':'IDfy\x27s\x20website\x20may\x20request\x20cookies\x20to\x20be\x20set\x20on\x20your\x20device.\x20We\x20use\x20cookies\x20to\x20identify\x20when\x20you\x20visit\x20our\x20sites,\x20to\x20understand\x20your\x20interactions,\x20and\x20to\x20enhance\x20and\x20personalize\x20your\x20experience.\x20Cookies\x20also\x20support\x20social\x20media\x20features\x20and\x20tailor\x20your\x20engagement\x20with\x20IDfy,\x20including\x20delivering\x20more\x20relevant\x20advertisements.\x20You\x20can\x20review\x20the\x20different\x20category\x20headings\x20to\x20learn\x20more\x20and\x20adjust\x20your\x20cookie\x20preferences\x20anytime.\x20Please\x20keep\x20in\x20mind\x20that\x20your\x20choices\x20may\x20affect\x20your\x20experience\x20on\x20our\x20IDfy\x20sites\x20and\x20the\x20quality\x20of\x20services\x20we\x20can\x20provide.\x20Blocking\x20certain\x20types\x20of\x20cookies\x20might\x20affect\x20the\x20functionality\x20and\x20service\x20offerings\x20made\x20available\x20to\x20you.'},'contentDesktop':{'cookieBannerNotice':'This\x20website\x20stores\x20cookies\x20on\x20your\x20computer\x20device.\x20These\x20cookies\x20are\x20used\x20to\x20enhance\x20your\x20browser\x20experience,\x20for\x20analytics\x20on\x20how\x20our\x20website\x20is\x20used,\x20and\x20to\x20assist\x20in\x20our\x20marketing\x20and\x20promotional\x20efforts.','preferenceManagerNotice':'IDfy\x27s\x20website\x20may\x20request\x20cookies\x20to\x20be\x20set\x20on\x20your\x20device.\x20We\x20use\x20cookies\x20to\x20identify\x20when\x20you\x20visit\x20our\x20sites,\x20to\x20understand\x20your\x20interactions,\x20and\x20to\x20enhance\x20and\x20personalize\x20your\x20experience.\x20Cookies\x20also\x20support\x20social\x20media\x20features\x20and\x20tailor\x20your\x20engagement\x20with\x20IDfy,\x20including\x20delivering\x20more\x20relevant\x20advertisements.\x20You\x20can\x20review\x20the\x20different\x20category\x20headings\x20to\x20learn\x20more\x20and\x20adjust\x20your\x20cookie\x20preferences\x20anytime.\x20Please\x20keep\x20in\x20mind\x20that\x20your\x20choices\x20may\x20affect\x20your\x20experience\x20on\x20our\x20IDfy\x20sites\x20and\x20the\x20quality\x20of\x20services\x20we\x20can\x20provide.\x20Blocking\x20certain\x20types\x20of\x20cookies\x20might\x20affect\x20the\x20functionality\x20and\x20service\x20offerings\x20made\x20available\x20to\x20you.'},'hoverTextColor':'#ffffff','positionMobile':'bottom','buttonTextColor':'#ffffff','positionDesktop':'bottom-right','hoverButtonColor':'#214699','preferenceManagerHorizontalPosition':'left'},categorizedCookies={'ANALYTICS':[{'meta_data':{'path':'/','size':0x8a,'value':_0x4ef3c7(0x1d9),'secure':!![],'session':![],'duration':'0\x20year(s),\x2011\x20month(s),\x2031\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':_0x4ef3c7(0x1ec),'sameParty':![],'expires_at':0x69e71c5e,'requestChain':{'sourceUrls':[],'uniqueUrls':[]},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','redirectedPage':_0x4ef3c7(0x1e4)},'cookie_id':'74578749-f56e-4582-bd8e-df50a3edc1d6','category':'ANALYTICS','cookie_master_name':'_hjSessionUser_5091923','cookie_domain':'.sanketsaboo.com','cookie_master_id':'4a17ea7e-deb7-433b-99b5-77e486a0eb1f','languages':{'en':{'language_id':_0x4ef3c7(0x17c),'name':'_hjSessionUser_5091923','description':'This\x20cookie\x20is\x20set\x20by\x20Hotjar.\x20It\x20is\x20used\x20to\x20maintain\x20the\x20user\x27s\x20session\x20on\x20the\x20website.'}}},{'meta_data':{'path':'/','size':0x1e,'value':'GA1.1.1509540671.1745217756','secure':![],'session':![],'duration':'1\x20year(s),\x201\x20month(s),\x205\x20day(s)','httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':1779777756.447833,'requestChain':{'sourceUrls':[],'uniqueUrls':[]},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':'bfad70c1-49b2-4bad-91b3-183d62d4c664','category':'ANALYTICS','cookie_master_name':_0x4ef3c7(0x159),'cookie_domain':'.sanketsaboo.com','cookie_master_id':'0d844ad9-0b7a-4b54-8997-bb6f68c04203','languages':{'en':{'language_id':'65d0876e-1bcb-4e5f-8307-84184807d09d','name':_0x4ef3c7(0x159),'description':'ID\x20used\x20to\x20identify\x20users'}}},{'meta_data':{'path':'/','size':0xa6,'value':'eyJpZCI6ImFjYTNiMDcyLWJjODQtNGU0MS1iYjJlLWZmZGQ0MTdjODQ0YyIsImMiOjE3NDUyMTc3NTgzMjIsInMiOjEsInIiOjEsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=','secure':!![],'session':![],'duration':_0x4ef3c7(0x17e),'httpOnly':![],'priority':_0x4ef3c7(0x1a1),'sameSite':_0x4ef3c7(0x1ec),'sameParty':![],'expires_at':0x6805efe6,'requestChain':{'sourceUrls':[],'uniqueUrls':[]},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':'7e655a36-df13-40de-b7b7-63b3d3140ee9','category':'ANALYTICS','cookie_master_name':'_hjSession_5091923','cookie_domain':'.sanketsaboo.com','cookie_master_id':'2cb94b6f-1cc2-486f-aa95-f9f27188fdb2','languages':{'en':{'language_id':'86f1c53f-aee9-4a2c-a58d-b245bb566187','name':_0x4ef3c7(0x1ef),'description':_0x4ef3c7(0x1a4)}}},{'meta_data':{'path':'/','size':0x33,'value':_0x4ef3c7(0x15b),'secure':![],'session':![],'duration':'1\x20year(s),\x201\x20month(s),\x205\x20day(s)','httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':1779777756.46551,'requestChain':{'sourceUrls':[],'uniqueUrls':[]},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':'84b04ac1-07c1-4627-a172-5aad32a9f572','category':'ANALYTICS','cookie_master_name':'_ga_KWC0VKDZKW','cookie_domain':'.sanketsaboo.com','cookie_master_id':_0x4ef3c7(0x182),'languages':{'en':{'language_id':'40c4f645-b345-45cf-b790-c81abe93bafb','name':'_ga_KWC0VKDZKW','description':'Used\x20to\x20distinguish\x20users\x20in\x20Google\x20Analytics.'}}}],'NECESSARY':[{'meta_data':{'path':'/','size':0x40,'value':'CNelurjewIyfvAEQlsi_48LojAMYlsi_48LojAM%3D','secure':!![],'session':![],'duration':'0\x20year(s),\x205\x20month(s),\x2028\x20day(s)','httpOnly':!![],'priority':'Medium','sameSite':'None','sameParty':![],'expires_at':1760769756.976217,'sourcePort':0x1bb,'partitionKey':{'topLevelSite':'https://sanketsaboo.com','hasCrossSiteAncestor':!![]},'requestChain':{'sourceUrls':[],'uniqueUrls':[]},'sourceScheme':'Secure','firstFoundUrl':_0x4ef3c7(0x1e9),'redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':'cfae85ff-12f5-450f-a9ba-8e1d2b19bb6a','category':'NECESSARY','cookie_master_name':_0x4ef3c7(0x164),'cookie_domain':'.youtube.com','cookie_master_id':'7c638b87-7f61-46fe-841b-bad492e038b4','languages':{'en':{'language_id':'5d2a4b92-7a60-4db8-b6ea-bc0d2d8d0076','name':'__Secure-ROLLOUT_TOKEN','description':_0x4ef3c7(0x167)}}},{'meta_data':{'path':'/','size':0xb4,'value':'CNqSwPeJofX1ExDporvjwuiMAxjporvjwuiMAw%3D%3D','secure':!![],'session':![],'duration':_0x4ef3c7(0x1af),'httpOnly':!![],'priority':_0x4ef3c7(0x1a1),'sameSite':'none','callStack':[],'foundType':'network','sameParty':![],'expires_at':0x68f336dc,'urlOfCookie':'https://cookie-manager.sanketsaboo.com','requestChain':{'type':_0x4ef3c7(0x174),'sourceUrls':['https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1',_0x4ef3c7(0x15e)],'uniqueUrls':['https://cookie-manager.sanketsaboo.com/assets/index-CqOmM1_Y.js']},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','initiatorType':null,'redirectedPage':_0x4ef3c7(0x1e4)},'cookie_id':'b390f187-c4cc-4f1f-8a12-7d1a5c31cd00','category':'NECESSARY','cookie_master_name':'__Secure-ROLLOUT_TOKEN','cookie_domain':_0x4ef3c7(0x1cd),'cookie_master_id':_0x4ef3c7(0x18b),'languages':{'en':{'language_id':'6862bb04-26c5-42be-9295-c595578d9c73','name':'__Secure-ROLLOUT_TOKEN','description':'Used\x20to\x20implement\x20Google\x27s\x20performance\x20degradation\x20mechanism\x20for\x20certain\x20quota-limited\x20services.'}}}],'MARKETING':[{'meta_data':{'path':'/','size':0x20,'value':_0x4ef3c7(0x1d7),'secure':![],'session':![],'duration':'0\x20year(s),\x202\x20month(s),\x2030\x20day(s)','httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':0x687c8fdb,'requestChain':{'sourceUrls':[],'uniqueUrls':[]},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','redirectedPage':_0x4ef3c7(0x1e4)},'cookie_id':_0x4ef3c7(0x1da),'category':'MARKETING','cookie_master_name':_0x4ef3c7(0x181),'cookie_domain':'.sanketsaboo.com','cookie_master_id':'a28e186d-8bf5-4cdb-a809-20435295201e','languages':{'en':{'language_id':'8b4718ce-d443-4c8f-844f-f50056d1edd9','name':'_gcl_au','description':'Used\x20by\x20Google\x20AdSense\x20for\x20experimenting\x20with\x20advertisement\x20efficiency\x20across\x20websites\x20using\x20their\x20services.'}}},{'meta_data':{'path':'/','size':0x99,'value':'73e7e583-75fa-487a-ad77-c95610dddbf4','secure':!![],'session':![],'duration':'0\x20year(s),\x202\x20month(s),\x2030\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','callStack':[],'foundType':'network','sameParty':![],'expires_at':0x687c8fde,'urlOfCookie':'https://cookie-manager.sanketsaboo.com','requestChain':{'type':'parser','sourceUrls':['https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217757376&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F',_0x4ef3c7(0x15f)],'uniqueUrls':[]},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','initiatorType':null,'redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':'32372dbb-eda7-4cc6-b4a4-8c54e2f51a17','category':'MARKETING','cookie_master_name':_0x4ef3c7(0x1e1),'cookie_domain':'.linkedin.com','cookie_master_id':'f8bad18a-5646-4b8f-9d88-ed362014d85a','languages':{'en':{'language_id':_0x4ef3c7(0x168),'name':'li_sugr','description':'Used\x20to\x20make\x20a\x20probabilistic\x20match\x20of\x20a\x20user\x27s\x20identity\x20outside\x20the\x20Designated\x20Countries'}}},{'meta_data':{'path':'/','size':0x1d,'value':'m75_cDa5HjQ','secure':!![],'session':![],'duration':'0\x20year(s),\x205\x20month(s),\x2028\x20day(s)','httpOnly':!![],'priority':_0x4ef3c7(0x1a1),'sameSite':_0x4ef3c7(0x1ec),'sameParty':![],'expires_at':1760769756.975896,'sourcePort':0x1bb,'partitionKey':{'topLevelSite':_0x4ef3c7(0x154),'hasCrossSiteAncestor':!![]},'requestChain':{'sourceUrls':['https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1',_0x4ef3c7(0x15e)],'uniqueUrls':['https://cookie-manager.sanketsaboo.com/assets/index-CqOmM1_Y.js']},'sourceScheme':'Secure','firstFoundUrl':_0x4ef3c7(0x1e9),'redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':'e73f2df2-2737-4ae5-9e5b-f1f5ccd8032e','category':'MARKETING','cookie_master_name':_0x4ef3c7(0x1f0),'cookie_domain':'.youtube.com','cookie_master_id':_0x4ef3c7(0x16c),'languages':{'en':{'language_id':'9892de52-ed5f-4487-a69d-0b22dc90b7b2','name':'VISITOR_INFO1_LIVE','description':'Tries\x20to\x20estimate\x20the\x20users\x27\x20bandwidth\x20on\x20pages\x20with\x20integrated\x20YouTube\x20videos.\x20Also\x20used\x20for\x20marketing'}}},{'meta_data':{'path':'/','size':0x6b,'value':'1','secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x2031\x20day(s)','httpOnly':!![],'priority':'Medium','sameSite':'None','callStack':[],'foundType':'network','sameParty':![],'expires_at':0x682e0950,'urlOfCookie':'https://cookie-manager.sanketsaboo.com','requestChain':{'type':'script','sourceUrls':['https://px.ads.linkedin.com/attribution_trigger?pid=7498417&time=1745217757376&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F',_0x4ef3c7(0x16e)],'uniqueUrls':['https://snap.licdn.com/li.lms-analytics/insight.min.js']},'sourceScheme':_0x4ef3c7(0x1c8),'firstFoundUrl':_0x4ef3c7(0x1e9),'initiatorType':null,'redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':_0x4ef3c7(0x16a),'category':_0x4ef3c7(0x176),'cookie_master_name':'ar_debug','cookie_domain':'cookie-manager.sanketsaboo.com','cookie_master_id':_0x4ef3c7(0x156),'languages':{'en':{'language_id':'f0178fe5-f2b8-4eef-a161-7f5bfb3956be','name':'ar_debug','description':'Store\x20and\x20track\x20conversions'}}},{'meta_data':{'path':'/','size':0x2c,'value':'CgJJThIEGgAgbQ%3D%3D','secure':!![],'session':![],'duration':_0x4ef3c7(0x1af),'httpOnly':!![],'priority':'Medium','sameSite':'None','sameParty':![],'expires_at':1760769756.976054,'sourcePort':0x1bb,'partitionKey':{'topLevelSite':_0x4ef3c7(0x154),'hasCrossSiteAncestor':!![]},'requestChain':{'sourceUrls':[_0x4ef3c7(0x1a3),_0x4ef3c7(0x15e)],'uniqueUrls':['https://cookie-manager.sanketsaboo.com/assets/index-CqOmM1_Y.js']},'sourceScheme':_0x4ef3c7(0x1c8),'firstFoundUrl':'https://cookie-manager.sanketsaboo.com','redirectedPage':_0x4ef3c7(0x1e4)},'cookie_id':'e2737be8-39a9-45ca-a61a-cf3c42df281e','category':'MARKETING','cookie_master_name':'VISITOR_PRIVACY_METADATA','cookie_domain':'.youtube.com','cookie_master_id':'930f8b0a-49b4-4269-9048-fb174844cfa6','languages':{'en':{'language_id':'5351d688-224d-4b3a-934c-b461c7fee923','name':'VISITOR_PRIVACY_METADATA','description':'Youtube\x20visitor\x20privacy\x20metadata\x20cookie'}}},{'meta_data':{'path':'/','size':0x8e,'value':_0x4ef3c7(0x1a7),'secure':!![],'session':![],'duration':'0\x20year(s),\x2011\x20month(s),\x2031\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','callStack':[],'foundType':'network','sameParty':![],'expires_at':0x69e71c5e,'urlOfCookie':'https://cookie-manager.sanketsaboo.com','requestChain':{'type':'parser','sourceUrls':['https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217757376&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F',_0x4ef3c7(0x19b),'https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217757376&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F&cookiesTest=true',_0x4ef3c7(0x1df),'https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217761838&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F','https://px.ads.linkedin.com/attribution_trigger?pid=7498417&time=1745217761838&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F','https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217761838&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F&cookiesTest=true'],'uniqueUrls':['https://snap.licdn.com/li.lms-analytics/insight.min.js']},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','initiatorType':null,'redirectedPage':_0x4ef3c7(0x1e4)},'cookie_id':'8d5a09ff-8883-4852-99ac-a2b054391a13','category':'MARKETING','cookie_master_name':_0x4ef3c7(0x190),'cookie_domain':'.linkedin.com','cookie_master_id':'94b9dbd3-21b4-43b7-84bb-7bbe8e12b2af','languages':{'en':{'language_id':'599c1326-d942-457b-8d38-94a0597e8823','name':'bcookie','description':'Used\x20by\x20LinkedIn\x20to\x20track\x20the\x20use\x20of\x20embedded\x20services.'}}},{'meta_data':{'path':'/','size':0xcd,'value':'\x22b=OGST03:s=O:r=O:a=O:p=O:g=3534:u=1:x=1:i=1745217758:t=1745304158:v=2:sig=AQHZEga2vchXqQmxOslr0oEmfBRdRAVc\x22','secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':![],'priority':'Medium','sameSite':'None','callStack':[],'foundType':'network','sameParty':![],'expires_at':0x68073a5e,'urlOfCookie':_0x4ef3c7(0x1e9),'requestChain':{'type':'parser','sourceUrls':['https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217757376&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F',_0x4ef3c7(0x19b),'https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217757376&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F&cookiesTest=true','https://px.ads.linkedin.com/wa/','https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217761838&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F','https://px.ads.linkedin.com/attribution_trigger?pid=7498417&time=1745217761838&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F','https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217761838&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F&cookiesTest=true'],'uniqueUrls':['https://snap.licdn.com/li.lms-analytics/insight.min.js']},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','initiatorType':null,'redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':_0x4ef3c7(0x1a2),'category':'MARKETING','cookie_master_name':_0x4ef3c7(0x177),'cookie_domain':_0x4ef3c7(0x152),'cookie_master_id':_0x4ef3c7(0x14d),'languages':{'en':{'language_id':'9bcc4f1b-4f17-4413-a62d-dbd68c55f79f','name':'lidc','description':'Used\x20by\x20the\x20social\x20networking\x20service,\x20LinkedIn,\x20for\x20tracking\x20the\x20use\x20of\x20embedded\x20services.'}}}],'FUNCTIONAL':[{'meta_data':{'path':'/','size':0x115,'value':_0x4ef3c7(0x18f),'secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':!![],'priority':'Medium','sameSite':_0x4ef3c7(0x1ec),'callStack':[],'foundType':'network','sameParty':![],'expires_at':0x6805efe2,'urlOfCookie':'https://cookie-manager.sanketsaboo.com','requestChain':{'type':_0x4ef3c7(0x1b9),'sourceUrls':[_0x4ef3c7(0x14c)],'uniqueUrls':['https://js.hsforms.net/forms/embed/v2.js']},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','initiatorType':null,'redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':_0x4ef3c7(0x1dd),'category':'FUNCTIONAL','cookie_master_name':'__cf_bm','cookie_domain':_0x4ef3c7(0x1b0),'cookie_master_id':'c5c70961-0fef-4695-a1b5-4387173bb194','languages':{'en':{'language_id':'cc012e32-0501-42a9-8ffb-870dc2d4cf69','name':'__cf_bm','description':'Cloudflare\x27s\x20bot\x20products\x20identify\x20and\x20mitigate\x20automated\x20traffic\x20to\x20protect\x20your\x20site\x20from\x20bad\x20bots.\x20Cloudflare\x20places\x20the\x20__cf_bm\x20cookie\x20on\x20End\x20User\x20devices\x20that\x20access\x20Customer\x20sites\x20that\x20are\x20protected\x20by\x20Bot\x20Management\x20or\x20Bot\x20Fight\x20Mode.\x20The\x20__cf_bm\x20cookie\x20is\x20necessary\x20for\x20the\x20proper\x20functioning\x20of\x20these\x20bot\x20solutions.'}}},{'meta_data':{'path':'/','size':0xe,'value':_0x4ef3c7(0x185),'secure':!![],'session':!![],'duration':'55\x20year(s),\x203\x20month(s),\x2020\x20day(s)','httpOnly':!![],'priority':'Medium','sameSite':_0x4ef3c7(0x1ec),'sameParty':![],'expires_at':-(0x26fb+-0x5*-0x5e1+-0x445f),'sourcePort':0x1bb,'partitionKey':{'topLevelSite':_0x4ef3c7(0x154),'hasCrossSiteAncestor':!![]},'requestChain':{'sourceUrls':[_0x4ef3c7(0x1a3),'https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8'],'uniqueUrls':[_0x4ef3c7(0x1b1)]},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':'9bdb32aa-d1d5-446b-9562-9f142f163847','category':_0x4ef3c7(0x1b6),'cookie_master_name':'YSC','cookie_domain':'.youtube.com','cookie_master_id':'7b2bcf22-4bfc-40be-aaaf-75bd7cd4be9e','languages':{'en':{'language_id':'7e49954b-cc3a-4e1e-a311-b475c37db4f7','name':_0x4ef3c7(0x1cf),'description':_0x4ef3c7(0x1e6)}}},{'meta_data':{'path':'/','size':0x115,'value':_0x4ef3c7(0x179),'secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':!![],'priority':_0x4ef3c7(0x1a1),'sameSite':'None','callStack':[],'foundType':'network','sameParty':![],'expires_at':0x6805efe6,'urlOfCookie':'https://cookie-manager.sanketsaboo.com','requestChain':{'type':_0x4ef3c7(0x174),'sourceUrls':[_0x4ef3c7(0x1ac),'https://app.hubspot.com/api/cartographer/v1/rhumb?hs_static_app=embedded-viral-link-ui&hs_static_app_version=1.3693','https://api.hubspot.com/viral-links/v1/tracking?viralLinkType=forms&deviceId=06eacb44-0884-4b1d-b93f-8f1bd5b96caf&hubId=48746683','https://exceptions.hubspot.com/frontend/observability/page-tracking/store/?sentry_version=7&sentry_client=raven-js%2F3.19.1&deployable=embedded-viral-link-ui','https://api.hubspot.com/viral-links/v1/tracking?viralLinkType=forms&deviceId=ec625261-0761-4351-a50f-946321cb96ea&hubId=48746683'],'uniqueUrls':['https://js.hsforms.net/forms/embed/v2.js','https://static.hsappstatic.net/embedded-viral-link-ui/static-1.3693/bundles/project.js','https://static.hsappstatic.net/react-dlb/static-1.43/bundle.production.js','https://static.hsappstatic.net/head-dlb/static-1.2601/bundle.production.js']},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','initiatorType':null,'redirectedPage':_0x4ef3c7(0x1e4)},'cookie_id':_0x4ef3c7(0x147),'category':'FUNCTIONAL','cookie_master_name':'__cf_bm','cookie_domain':_0x4ef3c7(0x160),'cookie_master_id':'c85a054e-bdd2-442d-ade3-e02cf8355bf3','languages':{'en':{'language_id':_0x4ef3c7(0x14f),'name':'__cf_bm','description':'Cloudflare\x27s\x20bot\x20products\x20identify\x20and\x20mitigate\x20automated\x20traffic\x20to\x20protect\x20your\x20site\x20from\x20bad\x20bots.\x20Cloudflare\x20places\x20the\x20__cf_bm\x20cookie\x20on\x20End\x20User\x20devices\x20that\x20access\x20Customer\x20sites\x20that\x20are\x20protected\x20by\x20Bot\x20Management\x20or\x20Bot\x20Fight\x20Mode.\x20The\x20__cf_bm\x20cookie\x20is\x20necessary\x20for\x20the\x20proper\x20functioning\x20of\x20these\x20bot\x20solutions.'}}},{'meta_data':{'path':'/','size':0x119,'value':'IYJbXiOwgS.9qkwA53jQeF4UwrvDL.ID3euM6H2tyDU-1745217759-1.0.1.1-rEnPwtVGTizlzHYq5HuY6ZbrADXYl3f9ytaMqEO_So45lWMOTDnkZtIw4XysrfklW.JYnXAZrDpb3hCiycs0OnQdqeToJcAi3_4NNvtrL1w','secure':!![],'session':![],'duration':'0\x20year(s),\x200\x20month(s),\x201\x20day(s)','httpOnly':!![],'priority':'Medium','sameSite':'None','callStack':[],'foundType':'network','sameParty':![],'expires_at':0x6805efe7,'urlOfCookie':'https://cookie-manager.sanketsaboo.com','requestChain':{'type':_0x4ef3c7(0x1b9),'sourceUrls':[_0x4ef3c7(0x18a),'https://static.hsappstatic.net/embedded-viral-link-ui/static-1.3693/bundles/project.js',_0x4ef3c7(0x18e),'https://static.hsappstatic.net/hubspot-dlb/static-2.514/bundle.production.js','https://static.hsappstatic.net/react-dlb/static-1.43/bundle.production.js','https://static.hsappstatic.net/embedded-viral-link-ui/static-1.3693/framer-motion-animation-features.js','https://static.hsappstatic.net/ui-fonts/static-1.327/fonts/LexendDeca-Medium.woff2','https://static.hsappstatic.net/ui-fonts/static-1.327/fonts/LexendDeca-Light.woff2'],'uniqueUrls':['https://static.hsappstatic.net/embedded-viral-link-ui/static-1.3693/bundles/project.js','https://static.hsappstatic.net/react-dlb/static-1.43/bundle.production.js']},'sourceScheme':'Secure','firstFoundUrl':'https://cookie-manager.sanketsaboo.com','initiatorType':null,'redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':_0x4ef3c7(0x17d),'category':'FUNCTIONAL','cookie_master_name':_0x4ef3c7(0x19f),'cookie_domain':'.hsappstatic.net','cookie_master_id':'1231ab3e-1c43-4971-8927-4eaa35bfc5c3','languages':{'en':{'language_id':'c9644efe-ec52-45ed-aabd-d95469eb2eed','name':_0x4ef3c7(0x19f),'description':'Cloudflare\x27s\x20bot\x20products\x20identify\x20and\x20mitigate\x20automated\x20traffic\x20to\x20protect\x20your\x20site\x20from\x20bad\x20bots.\x20Cloudflare\x20places\x20the\x20__cf_bm\x20cookie\x20on\x20End\x20User\x20devices\x20that\x20access\x20Customer\x20sites\x20that\x20are\x20protected\x20by\x20Bot\x20Management\x20or\x20Bot\x20Fight\x20Mode.\x20The\x20__cf_bm\x20cookie\x20is\x20necessary\x20for\x20the\x20proper\x20functioning\x20of\x20these\x20bot\x20solutions.'}}},{'meta_data':{'path':'/','size':0x91,'value':'MGIRivFxkgGk3f.lsQmQbAZC6RyNnvKYQrmDlOHtumQ-1745217758262-0.0.1.1-604800000','secure':!![],'session':!![],'duration':_0x4ef3c7(0x1e7),'httpOnly':!![],'priority':'Medium','sameSite':_0x4ef3c7(0x1ec),'callStack':[],'foundType':_0x4ef3c7(0x19c),'sameParty':![],'expires_at':'NA','urlOfCookie':'https://cookie-manager.sanketsaboo.com','requestChain':{'type':'script','sourceUrls':['https://app.hubspot.com/embedded-viral-link/forms?lang=en&portalId=48746683&hubs_id=forms-branding-control&hubs_source=cookie-manager.sanketsaboo.com&intent=marketingFreeForms','https://app.hubspot.com/api/cartographer/v1/rhumb?hs_static_app=embedded-viral-link-ui&hs_static_app_version=1.3693',_0x4ef3c7(0x1d0),'https://exceptions.hubspot.com/frontend/observability/page-tracking/store/?sentry_version=7&sentry_client=raven-js%2F3.19.1&deployable=embedded-viral-link-ui','https://api.hubspot.com/viral-links/v1/tracking?viralLinkType=forms&deviceId=ec625261-0761-4351-a50f-946321cb96ea&hubId=48746683'],'uniqueUrls':['https://js.hsforms.net/forms/embed/v2.js','https://static.hsappstatic.net/embedded-viral-link-ui/static-1.3693/bundles/project.js','https://static.hsappstatic.net/react-dlb/static-1.43/bundle.production.js','https://static.hsappstatic.net/head-dlb/static-1.2601/bundle.production.js']},'sourceScheme':_0x4ef3c7(0x1c8),'firstFoundUrl':'https://cookie-manager.sanketsaboo.com','initiatorType':null,'redirectedPage':_0x4ef3c7(0x1e4)},'cookie_id':'419baaaa-0ab5-4fa0-8e96-8af35ce2cb48','category':_0x4ef3c7(0x1b6),'cookie_master_name':'_cfuvid','cookie_domain':'.hubspot.com','cookie_master_id':_0x4ef3c7(0x17f),'languages':{'en':{'language_id':_0x4ef3c7(0x1c7),'name':'_cfuvid','description':'The\x20_cfuvid\x20cookie\x20is\x20only\x20set\x20when\x20a\x20site\x20uses\x20this\x20option\x20in\x20a\x20Rate\x20Limiting\x20Rule,\x20and\x20is\x20only\x20used\x20to\x20allow\x20the\x20Cloudflare\x20WAF\x20to\x20distinguish\x20individual\x20users\x20who\x20share\x20the\x20same\x20IP\x20address.'}}}],'OTHER':[{'meta_data':{'path':'/','size':0x6f,'value':_0x4ef3c7(0x1bd),'secure':![],'session':!![],'duration':_0x4ef3c7(0x16f),'httpOnly':![],'priority':'Medium','sameParty':![],'expires_at':-(0x1*-0x235+-0x25d2+0x2808),'requestChain':{'sourceUrls':[],'uniqueUrls':[]},'sourceScheme':_0x4ef3c7(0x1c8),'firstFoundUrl':_0x4ef3c7(0x1e9),'redirectedPage':'https://cookie-manager.sanketsaboo.com/'},'cookie_id':'91756d5b-4a49-48c2-a987-6dcb1f36185e','category':_0x4ef3c7(0x1a8),'cookie_master_name':'privyConsent','cookie_domain':'cookie-manager.sanketsaboo.com','cookie_master_id':'d847e7a3-26e6-42d7-b34d-bd5f82bf278f','languages':{'en':{'language_id':'207b02f8-238a-44bc-ab87-20d7b7e7fe6c','name':'privyConsent','description':'Stores\x20the\x20user\x27s\x20consent\x20status\x20for\x20cookies\x20on\x20the\x20website.'}}}]},bannerSessionId=getSessionId(),tagsList=[{'tag':'https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1','categories':['NECESSARY','MARKETING',_0x4ef3c7(0x1b6)],'type':_0x4ef3c7(0x174)},{'tag':'https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8','categories':[_0x4ef3c7(0x17a),_0x4ef3c7(0x176),_0x4ef3c7(0x1b6)],'type':'script'},{'tag':_0x4ef3c7(0x197),'categories':['MARKETING'],'type':'script'},{'tag':'https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217761838&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F','categories':['MARKETING'],'type':'script'},{'tag':'https://px.ads.linkedin.com/attribution_trigger?pid=7498417&time=1745217757376&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F','categories':['MARKETING'],'type':'script'},{'tag':_0x4ef3c7(0x16e),'categories':['MARKETING'],'type':'script'},{'tag':_0x4ef3c7(0x1ab),'categories':['MARKETING'],'type':_0x4ef3c7(0x174)},{'tag':'https://px.ads.linkedin.com/wa/','categories':['MARKETING'],'type':_0x4ef3c7(0x174)},{'tag':'https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217761838&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F&cookiesTest=true','categories':['MARKETING'],'type':_0x4ef3c7(0x174)},{'tag':'https://js.hsforms.net/forms/embed/v2.js','categories':[_0x4ef3c7(0x1b6)],'type':'script'},{'tag':'https://app.hubspot.com/embedded-viral-link/forms?lang=en&portalId=48746683&hubs_id=forms-branding-control&hubs_source=cookie-manager.sanketsaboo.com&intent=marketingFreeForms','categories':['FUNCTIONAL'],'type':'script'},{'tag':'https://app.hubspot.com/api/cartographer/v1/rhumb?hs_static_app=embedded-viral-link-ui&hs_static_app_version=1.3693','categories':['FUNCTIONAL'],'type':'script'},{'tag':'https://api.hubspot.com/viral-links/v1/tracking?viralLinkType=forms&deviceId=06eacb44-0884-4b1d-b93f-8f1bd5b96caf&hubId=48746683','categories':['FUNCTIONAL'],'type':'script'},{'tag':_0x4ef3c7(0x1ba),'categories':['FUNCTIONAL'],'type':'script'},{'tag':'https://api.hubspot.com/viral-links/v1/tracking?viralLinkType=forms&deviceId=ec625261-0761-4351-a50f-946321cb96ea&hubId=48746683','categories':['FUNCTIONAL'],'type':'script'},{'tag':'https://static.hsappstatic.net/embedded-viral-link-ui/static-1.3693/sass/project.css','categories':['FUNCTIONAL'],'type':'script'},{'tag':'https://static.hsappstatic.net/embedded-viral-link-ui/static-1.3693/bundles/project.js','categories':['FUNCTIONAL'],'type':_0x4ef3c7(0x174)},{'tag':'https://static.hsappstatic.net/head-dlb/static-1.2601/bundle.production.js','categories':['FUNCTIONAL'],'type':'script'},{'tag':'https://static.hsappstatic.net/hubspot-dlb/static-2.514/bundle.production.js','categories':['FUNCTIONAL'],'type':_0x4ef3c7(0x174)},{'tag':'https://static.hsappstatic.net/react-dlb/static-1.43/bundle.production.js','categories':[_0x4ef3c7(0x1b6)],'type':'script'},{'tag':_0x4ef3c7(0x148),'categories':['FUNCTIONAL'],'type':_0x4ef3c7(0x174)},{'tag':'https://static.hsappstatic.net/ui-fonts/static-1.327/fonts/LexendDeca-Medium.woff2','categories':['FUNCTIONAL'],'type':_0x4ef3c7(0x174)},{'tag':'https://static.hsappstatic.net/ui-fonts/static-1.327/fonts/LexendDeca-Light.woff2','categories':['FUNCTIONAL'],'type':'script'}];function toggleBanner(_0x403b5f){const _0x318fc9=_0x4ef3c7;if(_0x403b5f==='show')document[_0x318fc9(0x166)]('banner-home')['style'][_0x318fc9(0x170)]='';else{if(_0x403b5f==='hide')document['getElementById'](_0x318fc9(0x15c))['style']['display']=_0x318fc9(0x1de),document['getElementById']('banner-home')['style'][_0x318fc9(0x170)]='none';else _0x403b5f==='preference'&&(document['getElementById'](_0x318fc9(0x1cc))['style']['display']='');}}function setCookieOnBrowser(_0x365b21,_0x41f610){const _0x49b9f6=_0x4ef3c7;console['log']('setCookieOnBrowser',_0x365b21),document[_0x49b9f6(0x158)]=_0x41f610+'='+JSON['stringify'](_0x365b21)+_0x49b9f6(0x1c1),localStorage['setItem'](_0x41f610,JSON['stringify'](_0x365b21)),shopifyConsent(_0x365b21);}function callShopifyConsentApi(){const _0x31e6a5=_0x4ef3c7;try{window[_0x31e6a5(0x196)]['loadFeatures']([{'name':'consent-tracking-api','version':'0.1'}],_0x30a55a=>{const _0x3bfd52=_0x31e6a5;_0x30a55a?console[_0x3bfd52(0x1d5)]('Consent\x20API\x20Features\x20Error',_0x30a55a):console[_0x3bfd52(0x1d5)](_0x3bfd52(0x171),window[_0x3bfd52(0x196)]);});}catch(_0x28ca6c){console['log'](_0x31e6a5(0x198),_0x28ca6c);}}function sendEventDetails(_0x2fbdba,_0x54e4b9,_0x36236d){const _0x46d428=_0x4ef3c7;fetch('http://localhost:3000/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/6a53a4e5-b06f-4aee-9597-b625e184f28c',{'method':'POST','headers':{'Content-Type':_0x46d428(0x16d)},'body':JSON['stringify']({'sid':getSessionId(),'user_event':_0x36236d,'data_principal_id':getPrivyDataPrincipalId()})})['then'](_0x21121a=>{const _0x3f1767=_0x46d428;console['log'](_0x3f1767(0x178),_0x21121a);if(_0x21121a['status']===0x9b*-0x3a+-0xbb2+0x2f9c*0x1)return console['log']('Event\x20submitted\x20successfully'),null;})['catch'](_0x9764fc=>{const _0x35e2e4=_0x46d428;console['error'](_0x35e2e4(0x175),_0x9764fc);});}function mapConsentToShopify(_0x296d59){const _0x56b6f6=_0x4ef3c7;return{'analytics':!!_0x296d59[_0x56b6f6(0x193)],'marketing':!!_0x296d59[_0x56b6f6(0x176)],'preferences':!!_0x296d59[_0x56b6f6(0x1b6)]};}function shopifyConsent(_0x2cc111){const _0x3a2cd1=_0x4ef3c7;callShopifyConsentApi(),console['log']('in\x20shopify\x20consent',shopifyConsent);try{const _0x1da3d1=mapConsentToShopify(_0x2cc111);window['Shopify']['customerPrivacy']['setTrackingConsent'](_0x1da3d1,()=>console['log']('Consent\x20captured:',_0x1da3d1));}catch(_0x5bcb66){console[_0x3a2cd1(0x1d5)]('Error\x20in\x20sc',_0x5bcb66);}}function processUserConsentBasedOnPreference(_0x3ff14f,_0x4cbcf7,_0x16731e){const _0x16ebac=_0x4ef3c7,_0x3ed3f9=[];if(_0x4cbcf7==='all')Object['keys'](_0x3ff14f)['forEach'](_0x52653e=>_0x3ff14f[_0x52653e]=!![]);else{if(_0x4cbcf7==='necessary')Object[_0x16ebac(0x180)](_0x3ff14f)['forEach'](_0x488630=>_0x3ff14f[_0x488630]=_0x488630==='NECESSARY');else{if(_0x4cbcf7==='preference'){const _0xa65208=document['querySelectorAll']('input[type=\x22checkbox\x22].toggle-switch-privy-cmp-AE1VSVI8T5:checked');_0xa65208['forEach'](_0x3984f6=>{const _0x1dea59=_0x16ebac,_0x47a9a3=_0x3984f6['id']['replace']('-toggle','');_0x3ed3f9[_0x1dea59(0x17b)](_0x47a9a3),_0x3ff14f[_0x47a9a3]=!![];}),Object['keys'](_0x3ff14f)['forEach'](_0x3dfe37=>_0x3ff14f[_0x3dfe37]=_0x3ed3f9['includes'](_0x3dfe37));}}}return _0x3ff14f['update']=!![],_0x3ff14f[_0x16ebac(0x17a)]=!![],toggleBanner('hide'),setCookieOnBrowser(_0x3ff14f,_0x16731e),_0x3ff14f;}function _0x4dab(_0x2a1f11,_0x1acc8f){const _0x3d6e52=_0x2aa8();return _0x4dab=function(_0x5f43b4,_0x539038){_0x5f43b4=_0x5f43b4-(0xe11+-0x11*-0x244+0x3*-0x111a);let _0xc21d6a=_0x3d6e52[_0x5f43b4];return _0xc21d6a;},_0x4dab(_0x2a1f11,_0x1acc8f);}const categoryDescriptions={'NECESSARY':_0x4ef3c7(0x161),'PERFORMANCE':_0x4ef3c7(0x1e8),'FUNCTIONAL':'Set\x20by\x20us\x20or\x20third-party\x20providers,\x20functional\x20cookies\x20add\x20extra\x20features\x20and\x20enhance\x20our\x20website\x27s\x20functionality\x20not\x20directly\x20necessary\x20for\x20the\x20service\x20you\x27ve\x20requested.\x20They\x20enable\x20convenience\x20features\x20such\x20as\x20pre-filled\x20text\x20fields,\x20live\x20chat\x20support,\x20and\x20optional\x20forms,\x20improving\x20your\x20browsing\x20experience\x20with\x20services\x20like\x20single\x20sign-on\x20(SSO).','MARKETING':'Our\x20advertising\x20partners\x20deploy\x20these\x20cookies\x20to\x20tailor\x20advertising\x20to\x20your\x20interests,\x20based\x20on\x20your\x20browsing\x20behavior\x20and\x20preferences.\x20They\x20track\x20your\x20online\x20activity\x20to\x20build\x20a\x20profile\x20for\x20customized\x20advertising,\x20ensuring\x20the\x20ads\x20you\x20encounter\x20on\x20other\x20sites\x20are\x20aligned\x20with\x20your\x20interests.','ANALYTICS':'Analytics\x20cookies\x20are\x20used\x20to\x20gather\x20information\x20on\x20website\x20usage,\x20helping\x20us\x20understand\x20visitor\x20behavior.\x20They\x20track\x20user\x20interactions,\x20providing\x20insights\x20that\x20enable\x20us\x20to\x20enhance\x20the\x20website\x27s\x20user\x20experience\x20and\x20functionality.\x20These\x20cookies\x20do\x20not\x20identify\x20you\x20personally\x20but\x20offer\x20aggregated\x20data\x20to\x20improve\x20site\x20performance.','OTHER':_0x4ef3c7(0x1a0)};function createBanner(_0x269cba,_0x3644c4){const _0x2d66c8=_0x4ef3c7;let _0x474644='\x0a\x20\x20\x20\x20<div\x20class=\x22idfy-'+_0x3644c4[_0x2d66c8(0x150)]+'-privy-cmp-AE1VSVI8T5\x22\x20id=\x22banner-home\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22banner-content-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20class=\x22banner-heading-privy-cmp-AE1VSVI8T5\x22>Cookie\x20Notice</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22'+_0x3644c4['bannerType']+'-inner-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22description-privy-cmp-AE1VSVI8T5\x20'+_0x3644c4[_0x2d66c8(0x150)]+'-desc-privy-cmp-AE1VSVI8T5\x22\x20>'+_0x3644c4[_0x2d66c8(0x14a)]['cookieBannerNotice']+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22'+_0x3644c4['bannerType']+_0x2d66c8(0x1ee)+_0x3644c4['bannerType']+'-button-privy-cmp-AE1VSVI8T5\x22>'+_0x3644c4['buttonsText'][_0x2d66c8(0x192)]+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22submitConsent(\x27necessary\x27)\x22\x20class=\x22'+_0x3644c4['bannerType']+_0x2d66c8(0x157)+_0x3644c4['buttonsText']['allowNecessary']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22customize-btn-privy-cmp-AE1VSVI8T5\x22\x20class=\x22'+_0x3644c4['bannerType']+_0x2d66c8(0x157)+_0x3644c4[_0x2d66c8(0x19d)]['moreSettings']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22powered-privy-cmp-AE1VSVI8T5\x22\x20style=\x22border-radius:0px\x200px\x2010px\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20Powered\x20by\x20<span><a\x20href=\x22https://www.privyone.com/\x22\x20target=\x22_blank\x22>PRIVY</a></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20<div\x20id=\x22customize-screen-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22customize-settings-screen-privy-cmp-AE1VSVI8T5\x20'+_0x3644c4['preferenceManagerHorizontalPosition']+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22close-btn-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22close-button-privy-cmp-AE1VSVI8T5\x22>×</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22content-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20class=\x22box-heading-privy-cmp-AE1VSVI8T5\x22>About\x20cookies\x20on\x20this\x20site.</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22box-description-privy-cmp-AE1VSVI8T5\x22>'+_0x3644c4['contentDesktop']['preferenceManagerNotice']+_0x2d66c8(0x19a)+Object['keys'](_0x269cba)['map'](_0x2d4b09=>{const _0x29afa8=_0x2d66c8,_0x109a1b=parsedConsentData(getCookieDetails(cookieName)),_0x48d223=_0x109a1b[_0x2d4b09],_0x236765=_0x269cba[_0x2d4b09],_0x30ad3d=_0x2d4b09==='NECESSARY',_0x537020=_0x30ad3d?'disabled':'';return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22category-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22dropdown-content-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22category-header-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20onclick=\x22showDropdown(\x27'+_0x2d4b09+'\x27)\x22\x20style=\x22cursor:pointer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22dropdown-arrow-privy-cmp-AE1VSVI8T5\x20rotated-privy-cmp-AE1VSVI8T5\x20dropdown-arrow-'+_0x2d4b09+'\x22>^</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22'+_0x2d4b09+'\x22>'+(_0x2d4b09[_0x29afa8(0x18d)](-0x1ed5+0x32f+0x1ba6)+_0x2d4b09['slice'](-0x16f3+-0x8a8+-0x242*-0xe)['toLowerCase']())+'\x20Cookies</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20id=\x22'+_0x2d4b09+'-toggle\x22\x20class=\x22toggle-switch-privy-cmp-AE1VSVI8T5\x22\x20'+(_0x48d223?_0x29afa8(0x1ae):'')+'\x20'+_0x537020+_0x29afa8(0x15d)+_0x2d4b09+'-toggle\x22\x20class=\x22toggle-label-privy-cmp-AE1VSVI8T5\x20'+_0x537020+_0x29afa8(0x1a6)+_0x2d4b09+'\x22\x20class=\x22dropdown-content-inside-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22category-description-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+categoryDescriptions[_0x2d4b09[_0x29afa8(0x1be)]()]+_0x29afa8(0x1b2)+_0x2d4b09+_0x29afa8(0x1b7)+_0x2d4b09+'\x22\x20class=\x22view-cookies-privy-cmp-AE1VSVI8T5\x22>View\x20Cookies</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22show-cookies-privy-cmp-AE1VSVI8T5\x20show-cookies-privy-cmp-AE1VSVI8T5-'+_0x2d4b09+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22all-cookies-privy-cmp-AE1VSVI8T5-'+_0x2d4b09+'\x22\x20class=\x22all-cookies-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x236765['map'](_0x4b9b10=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22cookie-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22cookie-name-privy-cmp-AE1VSVI8T5\x22><span>\x20Name\x20</span>:\x20'+_0x4b9b10[_0x29afa8(0x183)]+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22platform-privy-cmp-AE1VSVI8T5\x22><span>Platform\x20</span>:\x20'+_0x4b9b10['cookie_domain']+_0x29afa8(0x1d3))['join']('')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';})['join']('')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-panel-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22preference-button-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22submitConsent(\x27preference\x27)\x22\x20class=\x22button1-privy-cmp-AE1VSVI8T5\x22>'+_0x3644c4['buttonsText']['savePreferences']+_0x2d66c8(0x1ad)+_0x3644c4['buttonsText']['allowNecessary']+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22powered-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Powered\x20by\x20<span><a\x20href=\x22https://www.privyone.com/\x22\x20target=\x22_blank\x22>PRIVY</a></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20';return _0x474644;}function getPrivyDataPrincipalId(){const _0x2f6250=_0x4ef3c7;let _0xd19cbc=localStorage['getItem'](_0x2f6250(0x1aa));return!_0xd19cbc&&(_0xd19cbc=crypto[_0x2f6250(0x1eb)](),localStorage['setItem']('privyDataPrincipalId',_0xd19cbc)),_0xd19cbc;}function getSessionId(){let _0x42628f=sessionStorage['getItem']('privySessionId');return!_0x42628f&&(_0x42628f=crypto['randomUUID'](),sessionStorage['setItem']('privySessionId',_0x42628f)),_0x42628f;}function submitConsent(_0x58ae50){const _0x393cbd=_0x4ef3c7,_0x3b9b8f=parsedConsentData(getCookieDetails(cookieName));processUserConsentBasedOnPreference(_0x3b9b8f,_0x58ae50,cookieName),fetch('http://localhost:3000/ext/cookie-banner/api/v1/consent/8c25669844d6/6a53a4e5-b06f-4aee-9597-b625e184f28c',{'method':'POST','headers':{'Content-Type':'application/json'},'body':JSON[_0x393cbd(0x1ed)]({'user_preference':_0x3b9b8f,'sid':getSessionId(),'data_principal_id':getPrivyDataPrincipalId(),'submission_type':_0x58ae50})})['then'](_0x5b9a80=>{const _0x1d530a=_0x393cbd;console['log']('submit\x20response',_0x5b9a80);if(!_0x5b9a80['ok'])throw new Error('Failed\x20to\x20submit\x20consent');return _0x5b9a80[_0x1d530a(0x187)]();})['catch'](_0x350a26=>{const _0x453fa7=_0x393cbd;console['error'](_0x453fa7(0x1b4),_0x350a26);}),location[_0x393cbd(0x1ce)]();}function showBanner(){const _0x4269c0=_0x4ef3c7;callShopifyConsentApi();let _0x28bbd0=parsedConsentData(getCookieDetails(cookieName));typeof _0x28bbd0?.[_0x4269c0(0x1ea)]!==_0x4269c0(0x165)&&(_0x28bbd0['update']=![],setCookieOnBrowser(_0x28bbd0,cookieName),location['reload']());_0x28bbd0=parsedConsentData(getCookieDetails(cookieName));let _0x580b2a=document['createElement'](_0x4269c0(0x1db));_0x580b2a['className']='consent-button-privy-cmp-AE1VSVI8T5',document[_0x4269c0(0x1c9)]['appendChild'](_0x580b2a);const _0x19f72a=createBanner(categorizedCookies,template,_0x28bbd0),_0x59048d=document[_0x4269c0(0x1b8)]('div');_0x59048d[_0x4269c0(0x1c3)]='banner-container-privy-cmp-AE1VSVI8T5',_0x59048d['innerHTML']=_0x19f72a,document['body'][_0x4269c0(0x1b3)](_0x59048d);let _0xd034bc='flex-end',_0x21351e='right',_0x34156c='bottom';template[_0x4269c0(0x16b)]['includes']('left')&&(_0xd034bc='flex-start',_0x21351e='left');template['positionDesktop']['includes']('top')&&(_0x34156c='top');const _0x33e870=document['createElement']('style');_0x33e870[_0x4269c0(0x194)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-container-privy-cmp-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20glideBanner\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x200%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateY(100%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateY(0%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.idfy-box-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20'+_0xd034bc+';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x34156c+':\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x21351e+_0x4269c0(0x162)+template[_0x4269c0(0x1bf)]+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x202147483647\x20!important;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200px\x200px\x2010px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20glideBanner\x201.5s\x20ease-in-out\x20forwards;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.idfy-banner-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20flex-end;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x34156c+':\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'+template['fontName']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x202147483647\x20!important;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200px\x200px\x2010px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20glideBanner\x201.5s\x20ease-in-out\x20forwards;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-content-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow-y:auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x202s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-heading-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2018px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:bold\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:1\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:0px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:#000000\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-inner-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.description-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#484E56;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201.3\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:14px\x200px\x2014px\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:0px!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:#484E56\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-desc-privy-cmp-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex:7\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:10px\x2010px\x2010px\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:normal\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-button-container-privy-cmp-AE1VSVI8T5,.box-button-container-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20right!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2010px!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.box-button-privy-cmp-AE1VSVI8T5,.banner-button-privy-cmp-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-right:\x202.5px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20'+template['buttonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x209px\x2020px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20'+template['buttonColor']+_0x4269c0(0x1ca)+template[_0x4269c0(0x1bf)]+_0x4269c0(0x1c0)+template[_0x4269c0(0x1d1)]+_0x4269c0(0x199)+template['buttonTextColor']+'!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20'+template[_0x4269c0(0x1d1)]+'!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/*\x20custmise\x20banner\x20screen\x20css\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#customize-screen-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.customize-settings-screen-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2040%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-width:\x20290px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x2030%\x20;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200px\x200px\x2010px\x20rgba(0,\x200,\x200,\x200.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x202147483647\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'+template[_0x4269c0(0x1bf)]+_0x4269c0(0x184)+template[_0x4269c0(0x1bf)]+_0x4269c0(0x1f1)+template[_0x4269c0(0x15a)]+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20'+template[_0x4269c0(0x1d1)]+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20'+template['buttonColor']+';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex:1;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.button2-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20'+template['buttonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20'+template[_0x4269c0(0x1d1)]+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex:1;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.button2-privy-cmp-AE1VSVI8T5:hover,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.button1-privy-cmp-AE1VSVI8T5:hover,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.classic-button-privy-cmp-AE1VSVI8T5:hover,.banner-button-privy-cmp-AE1VSVI8T5:hover,.box-button-privy-cmp-AE1VSVI8T5:hover,#allow-btn-privy-cmp-AE1VSVI8T5:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20'+template['hoverButtonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20'+template['hoverTextColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20'+template['hoverButtonColor']+'\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.powered-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20right;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#F3F3F4;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2010px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x201px\x2010px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:0px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#7D8187\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:normal\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:1\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.powered-privy-cmp-AE1VSVI8T5\x20a\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#1C43B9\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-decoration:none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2010px!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:1\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@media\x20(max-width:\x20900px)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.box-button-container-privy-cmp-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.box-button-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2015px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2013px\x2022px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-inner-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20right\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@media\x20(max-width:\x20480px)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.idfy-banner-privy-cmp-AE1VSVI8T5,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.idfy-box-privy-cmp-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:0;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-height:80%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow:scroll;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.banner-button-privy-cmp-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2015px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2013px\x2022px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.customize-settings-screen-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:85vh;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:90vw;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-width:480px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:0;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:0;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.preference-button-privy-cmp-AE1VSVI8T5\x20button{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2013px\x2022px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2015px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@media\x20(max-width:\x20850px){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.preference-button-privy-cmp-AE1VSVI8T5{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',document['head']['appendChild'](_0x33e870);const _0x1c7676=document['createElement']('script');_0x1c7676['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20closeButton\x20=\x20document.querySelector(\x22.close-btn-privy-cmp-AE1VSVI8T5\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20closeButton.addEventListener(\x27click\x27,\x20function\x20()\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20customizeScreen\x20=\x20document.getElementById(\x22customize-screen-privy-cmp-AE1VSVI8T5\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20customizeScreen.style.display\x20=\x20\x22none\x22\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20bannerHome\x20=\x20document.getElementById(\x22banner-home\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bannerHome.style.display\x20=\x20\x22\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20})\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20customizeButton\x20=\x20document.getElementById(\x22customize-btn-privy-cmp-AE1VSVI8T5\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20customizeButton.addEventListener(\x27click\x27,\x20function\x20()\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20customizeScreen\x20=\x20document.getElementById(\x22customize-screen-privy-cmp-AE1VSVI8T5\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20customizeScreen.style.display\x20=\x20\x22block\x22;\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20bannerHome\x20=\x20document.getElementById(\x22banner-home\x22)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bannerHome.style.display\x20=\x20\x22none\x22\x20\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20})\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20function\x20showDropdown(category)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20dropdown\x20=\x20document.getElementById(\x27dropdown-\x27\x20+\x20category);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20allCookies\x20=\x20document.getElementById(\x27all-cookies-privy-cmp-AE1VSVI8T5-\x27\x20+\x20category);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20dropIcon\x20=\x20document.querySelector(\x27.dropdown-arrow-\x27\x20+\x20category);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(dropdown.style.display\x20===\x20\x22block\x22\x20||\x20allCookies.style.display\x20===\x20\x22block\x22)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropdown.style.display\x20=\x20\x22none\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20allCookies.style.display\x20=\x20\x22none\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropIcon.classList.add(\x27rotated-privy-cmp-AE1VSVI8T5\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20else\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropdown.style.display\x20=\x20\x22block\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropIcon.classList.remove(\x27rotated-privy-cmp-AE1VSVI8T5\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20function\x20viewCookieDetails(category)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20allCookies\x20=\x20document.getElementById(\x27all-cookies-privy-cmp-AE1VSVI8T5-\x27\x20+\x20category);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20allCookies.style.display\x20=\x20\x22block\x22;\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20dropdown\x20=\x20document.getElementById(\x27dropdown-\x27\x20+\x20category);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20dropdown.style.display\x20=\x20\x22none\x22;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}',document['head']['appendChild'](_0x1c7676),_0x28bbd0['update']===!![]?toggleBanner('hide'):(toggleBanner(_0x4269c0(0x149)),sendEventDetails('8c25669844d6',_0x4269c0(0x1e5),'BannerView')),autoBlocking();}document[_0x4ef3c7(0x1c6)]('DOMContentLoaded',showBanner),document['addEventListener'](_0x4ef3c7(0x1d8),function(_0x4357b5){const _0x1ee5a3=_0x4ef3c7;_0x4357b5['target']['id']===_0x1ee5a3(0x172)&&sendEventDetails('8c25669844d6','6a53a4e5-b06f-4aee-9597-b625e184f28c','CustomizeCookiesView'),_0x4357b5[_0x1ee5a3(0x1a9)]['id']===_0x1ee5a3(0x14e)&&(toggleBanner('preference'),sendEventDetails('8c25669844d6',_0x1ee5a3(0x1e5),'PreferenceCenter'));});const DEFAULT_COOKIE_CONSENT={'NECESSARY':!![],'FUNCTIONAL':![],'ANALYTICS':![],'MARKETING':![],'OTHER':![]},nonScriptElements=['embed',_0x4ef3c7(0x1c4),'img'],monitoredElements=[...nonScriptElements,_0x4ef3c7(0x174)],cookieName='privyConsent';function findMatchingTag(_0x3be732){const _0x35450e=_0x4ef3c7;return tagsList['find'](_0x331465=>_0x3be732[_0x35450e(0x155)](_0x331465['tag']))||null;}function getUrlDetails(_0x248f30){const _0x4764e9=findMatchingTag(_0x248f30)||{};return{'categories':_0x4764e9['categories']||[],'type':_0x4764e9['type']||''};}function checkConsent(_0x461e3a,_0x326327){const _0x647dc4=_0x4ef3c7;if(!_0x326327)return![];return _0x461e3a[_0x647dc4(0x18c)](_0xc59d41=>_0x326327[_0xc59d41]===!![]);}function parsedConsentData(_0x32c401){try{if(typeof _0x32c401==='string')return JSON['parse'](_0x32c401);if(typeof _0x32c401==='object')return _0x32c401;return null;}catch(_0x34b422){return console['error']('Error\x20parsing\x20consent\x20data:',_0x34b422),null;}}function getCookieDetails(_0x27b789,_0x2680a4=DEFAULT_COOKIE_CONSENT){const _0x3f38ae=_0x4ef3c7,_0x3ec29c=localStorage['getItem'](_0x27b789);if(_0x3ec29c)return _0x3ec29c;const _0xfff19f=document['cookie'][_0x3f38ae(0x1b5)](';\x20')['find'](_0xb7a641=>_0xb7a641['startsWith'](_0x27b789+'='));if(_0xfff19f){const _0x4f0d90=_0xfff19f[_0x3f38ae(0x1b5)]('=');return _0x4f0d90[-0x2396+-0x1306+0x369d];}return console['log']('No\x20cookie\x20found\x20on\x20browser\x20defaultConsent\x20set'),_0x2680a4;}function hasUserConsent(_0x51cb83,_0xa111f0=DEFAULT_COOKIE_CONSENT){if(!_0x51cb83||_0x51cb83['length']===-0x23c3+0x24f5*-0x1+0x48b8)return!![];const _0x11ad47=getCookieDetails(cookieName,_0xa111f0),_0x438d8c=parsedConsentData(_0x11ad47);return checkConsent(_0x51cb83,_0x438d8c);}function addPrivacyClasses(_0xdbf0b7,_0x2d17a7){_0x2d17a7['length']&&_0x2d17a7['forEach'](_0x52e923=>{const _0x57616f=_0x4dab,_0x1ba065='privy-cmp-category-'+_0x52e923;!_0xdbf0b7['classList']['contains'](_0x1ba065)&&_0xdbf0b7['classList'][_0x57616f(0x169)](_0x1ba065);});}function handleTags(_0x23a6cf){const _0x512438=_0x4ef3c7,_0x2dd008=_0x23a6cf['src']||_0x23a6cf[_0x512438(0x1d2)](_0x512438(0x19e))||'';if(!_0x2dd008)return;const _0x4bc9f8=getUrlDetails(_0x2dd008),_0x5bdb52=_0x4bc9f8['categories'],_0x259058=_0x4bc9f8['type'];addPrivacyClasses(_0x23a6cf,_0x5bdb52);if(!hasUserConsent(_0x5bdb52)){const _0x20c190=_0x2dd008;if(_0x259058==='script')_0x23a6cf['type']=_0x512438(0x1d4),_0x23a6cf[_0x512438(0x1bb)]('privy-data-src',_0x20c190),_0x23a6cf[_0x512438(0x189)]('src'),console['log']('Script\x20blocked:\x20'+_0x2dd008,_0x259058,_0x5bdb52);else nonScriptElements['includes'](_0x23a6cf['tagName']['toLowerCase']())&&(_0x23a6cf['setAttribute']('privy-data-src',_0x20c190),_0x23a6cf[_0x512438(0x189)]('src'),console['log'](_0x512438(0x173)+_0x2dd008,_0x259058,_0x5bdb52));}}function _0x2aa8(){const _0x287cf7=['c3acf818-cec3-42ff-9e96-e1cf01a80753','-button-privy-cmp-AE1VSVI8T5\x22>','cookie','_ga','buttonTextColor','GS1.1.1745217756.1.0.1745217756.0.0.0','customize-screen-privy-cmp-AE1VSVI8T5','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22','https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8','https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217761838&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F','.hubspot.com','Essential\x20cookies\x20are\x20crucial\x20for\x20the\x20delivery\x20of\x20services,\x20applications,\x20or\x20resources\x20you\x20request.\x20They\x20enable\x20the\x20website\x20to\x20function\x20properly\x20by\x20managing\x20actions\x20such\x20as\x20loading\x20visNecessual\x20elements,\x20accessing\x20resources,\x20or\x20user\x20sign-ins\x20and\x20sign-outs.\x20Essential\x20cookies\x20also\x20ensure\x20the\x20service\x27s\x20security\x20and\x20efficiency\x20by\x20enabling\x20features\x20like\x20authentication\x20and\x20load\x20balancing.',':\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2053%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x2070em;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20','909405LcnbRk','__Secure-ROLLOUT_TOKEN','boolean','getElementById','This\x20cookie\x20is\x20set\x20by\x20the\x20Google\x20Optimize\x20service\x20to\x20determine\x20a\x20user\x27s\x20inclusion\x20in\x20an\x20experiment\x20and\x20the\x20expiry\x20of\x20experiments\x20a\x20user\x20has\x20been\x20included\x20in.','f61b1e04-c028-464b-a25b-d9336ac840a7','add','4b15131e-8e4b-4d8f-bed1-5eed59e17e37','positionDesktop','e59b5d2b-0cdd-4cdf-a7ac-8e10f7734250','application/json','https://px.ads.linkedin.com/attribution_trigger?pid=7498417&time=1745217761838&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F','55\x20year(s),\x203\x20month(s),\x2020\x20day(s)','display','Shopify\x20API\x20Loaded:','customize-btn-privy-cmp-AE1VSVI8T5','Media\x20element\x20blocked:\x20','script','Error\x20submitting\x20event:','MARKETING','lidc','submit\x20response','jHvU5_DR5WCtWjTZpjCWOoD_FihSuh7rajw__fnehis-1745217758-1.0.1.1-J5hOUnr8lubyuZS5IGxemmQxlrsEjcN2Dw9DDFXq4xnWvuw60WMaMFoUX6o1IC2IjfwDo1gc3mKZ5VSZG_QOaIqhE5lPx_G3G57ASxlmwQg','NECESSARY','push','442f7b01-7386-47ae-beda-54146074fe7b','e798c76d-5c2c-4351-8bc0-033c26eaefd5','0\x20year(s),\x200\x20month(s),\x201\x20day(s)','b872c6d5-00e4-4377-a67a-3c1b93827921','keys','_gcl_au','8eaa85c4-aa98-4f74-a2b8-9002f737445f','cookie_master_name',';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20scroll;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-between;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.left{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.right{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.centre{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2070%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2070%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x2015%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x2015%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.content-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px;\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.close-btn-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20end;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-bottom:\x200.5px\x20solid\x20#B2B5B8;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20sticky;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:2147483647\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.close-button-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#7D8187\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200px\x2010px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2020px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20transparent\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:inline-block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.box-heading-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2018px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#131A25\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:bold\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:1\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:0px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.box-description-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x2014px\x200px!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#484E56\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201.35\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.categories-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2025px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.category-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.category-header-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-between;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#B2B5B8;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#FAFAFB;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.category-privy-cmp-AE1VSVI8T5\x20label\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:1\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#000000\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20inline\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20400\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-switch-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-label-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20inline-block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2040px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2020px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#ccc;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-label-privy-cmp-AE1VSVI8T5::after\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x27\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x201px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x201px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-switch-privy-cmp-AE1VSVI8T5:checked+.toggle-label-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#1C43B9;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-switch-privy-cmp-AE1VSVI8T5:checked+.toggle-label-privy-cmp-AE1VSVI8T5::after\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateX(20px);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.toggle-label-privy-cmp-AE1VSVI8T5.disabled\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#ccc;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200.7;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20not-allowed;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20.toggle-label-privy-cmp-AE1VSVI8T5.disabled::after\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#fff;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.dropdown-arrow-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-right:\x2010px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(2.5,\x202)\x20translate(0,\x202px);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20transparent\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20baseline;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Courier\x20New\x27,\x20Courier,\x20monospace\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20transform\x200.3s\x20ease\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:inline-block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20100!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x201px\x206px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:13.3px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#000000\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.rotated-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(2.5,\x202)\x20translate(0,\x20-3px)\x20rotate(180deg);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20transform\x200.3s\x20ease;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20.dropdown-content-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#F3F3F4;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20.dropdown-content-inside-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.category-description-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#131A25\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x2015px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:0px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.view-cookies-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#214698\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2010px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.show-cookies-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x20170px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20scroll\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.show-cookies-privy-cmp-AE1VSVI8T5::-webkit-scrollbar\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.all-cookies-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#F3F3F4;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200px\x208px\x2016px\x200px\x20rgba(0,\x200,\x200,\x200.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x200\x200\x2010px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x202px\x2010px\x209px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#131A25;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.cookie-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#E2E2E2;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x208px\x2018px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x206px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20scroll;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.cookie-privy-cmp-AE1VSVI8T5::-webkit-scrollbar\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.cookie-name-privy-cmp-AE1VSVI8T5,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.platform-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x202px\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#131A25\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.bottom-panel-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20sticky;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.preference-button-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-top:\x200.5px\x20solid\x20#B2B5B8;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-around;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:row;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.preference-button-privy-cmp-AE1VSVI8T5\x20button\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px\x2018px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20//\x20width:45%\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x203px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20//\x20display:inline-block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20Normal!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20','Ctj5c_xBwLs','70nfcgqO','json','observe','removeAttribute','https://static.hsappstatic.net/embedded-viral-link-ui/static-1.3693/sass/project.css','7d185d36-59d8-44c9-b85b-ab31209db2c6','every','charAt','https://static.hsappstatic.net/head-dlb/static-1.2601/bundle.production.js','VXRG2bqg06usrx9dyPE_Se_1OI8vzqT8b73vl9EvgOk-1745217754-1.0.1.1-n4K5lwO0TRW9Hab3Z80LHlVMVd3atFvbgXXABFZBPNM0ZTr2TclqB9.xCX8dKHrPbTo46_vEwSAkzM7niZhSCOxRK_M2CN0E0.i.5Xerc1A','bcookie','1045280EJFjJk','acceptAll','ANALYTICS','innerHTML','\x0a\x20\x20\x20\x20\x20\x20\x20\x20iframe[data-src]:not([src]),\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20img[data-src]:not([src]),\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20embed[data-src]:not([src])\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#f0f0f0\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#ccc\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-height:\x20100px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20iframe[data-src]:not([src])::before,\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20img[data-src]:not([src])::before,\x0a\x20\x20\x20\x20\x20\x20\x20\x20embed[data-src]:not([src])::before\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x22Content\x20blocked\x20pending\x20consent\x22\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#666\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20sans-serif\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20','Shopify','https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217757376&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F','error','\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22categories-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','https://px.ads.linkedin.com/attribution_trigger?pid=7498417&time=1745217757376&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F','network','buttonsText','src','__cf_bm','These\x20cookies\x20do\x20not\x20fall\x20into\x20standard\x20categories\x20but\x20serve\x20various\x20purposes.\x20They\x20may\x20enhance\x20specific\x20website\x20features\x20or\x20support\x20experimental\x20or\x20temporary\x20services,\x20and\x20are\x20typically\x20associated\x20with\x20minor\x20functions\x20or\x20specialized\x20needs.\x20Without\x20these,\x20the\x20website\x27s\x20core\x20functionality\x20remains\x20unaffected,\x20but\x20certain\x20experiences\x20or\x20experiments\x20may\x20be\x20impacted.','Medium','444afc33-04eb-4b71-abd7-0ad40d9306a3','https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1','This\x20cookie\x20is\x20set\x20by\x20Hotjar\x20and\x20is\x20used\x20for\x20session\x20state\x20tracking.','type','\x22></label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22dropdown-','\x22v=2&3f4ba684-9b48-488a-81f2-8a4e7fde4202\x22','OTHER','target','privyDataPrincipalId','https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=7498417&time=1745217757376&li_adsId=37cee3d8-701d-4ca2-b444-47e4960e9d4d&url=https%3A%2F%2Fcookie-manager.sanketsaboo.com%2F&cookiesTest=true','https://app.hubspot.com/embedded-viral-link/forms?lang=en&portalId=48746683&hubs_id=forms-branding-control&hubs_source=cookie-manager.sanketsaboo.com&intent=marketingFreeForms','</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22submitConsent(\x27necessary\x27)\x22\x20class=\x22button2-privy-cmp-AE1VSVI8T5\x22>','checked\x20','0\x20year(s),\x205\x20month(s),\x2028\x20day(s)','.hsforms.net','https://cookie-manager.sanketsaboo.com/assets/index-CqOmM1_Y.js','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20onclick=\x22viewCookieDetails(\x27','appendChild','Error\x20submitting\x20consent:','split','FUNCTIONAL','\x27)\x22\x20id=\x22view-cookies-','createElement','parser','https://exceptions.hubspot.com/frontend/observability/page-tracking/store/?sentry_version=7&sentry_client=raven-js%2F3.19.1&deployable=embedded-viral-link-ui','setAttribute','10ibrhxd','{\x22NECESSARY\x22:true,\x22FUNCTIONAL\x22:true,\x22ANALYTICS\x22:true,\x22MARKETING\x22:true,\x22OTHERS\x22:true,\x22update\x22:false}','toLowerCase','fontName','\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#allow-btn-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:',';\x20path=/','925516jfwuFD','className','iframe','142003rBGcZv','addEventListener','8d5e05ab-7b2f-47c6-8a44-cc1e28904e9f','Secure','body','\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20white\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:inline-block\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20Normal!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20','3937720LtPsJY','banner-home','youtube.com','reload','YSC','https://api.hubspot.com/viral-links/v1/tracking?viralLinkType=forms&deviceId=06eacb44-0884-4b1d-b93f-8f1bd5b96caf&hubId=48746683','buttonColor','getAttribute','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','text/plain','log','box','1.1.1024067756.1745217756','click','eyJpZCI6ImU3NWY2NDc1LTBkNzctNWYzNy05MzIxLWM1MzlkNjRiNzZmYSIsImNyZWF0ZWQiOjE3NDUyMTc3NTgzMjIsImV4aXN0aW5nIjp0cnVlfQ==','c959d7e0-850a-4cb0-bd74-55d3481815e2','div','prototype','2558f32a-c137-448d-b405-49f94be46f2a','none','https://px.ads.linkedin.com/wa/','5064LVLook','li_sugr','forEach','documentElement','https://cookie-manager.sanketsaboo.com/','6a53a4e5-b06f-4aee-9597-b625e184f28c','Registers\x20a\x20unique\x20ID\x20to\x20keep\x20statistics\x20of\x20what\x20videos\x20from\x20YouTube\x20the\x20user\x20has\x20seen.','NaN\x20year(s),\x20NaN\x20month(s),\x20NaN\x20day(s)','These\x20cookies\x20collect\x20data\x20on\x20how\x20visitors\x20interact\x20with\x20our\x20website,\x20allowing\x20us\x20to\x20measure\x20and\x20improve\x20our\x20site\x27s\x20and\x20software\x27s\x20effectiveness.\x20They\x20help\x20us\x20track\x20visits\x20and\x20traffic\x20sources,\x20optimizing\x20our\x20website\x27s\x20performance.\x20Without\x20these\x20cookies,\x20we\x20lose\x20the\x20ability\x20to\x20monitor\x20our\x20site\x27s\x20engagement\x20and\x20enhance\x20user\x20experience.','https://cookie-manager.sanketsaboo.com','update','randomUUID','None','stringify','-button-container-privy-cmp-AE1VSVI8T5\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22submitConsent(\x27all\x27)\x22\x20id=\x22allow-btn-privy-cmp-AE1VSVI8T5\x22\x20class=\x22','_hjSession_5091923','VISITOR_INFO1_LIVE','\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-font-smoothing:\x20antialiased;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x0a\x20\x20\x0a\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.button1-privy-cmp-AE1VSVI8T5\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20','31d5287f-5225-442e-ae1b-338ec52eaffd','https://static.hsappstatic.net/embedded-viral-link-ui/static-1.3693/framer-motion-animation-features.js','show','contentDesktop','attributes','https://js.hsforms.net/forms/embed/v2.js','57af4a38-5742-4862-9693-33dae65fe74f','preference-privy-cmp','0dbf494d-f46d-4320-b1ea-57c091528042','bannerType','1173348SSaBYQ','.linkedin.com','2779XATpIa','https://sanketsaboo.com','includes'];_0x2aa8=function(){return _0x287cf7;};return _0x2aa8();}function reconsentPreference(_0x560bc6){const _0x34fb32=getCookieDetails(cookieName);processUserConsentBasedOnPreference(_0x34fb32,_0x560bc6,cookieName),processExistingElements(),location['reload']();}function setupPrivacyObserver(){const _0x57473e=_0x4ef3c7,_0x5a9c6c=new MutationObserver(_0x3b8f28=>{_0x3b8f28['forEach'](_0x13bddd=>{const _0x27adfe=_0x4dab;_0x13bddd['addedNodes']['forEach'](_0x31ea08=>{_0x31ea08['nodeType']===0x23*0x91+0x25d9*-0x1+-0xd*-0x163&&monitoredElements['includes'](_0x31ea08['tagName']['toLowerCase']())&&handleTags(_0x31ea08);}),_0x13bddd[_0x27adfe(0x1a5)]===_0x27adfe(0x14b)&&(_0x13bddd['attributeName']==='src'||_0x13bddd['attributeName']===_0x27adfe(0x1a5))&&handleTags(_0x13bddd['target']);});});_0x5a9c6c[_0x57473e(0x188)](document[_0x57473e(0x1e3)],{'childList':!![],'subtree':!![],'attributes':!![],'attributeFilter':[_0x57473e(0x19e),'type']});}function processExistingElements(){const _0x49cc29=_0x4ef3c7;monitoredElements[_0x49cc29(0x1e2)](_0x374642=>{document['querySelectorAll'](_0x374642)['forEach'](_0x13caa4=>{handleTags(_0x13caa4);});});}function autoBlocking(){const _0x1ee2e6=_0x4ef3c7,_0x300375=Element[_0x1ee2e6(0x1dc)]['setAttribute'];Element['prototype'][_0x1ee2e6(0x1bb)]=function(_0x5b579c,_0x531b9e){const _0x533b6b=_0x1ee2e6;if(_0x5b579c===_0x533b6b(0x19e)&&monitoredElements['includes'](this['tagName']['toLowerCase']())){const _0x2fef7e=getUrlDetails(_0x531b9e);if(!hasUserConsent(_0x2fef7e['categories'])){console['log']('Blocking\x20src\x20setting\x20for\x20'+this['tagName']+':',_0x531b9e),_0x300375['call'](this,'data-src',_0x531b9e);this['tagName']['toLowerCase']()==='script'&&_0x300375['call'](this,_0x533b6b(0x1a5),'text/plain');return;}}_0x300375['call'](this,_0x5b579c,_0x531b9e);};const _0x1672bc=document[_0x1ee2e6(0x1b8)]('style');_0x1672bc['textContent']=_0x1ee2e6(0x195),document['head']['appendChild'](_0x1672bc);function _0x117919(){processExistingElements(),setupPrivacyObserver(),console['log']('Privacy\x20controls\x20initialized');}document['readyState']==='loading'?document[_0x1ee2e6(0x1c6)]('DOMContentLoaded',_0x117919):_0x117919(),window['updatePrivacyConsent']=function(_0x3b1861){localStorage['setItem'](cookieName,JSON['stringify'](_0x3b1861)),processExistingElements();};}
+
+const template = {"bannerType":"banner","buttonColor":"#214698","buttonsText":{"acceptAll":"Accept All","moreSettings":"More Settings","allowNecessary":"Allow Only Necessary","savePreferences":"Save My Preferences"},"contentMobile":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"contentDesktop":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"hoverTextColor":"#ffffff","positionMobile":"bottom","buttonTextColor":"#ffffff","positionDesktop":"bottom","hoverButtonColor":"#214699","preferenceManagerHorizontalPosition":"left"};
+const categorizedCookies = {"ANALYTICS":[{"meta_data":{"path":"/","size":31,"value":"104564747.1.10.1745301233","secure":false,"session":false,"duration":"0 year(s), 0 month(s), 1 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1745303032,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"d868ede2-f0dd-46fe-9d38-3213407f03ab","category":"ANALYTICS","cookie_master_name":"__utmb","cookie_domain":".zee.com","cookie_master_id":"f9d1f42b-3f8b-4927-831d-20827b191051","languages":{"en":{"language_id":"37c13091-2eff-4dbc-834a-4e711bbdebe1","name":"__utmb","description":"Used to distinguish new sessions and visits. This cookie is set when the GA.js javascript library is loaded and there is no existing __utmb cookie. The cookie is updated every time data is sent to the Google Analytics server."}}},{"meta_data":{"path":"/","size":15,"value":"104564747","secure":false,"session":true,"duration":"55 year(s), 3 month(s), 21 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":-1,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"43c5c9ba-c8f4-4b57-9bb3-6b21d912db92","category":"ANALYTICS","cookie_master_name":"__utmc","cookie_domain":".zee.com","cookie_master_id":"a8155910-1f2e-470d-802b-36523ba84afd","languages":{"en":{"language_id":"3d92e0e9-eb7f-4fef-b358-3028491e6a20","name":"__utmc","description":"Used only with old Urchin versions of Google Analytics and not with GA.js. Was used to distinguish between new sessions and visits at the end of a session."}}},{"meta_data":{"path":"/","size":7,"value":"1","secure":false,"session":false,"duration":"0 year(s), 0 month(s), 1 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1745301832,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"057ba2f5-c2d9-4cbb-84f1-57274f998f22","category":"ANALYTICS","cookie_master_name":"__utmt","cookie_domain":".zee.com","cookie_master_id":"defbf1c1-9ca5-492e-920c-84057ff5ef02","languages":{"en":{"language_id":"ab4f7aff-61b2-444c-9335-065489f7a74e","name":"__utmt","description":"Used to monitor number of Google Analytics server requests"}}},{"meta_data":{"path":"/","size":76,"value":"104564747.1745301233.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)","secure":false,"session":false,"duration":"0 year(s), 5 month(s), 31 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1761069232,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"f73494e1-f296-4edd-8274-1ada7e3a0d12","category":"ANALYTICS","cookie_master_name":"__utmz","cookie_domain":".zee.com","cookie_master_id":"d805ef11-0163-47f0-863d-e5a08fcdc155","languages":{"en":{"language_id":"14813f53-4527-4e4a-92d4-696192a1f7fc","name":"__utmz","description":"Contains information about the traffic source or campaign that directed user to the website. The cookie is set when the GA.js javascript is loaded and updated when data is sent to the Google Anaytics server"}}},{"meta_data":{"path":"/","size":61,"value":"104564747.1698590699.1745301233.1745301233.1745301233.1","secure":false,"session":false,"duration":"1 year(s), 1 month(s), 5 day(s)","httpOnly":false,"priority":"Medium","sameParty":false,"expires_at":1779861232.820199,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"693c71ab-1a8d-4c63-a9b0-084d1ad5413b","category":"ANALYTICS","cookie_master_name":"__utma","cookie_domain":".zee.com","cookie_master_id":"0610aa03-0d74-465f-8d84-594755083261","languages":{"en":{"language_id":"bcbe81cd-6927-4a29-9265-74e404a389db","name":"__utma","description":"ID used to identify users and sessions"}}}],"FUNCTIONAL":[{"meta_data":{"path":"/","size":96,"value":"{\"NECESSARY\":true,\"FUNCTIONAL\":true,\"ANALYTICS\":true,\"MARKETING\":true,\"OTHERS\":true}","secure":true,"session":false,"duration":"0 year(s), 11 month(s), 31 day(s)","httpOnly":false,"priority":"Medium","sameSite":"Lax","sameParty":false,"expires_at":1776837228,"sourcePort":443,"requestChain":{"sourceUrls":[],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","redirectedPage":"https://www.zee.com/"},"cookie_id":"ada7457c-abad-403c-b617-b006d08f0339","category":"FUNCTIONAL","cookie_master_name":"privyConsent","cookie_domain":"zee.com","cookie_master_id":"a8ef2cbb-0629-41a3-8c47-a47fd834e9ee","languages":{"en":{"language_id":"273ac95d-6586-42a5-b076-aff0615bc762","name":"privyConsent","description":"Stores the user's cookie consent state for the current domain."}}},{"meta_data":{"path":"/","size":179,"value":"SFMyNTY.g3QAAAABbQAAAAhndWVzdF9pZG0AAAAkMzc3YmU0MzktZWU1NC00YWY2LWE4YmMtMDZkODQ4ZjgzNjBl.4TBNPr_4m0RH71j0AZfYvdRRr9frjNsAxd3Dpj-RsB8","secure":false,"session":true,"duration":"NaN year(s), NaN month(s), NaN day(s)","httpOnly":true,"priority":"Medium","sameSite":"Lax","callStack":[],"foundType":"network","sameParty":false,"expires_at":"NA","urlOfCookie":"https://www.zee.com","requestChain":{"type":"parser","sourceUrls":["https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap"],"uniqueUrls":[]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","initiatorType":null,"redirectedPage":"https://www.zee.com/"},"cookie_id":"df95a702-f3dd-40f9-a869-2b59ce1cb372","category":"FUNCTIONAL","cookie_master_name":"_fontshare_key","cookie_domain":"www.zee.com","cookie_master_id":"18d6ec76-6ea1-41e9-ae12-b5fdee7864fd","languages":{"en":{"language_id":"066fd265-1c60-4114-b080-ad709b02505b","name":"_fontshare_key","description":"This cookie is set by Fontshare to manage font usage on websites."}}},{"meta_data":{"path":"/recaptcha","size":205,"value":"09ALcxeyoN5oFfO7Iy7fenLEbJOXeIXjE5yIh8ps_i1b5L3NdLzV6HPaSnFx6yGpHvOYeYFI0ttA967hIuUrKYqcw","secure":true,"session":false,"duration":"0 year(s), 5 month(s), 28 day(s)","httpOnly":true,"priority":"HIGH","sameSite":"none","callStack":[],"foundType":"network","sameParty":false,"expires_at":1760853234,"urlOfCookie":"https://www.zee.com","requestChain":{"type":"script","sourceUrls":["https://www.google.com/recaptcha/api2/reload?k=6LdngqIgAAAAANJnBYK4E8kHf6xcSW9tJrsh8Qy7"],"uniqueUrls":["https://www.gstatic.com/recaptcha/releases/ItfkQiGBlJCsN5gUMmHbpLEb/recaptcha__en.js","https://www.gstatic.com/recaptcha/releases/ItfkQiGBlJDHuTkOhlT3zHpB/recaptcha__en.js"]},"sourceScheme":"Secure","firstFoundUrl":"https://www.zee.com","initiatorType":null,"redirectedPage":"https://www.zee.com/"},"cookie_id":"5b23f8a9-4f9e-4611-8329-6a65328dca9c","category":"FUNCTIONAL","cookie_master_name":"_GRECAPTCHA","cookie_domain":"www.zee.com","cookie_master_id":"f03409b9-977d-4bad-b312-57b4fd51f5a7","languages":{"en":{"language_id":"2f2930a4-c778-4bad-8279-880fd76a186f","name":"_GRECAPTCHA","description":"Google reCAPTCHA sets a necessary cookie (_GRECAPTCHA) when executed for the purpose of providing its risk analysis."}}}]};
+const bannerSessionId = getSessionId()
+const tagsList = [{"tag":"https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap","categories":["FUNCTIONAL"],"type":"script"},{"tag":"https://www.google.com/recaptcha/api2/reload?k=6LdngqIgAAAAANJnBYK4E8kHf6xcSW9tJrsh8Qy7","categories":["FUNCTIONAL"],"type":"script"}];
+function toggleBanner(action) {
+    if (action === 'show') {
+        document.getElementById('banner-home').style.display = ''
+    } else if (action === 'hide') {
+        document.getElementById(
+            'customize-screen-privy-cmp-AE1VSVI8T5'
+        ).style.display = 'none'
+        document.getElementById('banner-home').style.display = 'none'
+    } else if (action === 'preference') {
+        document.getElementById('banner-home').style.display = ''
+    }
+}
+function setCookieOnBrowser(cookieConsent, cookieName) {
+    console.log('setCookieOnBrowser', cookieConsent)
+    document.cookie = `${cookieName}=${JSON.stringify(cookieConsent)}; path=/`
+    localStorage.setItem(cookieName, JSON.stringify(cookieConsent))
+    //TODO: Remove this shopify integration
+    shopifyConsent(cookieConsent)
+}
+function callShopifyConsentApi() {
+    try {
+        window.Shopify.loadFeatures(
+            [
+                {
+                    name: 'consent-tracking-api',
+                    version: '0.1'
+                }
+            ],
+            (error) => {
+                if (error) {
+                    console.log('Consent API Features Error', error)
+                } else {
+                    console.log('Shopify API Loaded:', window.Shopify)
+                }
+                // If error is false, the API has loaded and ready to use!
+            }
+        )
+    } catch (error) {
+        console.log('error', error)
+    }
+}
+function sendEventDetails(dataFiduciaryId, bannerId, type) {
+                    fetch(`http://localhost:3000/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/b9035fff-cab8-43a5-aa81-8385ebbe3e14`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            sid: getSessionId(),
+                            user_event: type,
+                            data_principal_id: getPrivyDataPrincipalId()
+                        })
+                    }
+                )
+                .then((response) => {
+                    console.log('submit response', response)
+                    if (response.status === 204) {
+                        console.log('Event submitted successfully')
+                        return null
+                    }
+                })
+                .catch((error) => {
+                    console.error('Error submitting event:', error)
+                })
+            }
+                
+//TODO: Remove this shopify integration
+function mapConsentToShopify(cookieConsent) {
+    return {
+        analytics: !!cookieConsent.ANALYTICS, // Map ANALYTICS → analytics
+        marketing: !!cookieConsent.MARKETING, // Map MARKETING → marketing
+        preferences: !!cookieConsent.FUNCTIONAL // Map FUNCTIONAL → preferences,
+    }
+}
+function shopifyConsent(cookieConsent) {
+    // window.Shopify = window.Shopify || {}
+    // document.addEventListener('visitorConsentCollected', (event) =>
+    //     console.log('visitorConsentCollected listener', event.detail)
+    // )
+    callShopifyConsentApi()
+    console.log('in shopify consent', shopifyConsent)
+    try {
+        const shopifyConsent = mapConsentToShopify(cookieConsent)
+        window.Shopify.customerPrivacy.setTrackingConsent(shopifyConsent, () =>
+            console.log('Consent captured:', shopifyConsent)
+        )
+    } catch (error) {
+        console.log('Error in sc', error)
+        //pass
+    }
+}
+// TODO: Remove this shopify integration ends
+function processUserConsentBasedOnPreference(
+    cookieConsent,
+    agreedCategories,
+    cookieName
+) {
+    const agreedCookies = []
+    if (agreedCategories === 'all') {
+        Object.keys(cookieConsent).forEach((key) => (cookieConsent[key] = true))
+    } else if (agreedCategories === 'necessary') {
+        Object.keys(cookieConsent).forEach(
+            (key) => (cookieConsent[key] = key === 'NECESSARY')
+        )
+    } else if (agreedCategories === 'preference') {
+        const checkedBoxes = document.querySelectorAll(
+            'input[type="checkbox"].toggle-switch-privy-cmp-AE1VSVI8T5:checked'
+        )
+        checkedBoxes.forEach((box) => {
+            const categoryName = box.id.replace('-toggle', '')
+            agreedCookies.push(categoryName)
+            cookieConsent[categoryName] = true
+        })
+        Object.keys(cookieConsent).forEach(
+            (key) => (cookieConsent[key] = agreedCookies.includes(key))
+        )
+    }
+    cookieConsent.update = true
+    cookieConsent['NECESSARY'] = true
+    toggleBanner('hide')
+    setCookieOnBrowser(cookieConsent, cookieName)
+    return cookieConsent
+}
+
+    const categoryDescriptions = {"necessary":"Essential cookies are crucial for the delivery of services, applications, or resources you request. They enable the website to function properly by managing actions such as loading visNecessual elements, accessing resources, or user sign-ins and sign-outs. Essential cookies also ensure the service's security and efficiency by enabling features like authentication and load balancing.","performance":"These cookies collect data on how visitors interact with our website, allowing us to measure and improve our site's and software's effectiveness. They help us track visits and traffic sources, optimizing our website's performance. Without these cookies, we lose the ability to monitor our site's engagement and enhance user experience.","functional":"Set by us or third-party providers, functional cookies add extra features and enhance our website's functionality not directly necessary for the service you've requested. They enable convenience features such as pre-filled text fields, live chat support, and optional forms, improving your browsing experience with services like single sign-on (SSO).","marketing":"Our advertising partners deploy these cookies to tailor advertising to your interests, based on your browsing behavior and preferences. They track your online activity to build a profile for customized advertising, ensuring the ads you encounter on other sites are aligned with your interests.","analytics":"Analytics cookies are used to gather information on website usage, helping us understand visitor behavior. They track user interactions, providing insights that enable us to enhance the website's user experience and functionality. These cookies do not identify you personally but offer aggregated data to improve site performance.","other":"These cookies do not fall into standard categories but serve various purposes. They may enhance specific website features or support experimental or temporary services, and are typically associated with minor functions or specialized needs. Without these, the website's core functionality remains unaffected, but certain experiences or experiments may be impacted."}
+    function createBanner(categorizedCookies, template) {
+    let banner = `
+    <div class="idfy-${template.bannerType}-privy-cmp-AE1VSVI8T5" id="banner-home">
+        <div class="banner-content-privy-cmp-AE1VSVI8T5">
+            <h2 class="banner-heading-privy-cmp-AE1VSVI8T5">Cookie Notice</h2>
+            <div class="${template.bannerType}-inner-privy-cmp-AE1VSVI8T5">
+                <p class="description-privy-cmp-AE1VSVI8T5 ${template.bannerType}-desc-privy-cmp-AE1VSVI8T5" >${template.contentDesktop.cookieBannerNotice}</p>
+                <div class="${template.bannerType}-button-container-privy-cmp-AE1VSVI8T5">
+                    <button onclick="submitConsent('all')" id="allow-btn-privy-cmp-AE1VSVI8T5" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.acceptAll}</button>
+                    <button onclick="submitConsent('necessary')" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.allowNecessary}</button>
+                    <button id="customize-btn-privy-cmp-AE1VSVI8T5" class="${template.bannerType}-button-privy-cmp-AE1VSVI8T5">${template.buttonsText.moreSettings}</button>
+                </div>
+            </div>
+        </div>
+        <div class="powered-privy-cmp-AE1VSVI8T5" style="border-radius:0px 0px 10px 10px;">
+        Powered by <span><a href="https://www.privyone.com/" target="_blank">PRIVY</a></span>
+        </div>
+    </div>
+
+    <div id="customize-screen-privy-cmp-AE1VSVI8T5">
+        <div class="customize-settings-screen-privy-cmp-AE1VSVI8T5 ${template.preferenceManagerHorizontalPosition}">
+            <div>
+                <div class="close-btn-privy-cmp-AE1VSVI8T5">
+                    <div class="close-button-privy-cmp-AE1VSVI8T5">×</div>
+                </div>
+                <div class="content-privy-cmp-AE1VSVI8T5">
+                    <h2 class="box-heading-privy-cmp-AE1VSVI8T5">About cookies on this site.</h2>
+                    <p class="box-description-privy-cmp-AE1VSVI8T5">${template.contentDesktop.preferenceManagerNotice}</p>
+                    <div class="categories-privy-cmp-AE1VSVI8T5">
+                    ${Object.keys(categorizedCookies).map(category => {
+                        const consentCookie = parsedConsentData(getCookieDetails(cookieName));
+                        const isAgreedCategory = consentCookie[category];
+                        const cookieData = categorizedCookies[category];
+                        const isNecessary = category === 'NECESSARY';
+                        const disabledClass = isNecessary ? 'disabled' : '';
+                        return `
+                        <div class="category-privy-cmp-AE1VSVI8T5">
+                            <div class="dropdown-content-privy-cmp-AE1VSVI8T5">
+                                <div class="category-header-privy-cmp-AE1VSVI8T5">
+                                    <div onclick="showDropdown('${category}')" style="cursor:pointer">
+                                        <div class="dropdown-arrow-privy-cmp-AE1VSVI8T5 rotated-privy-cmp-AE1VSVI8T5 dropdown-arrow-${category}">^</div>
+                                        <label for="${category}">${category.charAt(0) + category.slice(1).toLowerCase()} Cookies</label>
+                                    </div>
+                                    <input type="checkbox" id="${category}-toggle" class="toggle-switch-privy-cmp-AE1VSVI8T5" ${isAgreedCategory ? 'checked ' : ''} ${disabledClass}>
+                                    <label for="${category}-toggle" class="toggle-label-privy-cmp-AE1VSVI8T5 ${disabledClass}"></label>
+                                </div>
+                                <div id="dropdown-${category}" class="dropdown-content-inside-privy-cmp-AE1VSVI8T5">
+                                    <div class="category-description-privy-cmp-AE1VSVI8T5">
+                                        ${categoryDescriptions[category.toLowerCase()]}
+                                    </div>
+                                    <div onclick="viewCookieDetails('${category}')" id="view-cookies-${category}" class="view-cookies-privy-cmp-AE1VSVI8T5">View Cookies</div>
+                                </div>
+                                <div class="show-cookies-privy-cmp-AE1VSVI8T5 show-cookies-privy-cmp-AE1VSVI8T5-${category}">
+                                    <div id="all-cookies-privy-cmp-AE1VSVI8T5-${category}" class="all-cookies-privy-cmp-AE1VSVI8T5">
+                                        ${cookieData.map(cookie => `
+                                        <div class="cookie-privy-cmp-AE1VSVI8T5">
+                                            <p class="cookie-name-privy-cmp-AE1VSVI8T5"><span> Name </span>: ${cookie.cookie_master_name}</p>
+                                            <p class="platform-privy-cmp-AE1VSVI8T5"><span>Platform </span>: ${cookie.cookie_domain}</p>
+                                        </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        `;
+                    }).join('')}
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-panel-privy-cmp-AE1VSVI8T5">
+                <div class="preference-button-privy-cmp-AE1VSVI8T5">
+                    <button onclick="submitConsent('preference')" class="button1-privy-cmp-AE1VSVI8T5">${template.buttonsText.savePreferences}</button>
+                    <button onclick="submitConsent('necessary')" class="button2-privy-cmp-AE1VSVI8T5">${template.buttonsText.allowNecessary}</button>
+                </div>
+                <div class="powered-privy-cmp-AE1VSVI8T5">
+                    Powered by <span><a href="https://www.privyone.com/" target="_blank">PRIVY</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    `;
+
+    return banner;
+}
+    
+function getPrivyDataPrincipalId() {
+    let privyDataPrincipalId = localStorage.getItem('privyDataPrincipalId')
+    if (!privyDataPrincipalId) {
+        privyDataPrincipalId = crypto.randomUUID()
+        localStorage.setItem('privyDataPrincipalId', privyDataPrincipalId)
+    }
+    return privyDataPrincipalId
+}
+function getSessionId() {
+    let sessionId = sessionStorage.getItem('privySessionId')
+    if (!sessionId) {
+        sessionId = crypto.randomUUID() // Generate a new session ID
+        sessionStorage.setItem('privySessionId', sessionId)
+    }
+    return sessionId
+}
+
+            function submitConsent(agreedCategories) {
+                const cookieConsent = parsedConsentData(getCookieDetails(cookieName));
+                processUserConsentBasedOnPreference(cookieConsent, agreedCategories, cookieName)
+                setConsentedBannerId(`b9035fff-cab8-43a5-aa81-8385ebbe3e14`)
+                fetch(`http://localhost:3000/ext/cookie-banner/api/v1/consent/8c25669844d6/b9035fff-cab8-43a5-aa81-8385ebbe3e14`, {
+                    method: "POST",
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ user_preference: cookieConsent, sid: getSessionId(), data_principal_id: getPrivyDataPrincipalId(),submission_type: agreedCategories  })
+                })
+                .then(response => {
+                    console.log("submit response", response);
+                    if (!response.ok) {
+                        throw new Error('Failed to submit consent');
+                    }
+                    return response.json();
+                })
+                .catch(error => {
+                    console.error('Error submitting consent:', error);
+                });
+    
+                location.reload();
+            }
+        
+ function showBanner() {
+    callShopifyConsentApi()
+    let consentCookie = parsedConsentData(getCookieDetails(cookieName));
+    const consentedBannerId = getConsentedBannerId()
+    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `b9035fff-cab8-43a5-aa81-8385ebbe3e14`){
+        consentCookie.update = false;
+        setConsentedBannerId(`b9035fff-cab8-43a5-aa81-8385ebbe3e14`)
+        setCookieOnBrowser(consentCookie, cookieName)
+        location.reload()
+    }
+    consentCookie = parsedConsentData(getCookieDetails(cookieName));
+    let consentButtonDiv = document.createElement('div');
+    consentButtonDiv.className = "consent-button-privy-cmp-AE1VSVI8T5";
+    document.body.appendChild(consentButtonDiv);
+
+    const banner = createBanner(categorizedCookies, template, consentCookie);
+    const bannerContainer = document.createElement('div');
+    bannerContainer.className = "banner-container-privy-cmp-AE1VSVI8T5";
+    bannerContainer.innerHTML = banner;
+    document.body.appendChild(bannerContainer);
+
+    let horizontal = "flex-end", leftRight = "right", vertical = "bottom";
+
+    if (template.positionDesktop.includes("left")) {
+    horizontal = "flex-start";
+    leftRight = "left";
+    }
+    if (template.positionDesktop.includes("top")) {
+        vertical = "top";
+    }
+
+    const styleTag = document.createElement("style");
+    styleTag.innerHTML = `
+          .banner-container-privy-cmp-AE1VSVI8T5{
+            margin: 5px;
+          }
+          
+          @keyframes glideBanner {
+            0% {
+              transform: translateY(100%);
+            }
+            100% {
+              transform: translateY(0%);
+            }
+          }
+  
+          .idfy-box-privy-cmp-AE1VSVI8T5 {
+              display: flex;
+              flex-direction:column;
+              background-color: white;
+              justify-content: ${horizontal};
+              position: fixed;
+              ${vertical}: 20px;
+              ${leftRight}: 10px;
+              width: 53%;
+              max-width: 70em;
+              border-radius: 10px;
+              font-family: ${template.fontName} !important;
+              -webkit-font-smoothing: antialiased;
+              z-index: 2147483647 !important; 
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+              animation: glideBanner 1.5s ease-in-out forwards;
+          }
+  
+          .idfy-banner-privy-cmp-AE1VSVI8T5 {
+            display: flex;
+            flex-direction:column;
+            background-color: white;
+            justify-content: flex-end;
+            position: fixed;
+            ${vertical}: 0px;
+            right: 0px;
+            left: 0px;
+            width: 100%;
+            border-radius: 10px;
+            font-family: ${template.fontName} !important;
+            -webkit-font-smoothing: antialiased;
+            z-index: 2147483647 !important; 
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            animation: glideBanner 1.5s ease-in-out forwards;
+          }
+  
+          .banner-content-privy-cmp-AE1VSVI8T5 {
+            overflow-y:auto;
+            padding: 20px !important;
+            transition: 2s;
+          }
+  
+          .banner-heading-privy-cmp-AE1VSVI8T5 {
+            font-size: 18px !important;
+            margin: 0px !important;
+            font-weight:bold !important;
+            line-height:1 !important;
+            padding:0px !important;
+            color:#000000 !important;
+          }
+  
+          .banner-inner-privy-cmp-AE1VSVI8T5 {
+            display: flex !important;
+            align-items: center !important;
+          }
+   
+          .description-privy-cmp-AE1VSVI8T5 {
+              font-size: 14px !important;
+              color: #484E56;
+              line-height: 1.3 !important;
+              margin:14px 0px 14px 0px !important;
+              padding:0px!important;
+              color:#484E56 !important;
+          }
+  
+          .banner-desc-privy-cmp-AE1VSVI8T5{
+            flex:7 !important;
+            margin:10px 10px 10px 0px !important;
+            font-weight:normal !important;
+          }
+  
+          .banner-button-container-privy-cmp-AE1VSVI8T5,.box-button-container-privy-cmp-AE1VSVI8T5 {
+              text-align: right!important;
+              margin-top: 10px!important;
+          }
+  
+          .box-button-privy-cmp-AE1VSVI8T5,.banner-button-privy-cmp-AE1VSVI8T5{
+              margin-right: 2.5px !important;
+              color: ${template.buttonColor} !important;
+              padding: 9px 20px !important;
+              border: 1px solid ${template.buttonColor} !important;
+              border-radius: 8px !important;
+              background: white !important;
+              display:inline-block !important;
+              line-height: 1!important;
+              font-weight: Normal!important;
+              font-size: 12px !important;
+              font-family: ${template.fontName} !important;
+              -webkit-font-smoothing: antialiased;
+          }
+  
+          #allow-btn-privy-cmp-AE1VSVI8T5 {
+              background-color:${template.buttonColor} !important;
+              color: ${template.buttonTextColor}!important;
+              border: 1px solid ${template.buttonColor}!important;
+          }
+  
+          /* custmise banner screen css */
+          #customize-screen-privy-cmp-AE1VSVI8T5 {
+              display: none;
+          }
+  
+          .customize-settings-screen-privy-cmp-AE1VSVI8T5 {
+              width: 40%;
+              height: 100%;
+              min-width: 290px;
+              max-width: 30% ;
+              background-color: white;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+              position: fixed;
+              z-index: 2147483647 !important;
+              top: 0;
+              font-family: ${template.fontName};
+              -webkit-font-smoothing: antialiased;
+              overflow: scroll;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              border-radius: 10px;
+          }
+        
+          .left{
+            left: 0;
+          }
+
+          .right{
+            right: 0;
+          }
+
+          .centre{
+            height: 65%;
+            min-width: 56%;
+            left: 22%;
+            top: 15%;
+           }
+  
+          .content-privy-cmp-AE1VSVI8T5 {
+              padding: 20px;
+  
+          }
+  
+          .close-btn-privy-cmp-AE1VSVI8T5 {
+              display: flex;
+              justify-content: end;
+              border-bottom: 0.5px solid #B2B5B8;
+              padding: 10px; 
+              position: sticky;
+              top: 0;
+              background-color: #fff;
+              z-index:2147483647 !important;
+          }
+  
+          .close-button-privy-cmp-AE1VSVI8T5 {
+              color: #7D8187 !important;
+              margin: 0px 10px !important;
+              font-size: 20px !important;
+              background-color: transparent !important;
+              border: none !important;
+              cursor: pointer;
+              display:inline-block !important;
+              padding: 0 !important;
+          }
+  
+          .box-heading-privy-cmp-AE1VSVI8T5 {
+              font-size: 18px !important;
+              margin: 0px !important;
+              color: #131A25 !important;
+              font-weight:bold !important;
+              line-height:1 !important;
+              padding:0px !important;
+          }
+  
+          .box-description-privy-cmp-AE1VSVI8T5 {
+              font-size: 14px !important;
+              margin: 14px 0px!important;
+              color: #484E56 !important;
+              line-height: 1.35 !important;
+              padding: 0px !important;
+          }
+  
+          .categories-privy-cmp-AE1VSVI8T5 {
+              margin-top: 25px;
+              display: flex;
+              flex-direction: column;
+          }
+  
+          .category-privy-cmp-AE1VSVI8T5 {
+              margin-bottom: 10px;
+          }
+  
+          .category-header-privy-cmp-AE1VSVI8T5 {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              border: 1px solid #B2B5B8;
+              border-radius: 10px;
+              padding: 10px;
+              background-color: #FAFAFB;
+          }
+  
+          .category-privy-cmp-AE1VSVI8T5 label {
+              font-size: 14px !important;
+              line-height:1 !important;
+              margin: 0px !important;
+              padding: 0px !important;
+              color: #000000 !important;
+              display: inline !important;
+              font-weight: 400 !important;
+          }
+  
+          .toggle-switch-privy-cmp-AE1VSVI8T5 {
+              display: none !important;
+          }
+  
+          .toggle-label-privy-cmp-AE1VSVI8T5 {
+              display: inline-block !important;
+              width: 40px !important;
+              height: 20px !important;
+              background-color: #ccc;
+              border-radius: 10px;
+              position: relative !important;
+              cursor: pointer;
+          }
+  
+          .toggle-label-privy-cmp-AE1VSVI8T5::after {
+              content: '';
+              width: 18px;
+              height: 18px;
+              background-color: white;
+              border-radius: 50%;
+              position: absolute !important;
+              top: 1px;
+              left: 1px;
+              transition: 0.3s;
+          }
+  
+          .toggle-switch-privy-cmp-AE1VSVI8T5:checked+.toggle-label-privy-cmp-AE1VSVI8T5 {
+              background-color: #1C43B9;
+          }
+  
+          .toggle-switch-privy-cmp-AE1VSVI8T5:checked+.toggle-label-privy-cmp-AE1VSVI8T5::after {
+              transform: translateX(20px);
+          }
+  
+          .toggle-label-privy-cmp-AE1VSVI8T5.disabled {
+            background-color: #ccc; 
+            opacity: 0.7; 
+            cursor: not-allowed; 
+        }
+        
+        .toggle-label-privy-cmp-AE1VSVI8T5.disabled::after {
+            background-color: #fff; 
+        }
+  
+          .dropdown-arrow-privy-cmp-AE1VSVI8T5 {
+              margin-right: 10px !important;
+              transform: scale(2.5, 2) translate(0, 2px);
+              background-color: transparent !important;
+              border: none !important;
+              align-items: baseline;
+              font-family: 'Courier New', Courier, monospace !important;
+              transition: transform 0.3s ease !important;
+              display:inline-block !important;
+              line-height: 1!important;
+              font-weight: 100!important;
+              padding: 1px 6px !important;
+              font-size:13.3px !important;
+              color: #000000 !important;
+          }
+  
+          .rotated-privy-cmp-AE1VSVI8T5 {
+              transform: scale(2.5, 2) translate(0, -3px) rotate(180deg);
+              transition: transform 0.3s ease;
+          }
+
+        .dropdown-content-privy-cmp-AE1VSVI8T5 {
+               background-color: #F3F3F4;
+               border-radius: 10px;
+          }
+            
+        .dropdown-content-inside-privy-cmp-AE1VSVI8T5 {
+              display: none;
+              padding: 20px;
+        }
+  
+          .category-description-privy-cmp-AE1VSVI8T5 {
+              font-size: 11px !important;
+              color: #131A25 !important;
+              line-height: 15px !important;
+              margin:0px !important;
+              padding: 0px !important;
+          }
+  
+          .view-cookies-privy-cmp-AE1VSVI8T5 {
+              font-size: 11px !important;
+              color: #214698 !important;
+              margin-top: 10px !important;
+              cursor: pointer;
+          }
+  
+          .show-cookies-privy-cmp-AE1VSVI8T5 {
+            max-height: 170px !important;
+            overflow: scroll !important;
+          }
+          .show-cookies-privy-cmp-AE1VSVI8T5::-webkit-scrollbar {
+            display: none;
+          }
+  
+          .all-cookies-privy-cmp-AE1VSVI8T5 {
+              display: none;
+              background-color: #F3F3F4;
+              box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+              border-radius: 0 0 10px 10px;
+              padding: 2px 10px 9px 10px;
+              color: #131A25;
+              font-size: 11px;
+          }
+  
+          .cookie-privy-cmp-AE1VSVI8T5 {
+              font-size: 11px !important;
+              background-color: #E2E2E2;
+              padding: 8px 18px !important;
+              margin-top: 6px !important;
+              border-radius: 12px;
+              overflow: scroll;
+          }
+          .cookie-privy-cmp-AE1VSVI8T5::-webkit-scrollbar {
+            display: none;
+          }
+  
+          .cookie-name-privy-cmp-AE1VSVI8T5,
+          .platform-privy-cmp-AE1VSVI8T5 {
+              margin: 2px 0px !important;
+              font-size: 11px !important;
+              line-height: 1 !important;
+              color: #131A25 !important;
+              padding: 0px !important;
+          }
+  
+          .bottom-panel-privy-cmp-AE1VSVI8T5 {
+              position: sticky;
+              bottom: 0;
+              width: 100%;
+          }
+  
+          .preference-button-privy-cmp-AE1VSVI8T5 {
+              border-top: 0.5px solid #B2B5B8;
+              padding: 10px;
+              text-align: center;
+              background-color: #fff;
+              display:flex;
+              justify-content: space-around;
+              flex-direction:row;
+          }
+  
+          .preference-button-privy-cmp-AE1VSVI8T5 button {
+              padding: 10px 18px !important;
+              // width:45% !important;
+              font-size: 12px !important;
+              border-radius: 8px !important;
+              margin: 3px !important;
+              // display:inline-block !important;
+              line-height: 1!important;
+              font-weight: Normal!important;
+              font-family: ${template.fontName} !important;
+              -webkit-font-smoothing: antialiased;
+          }
+  
+  
+  
+          .button1-privy-cmp-AE1VSVI8T5 {
+              color: ${template.buttonTextColor} !important;
+              border: 1px solid ${template.buttonColor} !important;
+              background-color: ${template.buttonColor};
+              transition: 0.3s;
+              flex:1;
+          }
+  
+          .button2-privy-cmp-AE1VSVI8T5 {
+              color: ${template.buttonColor} !important;
+              border: 1px solid ${template.buttonColor} !important;
+              background-color: #fff;
+              transition: 0.3s;
+              flex:1;
+          }
+  
+          .button2-privy-cmp-AE1VSVI8T5:hover,
+          .button1-privy-cmp-AE1VSVI8T5:hover,
+          .classic-button-privy-cmp-AE1VSVI8T5:hover,.banner-button-privy-cmp-AE1VSVI8T5:hover,.box-button-privy-cmp-AE1VSVI8T5:hover,#allow-btn-privy-cmp-AE1VSVI8T5:hover {
+              background-color: ${template.hoverButtonColor} !important;
+              color: ${template.hoverTextColor} !important;
+              transition: 0.3s;
+              border: 1px solid ${template.hoverButtonColor} !important;
+          }
+  
+          .powered-privy-cmp-AE1VSVI8T5 {
+              text-align: right;
+              background-color: #F3F3F4;
+              font-size: 10px !important;
+              padding: 1px 10px !important;
+              margin:0px !important;
+              color: #7D8187 !important;
+              font-weight:normal !important;
+              line-height:1 !important;
+          }
+  
+          .powered-privy-cmp-AE1VSVI8T5 a {
+              color: #1C43B9 !important;
+              font-weight: bold !important;
+              text-decoration:none !important;
+              font-size: 10px!important;
+              line-height:1 !important;
+            } 
+  
+          @media (max-width: 900px) {
+            .box-button-container-privy-cmp-AE1VSVI8T5{
+              text-align: center!important;
+            }
+            .box-button-privy-cmp-AE1VSVI8T5 {
+              width: 100%;
+              height: 100%;
+              font-size: 15px !important;
+              padding: 13px 22px !important;
+              display:block !important;
+            }
+  
+            .banner-inner-privy-cmp-AE1VSVI8T5 {
+              display: block !important;
+              align-items: right !important;
+            }
+          }
+  
+  
+          @media (max-width: 480px) {
+            .idfy-banner-privy-cmp-AE1VSVI8T5,
+            .idfy-box-privy-cmp-AE1VSVI8T5{
+              bottom: 0;
+              right: 0;
+              left:0;
+              width: 100%;
+              max-height:80%;
+              overflow:scroll;
+            }
+  
+            .banner-button-privy-cmp-AE1VSVI8T5{
+                  width: 100%;
+                  height: 100%;
+                  font-size: 15px !important;
+                  padding: 13px 22px !important;
+                  display:block !important;
+                }
+  
+            .customize-settings-screen-privy-cmp-AE1VSVI8T5 {
+              height:85vh;
+              width:90vw;
+              max-width:480px;
+              padding:0;
+              margin:0;
+            }
+  
+            .preference-button-privy-cmp-AE1VSVI8T5 button{
+              padding: 13px 22px !important;
+              font-size: 15px !important;
+            }
+  
+          }
+  
+          @media (max-width: 850px){
+            .preference-button-privy-cmp-AE1VSVI8T5{
+              flex-direction:column;
+            }
+          }
+            
+            `
+    document.head.appendChild(styleTag);
+
+    const scriptTag = document.createElement("script");
+    scriptTag.innerHTML = `
+          const closeButton = document.querySelector(".close-btn-privy-cmp-AE1VSVI8T5")
+          closeButton.addEventListener('click', function () {
+              const customizeScreen = document.getElementById("customize-screen-privy-cmp-AE1VSVI8T5")
+              customizeScreen.style.display = "none"
+      
+              const bannerHome = document.getElementById("banner-home")
+              bannerHome.style.display = ""
+          })
+      
+          const customizeButton = document.getElementById("customize-btn-privy-cmp-AE1VSVI8T5")
+          customizeButton.addEventListener('click', function () {
+              const customizeScreen = document.getElementById("customize-screen-privy-cmp-AE1VSVI8T5")
+              customizeScreen.style.display = "block";
+      
+              const bannerHome = document.getElementById("banner-home")
+              bannerHome.style.display = "none" 
+      
+          })
+      
+          function showDropdown(category) {
+            const dropdown = document.getElementById('dropdown-' + category);
+            const allCookies = document.getElementById('all-cookies-privy-cmp-AE1VSVI8T5-' + category);
+            const dropIcon = document.querySelector('.dropdown-arrow-' + category);
+            if (dropdown.style.display === "block" || allCookies.style.display === "block") {
+                dropdown.style.display = "none";
+                allCookies.style.display = "none";
+                dropIcon.classList.add('rotated-privy-cmp-AE1VSVI8T5');
+            } else {
+                dropdown.style.display = "block";
+                dropIcon.classList.remove('rotated-privy-cmp-AE1VSVI8T5');
+            }
+        }
+      
+           function viewCookieDetails(category) {
+            const allCookies = document.getElementById('all-cookies-privy-cmp-AE1VSVI8T5-' + category);
+            allCookies.style.display = "block";
+    
+            const dropdown = document.getElementById('dropdown-' + category);
+            dropdown.style.display = "none";
+            }`
+    document.head.appendChild(scriptTag);
+
+    if (consentCookie.update === true) {
+        toggleBanner('hide');
+    } else {
+        toggleBanner('show');
+        sendEventDetails(`8c25669844d6`, `b9035fff-cab8-43a5-aa81-8385ebbe3e14`, 'BannerView');
+        }
+        autoBlocking()
+}
+    document.addEventListener('DOMContentLoaded', showBanner);
+    document.addEventListener("click", function (event) {
+    if (event.target.id === "customize-btn-privy-cmp-AE1VSVI8T5") {
+        sendEventDetails(`8c25669844d6`, `b9035fff-cab8-43a5-aa81-8385ebbe3e14`, 'CustomizeCookiesView');
+    }
+    if (event.target.id === "preference-privy-cmp") {
+        // toggleBanner('preference')
+        const customizeScreen = document.getElementById("customize-screen-privy-cmp-AE1VSVI8T5")
+        customizeScreen.style.display = "block";
+        const bannerHome = document.getElementById("banner-home")
+        bannerHome.style.display = "none" 
+        sendEventDetails(`8c25669844d6`, `b9035fff-cab8-43a5-aa81-8385ebbe3e14`, 'PreferenceCenter');
+    }
+});
+/* eslint-disable */
+const DEFAULT_COOKIE_CONSENT = {
+    NECESSARY: true,
+    FUNCTIONAL: false,
+    ANALYTICS: false,
+    MARKETING: false,
+    OTHER: false
+}
+const nonScriptElements = ['embed', 'iframe', 'img', 'script']
+const monitoredElements = [...nonScriptElements, 'script']
+const cookieName = 'privyConsent'
+
+function findMatchingTag(url) {
+    return tagsList.find((item) => url.includes(item.tag)) || null
+}
+function getUrlDetails(url) {
+    const tagDetails = findMatchingTag(url) || {}
+    return {
+        categories: tagDetails.categories || [],
+        type: tagDetails.type || ''
+    }
+}
+function checkConsent(categories, consentObject) {
+    if (!consentObject) return false
+    return categories.every((category) => consentObject[category] === true)
+}
+function getConsentedBannerId() {
+    const bannerId = localStorage.getItem('privyConsentedBannerId')
+    return bannerId
+}
+
+function setConsentedBannerId(bannerId) {
+    localStorage.setItem('privyConsentedBannerId', bannerId)
+}
+function parsedConsentData(source) {
+    try {
+        if (typeof source === 'string') {
+            return JSON.parse(source)
+        }
+        if (typeof source === 'object') {
+            return source
+        }
+        return null
+    } catch (error) {
+        console.error('Error parsing consent data:', error)
+        return null
+    }
+}
+function getCookieDetails(cookieName, defaultConsent = DEFAULT_COOKIE_CONSENT) {
+    const localStorageValue = localStorage.getItem(cookieName)
+    if (localStorageValue) {
+        return localStorageValue
+    }
+    const cookieValue = document.cookie
+        .split('; ')
+        .find((row) => row.startsWith(`${cookieName}=`))
+    if (cookieValue) {
+        const cookie = cookieValue.split('=')
+        return cookie[1]
+    }
+    console.log('No cookie found on browser defaultConsent set')
+    return defaultConsent
+}
+
+function hasUserConsent(categories, defaultConsent = DEFAULT_COOKIE_CONSENT) {
+    if (!categories || categories.length === 0) {
+        return true
+    }
+    const cookieDetails = getCookieDetails(cookieName, defaultConsent)
+    const consent = parsedConsentData(cookieDetails)
+    return checkConsent(categories, consent)
+}
+
+function addPrivacyClasses(element, categories) {
+    if (categories.length) {
+        categories.forEach((category) => {
+            const className = `privy-cmp-category-${category}`
+            if (!element.classList.contains(className)) {
+                element.classList.add(className)
+            }
+        })
+    }
+}
+
+function handleTags(element) {
+    const url = element.src || element.getAttribute('src') || ''
+    if (!url) return
+
+    const tagDetails = getUrlDetails(url)
+    const categories = tagDetails.categories
+    const type = tagDetails.type
+
+    // Add privacy classes
+    addPrivacyClasses(element, categories)
+
+    if (!hasUserConsent(categories)) {
+        const originalSrc = url
+        if (type === 'script') {
+            element.type = 'text/plain'
+            element.setAttribute('privy-data-src', originalSrc)
+            element.removeAttribute('src')
+            console.log(`Script blocked: ${url}`, type, categories)
+        } else if (nonScriptElements.includes(element.tagName.toLowerCase())) {
+            element.type = 'text/plain'
+            element.setAttribute('privy-data-src', originalSrc)
+            element.removeAttribute('src')
+            console.log(`Media element blocked: ${url}`, type, categories)
+        }
+    }
+}
+function reconsentPreference(agreedCategories) {
+    const cookieDetails = getCookieDetails(cookieName)
+    processUserConsentBasedOnPreference(
+        cookieDetails,
+        agreedCategories,
+        cookieName
+    )
+    processExistingElements()
+    location.reload()
+}
+function setupPrivacyObserver() {
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            // Handle added nodes
+            mutation.addedNodes.forEach((node) => {
+                if (
+                    node.nodeType === 1 &&
+                    monitoredElements.includes(node.tagName.toLowerCase())
+                ) {
+                    handleTags(node)
+                }
+            })
+
+            // Handle attribute changes
+            if (
+                mutation.type === 'attributes' &&
+                (mutation.attributeName === 'src' ||
+                    mutation.attributeName === 'type')
+            ) {
+                handleTags(mutation.target)
+            }
+        })
+    })
+
+    observer.observe(document.documentElement, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        attributeFilter: ['src', 'type']
+    })
+}
+function processExistingElements() {
+    monitoredElements.forEach((tag) => {
+        document.querySelectorAll(tag).forEach((element) => {
+            handleTags(element)
+        })
+    })
+}
+function autoBlocking() {
+    // Store original Element prototype methods
+    const originalSetAttribute = Element.prototype.setAttribute
+    // const originalSetAttributeNS = Element.prototype.setAttributeNS
+
+    // Override setAttribute to catch dynamic changes
+    Element.prototype.setAttribute = function (name, value) {
+        if (
+            name === 'src' &&
+            monitoredElements.includes(this.tagName.toLowerCase())
+        ) {
+            const tagDetails = getUrlDetails(value)
+            if (!hasUserConsent(tagDetails.categories)) {
+                console.log(`Blocking src setting for ${this.tagName}:`, value)
+                originalSetAttribute.call(this, 'data-src', value)
+                if (this.tagName.toLowerCase() === 'script') {
+                    originalSetAttribute.call(this, 'type', 'text/plain')
+                }
+                return
+            }
+        }
+        originalSetAttribute.call(this, name, value)
+    }
+
+    // Add default styling for blocked elements
+    const style = document.createElement('style')
+    style.textContent = `
+        iframe[data-src]:not([src]), 
+        img[data-src]:not([src]), 
+        embed[data-src]:not([src]) {
+            display: block !important;
+            background: #f0f0f0 !important;
+            border: 1px solid #ccc !important;
+            padding: 20px !important;
+            text-align: center !important;
+            min-height: 100px !important;
+            position: relative !important;
+        }
+        
+        iframe[data-src]:not([src])::before, 
+        img[data-src]:not([src])::before,
+        embed[data-src]:not([src])::before {
+            content: "Content blocked pending consent" !important;
+            display: block !important;
+            color: #666 !important;
+            font-family: sans-serif !important;
+        }
+    `
+    document.head.appendChild(style)
+    // Initialize when DOM is ready
+    function initialize() {
+        processExistingElements()
+        setupPrivacyObserver()
+        console.log('Privacy controls initialized')
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize)
+    } else {
+        initialize()
+    }
+
+    // Export consent update function to global scope
+    window.updatePrivacyConsent = function (consentObject) {
+        localStorage.setItem(cookieName, JSON.stringify(consentObject))
+        processExistingElements()
+    }
+}
