@@ -1,6 +1,6 @@
  const cookieName = 'euconsent'
         const categorizedCookies = {};
-        const IAB_TCF_VENDOR_URL = "http://localhost:3000/ext/cookie-banner/api/v1/iab-tcf/"
+        const IAB_TCF_VENDOR_URL = "https://ab0d-123-252-193-78.ngrok-free.app/ext/cookie-banner/api/v1/iab-tcf/"
         const tagsList = [];
         /* eslint-disable */
 ;(() => {
