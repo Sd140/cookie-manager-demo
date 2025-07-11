@@ -5,8 +5,8 @@
             function submitConsent(agreedCategories) {
                 const cookieConsent = parsedConsentData(getCookieDetails(cookieName));
                 processUserConsentBasedOnPreference(cookieConsent, agreedCategories, cookieName)
-                setConsentedBannerId(`35fb288a-40ec-42ee-93e4-39a961bf10ae`)
-                fetch(`http://localhost:3000/cookie-banner/api/v1/consent/8c25669844d6/35fb288a-40ec-42ee-93e4-39a961bf10ae`, {
+                setConsentedBannerId(`6f0bfeab-3878-4920-93d3-2f8f611830a2`)
+                fetch(`http://localhost:3000/ext/cookie-banner/api/v1/consent/8c25669844d6/6f0bfeab-3878-4920-93d3-2f8f611830a2`, {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json'
@@ -28,7 +28,7 @@
             }
         
         
-        const template = {"bannerType":"box","buttonColor":"#97214a","buttonsText":{"acceptAll":"Accept All","moreSettings":"More Settings","allowNecessary":"Allow Only Necessary","savePreferences":"Save My Preferences"},"contentMobile":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"contentDesktop":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"hoverTextColor":"#ffffff","positionMobile":"bottom","buttonTextColor":"#ffffff","positionDesktop":"top-left","hoverButtonColor":"#841d41","preferenceManagerHorizontalPosition":"left","fontName":"Lato","headingColor":"#97214a","buttonBorderRadius":"3px","buttonFontWeight":"Bold","linkColor":"#97214a","dropDownHeadingColor":"#97214a","dropDownHeadingFontWeight":"Bold"};
+        const template = {"bannerType":"box","buttonColor":"#97214a","buttonsText":{"acceptAll":"Accept All","moreSettings":"More Settings","allowNecessary":"Allow Only Necessary","savePreferences":"Save My Preferences"},"contentMobile":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"contentDesktop":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"hoverTextColor":"#ffffff","positionMobile":"bottom","buttonTextColor":"#ffffff","positionDesktop":"top-left","hoverButtonColor":"#841d41","preferenceManagerHorizontalPosition":"left","fontName":"Lato","headingColor":"#97144D","buttonBorderRadius":"3px","buttonFontWeight":"Bold","linkColor":"#97144D","dropDownHeadingColor":"#97144D","dropDownHeadingFontWeight":"Bold"};
         const DEFAULT_COOKIE_CONSENT = {
             NECESSARY: true,
             FUNCTIONAL: false,
@@ -38,7 +38,7 @@
         }
         const bannerSessionId = getSessionId()
         function sendEventDetails(dataFiduciaryId, bannerId, type) {
-                    fetch(`http://localhost:3000/cookie-banner/api/v1/user-interaction/events/8c25669844d6/35fb288a-40ec-42ee-93e4-39a961bf10ae`, {
+                    fetch(`http://localhost:3000/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/6f0bfeab-3878-4920-93d3-2f8f611830a2`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -304,9 +304,9 @@ function toggleConsentUIState() {
         let consentCookie = parsedConsentData(getCookieDetails(cookieName))
         const consentedBannerId = getConsentedBannerId()
         addReconsentButton()
-    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `35fb288a-40ec-42ee-93e4-39a961bf10ae`){
+    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `6f0bfeab-3878-4920-93d3-2f8f611830a2`){
         consentCookie.update = false;
-        setConsentedBannerId(`35fb288a-40ec-42ee-93e4-39a961bf10ae`)
+        setConsentedBannerId(`6f0bfeab-3878-4920-93d3-2f8f611830a2`)
         setCookieOnBrowser(consentCookie, cookieName, COOKIE_LIFETIME_DAYS)
         location.reload()
     }
@@ -443,8 +443,13 @@ function toggleConsentUIState() {
         }
 
         .banner-button-container-privy-cmp-AE1VSVI8T5,.box-button-container-privy-cmp-AE1VSVI8T5 {
-            text-align: right!important;
             margin-top: 10px!important;
+            display: flex !important;
+            justify-content: flex-end !important;
+            align-items: center !important;
+            flex-wrap: wrap !important;
+            column-gap: 16px !important;
+            row-gap: 6px !important;
         }
 
         .box-button-privy-cmp-AE1VSVI8T5,.banner-button-privy-cmp-AE1VSVI8T5{
@@ -674,7 +679,8 @@ function toggleConsentUIState() {
         }
 
         .view-cookies-privy-cmp-AE1VSVI8T5 {
-            font-size: 11px !important;
+            font-size: 12px !important;
+            font-family: var(--privy-cmp-font-name) !important;
             color: var(--privy-cmp-link-color) !important;
             margin-top: 10px !important;
             cursor: pointer;
@@ -717,6 +723,11 @@ function toggleConsentUIState() {
             line-height: 1 !important;
             color: #131A25 !important;
             padding: 0px !important;
+            font-family: var(--privy-cmp-font-name) !important;
+        }
+
+        .cookie-name-privy-cmp-AE1VSVI8T5,
+        .platform-privy-cmp-AE1VSVI8T5 span {
             font-family: var(--privy-cmp-font-name) !important;
         }
 
@@ -832,7 +843,6 @@ function toggleConsentUIState() {
             }
 
             .customize-settings-screen-privy-cmp-AE1VSVI8T5 {
-                height:85vh;
                 width:90vw;
                 max-width:480px;
                 padding:0;
@@ -851,6 +861,17 @@ function toggleConsentUIState() {
             flex-direction:column;
             }
         }
+
+        @media (max-width: 660px) {
+            .centre{
+                min-width: 290px;
+                max-height: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+            }
+        }
+
         .reconsent-button-privy-cmp-AE1VSVI8T5 {
             position: fixed;
             bottom: 20px;
@@ -883,17 +904,17 @@ function toggleConsentUIState() {
     const scriptTag = document.createElement('script')
     scriptTag.innerHTML = `toggleConsentUIState();`
     document.head.appendChild(scriptTag)
-setupBannerBasedOnConsentGeneral(consentCookie, `8c25669844d6`, `35fb288a-40ec-42ee-93e4-39a961bf10ae`)
+setupBannerBasedOnConsentGeneral(consentCookie, `8c25669844d6`, `6f0bfeab-3878-4920-93d3-2f8f611830a2`)
         }
         document.addEventListener("DOMContentLoaded", showBanner);
         document.addEventListener("click", function (event) {
             if (event.target.id === "customize-btn-privy-cmp-AE1VSVI8T5") {
-                sendEventDetails(`8c25669844d6`, `35fb288a-40ec-42ee-93e4-39a961bf10ae`, 'CustomizeCookiesView');
+                sendEventDetails(`8c25669844d6`, `6f0bfeab-3878-4920-93d3-2f8f611830a2`, 'CustomizeCookiesView');
             }
 
             if (event.target.id === "preference-privy-cmp") {
                 toggleBanner('preference')
-                sendEventDetails(`8c25669844d6`, `35fb288a-40ec-42ee-93e4-39a961bf10ae`, 'PreferenceCenter');
+                sendEventDetails(`8c25669844d6`, `6f0bfeab-3878-4920-93d3-2f8f611830a2`, 'PreferenceCenter');
             }
 }) //Common 
          //Common
