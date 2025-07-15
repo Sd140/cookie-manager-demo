@@ -11,6 +11,48 @@
   <!-- <script type="text/javascript" src="refactored.js"></script> -->
   <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/2592bfb7-2adf-4d74-8a5a-a2ab985af144"></script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="storage-viewer" style="padding:10px; font-family: monospace; white-space: pre-wrap; background:#f4f4f4; border:1px solid #ccc;"></div>
+
+<script>
+  function showLocalStorage() {
+    const viewer = document.getElementById('storage-viewer');
+    let output = '📦 LocalStorage Items:\n\n';
+
+    if (localStorage.length === 0) {
+      output += 'No items found in localStorage.';
+    } else {
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        const value = localStorage.getItem(key);
+        output += `${i + 1}. ${key}: ${value}\n`;
+      }
+    }
+
+    viewer.textContent = output;
+  }
+
+  // Call function on page load
+  showLocalStorage();
+</script>
+
+
   
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
