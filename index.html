@@ -9,7 +9,8 @@
 
   <!-- Cookie Scripts Section  -->
   <!-- <script type="text/javascript" src="refactored.js"></script> -->
-  <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/2592bfb7-2adf-4d74-8a5a-a2ab985af144"></script>
+  <script type="text/javascript" src="banners/non-iab/test-banner.js"></script>
+  <!-- <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/2592bfb7-2adf-4d74-8a5a-a2ab985af144"></script> -->
 
 
 
@@ -26,6 +27,59 @@
 
 
 
+<style>
+  #debug-panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 40%;
+    overflow-y: auto;
+    background: rgba(0,0,0,0.85);
+    color: #00ff9d;
+    font-family: monospace;
+    font-size: 12px;
+    padding: 8px;
+    z-index: 99999;
+    border-top: 2px solid #00ff9d;
+    white-space: pre-wrap;
+  }
+</style>
+
+<div id="debug-panel"></div>
+
+<script>
+(function(){
+  const debugPanel = document.getElementById('debug-panel');
+
+  function logToPanel(type, message) {
+    const time = new Date().toLocaleTimeString();
+    debugPanel.innerHTML += `[${time}] ${type}: ${message}\n`;
+    debugPanel.scrollTop = debugPanel.scrollHeight;
+  }
+
+  // Capture console.log
+  const originalLog = console.log;
+  console.log = function(...args) {
+    originalLog.apply(console, args);
+    logToPanel('LOG', args.map(a => (typeof a === 'object' ? JSON.stringify(a) : a)).join(' '));
+  };
+
+  // Capture console.error
+  const originalError = console.error;
+  console.error = function(...args) {
+    originalError.apply(console, args);
+    logToPanel('ERROR', args.map(a => (typeof a === 'object' ? JSON.stringify(a) : a)).join(' '));
+  };
+
+  // Capture window errors
+  window.onerror = function(msg, url, line, col, error) {
+    logToPanel('JS ERROR', `${msg} at ${url}:${line}:${col}`);
+  };
+
+  console.log("✅ Debug panel initialized!");
+})();
+</script>
 
 
 <div id="storage-viewer" style="padding:10px; font-family: monospace; white-space: pre-wrap; background:#f4f4f4; border:1px solid #ccc;"></div>
