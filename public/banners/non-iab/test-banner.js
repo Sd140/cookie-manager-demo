@@ -1048,6 +1048,7 @@ function reconsentPreference(agreedCategories) {
     processUserConsentBasedOnPreference(cookieDetails, agreedCategories, cookieName)
     processExistingElements()
     // location.reload()
+    
 }
 function setupPrivacyObserver() {
     const observer = new MutationObserver((mutations) => {
