@@ -24,7 +24,7 @@
                     console.error('Error submitting consent:', error);
                 });
     
-                location.reload();
+                // location.reload();
             }
         
         
@@ -308,7 +308,7 @@ function toggleConsentUIState() {
         consentCookie.update = false;
         setConsentedBannerId(`0a03dd41-fd3a-47b7-8fb3-19b82d883ebe`)
         setCookieOnBrowser(consentCookie, cookieName, COOKIE_LIFETIME_DAYS)
-        location.reload()
+        // location.reload()
     }
     consentCookie = parsedConsentData(getCookieDetails(cookieName));
     const consentButtonDiv = document.createElement('div')
@@ -1047,7 +1047,7 @@ function reconsentPreference(agreedCategories) {
     const cookieDetails = getCookieDetails(cookieName)
     processUserConsentBasedOnPreference(cookieDetails, agreedCategories, cookieName)
     processExistingElements()
-    location.reload()
+    // location.reload()
 }
 function setupPrivacyObserver() {
     const observer = new MutationObserver((mutations) => {
