@@ -921,17 +921,17 @@ function toggleConsentUIState() {
     const scriptTag = document.createElement('script')
     scriptTag.innerHTML = `toggleConsentUIState();`
     document.head.appendChild(scriptTag)
-setupBannerBasedOnConsentGeneral(consentCookie, `72c53aa1642b`, `6fed5708-b00c-4829-84c7-d18d141beb88`)
+setupBannerBasedOnConsentGeneral(consentCookie, `8c25669844d6`, `6fed5708-b00c-4829-84c7-d18d141beb88`)
         }
         document.addEventListener("DOMContentLoaded", showBanner);
         document.addEventListener("click", function (event) {
             if (event.target.id === "customize-btn-privy-cmp-AE1VSVI8T5") {
-                sendEventDetails(`72c53aa1642b`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'CustomizeCookiesView');
+                sendEventDetails(`8c25669844d6`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'CustomizeCookiesView');
             }
 
             if (event.target.id === "preference-privy-cmp") {
                 toggleBanner('preference')
-                sendEventDetails(`72c53aa1642b`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'PreferenceCenter');
+                sendEventDetails(`8c25669844d6`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'PreferenceCenter');
             }
 }) //Common 
          //Common
