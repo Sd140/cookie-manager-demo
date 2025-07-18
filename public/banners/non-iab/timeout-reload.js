@@ -16,7 +16,7 @@ const cookieName = 'privyConsent'
                 // Create a promise that resolves after a minimum delay after the fetch call
                 const minDelayPromise = new Promise(resolve => setTimeout(resolve, 500));
 
-                const fetchPromise = fetch(`http://localhost:3000/ext/cookie-banner/api/v1/consent/8c25669844d6/6fed5708-b00c-4829-84c7-d18d141beb88`, {
+                const fetchPromise = fetch(`https://privy.idfystaging.com/cookie-manager/cookie-banner/api/v1/consent/8c25669844d6/6fed5708-b00c-4829-84c7-d18d141beb88`, {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json'
@@ -38,7 +38,7 @@ const cookieName = 'privyConsent'
                 Promise.all([fetchPromise, minDelayPromise])
                 .then(() => {
                     console.log('Consent submitted successfully');
-                    location.reload();
+                    // location.reload();
                 })
                 .catch(error => {
                     console.error('Error submitting consent:', error);
@@ -56,7 +56,7 @@ const cookieName = 'privyConsent'
         }
         const bannerSessionId = getSessionId()
         function sendEventDetails(dataFiduciaryId, bannerId, type) {
-                    fetch(`http://localhost:3000/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/6fed5708-b00c-4829-84c7-d18d141beb88`, {
+                    fetch(`https://privy.idfystaging.com/cookie-manager/cookie-banner/api/v1/user-interaction/events/8c25669844d6/6fed5708-b00c-4829-84c7-d18d141beb88`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
