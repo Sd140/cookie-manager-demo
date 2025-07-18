@@ -16,7 +16,7 @@ const cookieName = 'privyConsent'
                 // Create a promise that resolves after a minimum delay after the fetch call
                 const minDelayPromise = new Promise(resolve => setTimeout(resolve, 500));
 
-                const fetchPromise = fetch(`https://privy.idfystaging.com/cookie-manager/cookie-banner/api/v1/consent/8c25669844d6/6fed5708-b00c-4829-84c7-d18d141beb88`, {
+                const fetchPromise = fetch(`https://privy.idfystaging.com/cookie-manager/cookie-banner/api/v1/consent/72c53aa1642b/6fed5708-b00c-4829-84c7-d18d141beb88`, {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json'
@@ -56,7 +56,7 @@ const cookieName = 'privyConsent'
         }
         const bannerSessionId = getSessionId()
         function sendEventDetails(dataFiduciaryId, bannerId, type) {
-                    fetch(`https://privy.idfystaging.com/cookie-manager/cookie-banner/api/v1/user-interaction/events/8c25669844d6/6fed5708-b00c-4829-84c7-d18d141beb88`, {
+                    fetch(`https://privy.idfystaging.com/cookie-manager/cookie-banner/api/v1/user-interaction/events/72c53aa1642b/6fed5708-b00c-4829-84c7-d18d141beb88`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -921,17 +921,17 @@ function toggleConsentUIState() {
     const scriptTag = document.createElement('script')
     scriptTag.innerHTML = `toggleConsentUIState();`
     document.head.appendChild(scriptTag)
-setupBannerBasedOnConsentGeneral(consentCookie, `8c25669844d6`, `6fed5708-b00c-4829-84c7-d18d141beb88`)
+setupBannerBasedOnConsentGeneral(consentCookie, `72c53aa1642b`, `6fed5708-b00c-4829-84c7-d18d141beb88`)
         }
         document.addEventListener("DOMContentLoaded", showBanner);
         document.addEventListener("click", function (event) {
             if (event.target.id === "customize-btn-privy-cmp-AE1VSVI8T5") {
-                sendEventDetails(`8c25669844d6`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'CustomizeCookiesView');
+                sendEventDetails(`72c53aa1642b`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'CustomizeCookiesView');
             }
 
             if (event.target.id === "preference-privy-cmp") {
                 toggleBanner('preference')
-                sendEventDetails(`8c25669844d6`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'PreferenceCenter');
+                sendEventDetails(`72c53aa1642b`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'PreferenceCenter');
             }
 }) //Common 
          //Common
@@ -1065,7 +1065,7 @@ function reconsentPreference(agreedCategories) {
     const cookieDetails = getCookieDetails(cookieName)
     processUserConsentBasedOnPreference(cookieDetails, agreedCategories, cookieName)
     processExistingElements()
-    location.reload()
+    // location.reload()
 }
 function setupPrivacyObserver() {
     const observer = new MutationObserver((mutations) => {
