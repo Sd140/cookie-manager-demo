@@ -6,7 +6,7 @@
                 const cookieConsent = parsedConsentData(getCookieDetails(cookieName));
                 processUserConsentBasedOnPreference(cookieConsent, agreedCategories, cookieName)
                 setConsentedBannerId(`0a03dd41-fd3a-47b7-8fb3-19b82d883ebe`)
-                fetch(`http://localhost:3000/ext/cookie-banner/api/v1/consent/8c25669844d6/0a03dd41-fd3a-47b7-8fb3-19b82d883ebe`, {
+                fetch(`https://privy.idfystaging.com/cookie-manager/cookie-banner/api/v1/consent/72c53aa1642b/6fed5708-b00c-4829-84c7-d18d141beb88`, {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json'
@@ -38,7 +38,7 @@
         }
         const bannerSessionId = getSessionId()
         function sendEventDetails(dataFiduciaryId, bannerId, type) {
-                    fetch(`http://localhost:3000/ext/cookie-banner/api/v1/user-interaction/events/8c25669844d6/0a03dd41-fd3a-47b7-8fb3-19b82d883ebe`, {
+                    fetch(`https://privy.idfystaging.com/cookie-manager/cookie-banner/api/v1/user-interaction/events/72c53aa1642b/6fed5708-b00c-4829-84c7-d18d141beb88`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
