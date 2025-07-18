@@ -16,10 +16,8 @@ const cookieName = 'privyConsent'
                     submission_type: agreedCategories  
                 };
                 
-                console.log('📦 Sending consent data:', requestData);
-                
                 // Create a promise that resolves after a minimum delay
-                const minDelayPromise = new Promise(resolve => setTimeout(resolve, 1000));
+                const minDelayPromise = new Promise(resolve => setTimeout(resolve, 500));
                 
                 // Create the fetch promise
                 const fetchPromise = fetch(`https://privy.idfystaging.com/cookie-manager/cookie-banner/api/v1/consent/72c53aa1642b/6fed5708-b00c-4829-84c7-d18d141beb88`, {
@@ -57,49 +55,6 @@ const cookieName = 'privyConsent'
                     });
             }
         
-        
-        // Alternative function for testing without reload
-            function submitConsentNoReload(agreedCategories) {
-                console.log('🚀 Starting consent submission (NO RELOAD) for:', agreedCategories);
-                
-                const cookieConsent = parsedConsentData(getCookieDetails(cookieName));
-                processUserConsentBasedOnPreference(cookieConsent, agreedCategories, cookieName)
-                setConsentedBannerId(`6fed5708-b00c-4829-84c7-d18d141beb88`)
-                
-                const requestData = { 
-                    user_preference: cookieConsent, 
-                    sid: getSessionId(), 
-                    data_principal_id: getPrivyDataPrincipalId(),
-                    submission_type: agreedCategories  
-                };
-                
-                console.log('📦 Sending consent data (NO RELOAD):', requestData);
-                
-                fetch(`https://privy.idfystaging.com/cookie-manager/cookie-banner/api/v1/consent/72c53aa1642b/6fed5708-b00c-4829-84c7-d18d141beb88`, {
-                    method: "POST",
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(requestData)
-                })
-                .then(response => {
-                    console.log("✅ Consent response received (NO RELOAD):", response);
-                    if (!response.ok) {
-                        throw new Error(`Failed to submit consent: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    console.log("✅ Consent submitted successfully (NO RELOAD):", data);
-                    // Hide banner instead of reload
-                    toggleBanner('hide');
-                })
-                .catch(error => {
-                    console.error('❌ Error submitting consent (NO RELOAD):', error);
-                    // Still hide banner on error
-                    toggleBanner('hide');
-                });
-            }
         
         const template = {"bannerType":"banner","buttonColor":"#214698","buttonsText":{"acceptAll":"Accept All","moreSettings":"More Settings","allowNecessary":"Allow Only Necessary","savePreferences":"Save My Preferences"},"contentMobile":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"contentDesktop":{"cookieBannerNotice":"This website stores cookies on your computer device. These cookies are used to enhance your browser experience, for analytics on how our website is used, and to assist in our marketing and promotional efforts.","preferenceManagerNotice":"IDfy's website may request cookies to be set on your device. We use cookies to identify when you visit our sites, to understand your interactions, and to enhance and personalize your experience. Cookies also support social media features and tailor your engagement with IDfy, including delivering more relevant advertisements. You can review the different category headings to learn more and adjust your cookie preferences anytime. Please keep in mind that your choices may affect your experience on our IDfy sites and the quality of services we can provide. Blocking certain types of cookies might affect the functionality and service offerings made available to you."},"hoverTextColor":"#ffffff","positionMobile":"bottom","buttonTextColor":"#ffffff","positionDesktop":"top","hoverButtonColor":"#214699","preferenceManagerHorizontalPosition":"centre","fontName":"Lato","headingColor":"#97144D","buttonBorderRadius":"3px","buttonFontWeight":"Bold","linkColor":"#97144D","dropDownHeadingColor":"#97144D","dropDownHeadingFontWeight":"Bold"};
         const DEFAULT_COOKIE_CONSENT = {
