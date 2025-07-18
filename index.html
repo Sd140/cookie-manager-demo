@@ -12,7 +12,7 @@
   <script type="text/javascript" src="banners/non-iab/test-banner.js"></script>
   <!-- <script type="text/javascript" src="banners/non-iab/obfuscated-staging.js"></script> -->
   <!-- <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/b18230e2-b932-4b07-afd8-4f562a6b145d"></script> -->
-<!-- <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/1cc78d00-816a-4d1f-89f0-743df56f6fc7"></script> -->
+  <!-- <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/1cc78d00-816a-4d1f-89f0-743df56f6fc7"></script> -->
 
 
 
@@ -71,7 +71,15 @@
   const originalError = console.error;
   console.error = function(...args) {
     originalError.apply(console, args);
-    logToPanel('ERROR', args.map(a => (typeof a === 'object' ? JSON.stringify(a) : a)).join(' '));
+    logToPanel('ERROR', args.map(a => {
+      if (a instanceof Error) {
+        return `${a.message}\nStack: ${a.stack}`;
+      } else if (typeof a === 'object') {
+        return JSON.stringify(a, null, 2);
+      } else {
+        return a;
+      }
+    }).join(' '));
   };
 
   // Capture window errors
