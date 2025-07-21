@@ -5,7 +5,7 @@
             function submitConsent(agreedCategories) {
                 const cookieConsent = parsedConsentData(getCookieDetails(cookieName));
                 processUserConsentBasedOnPreference(cookieConsent, agreedCategories, cookieName)
-                setConsentedBannerId(`2f5bad6f-a000-4f96-a081-ae3e9ed521fd`)
+                setConsentedBannerId(`6fed5708-b00c-4829-84c7-d18d141beb88`)
                 const requestData = { 
                     user_preference: cookieConsent, 
                     sid: getSessionId(), 
@@ -313,9 +313,9 @@ function toggleConsentUIState() {
         let consentCookie = parsedConsentData(getCookieDetails(cookieName))
         const consentedBannerId = getConsentedBannerId()
         addReconsentButton()
-    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `2f5bad6f-a000-4f96-a081-ae3e9ed521fd`){
+    if (typeof consentCookie?.update !== 'boolean' || consentedBannerId !== `6fed5708-b00c-4829-84c7-d18d141beb88`){
         consentCookie.update = false;
-        setConsentedBannerId(`2f5bad6f-a000-4f96-a081-ae3e9ed521fd`)
+        setConsentedBannerId(`6fed5708-b00c-4829-84c7-d18d141beb88`)
         setCookieOnBrowser(consentCookie, cookieName, COOKIE_LIFETIME_DAYS)
         location.reload()
     }
@@ -914,17 +914,17 @@ function toggleConsentUIState() {
     const scriptTag = document.createElement('script')
     scriptTag.innerHTML = `toggleConsentUIState();`
     document.head.appendChild(scriptTag)
-setupBannerBasedOnConsentGeneral(consentCookie, `8c25669844d6`, `2f5bad6f-a000-4f96-a081-ae3e9ed521fd`)
+setupBannerBasedOnConsentGeneral(consentCookie, `8c25669844d6`, `6fed5708-b00c-4829-84c7-d18d141beb88`)
         }
         document.addEventListener("DOMContentLoaded", showBanner);
         document.addEventListener("click", function (event) {
             if (event.target.id === "customize-btn-privy-cmp-AE1VSVI8T5") {
-                sendEventDetails(`8c25669844d6`, `2f5bad6f-a000-4f96-a081-ae3e9ed521fd`, 'CustomizeCookiesView');
+                sendEventDetails(`8c25669844d6`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'CustomizeCookiesView');
             }
 
             if (event.target.id === "preference-privy-cmp") {
                 toggleBanner('preference')
-                sendEventDetails(`8c25669844d6`, `2f5bad6f-a000-4f96-a081-ae3e9ed521fd`, 'PreferenceCenter');
+                sendEventDetails(`8c25669844d6`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'PreferenceCenter');
             }
 }) //Common 
          //Common
