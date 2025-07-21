@@ -926,7 +926,7 @@ setupBannerBasedOnConsentGeneral(consentCookie, `8c25669844d6`, `6fed5708-b00c-4
                 toggleBanner('preference')
                 sendEventDetails(`8c25669844d6`, `6fed5708-b00c-4829-84c7-d18d141beb88`, 'PreferenceCenter');
             }
-}) //Common  
+}) //Common   
          //Common
         /* global toggleBanner  setCookieOnBrowser  sendEventDetails  autoBlocking */
 
