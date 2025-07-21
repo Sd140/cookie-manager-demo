@@ -29,15 +29,13 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install ci
+        run: npm ci
 
       - name: Build
         run: npm run build
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          enablement: true
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
