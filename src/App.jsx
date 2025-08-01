@@ -152,6 +152,8 @@ function App() {
           </iframe>
         </div>
       </div>
+      <p><u><a href="https://cookie-manager.sanketsaboo.com/" target="">link for home</a></u></p>
+
 
       {/* <main className="main-content">
         <h2>A comprehensive consent governance suite for all enterprises</h2>
