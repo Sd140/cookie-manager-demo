@@ -26,7 +26,7 @@ function App() {
           <img src={banner} alt="."></img>
         </div>
         <div className="home-banner-ellipse home-banner-ellipse-1"></div>
-        <div className="home-banner-ellipse home-banner-ellipse-2"></div>
+        <div className="home-banner-ellipse home-banner-ellipse-2"></div> 
         <div className="home-banner-ellipse home-banner-ellipse-3"></div>
         <div className="home-banner-main">
           <div className="home-banner-text">
@@ -130,19 +130,19 @@ function App() {
 
 
       <div className="yt-videos-section">
-        <h1 className="heading-76" style={{color: "black"}}>Youtube Iframe</h1>
+        <h1 className="heading-76" style={{ color: "black" }}>Youtube Iframe</h1>
         <div className="yt-videos-container">
           <div className="youtube-vid">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           </div>
-          
+
           <div className="youtube-vid">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/K10VXIhYf_A?si=LshFXUQeB5r4aFQ8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           </div>
         </div>
       </div>
       <div className="spotify-script-section">
-        <h1 className="heading-76" style={{color: "black"}}>Spotify Iframe</h1>
+        <h1 className="heading-76" style={{ color: "black" }}>Spotify Iframe</h1>
         <div className="spotify-script-container">
           <iframe
             src="https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P"
@@ -151,6 +151,13 @@ function App() {
             allow="encrypted-media">
           </iframe>
         </div>
+      </div>
+      {/* Target for GTM Custom Tag Injection */}
+      <div id="custom-tag-placeholder">
+        Waiting for Marketing Consent...
+      </div>
+      <div id="custom-tag-html-placeholder">
+        Waiting for Marketing Consent...
       </div>
       <p><u><a href="https://cookie-manager.sanketsaboo.com/" target="">link for home</a></u></p>
 
