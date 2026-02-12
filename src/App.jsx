@@ -26,7 +26,7 @@ function App() {
           <img src={banner} alt="."></img>
         </div>
         <div className="home-banner-ellipse home-banner-ellipse-1"></div>
-        <div className="home-banner-ellipse home-banner-ellipse-2"></div> 
+        <div className="home-banner-ellipse home-banner-ellipse-2"></div>
         <div className="home-banner-ellipse home-banner-ellipse-3"></div>
         <div className="home-banner-main">
           <div className="home-banner-text">
@@ -153,11 +153,16 @@ function App() {
         </div>
       </div>
       {/* Target for GTM Custom Tag Injection */}
-      <div id="custom-tag-placeholder">
-        Waiting for Marketing Consent...
+
+      <h1 className="heading-76" style={{ color: "black" }}>GTM</h1>
+      <div id="youtube-vid">
+        Waiting for Consent...
       </div>
       <div id="custom-tag-html-placeholder">
-        Waiting for Marketing Consent...
+        Waiting for Consent...
+      </div>
+      <div id="vimeo-container">
+        Waiting for Consent...
       </div>
       <p><u><a href="https://cookie-manager.sanketsaboo.com/" target="">link for home</a></u></p>
 
