@@ -155,13 +155,13 @@ function App() {
       {/* Target for GTM Custom Tag Injection */}
 
       <h1 className="heading-76" style={{ color: "black" }}>GTM</h1>
-      <div id="youtube-vid">
+      <div id="youtube-vid-placeholder-container">
         Waiting for Consent...
       </div>
-      <div id="custom-tag-html-placeholder">
+      <div id="custom-tag-html-placeholder-container">
         Waiting for Consent...
       </div>
-      <div id="vimeo-container">
+      <div id="vimeo-vid-placeholder-container">
         Waiting for Consent...
       </div>
       <p><u><a href="https://cookie-manager.sanketsaboo.com/" target="">link for home</a></u></p>
@@ -169,7 +169,7 @@ function App() {
 
       {/* <main className="main-content">
         <h2>A comprehensive consent governance suite for all enterprises</h2>
-        <div className="cards">
+        <div clπassName="cards">
           <div className="card">
             <h3>Inspect AI</h3>
             <p className="tagline">The compliance co-pilot</p>
