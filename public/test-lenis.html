@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--
+    DEV-ONLY test page — not served in production.
+    CSP allows unsafe-inline for the inline Lenis init and the banner's injected styles.
+    Tighten if this page ever gets deployed externally.
+  -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://privy.idfystaging.com https://cookie-manager.pyxis.privybyidfy.app;
+                 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+                 font-src 'self' https://fonts.gstatic.com;
+                 connect-src 'self' https://privy.idfystaging.com https://cookie-manager.pyxis.privybyidfy.app;
+                 img-src 'self' data: https:;
+                 frame-src 'none';">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <title>Lenis Scroll Test — Privy CMP</title>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* ── filler page ─────────────────────────────────────────── */
+    .page-filler {
+      min-height: 250vh;
+      background: linear-gradient(160deg,
+        #0f172a 0%,
+        #1e3a5f 30%,
+        #2d5a27 60%,
+        #4a1942 100%);
+      padding: 3rem 2rem;
+      color: #e2e8f0;
+    }
+
+    .page-hero {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .page-hero h1 {
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      font-weight: 700;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .page-hero p {
+      font-size: 1rem;
+      color: #94a3b8;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .scroll-hint {
+      display: inline-block;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      font-size: 0.85rem;
+      color: #cbd5e1;
+      margin-bottom: 4rem;
+    }
+
+    .mid-marker {
+      position: relative;
+      top: 80vh;
+      text-align: center;
+      color: rgba(255,255,255,0.3);
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .bottom-marker {
+      position: relative;
+      top: 160vh;
+      text-align: center;
+      color: rgba(255,255,255,0.3);
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* ── checklist panel ─────────────────────────────────────── */
+    #checklist-panel {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      width: 320px;
+      max-height: calc(100vh - 2rem);
+      overflow-y: auto;
+      background: rgba(15, 23, 42, 0.95);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px;
+      backdrop-filter: blur(12px);
+      color: #e2e8f0;
+      font-size: 0.8rem;
+      z-index: 99998;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.5);
+    }
+
+    #checklist-panel summary {
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.85rem;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    #checklist-panel summary::marker,
+    #checklist-panel summary::-webkit-details-marker { display: none; }
+
+    #checklist-panel[open] summary::before { content: "▾"; }
+    #checklist-panel:not([open]) summary::before { content: "▸"; }
+
+    .cl-body { padding: 0.75rem 1rem; }
+
+    .cl-section { margin-bottom: 0.75rem; }
+
+    .cl-section-title {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #64748b;
+      margin-bottom: 0.4rem;
+    }
+
+    .cl-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      padding: 0.3rem 0;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .cl-item:hover { background: rgba(255,255,255,0.05); padding-left: 4px; }
+
+    .cl-item input[type="checkbox"] {
+      flex-shrink: 0;
+      margin-top: 2px;
+      accent-color: #22c55e;
+      cursor: pointer;
+    }
+
+    .cl-item label {
+      color: #cbd5e1;
+      line-height: 1.4;
+      cursor: pointer;
+    }
+
+    .cl-item.done label { color: #4ade80; text-decoration: line-through; }
+
+    .cl-progress {
+      margin-top: 0.75rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      font-size: 0.75rem;
+      color: #64748b;
+    }
+
+    .cl-progress-bar {
+      height: 4px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 2px;
+      margin-top: 0.4rem;
+      overflow: hidden;
+    }
+
+    .cl-progress-fill {
+      height: 100%;
+      background: #22c55e;
+      border-radius: 2px;
+      transition: width 0.3s ease;
+      width: 0%;
+    }
+
+    #lenis-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      background: #ef444420;
+      color: #ef4444;
+      border: 1px solid #ef444440;
+      margin-left: auto;
+    }
+
+    #lenis-badge.active {
+      background: #22c55e20;
+      color: #22c55e;
+      border-color: #22c55e40;
+    }
+
+    #lenis-badge .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+  </style>
+
+  <!-- Banner under test — swap src to a local build when verifying a branch -->
+  <!-- <script type="text/javascript"
+    src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/3ecfbca0-54af-4c62-af3c-e0a2df40cf87">
+  </script> -->
+  <!-- <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/13a4ee62-d021-435c-8682-08467211e152"></script> -->
+   <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/c79a5704-1f23-4091-a876-21f3a74a34f6"></script>
+</head>
+
+<body>
+
+  <!-- ── filler page content ───────────────────────────────────── -->
+  <div class="page-filler" aria-label="Filler page for scroll testing">
+    <div class="page-hero">
+      <h1>Lenis Scroll Test<br>Privy CMP</h1>
+      <p>
+        This page tests the Preference Center scroll fix against a Lenis-powered
+        host. Open the cookie preference center, then run the 10-item checklist
+        in the panel to the right.
+      </p>
+      <div class="scroll-hint">
+        Wheel here → page should scroll smoothly via Lenis
+      </div>
+    </div>
+    <div class="mid-marker">— page midpoint (~125vh) —</div>
+    <div class="bottom-marker">— page bottom (~230vh) —</div>
+  </div>
+
+  <!-- ── checklist panel ──────────────────────────────────────── -->
+  <details id="checklist-panel" open>
+    <summary>
+      Scroll Smoke Test
+      <span id="lenis-badge">
+        <span class="dot"></span>
+        Lenis off
+      </span>
+    </summary>
+    <div class="cl-body">
+
+      <div class="cl-section">
+        <div class="cl-section-title">Wheel + scroll</div>
+
+        <div class="cl-item" id="cli-1">
+          <input type="checkbox" id="c1">
+          <label for="c1">1. Wheel over empty .content area → modal scrolls, page stays</label>
+        </div>
+
+        <div class="cl-item" id="cli-2">
+          <input type="checkbox" id="c2">
+          <label for="c2">2. Wheel on page outside modal → page scrolls via Lenis, modal untouched</label>
+        </div>
+
+        <div class="cl-item" id="cli-3">
+          <input type="checkbox" id="c3">
+          <label for="c3">3. Wheel to modal bottom, keep wheeling → modal stops, page does NOT scroll</label>
+        </div>
+
+        <div class="cl-item" id="cli-4">
+          <input type="checkbox" id="c4">
+          <label for="c4">4. Expand category → View Cookies → wheel inside 170px list → inner list scrolls only</label>
+        </div>
+
+        <div class="cl-item" id="cli-5">
+          <input type="checkbox" id="c5">
+          <label for="c5">5. Repeat #4 with 1–2 cookie category → outer modal scrolls (fall-through), page does not</label>
+        </div>
+      </div>
+
+      <div class="cl-section">
+        <div class="cl-section-title">Touch (real device or DevTools emulation)</div>
+
+        <div class="cl-item" id="cli-6">
+          <input type="checkbox" id="c6">
+          <label for="c6">6. Touch-drag inside .content → modal scrolls, page stays</label>
+        </div>
+
+        <div class="cl-item" id="cli-7">
+          <input type="checkbox" id="c7">
+          <label for="c7">7. Touch-drag inside cookie list → inner list scrolls only</label>
+        </div>
+      </div>
+
+      <div class="cl-section">
+        <div class="cl-section-title">Close &amp; restore (listener-leak)</div>
+
+        <div class="cl-item" id="cli-8">
+          <input type="checkbox" id="c8">
+          <label for="c8">8. Close via "Save My Preferences" → page wheel smooth, no jank</label>
+        </div>
+
+        <div class="cl-item" id="cli-9">
+          <input type="checkbox" id="c9">
+          <label for="c9">9. Repeat #8 with "Reject" and ✕ → same for every close path</label>
+        </div>
+
+        <div class="cl-item" id="cli-10">
+          <input type="checkbox" id="c10">
+          <label for="c10">10. Open → switch language → modal re-renders, wheel works → close → page restored</label>
+        </div>
+      </div>
+
+      <div class="cl-progress">
+        <span id="cl-count">0 / 10 passed</span>
+        <div class="cl-progress-bar">
+          <div class="cl-progress-fill" id="cl-fill"></div>
+        </div>
+      </div>
+
+    </div>
+  </details>
+
+  <!-- ── Lenis init ────────────────────────────────────────────── -->
+  <script type="module">
+    import Lenis from 'https://cdn.jsdelivr.net/npm/lenis@1/+esm';
+
+    const lenis = new Lenis({ duration: 1.2, easing: t => Math.min(1, 1.001 - Math.pow(2, -10 * t)) });
+
+    /* Expose for DevTools inspection during a failing test */
+    window.__lenis = lenis;
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+
+    /* Update badge once Lenis is running */
+    const badge = document.getElementById('lenis-badge');
+    if (badge) {
+      badge.textContent = '';
+      const dot = document.createElement('span');
+      dot.className = 'dot';
+      badge.appendChild(dot);
+      badge.appendChild(document.createTextNode(' Lenis active'));
+      badge.classList.add('active');
+    }
+  </script>
+
+  <!-- ── checklist progress tracker ──────────────────────────── -->
+  <script>
+    (function () {
+      var boxes = document.querySelectorAll('#checklist-panel input[type="checkbox"]');
+      var fill  = document.getElementById('cl-fill');
+      var count = document.getElementById('cl-count');
+
+      function update() {
+        var checked = 0;
+        boxes.forEach(function (cb) {
+          var item = cb.closest('.cl-item');
+          if (cb.checked) {
+            checked++;
+            item.classList.add('done');
+          } else {
+            item.classList.remove('done');
+          }
+        });
+        var pct = Math.round((checked / boxes.length) * 100);
+        if (fill)  fill.style.width  = pct + '%';
+        if (count) count.textContent = checked + ' / ' + boxes.length + ' passed';
+      }
+
+      boxes.forEach(function (cb) { cb.addEventListener('change', update); });
+      update();
+    })();
+  </script>
+
+</body>
+</html>
