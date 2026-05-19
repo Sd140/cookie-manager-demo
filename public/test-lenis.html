@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,8 +9,7 @@
     CSP allows unsafe-inline for the inline Lenis init and the banner's injected styles.
     Tighten if this page ever gets deployed externally.
   -->
-  <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self';
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self';
                  script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://privy.idfystaging.com https://cookie-manager.pyxis.privybyidfy.app;
                  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
                  font-src 'self' https://fonts.gstatic.com;
@@ -21,7 +21,13 @@
   <title>Lenis Scroll Test — Privy CMP</title>
 
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     body {
       font-family: system-ui, sans-serif;
@@ -32,10 +38,10 @@
     .page-filler {
       min-height: 250vh;
       background: linear-gradient(160deg,
-        #0f172a 0%,
-        #1e3a5f 30%,
-        #2d5a27 60%,
-        #4a1942 100%);
+          #0f172a 0%,
+          #1e3a5f 30%,
+          #2d5a27 60%,
+          #4a1942 100%);
       padding: 3rem 2rem;
       color: #e2e8f0;
     }
@@ -61,8 +67,8 @@
 
     .scroll-hint {
       display: inline-block;
-      background: rgba(255,255,255,0.1);
-      border: 1px solid rgba(255,255,255,0.2);
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 8px;
       padding: 0.5rem 1rem;
       font-size: 0.85rem;
@@ -74,7 +80,7 @@
       position: relative;
       top: 80vh;
       text-align: center;
-      color: rgba(255,255,255,0.3);
+      color: rgba(255, 255, 255, 0.3);
       font-size: 0.8rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -84,7 +90,7 @@
       position: relative;
       top: 160vh;
       text-align: center;
-      color: rgba(255,255,255,0.3);
+      color: rgba(255, 255, 255, 0.3);
       font-size: 0.8rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -99,13 +105,13 @@
       max-height: calc(100vh - 2rem);
       overflow-y: auto;
       background: rgba(15, 23, 42, 0.95);
-      border: 1px solid rgba(255,255,255,0.12);
+      border: 1px solid rgba(255, 255, 255, 0.12);
       border-radius: 12px;
       backdrop-filter: blur(12px);
       color: #e2e8f0;
       font-size: 0.8rem;
       z-index: 99998;
-      box-shadow: 0 4px 32px rgba(0,0,0,0.5);
+      box-shadow: 0 4px 32px rgba(0, 0, 0, 0.5);
     }
 
     #checklist-panel summary {
@@ -117,18 +123,29 @@
       display: flex;
       align-items: center;
       gap: 0.5rem;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
 
     #checklist-panel summary::marker,
-    #checklist-panel summary::-webkit-details-marker { display: none; }
+    #checklist-panel summary::-webkit-details-marker {
+      display: none;
+    }
 
-    #checklist-panel[open] summary::before { content: "▾"; }
-    #checklist-panel:not([open]) summary::before { content: "▸"; }
+    #checklist-panel[open] summary::before {
+      content: "▾";
+    }
 
-    .cl-body { padding: 0.75rem 1rem; }
+    #checklist-panel:not([open]) summary::before {
+      content: "▸";
+    }
 
-    .cl-section { margin-bottom: 0.75rem; }
+    .cl-body {
+      padding: 0.75rem 1rem;
+    }
+
+    .cl-section {
+      margin-bottom: 0.75rem;
+    }
 
     .cl-section-title {
       font-size: 0.7rem;
@@ -148,7 +165,10 @@
       transition: background 0.15s;
     }
 
-    .cl-item:hover { background: rgba(255,255,255,0.05); padding-left: 4px; }
+    .cl-item:hover {
+      background: rgba(255, 255, 255, 0.05);
+      padding-left: 4px;
+    }
 
     .cl-item input[type="checkbox"] {
       flex-shrink: 0;
@@ -163,19 +183,22 @@
       cursor: pointer;
     }
 
-    .cl-item.done label { color: #4ade80; text-decoration: line-through; }
+    .cl-item.done label {
+      color: #4ade80;
+      text-decoration: line-through;
+    }
 
     .cl-progress {
       margin-top: 0.75rem;
       padding-top: 0.75rem;
-      border-top: 1px solid rgba(255,255,255,0.08);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
       font-size: 0.75rem;
       color: #64748b;
     }
 
     .cl-progress-bar {
       height: 4px;
-      background: rgba(255,255,255,0.1);
+      background: rgba(255, 255, 255, 0.1);
       border-radius: 2px;
       margin-top: 0.4rem;
       overflow: hidden;
@@ -222,7 +245,8 @@
     src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/3ecfbca0-54af-4c62-af3c-e0a2df40cf87">
   </script> -->
   <!-- <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/13a4ee62-d021-435c-8682-08467211e152"></script> -->
-   <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/c79a5704-1f23-4091-a876-21f3a74a34f6"></script>
+  <script type="text/javascript"
+    src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/11566cfb-fdc1-4945-a497-e9820544a257"></script>
 </head>
 
 <body>
@@ -280,7 +304,8 @@
 
         <div class="cl-item" id="cli-5">
           <input type="checkbox" id="c5">
-          <label for="c5">5. Repeat #4 with 1–2 cookie category → outer modal scrolls (fall-through), page does not</label>
+          <label for="c5">5. Repeat #4 with 1–2 cookie category → outer modal scrolls (fall-through), page does
+            not</label>
         </div>
       </div>
 
@@ -358,7 +383,7 @@
   <script>
     (function () {
       var boxes = document.querySelectorAll('#checklist-panel input[type="checkbox"]');
-      var fill  = document.getElementById('cl-fill');
+      var fill = document.getElementById('cl-fill');
       var count = document.getElementById('cl-count');
 
       function update() {
@@ -373,7 +398,7 @@
           }
         });
         var pct = Math.round((checked / boxes.length) * 100);
-        if (fill)  fill.style.width  = pct + '%';
+        if (fill) fill.style.width = pct + '%';
         if (count) count.textContent = checked + ' / ' + boxes.length + ' passed';
       }
 
@@ -383,4 +408,5 @@
   </script>
 
 </body>
+
 </html>
