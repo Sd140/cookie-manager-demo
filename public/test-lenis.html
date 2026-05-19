@@ -9,11 +9,12 @@
     CSP allows unsafe-inline for the inline Lenis init and the banner's injected styles.
     Tighten if this page ever gets deployed externally.
   -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self';
-                 script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://privy.idfystaging.com https://cookie-manager.pyxis.privybyidfy.app;
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://privy.idfystaging.com https://cookie-manager.pyxis.privybyidfy.app http://localhost:3000;
                  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
                  font-src 'self' https://fonts.gstatic.com;
-                 connect-src 'self' https://privy.idfystaging.com https://cookie-manager.pyxis.privybyidfy.app;
+                 connect-src 'self' https://privy.idfystaging.com https://cookie-manager.pyxis.privybyidfy.app http://localhost:3000;
                  img-src 'self' data: https:;
                  frame-src 'none';">
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
@@ -245,8 +246,7 @@
     src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/3ecfbca0-54af-4c62-af3c-e0a2df40cf87">
   </script> -->
   <!-- <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/13a4ee62-d021-435c-8682-08467211e152"></script> -->
-  <script type="text/javascript"
-    src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/11566cfb-fdc1-4945-a497-e9820544a257"></script>
+  <script type="text/javascript" src="https://privy.idfystaging.com/cookie-manager/cookie-banner/assets/72c53aa1642b/62d11f94-1ef7-4894-a74b-75f1b05d521b"></script>
 </head>
 
 <body>
