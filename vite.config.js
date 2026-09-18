@@ -17,6 +17,7 @@ function strictCsp() {
         configureServer(server) {
             server.middlewares.use((req, res, next) => {
                 nonce = randomBytes(18).toString('base64')   // CSPRNG, never Math.random
+                console.log('nonce', nonce)
                 res.setHeader('Content-Security-Policy', [
                     "default-src 'self'",
                     // No unsafe-inline: a nonce in this directive makes the
