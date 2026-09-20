@@ -10,6 +10,31 @@ import { randomBytes } from 'node:crypto'
 // nonce substituted into the banner tag.
 const BACKEND = 'http://127.0.0.1:3001'
 
+// Where the deployed demo talks to. Dev proxies to BACKEND instead.
+const STAGING = 'https://privy.idfystaging.com'
+
+// The policy the BUILT page carries. GitHub Pages cannot send response headers,
+// so the deployed demo declares its policy in a meta tag. Same shape as the dev
+// header below, with the origins the deployed page actually reaches.
+//
+// The nonce is minted once per build, so every visitor to a given deploy sees
+// the same value. Fine for a demo whose job is to prove the plumbing. NOT the
+// pattern a real client should copy: a real host mints a fresh nonce per
+// response, server side.
+function deployedPolicy(nonce) {
+    return [
+        "default-src 'self'",
+        `script-src 'nonce-${nonce}' 'strict-dynamic'`,
+        `style-src 'nonce-${nonce}' https://fonts.googleapis.com`,
+        'font-src https://fonts.gstatic.com data:',
+        `connect-src 'self' ${STAGING}`,
+        "img-src 'self' data:",
+        `frame-src 'self' ${STAGING}`,
+        "object-src 'none'",
+        "base-uri 'none'"
+    ].join('; ')
+}
+
 function strictCsp() {
     let nonce = ''
     return {
@@ -35,15 +60,31 @@ function strictCsp() {
         },
         transformIndexHtml: {
             order: 'post',
-            handler: (html) => html
+            handler: (html, ctx) => {
+                // A build has no request cycle, so configureServer never runs
+                // and `nonce` is still ''. Mint one for the artifact, or every
+                // tag ships with nonce="" and the page carries no policy at all.
+                const value = nonce || randomBytes(18).toString('base64')
+
                 // The banner tag is deliberately excluded from the blanket
                 // rule below. Auto-nonceing it would make it impossible to
                 // test the un-nonced case by removing the attribute: the
                 // plugin would silently put it back and the banner would
                 // always work. Only __PRIVY_NONCE__ opts that tag in.
-                .replace(/__PRIVY_NONCE__/g, nonce)
-                .replace(/<script(?![^>]*\bnonce=)(?![^>]*cookie-banner\/assets)/g, `<script nonce="${nonce}"`)
-                .replace(/<style(?![^>]*\bnonce=)/g, `<style nonce="${nonce}"`)
+                const out = html
+                    .replace(/__PRIVY_NONCE__/g, value)
+                    .replace(/<script(?![^>]*\bnonce=)(?![^>]*cookie-banner\/assets)/g, `<script nonce="${value}"`)
+                    .replace(/<style(?![^>]*\bnonce=)/g, `<style nonce="${value}"`)
+
+                // Dev already carries the policy in a real response header.
+                if (ctx.server) {
+                    return out
+                }
+                return out.replace(
+                    /<head>/i,
+                    `<head>\n    <meta http-equiv="Content-Security-Policy" content="${deployedPolicy(value)}">`
+                )
+            }
         }
     }
 }
