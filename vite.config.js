@@ -42,7 +42,7 @@ function strictCsp() {
         configureServer(server) {
             server.middlewares.use((req, res, next) => {
                 // nonce = randomBytes(18).toString('base64')   // CSPRNG, never Math.random
-                nonce = "UK1234"
+                nonce = "EDN9X8++t9iaowoNsOS+Ag=="
                 res.setHeader('Content-Security-Policy', [
                     "default-src 'self'",
                     // No unsafe-inline: a nonce in this directive makes the
@@ -66,7 +66,7 @@ function strictCsp() {
                 // and `nonce` is still ''. Mint one for the artifact, or every
                 // tag ships with nonce="" and the page carries no policy at all.
                 // const value = nonce || randomBytes(18).toString('base64')
-                const value = "UK1234"
+                const value = "EDN9X8++t9iaowoNsOS+Ag=="
 
                 // The banner tag is deliberately excluded from the blanket
                 // rule below. Auto-nonceing it would make it impossible to
@@ -105,7 +105,7 @@ function strictCsp() {
 // in index.html. This is what a real client running a nonce policy looks like.
 // ---------------------------------------------------------------------------
 
-export default defineConfig({ plugins: [react(), strictCsp()], base: '/' })
+// export default defineConfig({ plugins: [react(), strictCsp()], base: '/' })
 
 // DISABLE CSP - uncomment the block below to serve no policy header at all.
 // The banner must still render and work exactly the same, which is the whole
@@ -113,7 +113,7 @@ export default defineConfig({ plugins: [react(), strictCsp()], base: '/' })
 // The __PRIVY_NONCE__ placeholder is left unsubstituted in this mode and is
 // harmless, because a nonce attribute is only consulted when a policy names one.
 
-// export default defineConfig({
-//   plugins: [react()],
-//   base: '/'
-// })
+export default defineConfig({
+  plugins: [react()],
+  base: '/'
+})
