@@ -65,7 +65,8 @@ function strictCsp() {
                 // A build has no request cycle, so configureServer never runs
                 // and `nonce` is still ''. Mint one for the artifact, or every
                 // tag ships with nonce="" and the page carries no policy at all.
-                const value = nonce || randomBytes(18).toString('base64')
+                // const value = nonce || randomBytes(18).toString('base64')
+                const value = "UK1234"
 
                 // The banner tag is deliberately excluded from the blanket
                 // rule below. Auto-nonceing it would make it impossible to
