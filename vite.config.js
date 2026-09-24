@@ -42,7 +42,7 @@ function strictCsp() {
         configureServer(server) {
             server.middlewares.use((req, res, next) => {
                 // nonce = randomBytes(18).toString('base64')   // CSPRNG, never Math.random
-                nonce = "EDN9X8++t9iaowoNsOS+Ag=="
+                // nonce = "EDN9X8++t9iaowoNsOS+Ag=="
                 res.setHeader('Content-Security-Policy', [
                     "default-src 'self'",
                     // No unsafe-inline: a nonce in this directive makes the
@@ -66,7 +66,7 @@ function strictCsp() {
                 // and `nonce` is still ''. Mint one for the artifact, or every
                 // tag ships with nonce="" and the page carries no policy at all.
                 // const value = nonce || randomBytes(18).toString('base64')
-                const value = "EDN9X8++t9iaowoNsOS+Ag=="
+                // const value = "EDN9X8++t9iaowoNsOS+Ag=="
 
                 // The banner tag is deliberately excluded from the blanket
                 // rule below. Auto-nonceing it would make it impossible to
