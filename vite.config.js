@@ -11,7 +11,7 @@ import { randomBytes } from 'node:crypto'
 const BACKEND = 'http://127.0.0.1:3001'
 
 // Where the deployed demo talks to. Dev proxies to BACKEND instead.
-const STAGING = 'https://privy.idfystaging.com'
+const STAGING = ' https://privy.idfystaging.com https://privy.idfy.com https://api.pyxis.privybyidfy.app'
 
 // The policy the BUILT page carries. GitHub Pages cannot send response headers,
 // so the deployed demo declares its policy in a meta tag. Same shape as the dev
