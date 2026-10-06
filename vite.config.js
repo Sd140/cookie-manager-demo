@@ -13,6 +13,13 @@ const BACKEND = 'http://127.0.0.1:3001'
 // Where the deployed demo talks to. Dev proxies to BACKEND instead.
 const STAGING = ' https://privy.idfystaging.com https://privy.idfy.com https://api.pyxis.privybyidfy.app'
 
+// Fixed test nonce. It must match the literal nonce= on the banner tag in
+// index.html, and Vite's html.cspNonce needs one known value for the <style>
+// tags its dev client injects. A real host mints a fresh CSPRNG nonce per
+// response instead: randomBytes(18).toString('base64').
+const NONCE = randomBytes(18).toString('base64')   // CSPRNG, one per dev-server start / per build
+// const NONCE = 'EDN9X8++t9iaowoNsOS+Ag=='
+
 // The policy the BUILT page carries. GitHub Pages cannot send response headers,
 // so the deployed demo declares its policy in a meta tag. Same shape as the dev
 // header below, with the origins the deployed page actually reaches.
@@ -25,7 +32,7 @@ function deployedPolicy(nonce) {
     return [
         "default-src 'self'",
         `script-src 'nonce-${nonce}' 'strict-dynamic'`,
-        `style-src 'nonce-${nonce}' https://fonts.googleapis.com`,
+        `style-src 'self' 'nonce-${nonce}' https://fonts.googleapis.com`,
         'font-src https://fonts.gstatic.com data:',
         `connect-src 'self' ${STAGING}`,
         "img-src 'self' data:",
@@ -42,13 +49,15 @@ function strictCsp() {
         configureServer(server) {
             server.middlewares.use((req, res, next) => {
                 // nonce = randomBytes(18).toString('base64')   // CSPRNG, never Math.random
-                nonce = "EDN9X8++t9iaowoNsOS+Ag=="
+                nonce = NONCE
                 res.setHeader('Content-Security-Policy', [
                     "default-src 'self'",
                     // No unsafe-inline: a nonce in this directive makes the
                     // browser ignore it anyway. That is the whole point of FR-9.
                     `script-src 'nonce-${nonce}' 'strict-dynamic'`,
-                    `style-src 'nonce-${nonce}' https://fonts.googleapis.com`,
+                    // 'self' lets the site's own built stylesheet load. It
+                    // does not allow inline styles.
+                    `style-src 'self' 'nonce-${nonce}' https://fonts.googleapis.com`,
                     'font-src https://fonts.gstatic.com data:',
                     `connect-src 'self' ws: ${BACKEND}`,
                     "img-src 'self' data:",
@@ -66,7 +75,7 @@ function strictCsp() {
                 // and `nonce` is still ''. Mint one for the artifact, or every
                 // tag ships with nonce="" and the page carries no policy at all.
                 // const value = nonce || randomBytes(18).toString('base64')
-                const value = "EDN9X8++t9iaowoNsOS+Ag=="
+                const value = NONCE
 
                 // The banner tag is deliberately excluded from the blanket
                 // rule below. Auto-nonceing it would make it impossible to
@@ -105,7 +114,8 @@ function strictCsp() {
 // in index.html. This is what a real client running a nonce policy looks like.
 // ---------------------------------------------------------------------------
 
-export default defineConfig({ plugins: [react(), strictCsp()], base: '/' })
+// html.cspNonce makes Vite nonce the <style> tags it injects for imported CSS.
+export default defineConfig({ plugins: [react(), strictCsp()], html: { cspNonce: NONCE }, base: '/' })
 
 // DISABLE CSP - uncomment the block below to serve no policy header at all.
 // The banner must still render and work exactly the same, which is the whole
