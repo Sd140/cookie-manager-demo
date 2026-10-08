@@ -115,7 +115,7 @@ function strictCsp() {
 // ---------------------------------------------------------------------------
 
 // html.cspNonce makes Vite nonce the <style> tags it injects for imported CSS.
-export default defineConfig({ plugins: [react(), strictCsp()], html: { cspNonce: NONCE }, base: '/' })
+// export default defineConfig({ plugins: [react(), strictCsp()], html: { cspNonce: NONCE }, base: '/' })
 
 // DISABLE CSP - uncomment the block below to serve no policy header at all.
 // The banner must still render and work exactly the same, which is the whole
@@ -123,7 +123,7 @@ export default defineConfig({ plugins: [react(), strictCsp()], html: { cspNonce:
 // The __PRIVY_NONCE__ placeholder is left unsubstituted in this mode and is
 // harmless, because a nonce attribute is only consulted when a policy names one.
 
-// export default defineConfig({
-//   plugins: [react()],
-//   base: '/'
-// })
+export default defineConfig({
+  plugins: [react()],
+  base: '/'
+})
