@@ -133,7 +133,7 @@ function App() {
         <h1 className="heading-76" style={{ color: "black" }}>Youtube Iframe</h1>
         <div className="yt-videos-container">
           <div className="youtube-vid">
-            <iframe data-privy-consent="ignore" width="560" height="315" src="https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HjhbJKK5OJU?si=jzweuRYz8NKVEgh1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           </div>
 
           <div className="youtube-vid">
