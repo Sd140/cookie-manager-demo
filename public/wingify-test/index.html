@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wingify test – inline</title>
+<!-- 1. Privy cookie banner: always the first script -->
+<script type="text/javascript" src="https://cookie-manager.sflcmpuat.shriramfinance.me/cookie-banner/assets/52d42fddf5ab/1862391f-32bb-4c08-9145-4cebfbff5b01"></script>
+<!-- 2. Wingify Async SmartCode, INLINE (pasted into the page) -->
+<!-- Start Wingify Async V3.0 SmartCode -->
+<link rel="preconnect" href="https://edge.wingify.net"/>
+<script type="text/javascript">
+window._wingify_code || (function() {        
+    var account_id = 1302471,
+        version = 3.0,
+        settings_tolerance = 2000,
+        hide_element = 'body',
+        hide_element_style =
+        'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;transition:none !important';
+    /* DO NOT EDIT BELOW THIS LINE */
+    var n=window,i=document;if(-1<i.URL.indexOf('__wingify_disable__')||n._wingify_code)return;var t=!1,r=i.currentScript,nonce=r&&r.nonce,e={sT:settings_tolerance,hES:hide_element_style,hE:hide_element};try{e=Object.assign(e,JSON.parse(localStorage.getItem('_wingify_'+account_id+'_config')))}catch(e){}var code={script:r,nonce:nonce,settings_tolerance:function(){return e.sT},hide_element:function(){return performance.getEntriesByName('first-contentful-paint')[0]?'':e.hE},hide_element_style:function(){return'{'+e.hES+'}'},getVersion:function(){return version},finish:function(){var e;!t&&(t=!0,e=i.getElementById('_vis_opt_path_hides'))&&e.parentNode.removeChild(e)},finished:function(){return t},addScript:function(e){var t=i.createElement('script');t.src=e,nonce&&t.setAttribute('nonce',nonce),t.fetchPriority='high',i.head.appendChild(t)},init:function(){n._settings_timer=setTimeout(function(){code.finish()},this.settings_tolerance());var e,t=this.hide_element();t&&((e=i.createElement('style')).id='_vis_opt_path_hides',nonce&&e.setAttribute('nonce',nonce),e.textContent=t+this.hide_element_style(),i.head.appendChild(e)),this.addScript('https://edge.wingify.net/tag/'+account_id+'.js')}};n._wingify_code=code;code.init();})();
+</script> 
+<!--End Wingify Async SmartCode -->
+<style>body{font:16px/1.5 system-ui,sans-serif;margin:0;background:#fafafa;color:#222}
+header{padding:12px 16px;background:#123;color:#fff}header a{color:#fff}
+main{max-width:720px;margin:24px auto;padding:0 16px}
+#cta{padding:10px 18px;font-size:16px;background:#0a7;color:#fff;border:0;border-radius:6px}
+pre{background:#fff;border:1px solid #ddd;padding:12px;white-space:pre-wrap;font-size:13px}
+</style>
+</head>
+<body>
+<header><a href="/wingify-test/">Inline SmartCode page</a> · <a href="/wingify-test/external.html">External SmartCode page</a></header>
+<main>
+  <h1 id="hero-title">Health insurance that fits you</h1>
+  <p id="hero-sub">Compare plans and buy in 3 minutes.</p>
+  <button id="cta">Get a quote</button>
+  <h2>Cookies and storage on this page</h2>
+  <pre id="state"></pre>
+</main>
+<script>
+// Shows which Wingify/VWO cookies and storage keys exist, refreshed every 2 s.
+(function () {
+  function show() {
+    var ck = document.cookie.split(/;\s*/).filter(function (c) { return /wingify|vwo|vis_opt|privyConsent/i.test(c); });
+    var ls = Object.keys(localStorage).filter(function (k) { return /wingify|vwo/i.test(k); });
+    document.getElementById('state').textContent =
+      'Cookies (' + ck.length + '):\n' + (ck.join('\n') || '-') + '\n\nlocalStorage (' + ls.length + '):\n' + (ls.join('\n') || '-');
+  }
+  show(); setInterval(show, 2000);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wingify test – external</title>
+<!-- 1. Privy cookie banner: always the first script -->
+<script type="text/javascript" src="https://cookie-manager.sflcmpuat.shriramfinance.me/cookie-banner/assets/52d42fddf5ab/1862391f-32bb-4c08-9145-4cebfbff5b01"></script>
+<!-- 2. Wingify Sync SmartCode, NOT INLINE (one script tag loaded by URL) -->
+<!-- Start Wingify SmartCode -->
+<script src="https://edge.wingify.net/tag/1302471.js"></script>
+<!-- End Wingify SmartCode -->
+<style>body{font:16px/1.5 system-ui,sans-serif;margin:0;background:#fafafa;color:#222}
+header{padding:12px 16px;background:#123;color:#fff}header a{color:#fff}
+main{max-width:720px;margin:24px auto;padding:0 16px}
+#cta{padding:10px 18px;font-size:16px;background:#0a7;color:#fff;border:0;border-radius:6px}
+pre{background:#fff;border:1px solid #ddd;padding:12px;white-space:pre-wrap;font-size:13px}
+</style>
+</head>
+<body>
+<header><a href="/wingify-test/">Inline SmartCode page</a> · <a href="/wingify-test/external.html">External SmartCode page</a></header>
+<main>
+  <h1 id="hero-title">Motor insurance in minutes</h1>
+  <p id="hero-sub">Renew your car policy online.</p>
+  <button id="cta">Renew now</button>
+  <h2>Cookies and storage on this page</h2>
+  <pre id="state"></pre>
+</main>
+<script>
+// Shows which Wingify/VWO cookies and storage keys exist, refreshed every 2 s.
+(function () {
+  function show() {
+    var ck = document.cookie.split(/;\s*/).filter(function (c) { return /wingify|vwo|vis_opt|privyConsent/i.test(c); });
+    var ls = Object.keys(localStorage).filter(function (k) { return /wingify|vwo/i.test(k); });
+    document.getElementById('state').textContent =
+      'Cookies (' + ck.length + '):\n' + (ck.join('\n') || '-') + '\n\nlocalStorage (' + ls.length + '):\n' + (ls.join('\n') || '-');
+  }
+  show(); setInterval(show, 2000);
+})();
+</script>
+</body>
+</html>
